@@ -1,0 +1,11 @@
+{
+ "id": "ep01_15_1",
+ "caption": "lofi study music, soft warm piano, gentle vinyl crackle, slow mellow beat, calm deep focus, dreamy, cozy, instrumental",
+ "duration": 90,
+ "bpm": 72,
+ "keyscale": "E major",
+ "seed": 7951,
+ "gen_seconds": 468,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}
