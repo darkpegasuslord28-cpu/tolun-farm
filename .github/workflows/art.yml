@@ -1,0 +1,41 @@
+name: art
+# requests/art/<ad>.json push'lanınca (ya da elle req=requests/art/<ad>.json) → artgen-cache dalına resim + derinlik.
+on:
+  push: { branches: [main], paths: ["requests/art/*.json"] }
+  workflow_dispatch: { inputs: { req: { description: "requests/art/<ad>.json", required: true } } }
+permissions: { contents: write }
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs: { reqs: "${{ steps.r.outputs.reqs }}" }
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 2 }
+      - id: r
+        run: |
+          if [ -n "${{ inputs.req }}" ]; then L="${{ inputs.req }}"; else L=$(git diff --name-only --diff-filter=AM HEAD~1 HEAD -- 'requests/art/*.json'); fi
+          echo "reqs=$(printf '%s\n' $L | python3 -c 'import sys,json;print(json.dumps([l.strip() for l in sys.stdin if l.strip()]))')" >> $GITHUB_OUTPUT
+  gen:
+    needs: plan
+    if: needs.plan.outputs.reqs != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    strategy: { fail-fast: false, matrix: { req: "${{ fromJSON(needs.plan.outputs.reqs) }}" } }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/cache@v4
+        with: { path: ~/.cache/huggingface, key: hf-artgen-v1 }
+      - run: pip install -q --index-url https://download.pytorch.org/whl/cpu torch && pip install -q diffusers transformers accelerate peft safetensors pillow
+      - env: { ARTGEN_REQ: "${{ matrix.req }}" }
+        run: python3 -u artgen.py
+      - run: |
+          R="https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git"
+          for i in 1 2 3 4 5 6 7 8; do
+            rm -rf /tmp/cache && mkdir -p /tmp/cache && cd /tmp/cache
+            git init -q && git config user.name "tolun-farm-bot" && git config user.email "actions@users.noreply.github.com"
+            if git fetch -q --depth 1 "$R" artgen-cache; then git checkout -q -b artgen-cache FETCH_HEAD; else git checkout -q -b artgen-cache; fi
+            mkdir -p artgen && cp -r $GITHUB_WORKSPACE/artgen/* artgen/ && git add -A && git commit -qm "art: ${{ matrix.req }}" || exit 0
+            git push -q "$R" artgen-cache && exit 0
+            sleep $((RANDOM % 25 + 5))
+          done
+          exit 1

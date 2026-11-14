@@ -1,0 +1,52 @@
+name: music
+# requests/music/<ad>.json push'lanınca → music-cache dalına .ogg (ACE-Step 1.5, MIT, CPU, yalnız enstrümantal).
+on:
+  push: { branches: [main], paths: ["requests/music/*.json"] }
+  workflow_dispatch: { inputs: { req: { description: "requests/music/<ad>.json", required: true } } }
+permissions: { contents: write }
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs: { reqs: "${{ steps.r.outputs.reqs }}" }
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 2 }
+      - id: r
+        run: |
+          if [ -n "${{ inputs.req }}" ]; then L="${{ inputs.req }}"; else L=$(git diff --name-only --diff-filter=AM HEAD~1 HEAD -- 'requests/music/*.json'); fi
+          echo "reqs=$(printf '%s\n' $L | python3 -c 'import sys,json;print(json.dumps([l.strip() for l in sys.stdin if l.strip()]))')" >> $GITHUB_OUTPUT
+  gen:
+    needs: plan
+    if: needs.plan.outputs.reqs != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    strategy: { fail-fast: false, matrix: { req: "${{ fromJSON(needs.plan.outputs.reqs) }}" } }
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL || true
+          sudo fallocate -l 10G /swapfile && sudo chmod 600 /swapfile && sudo mkswap /swapfile >/dev/null && sudo swapon /swapfile
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: git clone -q --depth 1 https://github.com/ace-step/ACE-Step-1.5 /tmp/ace
+      - uses: actions/cache@v4
+        with: { path: /tmp/ace/checkpoints, key: ace15-turbo-v1 }
+      - run: |
+          sudo apt-get -qq install -y ffmpeg >/dev/null
+          pip install -q --index-url https://download.pytorch.org/whl/cpu torch torchaudio torchvision
+          grep -v -i -E "^(torch|torchvision|torchaudio)[=<> ;]|extra-index|^#|^$|gradio|vllm|flash" /tmp/ace/requirements.txt > /tmp/req.txt
+          pip install -q -r /tmp/req.txt || true
+          pip install -q vector-quantize-pytorch torchao && pip install -q -e /tmp/ace --no-deps
+      - env: { MUSIC_REQ: "${{ matrix.req }}", ACE_DIR: /tmp/ace }
+        run: python3 -u acemusic.py
+      - run: |
+          R="https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git"
+          for i in 1 2 3 4 5 6 7 8; do
+            rm -rf /tmp/mc && mkdir -p /tmp/mc && cd /tmp/mc
+            git init -q && git config user.name "tolun-farm-bot" && git config user.email "actions@users.noreply.github.com"
+            if git fetch -q --depth 1 "$R" music-cache; then git checkout -q -b music-cache FETCH_HEAD; else git checkout -q -b music-cache; fi
+            mkdir -p music && cp -r $GITHUB_WORKSPACE/music/* music/ && git add -A && git commit -qm "music: ${{ matrix.req }}" || exit 0
+            git push -q "$R" music-cache && exit 0
+            sleep $((RANDOM % 25 + 5))
+          done
+          exit 1

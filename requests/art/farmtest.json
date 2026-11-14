@@ -1,0 +1,16 @@
+{
+ "name": "farmtest",
+ "style": "cinematic matte painting, alien world, volumetric light, painterly, no people",
+ "negative": "people, text, watermark, logo, signature, blurry",
+ "width": 576,
+ "height": 1024,
+ "steps": 6,
+ "cfg": 1.5,
+ "shots": [
+  {
+   "id": "t1",
+   "prompt": "a cozy study room with a large window overlooking a blue sunset on Mars, warm candle light, books, wooden desk",
+   "seed": 5
+  }
+ ]
+}
