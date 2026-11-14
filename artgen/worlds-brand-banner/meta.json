@@ -1,0 +1,25 @@
+{
+ "name": "worlds-brand-banner",
+ "model": "Lykon/dreamshaper-8",
+ "license": "CreativeML OpenRAIL-M (model); outputs ours",
+ "shots": [
+  {
+   "id": "b1_mars_window",
+   "prompt": "panoramic view through a huge window of a cozy dark room onto Mars at blue sunset, red rocky desert, pale blue glow around a small sun, dusty butterscotch sky",
+   "seed": 201,
+   "sec": 217.6
+  },
+  {
+   "id": "b2_saturn_horizon",
+   "prompt": "wide panorama of an icy moon surface with giant Saturn and its rings filling the sky, soft starlight, deep blue shadows",
+   "seed": 202,
+   "sec": 219.6
+  },
+  {
+   "id": "b3_europa_jupiter",
+   "prompt": "wide panorama of the cracked blue ice plains of Europa at night, enormous Jupiter on the horizon, faint glow from ice fissures",
+   "seed": 203,
+   "sec": 218.4
+  }
+ ]
+}
