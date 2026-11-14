@@ -1,0 +1,31 @@
+{
+ "name": "worlds-ep01-room-1",
+ "style": "cinematic matte painting, highly detailed, atmospheric, volumetric light, painterly, calm, cozy, no people, no text",
+ "negative": "people, person, text, letters, watermark, logo, signature, frame, border, blurry, lowres, cartoon, earth trees, ocean, blue sky with clouds",
+ "width": 1024,
+ "height": 576,
+ "steps": 6,
+ "cfg": 1.5,
+ "shots": [
+  {
+   "id": "s1_sunset",
+   "prompt": "interior of a cozy dark wooden study room inside a Mars habitat, large panoramic window, wooden desk with books and a glowing candle, warm lamp, plants, soft blankets, view through the window of the red rocky Martian desert and distant mountains, late afternoon on Mars, dusty butterscotch sky, small pale sun near the horizon",
+   "seed": 777
+  },
+  {
+   "id": "s3_bluehour",
+   "prompt": "interior of a cozy dark wooden study room inside a Mars habitat, large panoramic window, wooden desk with books and a glowing candle, warm lamp, plants, soft blankets, view through the window of the red rocky Martian desert and distant mountains, just after sunset on Mars, deep blue glow on the horizon, first stars appearing",
+   "seed": 777
+  },
+  {
+   "id": "s5_night_dust",
+   "prompt": "interior of a cozy dark wooden study room inside a Mars habitat, large panoramic window, wooden desk with books and a glowing candle, warm lamp, plants, soft blankets, view through the window of the red rocky Martian desert and distant mountains, night on Mars, gentle dust storm outside the window, faint stars, warm candle light inside",
+   "seed": 777
+  },
+  {
+   "id": "s7_predawn",
+   "prompt": "interior of a cozy dark wooden study room inside a Mars habitat, large panoramic window, wooden desk with books and a glowing candle, warm lamp, plants, soft blankets, view through the window of the red rocky Martian desert and distant mountains, pre-dawn on Mars, faint cold light on the horizon, frost on the window edges",
+   "seed": 777
+  }
+ ]
+}
