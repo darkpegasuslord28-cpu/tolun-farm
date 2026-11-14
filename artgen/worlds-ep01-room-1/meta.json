@@ -1,0 +1,31 @@
+{
+ "name": "worlds-ep01-room-1",
+ "model": "Lykon/dreamshaper-8",
+ "license": "CreativeML OpenRAIL-M (model); outputs ours",
+ "shots": [
+  {
+   "id": "s1_sunset",
+   "prompt": "interior of a cozy dark wooden study room inside a Mars habitat, large panoramic window, wooden desk with books and a glowing candle, warm lamp, plants, soft blankets, view through the window of the red rocky Martian desert and distant mountains, late afternoon on Mars, dusty butterscotch sky, small pale sun near the horizon",
+   "seed": 777,
+   "sec": 218.7
+  },
+  {
+   "id": "s3_bluehour",
+   "prompt": "interior of a cozy dark wooden study room inside a Mars habitat, large panoramic window, wooden desk with books and a glowing candle, warm lamp, plants, soft blankets, view through the window of the red rocky Martian desert and distant mountains, just after sunset on Mars, deep blue glow on the horizon, first stars appearing",
+   "seed": 777,
+   "sec": 218.5
+  },
+  {
+   "id": "s5_night_dust",
+   "prompt": "interior of a cozy dark wooden study room inside a Mars habitat, large panoramic window, wooden desk with books and a glowing candle, warm lamp, plants, soft blankets, view through the window of the red rocky Martian desert and distant mountains, night on Mars, gentle dust storm outside the window, faint stars, warm candle light inside",
+   "seed": 777,
+   "sec": 217.1
+  },
+  {
+   "id": "s7_predawn",
+   "prompt": "interior of a cozy dark wooden study room inside a Mars habitat, large panoramic window, wooden desk with books and a glowing candle, warm lamp, plants, soft blankets, view through the window of the red rocky Martian desert and distant mountains, pre-dawn on Mars, faint cold light on the horizon, frost on the window edges",
+   "seed": 777,
+   "sec": 217.9
+  }
+ ]
+}
