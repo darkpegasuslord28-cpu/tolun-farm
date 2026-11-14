@@ -1,0 +1,15 @@
+{"_note": "Gece arşivi: her gece 4 duygu grubu x 3 parça (60 sn), sırayla döner. Yalnız sahne/duygu tarifleri; kişisel bilgi yok.",
+ "moods": [
+  {"key": "battle", "caption": "epic dark fantasy battle music, war drums, low brass, choir, cinematic, intense, instrumental", "bpm": 120, "keyscale": "D minor"},
+  {"key": "moonlit", "caption": "moonlit elven forest, soft celesta and harp, warm strings, gentle hopeful fantasy, cinematic, instrumental", "bpm": 72, "keyscale": "E minor"},
+  {"key": "sorrow", "caption": "sad cinematic piano and cello, loss and farewell, slow, emotional, instrumental", "bpm": 64, "keyscale": "A minor"},
+  {"key": "eastern", "caption": "eastern fantasy, guzheng and taiko, misty mountains, honor, cinematic, instrumental", "bpm": 84, "keyscale": "D minor"},
+  {"key": "abyss", "caption": "dark ambient abyss, deep drones, distant choir, ominous, slow, instrumental", "bpm": 50, "keyscale": "C minor"},
+  {"key": "castle", "caption": "medieval castle, noble brass fanfare and strings, heroic, warm, instrumental", "bpm": 92, "keyscale": "G major"},
+  {"key": "lofi-mars", "caption": "lofi study music, soft piano, warm vinyl, gentle beat, calm focus, dreamy, instrumental", "bpm": 75, "keyscale": "F major"},
+  {"key": "space-ambient", "caption": "deep space ambient, slow evolving pads, shimmering bells, vast and calm, no drums, instrumental", "bpm": 55, "keyscale": "E major"},
+  {"key": "sleep", "caption": "sleep music, very soft piano and warm pads, slow, peaceful, no drums, instrumental", "bpm": 50, "keyscale": "C major"},
+  {"key": "curious", "caption": "curious playful pizzicato and marimba, light, documentary, wonder, instrumental", "bpm": 100, "keyscale": "C major"},
+  {"key": "stadium", "caption": "cinematic sports tension, pulsing strings, building drums, anticipation, instrumental", "bpm": 110, "keyscale": "B minor"},
+  {"key": "nightcity", "caption": "night city lofi, mellow electric piano, soft bass, rain, chill, instrumental", "bpm": 82, "keyscale": "D minor"}
+ ]}
