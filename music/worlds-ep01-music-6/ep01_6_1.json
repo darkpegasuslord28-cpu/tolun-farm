@@ -1,0 +1,11 @@
+{
+ "id": "ep01_6_1",
+ "caption": "dawn ambient, gentle rising strings and soft piano, hopeful, warm, slow, instrumental",
+ "duration": 90,
+ "bpm": 66,
+ "keyscale": "D minor",
+ "seed": 7861,
+ "gen_seconds": 360,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}
