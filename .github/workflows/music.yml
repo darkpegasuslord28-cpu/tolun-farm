@@ -10,10 +10,10 @@ jobs:
     outputs: { reqs: "${{ steps.r.outputs.reqs }}" }
     steps:
       - uses: actions/checkout@v4
-        with: { fetch-depth: 2 }
+        with: { fetch-depth: 0 }
       - id: r
         run: |
-          if [ -n "${{ inputs.req }}" ]; then L="${{ inputs.req }}"; else L=$(git diff --name-only --diff-filter=AM HEAD~1 HEAD -- 'requests/music/*.json'); fi
+          if [ -n "${{ inputs.req }}" ]; then L="${{ inputs.req }}"; else B="${{ github.event.before }}"; if [ -z "$B" ] || ! git cat-file -e "$B^{commit}" 2>/dev/null; then L=$(git diff-tree --no-commit-id --name-only --diff-filter=AM -r --root HEAD -- 'requests/music/*.json'); else L=$(git diff --name-only --diff-filter=AM "$B" HEAD -- 'requests/music/*.json'); fi; fi
           echo "reqs=$(printf '%s\n' $L | python3 -c 'import sys,json;print(json.dumps([l.strip() for l in sys.stdin if l.strip()]))')" >> $GITHUB_OUTPUT
   gen:
     needs: plan
