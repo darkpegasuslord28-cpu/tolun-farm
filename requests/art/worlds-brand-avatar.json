@@ -1,0 +1,21 @@
+{
+ "name": "worlds-brand-avatar",
+ "style": "cinematic matte painting, vast alien world, volumetric light, deep blues and warm amber, painterly, highly detailed, awe, solitude, no people, no text",
+ "negative": "people, person, text, letters, watermark, logo, signature, frame, border, blurry, lowres, cartoon",
+ "width": 768,
+ "height": 768,
+ "steps": 6,
+ "cfg": 1.5,
+ "shots": [
+  {
+   "id": "a1_porthole_saturn",
+   "prompt": "a round brass porthole window seen from inside a dark spaceship cabin, Saturn with glowing rings perfectly centered in the window, iconic, simple, symmetrical",
+   "seed": 301
+  },
+  {
+   "id": "a2_mars_moon_window",
+   "prompt": "a single round window in a dark room, glowing blue Martian sunset inside the circle, minimalist, iconic, symmetrical",
+   "seed": 302
+  }
+ ]
+}
