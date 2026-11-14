@@ -1,0 +1,11 @@
+{
+ "id": "ep01_1_2",
+ "caption": "ambient study music, soft felt piano and warm pads, no drums, calm, space, dreamy, instrumental",
+ "duration": 60,
+ "bpm": 60,
+ "keyscale": "A minor",
+ "seed": 7712,
+ "gen_seconds": 206,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}
