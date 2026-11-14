@@ -1,0 +1,37 @@
+{
+ "name": "worlds-ep01-music-4",
+ "tracks": [
+  {
+   "id": "ep01_3_0",
+   "caption": "ambient study music, soft felt piano and warm pads, no drums, calm, space, dreamy, instrumental",
+   "duration": 60,
+   "bpm": 60,
+   "keyscale": "A minor",
+   "seed": 7730
+  },
+  {
+   "id": "ep01_3_1",
+   "caption": "lofi study music, soft warm piano, gentle vinyl crackle, slow mellow beat, calm deep focus, dreamy, cozy, instrumental",
+   "duration": 60,
+   "bpm": 72,
+   "keyscale": "F major",
+   "seed": 7731
+  },
+  {
+   "id": "ep01_3_2",
+   "caption": "ambient study music, soft felt piano and warm pads, no drums, calm, space, dreamy, instrumental",
+   "duration": 60,
+   "bpm": 60,
+   "keyscale": "D minor",
+   "seed": 7732
+  },
+  {
+   "id": "ep01_3_3",
+   "caption": "lofi study music, soft warm piano, gentle vinyl crackle, slow mellow beat, calm deep focus, dreamy, cozy, instrumental",
+   "duration": 60,
+   "bpm": 72,
+   "keyscale": "C major",
+   "seed": 7733
+  }
+ ]
+}
