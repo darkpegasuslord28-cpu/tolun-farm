@@ -1,0 +1,31 @@
+{
+ "name": "worlds-ep01-room-2",
+ "model": "Lykon/dreamshaper-8",
+ "license": "CreativeML OpenRAIL-M (model); outputs ours",
+ "shots": [
+  {
+   "id": "s2_bluesunset",
+   "prompt": "interior of a cozy dark wooden study room inside a Mars habitat, large panoramic window, wooden desk with books and a glowing candle, warm lamp, plants, soft blankets, view through the window of the red rocky Martian desert and distant mountains, Martian sunset, small sun surrounded by a glowing BLUE halo, blue light around the sun, dusky butterscotch sky",
+   "seed": 777,
+   "sec": 182.2
+  },
+  {
+   "id": "s4_night_phobos",
+   "prompt": "interior of a cozy dark wooden study room inside a Mars habitat, large panoramic window, wooden desk with books and a glowing candle, warm lamp, plants, soft blankets, view through the window of the red rocky Martian desert and distant mountains, night on Mars, starry sky, a small irregular moon Phobos in the sky, candle light warm inside",
+   "seed": 777,
+   "sec": 181.4
+  },
+  {
+   "id": "s6_deep_night",
+   "prompt": "interior of a cozy dark wooden study room inside a Mars habitat, large panoramic window, wooden desk with books and a glowing candle, warm lamp, plants, soft blankets, view through the window of the red rocky Martian desert and distant mountains, deep night on Mars, milky way across the sky, very dark landscape, only candle light inside",
+   "seed": 777,
+   "sec": 182.2
+  },
+  {
+   "id": "s8_sunrise",
+   "prompt": "interior of a cozy dark wooden study room inside a Mars habitat, large panoramic window, wooden desk with books and a glowing candle, warm lamp, plants, soft blankets, view through the window of the red rocky Martian desert and distant mountains, sunrise on Mars, small pale sun rising, long shadows across the red desert, warm light entering the room",
+   "seed": 777,
+   "sec": 182.1
+  }
+ ]
+}
