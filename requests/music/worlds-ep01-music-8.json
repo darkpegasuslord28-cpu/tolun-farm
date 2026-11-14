@@ -1,0 +1,37 @@
+{
+ "name": "worlds-ep01-music-8",
+ "tracks": [
+  {
+   "id": "ep01_8_0",
+   "caption": "lofi study music, soft warm piano, gentle vinyl crackle, slow mellow beat, calm deep focus, dreamy, cozy, instrumental",
+   "duration": 90,
+   "bpm": 72,
+   "keyscale": "C major",
+   "seed": 7880
+  },
+  {
+   "id": "ep01_8_1",
+   "caption": "ambient study music, soft felt piano and warm pads, no drums, calm, space, dreamy, instrumental",
+   "duration": 90,
+   "bpm": 60,
+   "keyscale": "A minor",
+   "seed": 7881
+  },
+  {
+   "id": "ep01_8_2",
+   "caption": "night ambient, slow evolving synth pads, distant soft bells, no drums, peaceful, starry night, instrumental",
+   "duration": 90,
+   "bpm": 55,
+   "keyscale": "E major",
+   "seed": 7882
+  },
+  {
+   "id": "ep01_8_3",
+   "caption": "dawn ambient, gentle rising strings and soft piano, hopeful, warm, slow, instrumental",
+   "duration": 90,
+   "bpm": 66,
+   "keyscale": "G major",
+   "seed": 7883
+  }
+ ]
+}
