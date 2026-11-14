@@ -1,0 +1,11 @@
+{
+ "id": "ep01_9_1",
+ "caption": "night ambient, slow evolving synth pads, distant soft bells, no drums, peaceful, starry night, instrumental",
+ "duration": 90,
+ "bpm": 55,
+ "keyscale": "E major",
+ "seed": 7891,
+ "gen_seconds": 467,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}
