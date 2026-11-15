@@ -1,0 +1,11 @@
+{
+ "id": "battle_20261115_2",
+ "caption": "epic dark fantasy battle music, war drums, low brass, choir, cinematic, intense, instrumental",
+ "duration": 60,
+ "bpm": 120,
+ "keyscale": "D minor",
+ "seed": 7399352,
+ "gen_seconds": 251,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}
