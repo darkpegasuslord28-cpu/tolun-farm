@@ -1,0 +1,11 @@
+{
+ "id": "sorrow_20261115_2",
+ "caption": "sad cinematic piano and cello, loss and farewell, slow, emotional, instrumental",
+ "duration": 60,
+ "bpm": 64,
+ "keyscale": "A minor",
+ "seed": 7399352,
+ "gen_seconds": 314,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}
