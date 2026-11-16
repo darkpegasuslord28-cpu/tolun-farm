@@ -1,0 +1,11 @@
+{
+ "id": "abyss_20261116_1",
+ "caption": "dark ambient abyss, deep drones, distant choir, ominous, slow, instrumental",
+ "duration": 60,
+ "bpm": 50,
+ "keyscale": "C minor",
+ "seed": 7399361,
+ "gen_seconds": 223,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}
