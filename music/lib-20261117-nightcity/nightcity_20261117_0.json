@@ -1,0 +1,11 @@
+{
+ "id": "nightcity_20261117_0",
+ "caption": "night city lofi, mellow electric piano, soft bass, rain, chill, instrumental",
+ "duration": 60,
+ "bpm": 82,
+ "keyscale": "D minor",
+ "seed": 7399370,
+ "gen_seconds": 326,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}
