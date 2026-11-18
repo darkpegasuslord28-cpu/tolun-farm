@@ -1,0 +1,37 @@
+{
+ "name": "worlds-ep02-music-2",
+ "tracks": [
+  {
+   "id": "ep02_1_0",
+   "caption": "lofi study music, mellow felt piano, soft vinyl crackle, slow gentle beat, cozy night, instrumental",
+   "duration": 60,
+   "bpm": 60,
+   "keyscale": "E minor",
+   "seed": 9110
+  },
+  {
+   "id": "ep02_1_1",
+   "caption": "dreamy ambient, shimmering synth textures, slow, wonder, floating, calm, instrumental",
+   "duration": 60,
+   "bpm": 70,
+   "keyscale": "G major",
+   "seed": 9111
+  },
+  {
+   "id": "ep02_1_2",
+   "caption": "night ambient, deep soft drones, sparse piano notes, quiet, peaceful, instrumental",
+   "duration": 60,
+   "bpm": 64,
+   "keyscale": "C major",
+   "seed": 9112
+  },
+  {
+   "id": "ep02_1_3",
+   "caption": "ambient study music, soft guitar harmonics and warm pads, calm, gentle, instrumental",
+   "duration": 60,
+   "bpm": 56,
+   "keyscale": "Bb major",
+   "seed": 9113
+  }
+ ]
+}
