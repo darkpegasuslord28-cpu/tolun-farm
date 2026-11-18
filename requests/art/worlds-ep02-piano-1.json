@@ -1,0 +1,31 @@
+{
+ "name": "worlds-ep02-piano-1",
+ "style": "cinematic matte painting, ultra detailed, atmospheric, volumetric light, painterly, awe, calm, no people, no text",
+ "negative": "people, person, human, hands, astronaut, text, letters, watermark, logo, signature, frame, border, blurry, lowres, cartoon, trees, ocean, clouds, buildings, walls, window, room interior",
+ "width": 1344,
+ "height": 576,
+ "steps": 6,
+ "cfg": 1.5,
+ "shots": [
+  {
+   "id": "p01_golden",
+   "prompt": "first-person view sitting at a black grand piano in the middle of the open Martian desert, the piano lid open, keys in the foreground, a warm brass candle lamp on the piano, red rocky dunes stretching all around to distant mountains, looking out over the landscape, late afternoon, butterscotch dusty sky, small pale sun, long soft shadows across the dunes",
+   "seed": 2027
+  },
+  {
+   "id": "p02_earthrise",
+   "prompt": "first-person view sitting at a black grand piano in the middle of the open Martian desert, the piano lid open, keys in the foreground, a warm brass candle lamp on the piano, red rocky dunes stretching all around to distant mountains, looking out over the landscape, looking left, a huge glowing blue planet Earth rising over the horizon, magical soft light",
+   "seed": 2027
+  },
+  {
+   "id": "p03_bluesunset",
+   "prompt": "first-person view sitting at a black grand piano in the middle of the open Martian desert, the piano lid open, keys in the foreground, a warm brass candle lamp on the piano, red rocky dunes stretching all around to distant mountains, looking out over the landscape, sunset with a blue halo around a small sun, sky fading from blue to butterscotch",
+   "seed": 2027
+  },
+  {
+   "id": "p04_aurora",
+   "prompt": "first-person view sitting at a black grand piano in the middle of the open Martian desert, the piano lid open, keys in the foreground, a warm brass candle lamp on the piano, red rocky dunes stretching all around to distant mountains, looking out over the landscape, night, looking up, shimmering green and violet aurora ribbons across the sky, stars, glow on the sand",
+   "seed": 2027
+  }
+ ]
+}
