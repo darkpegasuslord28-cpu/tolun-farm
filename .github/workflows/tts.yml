@@ -1,0 +1,40 @@
+name: tts
+# requests/tts/<ad>.json push'lanınca → tts-cache dalına karakter sesleri (Chatterbox Multilingual, MIT, CPU, Türkçe).
+on:
+  push: { branches: [main], paths: ["requests/tts/*.json"] }
+  workflow_dispatch: { inputs: { req: { description: "requests/tts/<ad>.json", required: true } } }
+permissions: { contents: write }
+jobs:
+  gen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - id: r
+        run: |
+          if [ -n "${{ inputs.req }}" ]; then L="${{ inputs.req }}"; else B="${{ github.event.before }}"; if [ -z "$B" ] || ! git cat-file -e "$B^{commit}" 2>/dev/null; then L=$(git diff-tree --no-commit-id --name-only --diff-filter=AM -r --root HEAD -- 'requests/tts/*.json'); else L=$(git diff --name-only --diff-filter=AM "$B" HEAD -- 'requests/tts/*.json'); fi; fi
+          echo "req=$(echo $L | awk '{print $1}')" >> $GITHUB_OUTPUT
+      - if: steps.r.outputs.req != ''
+        uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - if: steps.r.outputs.req != ''
+        uses: actions/cache@v4
+        with: { path: ~/.cache/huggingface, key: chatterbox-mtl-v1 }
+      - if: steps.r.outputs.req != ''
+        run: |
+          sudo apt-get -qq install -y ffmpeg rubberband-cli >/dev/null || true
+          pip install -q --index-url https://download.pytorch.org/whl/cpu torch torchaudio
+          pip install -q chatterbox-tts piper-tts
+      - if: steps.r.outputs.req != ''
+        env: { TTS_REQ: "${{ steps.r.outputs.req }}" }
+        run: python3 -u tts.py
+      - if: steps.r.outputs.req != ''
+        run: |
+          R="https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git"
+          for i in 1 2 3 4 5 6; do
+            rm -rf /tmp/tc && mkdir -p /tmp/tc && cd /tmp/tc && git init -q && git config user.name "tolun-farm-bot" && git config user.email "actions@users.noreply.github.com"
+            if git fetch -q --depth 1 "$R" tts-cache; then git checkout -q -b tts-cache FETCH_HEAD; else git checkout -q -b tts-cache; fi
+            mkdir -p tts && cp -r $GITHUB_WORKSPACE/tts/* tts/ && git add -A && git commit -qm "tts: ${{ steps.r.outputs.req }}" || exit 0
+            git push -q "$R" tts-cache && exit 0; sleep $((RANDOM % 20 + 5))
+          done; exit 1
