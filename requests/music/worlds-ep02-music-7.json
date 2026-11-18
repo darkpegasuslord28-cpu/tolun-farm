@@ -1,0 +1,37 @@
+{
+ "name": "worlds-ep02-music-7",
+ "tracks": [
+  {
+   "id": "ep02_6_0",
+   "caption": "chill lofi, warm rhodes keys, brushed drums, relaxed focus, instrumental",
+   "duration": 60,
+   "bpm": 60,
+   "keyscale": "F major",
+   "seed": 9160
+  },
+  {
+   "id": "ep02_6_1",
+   "caption": "space ambient, cold glassy bells, slow wind-like pads, mysterious, calm, instrumental",
+   "duration": 60,
+   "bpm": 70,
+   "keyscale": "E minor",
+   "seed": 9161
+  },
+  {
+   "id": "ep02_6_2",
+   "caption": "vast cosmic ambient, slow evolving warm pads, distant soft piano, awe, deep focus, no drums, instrumental",
+   "duration": 60,
+   "bpm": 64,
+   "keyscale": "G major",
+   "seed": 9162
+  },
+  {
+   "id": "ep02_6_3",
+   "caption": "lofi study music, mellow felt piano, soft vinyl crackle, slow gentle beat, cozy night, instrumental",
+   "duration": 60,
+   "bpm": 56,
+   "keyscale": "C major",
+   "seed": 9163
+  }
+ ]
+}
