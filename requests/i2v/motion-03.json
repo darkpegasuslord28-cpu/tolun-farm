@@ -1,0 +1,47 @@
+{
+ "name": "motion-03",
+ "items": [
+  {
+   "id": "perf_hero_wan",
+   "model": "wan",
+   "image": "i2v/tolun-demo-perfume-02/p01_hero.png",
+   "size": [
+    480,
+    832
+   ],
+   "frames": 81,
+   "steps": 30,
+   "fps": 16,
+   "seed": 3,
+   "prompt": "Luxury perfume commercial. The golden liquid gently moves inside the crystal bottle, soft light glints travel across the facets, a slow cinematic camera orbit around the bottle, elegant, premium, smooth motion."
+  },
+  {
+   "id": "perf_splash_wan",
+   "model": "wan",
+   "image": "i2v/tolun-demo-perfume-02/p03_splash.png",
+   "size": [
+    480,
+    832
+   ],
+   "frames": 81,
+   "steps": 30,
+   "fps": 16,
+   "seed": 5,
+   "prompt": "Luxury perfume commercial. Golden droplets splash and fall in slow motion around the bottle, liquid ripples, sparkles, slow camera push in, smooth motion."
+  },
+  {
+   "id": "perf_smoke_wan",
+   "model": "wan",
+   "image": "i2v/tolun-demo-perfume-02/p07_smoke.png",
+   "size": [
+    480,
+    832
+   ],
+   "frames": 81,
+   "steps": 30,
+   "fps": 16,
+   "seed": 7,
+   "prompt": "Luxury perfume commercial. Soft white smoke swirls and drifts around the perfume bottle, warm backlight flickers gently, slow camera push in, smooth motion."
+  }
+ ]
+}

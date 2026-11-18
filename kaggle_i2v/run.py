@@ -19,7 +19,9 @@ def pipe_for(kind):
         from diffusers import WanImageToVideoPipeline, AutoencoderKLWan
         mid = "Wan-AI/Wan2.2-TI2V-5B-Diffusers"
         vae = AutoencoderKLWan.from_pretrained(mid, subfolder="vae", torch_dtype=torch.float32)
-        p = WanImageToVideoPipeline.from_pretrained(mid, vae=vae, torch_dtype=torch.float16)
+        if torch.cuda.device_count() > 1:   # T4 x2: bileşenleri iki karta doğrudan yükle (CPU RAM tepe yükü yok → "Killed" olmaz)
+            p = WanImageToVideoPipeline.from_pretrained(mid, vae=vae, torch_dtype=torch.float16, device_map="balanced"); PIPES[kind] = p; return p
+        p = WanImageToVideoPipeline.from_pretrained(mid, vae=vae, torch_dtype=torch.float16, low_cpu_mem_usage=True)
     else:
         from diffusers import LTXImageToVideoPipeline
         p = LTXImageToVideoPipeline.from_pretrained(J.get("ltx_model", "Lightricks/LTX-Video"), torch_dtype=torch.float16)
@@ -47,9 +49,11 @@ for it in J["items"]:
         except Exception as e: log.append({"id": it["id"], "model": "t2i", "ok": False, "err": repr(e)[:400]})
         json.dump(log, open(f"{OUT}/log.json", "w"), indent=1); print(log[-1], flush=True); continue
     try:
-        img = Image.open(io.BytesIO(urllib.request.urlopen(RAW + it["image"], timeout=120).read())).convert("RGB")
+        src = it["image"]; url = src if src.startswith("http") else ("https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/" + src if src.startswith("i2v/") else RAW + src)
+        img = Image.open(io.BytesIO(urllib.request.urlopen(url, timeout=120).read())).convert("RGB")
         w, h = it.get("size", J.get("size", [512, 768])); img = img.resize((w, h), Image.LANCZOS)
-        g = torch.Generator("cuda").manual_seed(it.get("seed", 7)); p = pipe_for(kind)
+        p = pipe_for(kind); g = torch.Generator("cuda").manual_seed(it.get("seed", 7))
+        print("GPU sayısı", torch.cuda.device_count(), flush=True)
         kw = dict(image=img, prompt=it["prompt"], negative_prompt=NEG, width=w, height=h, num_frames=it.get("frames", J.get("frames", 97)),
                   num_inference_steps=it.get("steps", J.get("steps", 40)), guidance_scale=it.get("cfg", 3.0 if kind == "ltx" else 5.0), generator=g)
         if kind == "ltx": kw.update(decode_timestep=0.03, decode_noise_scale=0.025)
