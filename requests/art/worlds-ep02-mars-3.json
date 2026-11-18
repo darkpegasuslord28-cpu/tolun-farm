@@ -1,0 +1,21 @@
+{
+ "name": "worlds-ep02-mars-3",
+ "style": "cinematic matte painting, ultra detailed, atmospheric, volumetric light, painterly, awe, calm, cozy, no people, no text",
+ "negative": "people, person, human, astronaut, text, letters, watermark, logo, signature, frame, border, blurry, lowres, cartoon, trees, ocean, clouds, buildings, walls, window, room interior",
+ "width": 1344,
+ "height": 576,
+ "steps": 6,
+ "cfg": 1.5,
+ "shots": [
+  {
+   "id": "m09_saturn",
+   "prompt": "wide panoramic view, a cozy wooden study desk standing alone in the middle of the open Martian desert, desk with an old brass lamp glowing warm, stacked books, an open notebook, a steaming cup, a small plant, red rocky dunes all around stretching to distant mountains, a giant ringed planet hanging low in the sky, surreal, majestic, soft starlight",
+   "seed": 2026
+  },
+  {
+   "id": "m10_sunrise",
+   "prompt": "wide panoramic view, a cozy wooden study desk standing alone in the middle of the open Martian desert, desk with an old brass lamp glowing warm, stacked books, an open notebook, a steaming cup, a small plant, red rocky dunes all around stretching to distant mountains, sunrise, first cold light over the red mountains, frost on the rocks, peaceful",
+   "seed": 2026
+  }
+ ]
+}
