@@ -1,0 +1,102 @@
+{
+ "name": "tolun-nuit-doree-sb",
+ "t2i_model": "SG161222/RealVisXL_V5.0",
+ "items": [
+  {
+   "id": "bottle_a",
+   "model": "t2i",
+   "prompt": "a single tall rectangular crystal perfume bottle with thick beveled glass edges, filled with deep amber-gold liquid, heavy polished matte black cap, minimal, no label, no text, perfectly centered front view, isolated on pure black background, soft golden rim light on both edges, studio packshot, luxury perfume advertising photography, high-end commercial, dark luxury, cinematic low-key lighting, warm amber tones, photorealistic, ultra detailed, 8k",
+   "size": [
+    832,
+    1216
+   ],
+   "seed": 21,
+   "steps": 32,
+   "cfg": 5.0
+  },
+  {
+   "id": "bottle_b",
+   "model": "t2i",
+   "prompt": "a single tall rectangular crystal perfume bottle with thick beveled glass edges, filled with deep amber-gold liquid, heavy polished matte black cap, minimal, no label, no text, perfectly centered front view, isolated on pure black background, soft golden rim light on both edges, studio packshot, luxury perfume advertising photography, high-end commercial, dark luxury, cinematic low-key lighting, warm amber tones, photorealistic, ultra detailed, 8k",
+   "size": [
+    832,
+    1216
+   ],
+   "seed": 77,
+   "steps": 32,
+   "cfg": 5.0
+  },
+  {
+   "id": "bg_candle",
+   "model": "t2i",
+   "prompt": "extreme macro of a single candle flame burning in complete darkness, warm glow, tiny embers, luxury perfume advertising photography, high-end commercial, dark luxury, cinematic low-key lighting, warm amber tones, photorealistic, ultra detailed, 8k",
+   "size": [
+    832,
+    1216
+   ],
+   "seed": 31,
+   "steps": 32,
+   "cfg": 5.0
+  },
+  {
+   "id": "bg_goldsmoke",
+   "model": "t2i",
+   "prompt": "thin wisps of smoke turning into glowing golden particles in darkness, magical, luxury perfume advertising photography, high-end commercial, dark luxury, cinematic low-key lighting, warm amber tones, photorealistic, ultra detailed, 8k",
+   "size": [
+    832,
+    1216
+   ],
+   "seed": 41,
+   "steps": 32,
+   "cfg": 5.0
+  },
+  {
+   "id": "bg_marble",
+   "model": "t2i",
+   "prompt": "empty dark black marble pedestal surface with subtle golden reflections, dark background with soft amber haze, space for a product in the center, luxury perfume advertising photography, high-end commercial, dark luxury, cinematic low-key lighting, warm amber tones, photorealistic, ultra detailed, 8k",
+   "size": [
+    832,
+    1216
+   ],
+   "seed": 51,
+   "steps": 32,
+   "cfg": 5.0
+  },
+  {
+   "id": "bg_city",
+   "model": "t2i",
+   "prompt": "empty dark glossy surface in the foreground, out of focus golden night city lights bokeh in the background, evening, space for a product in the center, luxury perfume advertising photography, high-end commercial, dark luxury, cinematic low-key lighting, warm amber tones, photorealistic, ultra detailed, 8k",
+   "size": [
+    832,
+    1216
+   ],
+   "seed": 61,
+   "steps": 32,
+   "cfg": 5.0
+  },
+  {
+   "id": "bg_pour",
+   "model": "t2i",
+   "prompt": "extreme macro of molten liquid gold pouring in a thin stream, glowing, black background, luxury perfume advertising photography, high-end commercial, dark luxury, cinematic low-key lighting, warm amber tones, photorealistic, ultra detailed, 8k",
+   "size": [
+    832,
+    1216
+   ],
+   "seed": 71,
+   "steps": 32,
+   "cfg": 5.0
+  },
+  {
+   "id": "bg_desert",
+   "model": "t2i",
+   "prompt": "golden sand dunes at dusk under a dark sky, soft wind blowing sand, minimal, majestic, luxury perfume advertising photography, high-end commercial, dark luxury, cinematic low-key lighting, warm amber tones, photorealistic, ultra detailed, 8k",
+   "size": [
+    832,
+    1216
+   ],
+   "seed": 81,
+   "steps": 32,
+   "cfg": 5.0
+  }
+ ]
+}
