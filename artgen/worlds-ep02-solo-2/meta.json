@@ -1,0 +1,31 @@
+{
+ "name": "worlds-ep02-solo-2",
+ "model": "Lykon/dreamshaper-8",
+ "license": "CreativeML OpenRAIL-M (model); outputs ours",
+ "shots": [
+  {
+   "id": "p05_crystals",
+   "prompt": "twilight, many tall glowing cyan crystal spires growing from the sand around the piano, ONE single black grand piano with a small candle standing alone in the center of the open red Martian desert, seen from behind the piano bench, wide landscape all around",
+   "seed": 31,
+   "sec": 183.3
+  },
+  {
+   "id": "p06_twomoons",
+   "prompt": "night, two small moons, the Milky Way arching overhead, ONE single black grand piano with a small candle standing alone in the center of the open red Martian desert, seen from behind the piano bench, wide landscape all around",
+   "seed": 31,
+   "sec": 185.4
+  },
+  {
+   "id": "p07_dustwall",
+   "prompt": "a gigantic dust storm wall rising on the horizon, orange light, ONE single black grand piano with a small candle standing alone in the center of the open red Martian desert, seen from behind the piano bench, wide landscape all around",
+   "seed": 31,
+   "sec": 183.0
+  },
+  {
+   "id": "p08_flowers",
+   "prompt": "night, hundreds of small glowing blue bioluminescent alien flowers covering the sand around the piano, ONE single black grand piano with a small candle standing alone in the center of the open red Martian desert, seen from behind the piano bench, wide landscape all around",
+   "seed": 31,
+   "sec": 182.9
+  }
+ ]
+}
