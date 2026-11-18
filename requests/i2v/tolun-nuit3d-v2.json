@@ -1,0 +1,36 @@
+{
+ "name": "tolun-nuit3d-v2",
+ "mode": "blender",
+ "script": "tolun3d.py",
+ "fps": 30,
+ "w": 1080,
+ "h": 1920,
+ "samples": 40,
+ "shots": [
+  {
+   "id": "reveal",
+   "scene": "reveal",
+   "sec": 3.0
+  },
+  {
+   "id": "candle",
+   "scene": "candle",
+   "sec": 3.2
+  },
+  {
+   "id": "desert",
+   "scene": "desert",
+   "sec": 3.0
+  },
+  {
+   "id": "city",
+   "scene": "city",
+   "sec": 3.0
+  },
+  {
+   "id": "marble",
+   "scene": "marble",
+   "sec": 6.2
+  }
+ ]
+}
