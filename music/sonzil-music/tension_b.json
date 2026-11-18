@@ -1,0 +1,11 @@
+{
+ "id": "tension_b",
+ "caption": "mystery thriller soundtrack, ticking clock rhythm, deep synth drone, distant metallic hits, slowly building dread, instrumental",
+ "duration": 75,
+ "bpm": 80,
+ "keyscale": "C minor",
+ "seed": 9102,
+ "gen_seconds": 499,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}
