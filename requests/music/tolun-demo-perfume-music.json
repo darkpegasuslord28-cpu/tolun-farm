@@ -1,0 +1,8 @@
+{
+ "name": "tolun-demo-perfume-music",
+ "tracks": [
+  {"id": "perf_a", "caption": "luxury perfume commercial music, slow sensual deep bass pulse, warm cinematic strings, elegant sparse piano, dark and premium, building to a soft climax, instrumental", "duration": 45, "bpm": 84, "keyscale": "D minor", "seed": 7101},
+  {"id": "perf_b", "caption": "high-end fashion advertisement music, minimal elegant electronic beat, deep warm synth bass, airy pads, glamorous, nocturnal, instrumental", "duration": 45, "bpm": 92, "keyscale": "A minor", "seed": 7102},
+  {"id": "perf_c", "caption": "cinematic luxury trailer music, slow orchestral swell, golden warm brass and strings, intimate piano, elegant, instrumental", "duration": 45, "bpm": 70, "keyscale": "F minor", "seed": 7103}
+ ]
+}
