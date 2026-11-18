@@ -1,0 +1,51 @@
+name: i2v
+# İKİNCİ ÇİFTLİK (Kaggle GPU): requests/i2v/<ad>.json push'lanınca → Kaggle'da görüntü→video → i2v-cache dalına mp4.
+# Secrets (Oğulcan girer, bu repoda): KAGGLE_USERNAME, KAGGLE_KEY. İstek: {"name", "size":[w,h], "frames", "steps", "items":[{"id","image":"<artgen klasörü>/<dosya>.png","prompt","seed"}]}
+on:
+  push: { branches: [main], paths: ["requests/i2v/*.json"] }
+  workflow_dispatch: { inputs: { req: { description: "requests/i2v/<ad>.json", required: true } } }
+permissions: { contents: write }
+concurrency: { group: kaggle-i2v, cancel-in-progress: false }   # Kaggle'da aynı anda tek GPU işi
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - id: r
+        run: |
+          if [ -n "${{ inputs.req }}" ]; then L="${{ inputs.req }}"; else B="${{ github.event.before }}"; if [ -z "$B" ] || ! git cat-file -e "$B^{commit}" 2>/dev/null; then L=$(git diff-tree --no-commit-id --name-only --diff-filter=AM -r --root HEAD -- 'requests/i2v/*.json'); else L=$(git diff --name-only --diff-filter=AM "$B" HEAD -- 'requests/i2v/*.json'); fi; fi
+          echo "req=$(echo $L | awk '{print $1}')" >> $GITHUB_OUTPUT
+      - if: steps.r.outputs.req != ''
+        env: { KAGGLE_USERNAME: "${{ secrets.KAGGLE_USERNAME }}", KAGGLE_KEY: "${{ secrets.KAGGLE_KEY }}", REQ: "${{ steps.r.outputs.req }}" }
+        run: |
+          [ -n "$KAGGLE_KEY" ] || { echo "KAGGLE anahtarı yok"; exit 1; }
+          pip install -q kaggle
+          N=$(python3 -c "import json;print(json.load(open('$REQ'))['name'])"); SLUG=$(echo "tolun-i2v-$N" | tr 'A-Z_.' 'a-z--' | cut -c1-50)
+          mkdir -p k && cp kaggle_i2v/run.py k/ && cp "$REQ" k/job.json
+          python3 - <<PY
+          import json; json.dump({"id": "$KAGGLE_USERNAME/$SLUG", "title": "$SLUG", "code_file": "run.py", "language": "python", "kernel_type": "script",
+            "is_private": True, "enable_gpu": True, "enable_internet": True, "machine_shape": "NvidiaTeslaT4", "dataset_sources": [], "kernel_sources": [], "competition_sources": []}, open("k/kernel-metadata.json", "w"))
+          PY
+          # job.json'u betiğin içine göm (Kaggle'a yalnız betik gider)
+          python3 - <<PY
+          s = open("k/run.py").read(); j = open("k/job.json").read()
+          s = s.replace('J = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "job.json")))', "J = json.loads(r'''" + j + "''')")
+          open("k/run.py", "w").write(s)
+          PY
+          kaggle kernels push -p k
+          for i in $(seq 1 330); do sleep 60; S=$(kaggle kernels status "$KAGGLE_USERNAME/$SLUG" 2>&1 | tail -1); echo "$i $S"; echo "$S" | grep -qiE 'complete|error|cancel' && break; done
+          mkdir -p o && kaggle kernels output "$KAGGLE_USERNAME/$SLUG" -p o || true
+          ls -la o o/out 2>/dev/null | head -40
+          echo "N=$N" >> $GITHUB_ENV
+      - if: steps.r.outputs.req != ''
+        run: |
+          R="https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git"
+          SRC=$(ls -d o/out 2>/dev/null || echo o)
+          for i in 1 2 3 4 5 6; do
+            rm -rf /tmp/c && mkdir -p /tmp/c && cd /tmp/c && git init -q && git config user.name "tolun-farm-bot" && git config user.email "actions@users.noreply.github.com"
+            if git fetch -q --depth 1 "$R" i2v-cache; then git checkout -q -b i2v-cache FETCH_HEAD; else git checkout -q -b i2v-cache; fi
+            mkdir -p "i2v/$N" && cp $GITHUB_WORKSPACE/$SRC/*.mp4 $GITHUB_WORKSPACE/$SRC/*.json "i2v/$N/" 2>/dev/null; git add -A && git commit -qm "i2v: $N" || exit 0
+            git push -q "$R" i2v-cache && exit 0; sleep 10
+          done; exit 1
