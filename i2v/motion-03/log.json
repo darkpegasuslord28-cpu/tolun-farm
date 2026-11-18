@@ -1,0 +1,23 @@
+[
+ {
+  "id": "perf_hero_wan",
+  "model": "wan",
+  "ok": true,
+  "sec": 4078,
+  "motion": 1.848
+ },
+ {
+  "id": "perf_splash_wan",
+  "model": "wan",
+  "ok": true,
+  "sec": 3682,
+  "motion": 3.026
+ },
+ {
+  "id": "perf_smoke_wan",
+  "model": "wan",
+  "ok": true,
+  "sec": 3701,
+  "motion": 3.406
+ }
+]
