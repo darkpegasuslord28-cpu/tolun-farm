@@ -22,6 +22,7 @@ jobs:
         run: |
           [ -n "$KAGGLE_KEY$KAGGLE_API_TOKEN" ] || { echo "KAGGLE anahtarı yok"; exit 1; }; [ -n "$KAGGLE_USERNAME" ] || { echo "KAGGLE_USERNAME secret yok"; exit 1; }
           pip install -q kaggle
+          KAGGLE_USERNAME=$(echo "$KAGGLE_USERNAME" | tr -d ' \r\n' | sed -E 's#^https?://##; s#/+$##; s#.*/##; s#^@##'); export KAGGLE_USERNAME   # "kaggle.com/ad" ya da URL girildiyse yalnız adı al
           N=$(python3 -c "import json;print(json.load(open('$REQ'))['name'])"); SLUG=$(echo "tolun-i2v-$N" | tr 'A-Z_.' 'a-z--' | cut -c1-50)
           mkdir -p k && cp kaggle_i2v/run.py k/ && cp "$REQ" k/job.json
           python3 - <<PY
