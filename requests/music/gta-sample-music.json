@@ -1,0 +1,7 @@
+{
+ "name": "gta-sample-music",
+ "tracks": [
+  {"id": "neon_a", "caption": "80s retro synthwave, neon Miami night drive, punchy drums, warm analog bass, bright arpeggio lead, energetic, instrumental", "duration": 40, "bpm": 112, "keyscale": "A minor", "seed": 8801},
+  {"id": "neon_b", "caption": "dark mysterious trap beat, deep 808 bass, tense synth pads, cinematic suspense build, hard hitting drop, instrumental", "duration": 40, "bpm": 140, "keyscale": "F minor", "seed": 8802}
+ ]
+}
