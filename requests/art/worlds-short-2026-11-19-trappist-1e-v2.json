@@ -1,0 +1,66 @@
+{
+ "name": "worlds-short-2026-11-19-trappist-1e-v2",
+ "style": "cinematic matte painting, ultra detailed, atmospheric, volumetric light, painterly, awe, otherworldly, no people, no text",
+ "negative": "people, person, astronaut, hands, text, letters, watermark, logo, signature, frame, border, blurry, lowres, cartoon, earth trees, city, buildings",
+ "width": 576,
+ "height": 1024,
+ "steps": 6,
+ "cfg": 1.5,
+ "shots": [
+  {
+   "id": "s1",
+   "prompt": "first-person view on a dark rocky shore of a calm alien ocean, a huge dim red star low on the horizon, deep red twilight",
+   "seed": 400
+  },
+  {
+   "id": "s2",
+   "prompt": "close-up of strange black pebbles glowing faintly red at the water's edge of an alien ocean, red starlight",
+   "seed": 407
+  },
+  {
+   "id": "s3",
+   "prompt": "looking up at an alien sky with three other planets hanging huge and close, crescents lit in red light",
+   "seed": 414
+  },
+  {
+   "id": "s4",
+   "prompt": "a giant crescent planet rising over frozen red cliffs, stars, majestic",
+   "seed": 421
+  },
+  {
+   "id": "s5",
+   "prompt": "an alien ocean frozen into jagged ice waves under a red dwarf sun, glittering",
+   "seed": 428
+  },
+  {
+   "id": "s6",
+   "prompt": "a lone black grand piano on a frozen alien shoreline under a red sun, dreamy",
+   "seed": 435
+  },
+  {
+   "id": "s7",
+   "prompt": "aurora in deep red and violet ribbons over a dark alien sea, stars",
+   "seed": 442
+  },
+  {
+   "id": "s8",
+   "prompt": "tidally locked planet: half the sky eternal sunset, half eternal night, a line of twilight across the land",
+   "seed": 449
+  },
+  {
+   "id": "s9",
+   "prompt": "tall dark rock arches over an alien sea, red light shining through, mist",
+   "seed": 456
+  },
+  {
+   "id": "s10",
+   "prompt": "a meteor shower over a red-lit alien ocean, many glowing streaks",
+   "seed": 463
+  },
+  {
+   "id": "s11",
+   "prompt": "the red dwarf star seen huge and close, dim and swirling with dark spots, over a black horizon",
+   "seed": 470
+  }
+ ]
+}
