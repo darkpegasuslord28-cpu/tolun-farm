@@ -1,0 +1,11 @@
+{
+ "id": "ep02_5_0",
+ "caption": "dawn ambient, slowly rising strings and pads, hopeful, serene, instrumental",
+ "duration": 60,
+ "bpm": 60,
+ "keyscale": "C# minor",
+ "seed": 9150,
+ "gen_seconds": 373,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}

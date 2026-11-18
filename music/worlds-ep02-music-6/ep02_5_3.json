@@ -1,0 +1,11 @@
+{
+ "id": "ep02_5_3",
+ "caption": "vast cosmic ambient, slow evolving warm pads, distant soft piano, awe, deep focus, no drums, instrumental",
+ "duration": 60,
+ "bpm": 56,
+ "keyscale": "F major",
+ "seed": 9153,
+ "gen_seconds": 374,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}
