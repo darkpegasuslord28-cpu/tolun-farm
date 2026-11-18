@@ -1,0 +1,19 @@
+{
+ "name": "worlds-ep02-piano-3",
+ "model": "Lykon/dreamshaper-8",
+ "license": "CreativeML OpenRAIL-M (model); outputs ours",
+ "shots": [
+  {
+   "id": "p09_saturn",
+   "prompt": "first-person view sitting at a black grand piano in the middle of the open Martian desert, the piano lid open, keys in the foreground, a warm brass candle lamp on the piano, red rocky dunes stretching all around to distant mountains, looking out over the landscape, a giant ringed planet hanging low in the sky, surreal, majestic, starlight on the piano",
+   "seed": 2027,
+   "sec": 218.5
+  },
+  {
+   "id": "p10_sunrise",
+   "prompt": "first-person view sitting at a black grand piano in the middle of the open Martian desert, the piano lid open, keys in the foreground, a warm brass candle lamp on the piano, red rocky dunes stretching all around to distant mountains, looking out over the landscape, sunrise, first cold light over the red mountains, frost on the rocks and on the piano, peaceful",
+   "seed": 2027,
+   "sec": 218.6
+  }
+ ]
+}
