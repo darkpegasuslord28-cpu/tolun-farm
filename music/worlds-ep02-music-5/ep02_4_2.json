@@ -1,0 +1,11 @@
+{
+ "id": "ep02_4_2",
+ "caption": "chill lofi, warm rhodes keys, brushed drums, relaxed focus, instrumental",
+ "duration": 60,
+ "bpm": 64,
+ "keyscale": "Bb major",
+ "seed": 9142,
+ "gen_seconds": 313,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}
