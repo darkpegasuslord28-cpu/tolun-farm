@@ -1,0 +1,21 @@
+{
+ "name": "worlds-ep02-solo-3",
+ "style": "cinematic matte painting, ultra detailed, atmospheric, volumetric light, painterly, awe, calm, no people, no text",
+ "negative": "two pianos, multiple pianos, duplicate, people, person, hands, astronaut, text, letters, watermark, logo, signature, frame, border, curtain, stage, theater, blurry, lowres, cartoon, trees, ocean, clouds, buildings, walls, window, room interior",
+ "width": 1024,
+ "height": 576,
+ "steps": 6,
+ "cfg": 1.5,
+ "shots": [
+  {
+   "id": "p09_saturn",
+   "prompt": "a GIANT ringed planet hanging huge in the sky, surreal, majestic, ONE single black grand piano with a small candle standing alone in the center of the open red Martian desert, seen from behind the piano bench, wide landscape all around",
+   "seed": 31
+  },
+  {
+   "id": "p10_sunrise",
+   "prompt": "sunrise, first cold light over red mountains, frost on the rocks, ONE single black grand piano with a small candle standing alone in the center of the open red Martian desert, seen from behind the piano bench, wide landscape all around",
+   "seed": 31
+  }
+ ]
+}
