@@ -1,0 +1,12 @@
+{
+ "name": "test-02",
+ "frames": 121, "steps": 50,
+ "items": [
+  {"id": "storm_ltx", "model": "ltx", "image": "worlds-short-2026-11-20-hd189733b-v3/s3.png", "size": [512, 768], "seed": 11,
+   "prompt": "The storm clouds churn and roll violently, swirling turbulent motion across the whole sky, bright lightning bolts flash and branch repeatedly, glittering particles stream fast sideways from left to right in strong wind, the dark sea below ripples and waves move, the camera slowly pushes forward into the storm. Dynamic, energetic, cinematic motion."},
+  {"id": "storm_wan", "model": "wan", "image": "worlds-short-2026-11-20-hd189733b-v3/s3.png", "size": [480, 832], "frames": 81, "steps": 30, "fps": 16, "seed": 11,
+   "prompt": "Violent blue storm clouds churn and swirl, lightning flashes repeatedly, glittering glass particles stream sideways in strong wind, waves move on the dark sea, slow camera push in, cinematic."},
+  {"id": "mars_wan", "model": "wan", "image": "worlds-ep02-solo-1/p02_earthrise.png", "size": [832, 480], "frames": 81, "steps": 30, "fps": 16, "seed": 7,
+   "prompt": "Red dust blows across the Martian dunes in waves, sand drifts around the black grand piano, the huge blue Earth slowly rises above the horizon, soft light shifts, slow camera push in, cinematic, calm."}
+ ]
+}
