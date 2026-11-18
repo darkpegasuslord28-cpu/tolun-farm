@@ -1,0 +1,50 @@
+[
+ {
+  "id": "bottle_a",
+  "model": "t2i",
+  "ok": true,
+  "sec": 81
+ },
+ {
+  "id": "bottle_b",
+  "model": "t2i",
+  "ok": true,
+  "sec": 31
+ },
+ {
+  "id": "bg_candle",
+  "model": "t2i",
+  "ok": true,
+  "sec": 33
+ },
+ {
+  "id": "bg_goldsmoke",
+  "model": "t2i",
+  "ok": true,
+  "sec": 36
+ },
+ {
+  "id": "bg_marble",
+  "model": "t2i",
+  "ok": true,
+  "sec": 34
+ },
+ {
+  "id": "bg_city",
+  "model": "t2i",
+  "ok": true,
+  "sec": 35
+ },
+ {
+  "id": "bg_pour",
+  "model": "t2i",
+  "ok": true,
+  "sec": 34
+ },
+ {
+  "id": "bg_desert",
+  "model": "t2i",
+  "ok": true,
+  "sec": 34
+ }
+]
