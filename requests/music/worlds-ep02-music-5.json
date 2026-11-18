@@ -1,0 +1,37 @@
+{
+ "name": "worlds-ep02-music-5",
+ "tracks": [
+  {
+   "id": "ep02_4_0",
+   "caption": "ambient study music, soft guitar harmonics and warm pads, calm, gentle, instrumental",
+   "duration": 60,
+   "bpm": 60,
+   "keyscale": "G major",
+   "seed": 9140
+  },
+  {
+   "id": "ep02_4_1",
+   "caption": "dawn ambient, slowly rising strings and pads, hopeful, serene, instrumental",
+   "duration": 60,
+   "bpm": 70,
+   "keyscale": "C major",
+   "seed": 9141
+  },
+  {
+   "id": "ep02_4_2",
+   "caption": "chill lofi, warm rhodes keys, brushed drums, relaxed focus, instrumental",
+   "duration": 60,
+   "bpm": 64,
+   "keyscale": "Bb major",
+   "seed": 9142
+  },
+  {
+   "id": "ep02_4_3",
+   "caption": "space ambient, cold glassy bells, slow wind-like pads, mysterious, calm, instrumental",
+   "duration": 60,
+   "bpm": 56,
+   "keyscale": "C# minor",
+   "seed": 9143
+  }
+ ]
+}
