@@ -1,0 +1,11 @@
+{
+ "id": "ep02p_5_2",
+ "caption": "cinematic piano and soft strings, hopeful, slow, vast landscape, instrumental",
+ "duration": 60,
+ "bpm": 62,
+ "keyscale": "A minor",
+ "seed": 9352,
+ "gen_seconds": 266,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}
