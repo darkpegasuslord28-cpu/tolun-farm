@@ -1,0 +1,19 @@
+{
+ "name": "worlds-ep02-solo-3",
+ "model": "Lykon/dreamshaper-8",
+ "license": "CreativeML OpenRAIL-M (model); outputs ours",
+ "shots": [
+  {
+   "id": "p09_saturn",
+   "prompt": "a GIANT ringed planet hanging huge in the sky, surreal, majestic, ONE single black grand piano with a small candle standing alone in the center of the open red Martian desert, seen from behind the piano bench, wide landscape all around",
+   "seed": 31,
+   "sec": 106.4
+  },
+  {
+   "id": "p10_sunrise",
+   "prompt": "sunrise, first cold light over red mountains, frost on the rocks, ONE single black grand piano with a small candle standing alone in the center of the open red Martian desert, seen from behind the piano bench, wide landscape all around",
+   "seed": 31,
+   "sec": 105.7
+  }
+ ]
+}
