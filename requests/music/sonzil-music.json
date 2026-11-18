@@ -1,0 +1,7 @@
+{
+ "name": "sonzil-music",
+ "tracks": [
+  {"id": "tension_a", "caption": "dark cinematic horror tension underscore, low drone, slow pulsing heartbeat bass, eerie high strings, mysterious, sparse piano notes, suspense, instrumental", "duration": 75, "bpm": 70, "keyscale": "D minor", "seed": 9101},
+  {"id": "tension_b", "caption": "mystery thriller soundtrack, ticking clock rhythm, deep synth drone, distant metallic hits, slowly building dread, instrumental", "duration": 75, "bpm": 80, "keyscale": "C minor", "seed": 9102}
+ ]
+}
