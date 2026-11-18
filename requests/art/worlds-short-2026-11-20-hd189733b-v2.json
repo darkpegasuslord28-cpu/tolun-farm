@@ -1,0 +1,66 @@
+{
+ "name": "worlds-short-2026-11-20-hd189733b-v2",
+ "style": "cinematic matte painting, ultra detailed, atmospheric, volumetric light, painterly, awe, otherworldly, no people, no text",
+ "negative": "people, person, astronaut, hands, text, letters, watermark, logo, signature, frame, border, blurry, lowres, cartoon, earth trees, city, buildings",
+ "width": 576,
+ "height": 1024,
+ "steps": 6,
+ "cfg": 1.5,
+ "shots": [
+  {
+   "id": "s1",
+   "prompt": "first-person view from high above a deep cobalt blue gas giant, swirling blue cloud bands, a bright orange star glaring at the edge",
+   "seed": 400
+  },
+  {
+   "id": "s2",
+   "prompt": "inside a violent deep blue storm, millions of glittering glass shards flying sideways, cobalt light",
+   "seed": 407
+  },
+  {
+   "id": "s3",
+   "prompt": "close-up of tiny glass crystals spinning in blue wind, sparkling like diamonds",
+   "seed": 414
+  },
+  {
+   "id": "s4",
+   "prompt": "a towering blue thunderhead with lightning inside, on an alien gas giant",
+   "seed": 421
+  },
+  {
+   "id": "s5",
+   "prompt": "looking down into an endless abyss of blue clouds, glowing deep below",
+   "seed": 428
+  },
+  {
+   "id": "s6",
+   "prompt": "a lone black grand piano floating on a blue cloud sea while glass rain streaks sideways past it",
+   "seed": 435
+  },
+  {
+   "id": "s7",
+   "prompt": "the night side of a blue gas giant glowing faintly, stars above, eerie",
+   "seed": 442
+  },
+  {
+   "id": "s8",
+   "prompt": "a giant orange star half hidden behind blue cloud tops, rays of light",
+   "seed": 449
+  },
+  {
+   "id": "s9",
+   "prompt": "blue cyclone eye seen from above, spiral of clouds, majestic",
+   "seed": 456
+  },
+  {
+   "id": "s10",
+   "prompt": "glass rain catching starlight, streaks of silver across a dark blue sky",
+   "seed": 463
+  },
+  {
+   "id": "s11",
+   "prompt": "a tiny moon passing in front of a huge blue planet, silhouette, quiet",
+   "seed": 470
+  }
+ ]
+}
