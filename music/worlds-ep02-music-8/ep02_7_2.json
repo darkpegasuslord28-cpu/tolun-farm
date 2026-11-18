@@ -1,0 +1,11 @@
+{
+ "id": "ep02_7_2",
+ "caption": "lofi study music, mellow felt piano, soft vinyl crackle, slow gentle beat, cozy night, instrumental",
+ "duration": 60,
+ "bpm": 64,
+ "keyscale": "C# minor",
+ "seed": 9172,
+ "gen_seconds": 370,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}
