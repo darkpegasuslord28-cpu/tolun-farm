@@ -1,0 +1,31 @@
+{
+ "name": "worlds-ep02-solo-1",
+ "style": "cinematic matte painting, ultra detailed, atmospheric, volumetric light, painterly, awe, calm, no people, no text",
+ "negative": "two pianos, multiple pianos, duplicate, people, person, hands, astronaut, text, letters, watermark, logo, signature, frame, border, curtain, stage, theater, blurry, lowres, cartoon, trees, ocean, clouds, buildings, walls, window, room interior",
+ "width": 1024,
+ "height": 576,
+ "steps": 6,
+ "cfg": 1.5,
+ "shots": [
+  {
+   "id": "p01_golden",
+   "prompt": "late afternoon, butterscotch dusty sky, small pale sun, long soft shadows, ONE single black grand piano with a small candle standing alone in the center of the open red Martian desert, seen from behind the piano bench, wide landscape all around",
+   "seed": 31
+  },
+  {
+   "id": "p02_earthrise",
+   "prompt": "a HUGE glowing blue planet Earth rising behind the piano filling the sky, magical, ONE single black grand piano with a small candle standing alone in the center of the open red Martian desert, seen from behind the piano bench, wide landscape all around",
+   "seed": 31
+  },
+  {
+   "id": "p03_bluesunset",
+   "prompt": "sunset with a blue halo around a small sun, ONE single black grand piano with a small candle standing alone in the center of the open red Martian desert, seen from behind the piano bench, wide landscape all around",
+   "seed": 31
+  },
+  {
+   "id": "p04_aurora",
+   "prompt": "night, bright green and violet aurora ribbons filling the sky, stars, ONE single black grand piano with a small candle standing alone in the center of the open red Martian desert, seen from behind the piano bench, wide landscape all around",
+   "seed": 31
+  }
+ ]
+}
