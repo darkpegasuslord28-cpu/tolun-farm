@@ -1,0 +1,62 @@
+[
+ {
+  "id": "p01_hero",
+  "model": "t2i",
+  "ok": true,
+  "sec": 83
+ },
+ {
+  "id": "p02_swirl",
+  "model": "t2i",
+  "ok": true,
+  "sec": 33
+ },
+ {
+  "id": "p03_splash",
+  "model": "t2i",
+  "ok": true,
+  "sec": 36
+ },
+ {
+  "id": "p04_silk",
+  "model": "t2i",
+  "ok": true,
+  "sec": 37
+ },
+ {
+  "id": "p05_city",
+  "model": "t2i",
+  "ok": true,
+  "sec": 35
+ },
+ {
+  "id": "p06_cap",
+  "model": "t2i",
+  "ok": true,
+  "sec": 36
+ },
+ {
+  "id": "p07_smoke",
+  "model": "t2i",
+  "ok": true,
+  "sec": 36
+ },
+ {
+  "id": "p08_notes",
+  "model": "t2i",
+  "ok": true,
+  "sec": 36
+ },
+ {
+  "id": "p09_glow",
+  "model": "t2i",
+  "ok": true,
+  "sec": 36
+ },
+ {
+  "id": "p10_packshot",
+  "model": "t2i",
+  "ok": true,
+  "sec": 36
+ }
+]
