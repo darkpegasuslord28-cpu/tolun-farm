@@ -50,6 +50,6 @@ jobs:
           for i in 1 2 3 4 5 6; do
             rm -rf /tmp/c && mkdir -p /tmp/c && cd /tmp/c && git init -q && git config user.name "tolun-farm-bot" && git config user.email "actions@users.noreply.github.com"
             if git fetch -q --depth 1 "$R" i2v-cache; then git checkout -q -b i2v-cache FETCH_HEAD; else git checkout -q -b i2v-cache; fi
-            mkdir -p "i2v/$N" && cp $GITHUB_WORKSPACE/$SRC/*.mp4 $GITHUB_WORKSPACE/$SRC/*.png $GITHUB_WORKSPACE/$SRC/*.json "i2v/$N/" 2>/dev/null; cp $GITHUB_WORKSPACE/o/*.log "i2v/$N/kernel.log" 2>/dev/null; git add -A && git commit -qm "i2v: $N" || exit 0
+            mkdir -p "i2v/$N"; for f in $GITHUB_WORKSPACE/$SRC/*.mp4 $GITHUB_WORKSPACE/$SRC/*.png $GITHUB_WORKSPACE/$SRC/*.json; do [ -f "$f" ] && cp "$f" "i2v/$N/"; done; for f in $GITHUB_WORKSPACE/o/*.log; do [ -f "$f" ] && cp "$f" "i2v/$N/kernel.log"; done; git add -A && git commit -qm "i2v: $N" || exit 0
             git push -q "$R" i2v-cache && exit 0; sleep 10
           done; exit 1
