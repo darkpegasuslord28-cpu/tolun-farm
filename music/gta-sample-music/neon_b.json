@@ -1,0 +1,11 @@
+{
+ "id": "neon_b",
+ "caption": "dark mysterious trap beat, deep 808 bass, tense synth pads, cinematic suspense build, hard hitting drop, instrumental",
+ "duration": 40,
+ "bpm": 140,
+ "keyscale": "F minor",
+ "seed": 8802,
+ "gen_seconds": 134,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}

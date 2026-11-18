@@ -1,0 +1,11 @@
+{
+ "id": "neon_a",
+ "caption": "80s retro synthwave, neon Miami night drive, punchy drums, warm analog bass, bright arpeggio lead, energetic, instrumental",
+ "duration": 40,
+ "bpm": 112,
+ "keyscale": "A minor",
+ "seed": 8801,
+ "gen_seconds": 136,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}
