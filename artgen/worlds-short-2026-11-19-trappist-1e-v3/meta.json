@@ -1,0 +1,73 @@
+{
+ "name": "worlds-short-2026-11-19-trappist-1e-v3",
+ "model": "Lykon/dreamshaper-8",
+ "license": "CreativeML OpenRAIL-M (model); outputs ours",
+ "shots": [
+  {
+   "id": "s1",
+   "prompt": "the rocky planet TRAPPIST-1e seen from space, a dark blue and rust-red world with thin clouds, lit by a dim red dwarf star, other small planets nearby, stars, cinematic",
+   "seed": 400,
+   "sec": 221.6
+  },
+  {
+   "id": "s2",
+   "prompt": "first-person view diving down through the red-tinted clouds of an alien planet's atmosphere, glowing edges, sense of speed, the dark ocean appearing below",
+   "seed": 407,
+   "sec": 225.5
+  },
+  {
+   "id": "s3",
+   "prompt": "close-up of strange black pebbles glowing faintly red at the water's edge of an alien ocean, red starlight",
+   "seed": 414,
+   "sec": 224.8
+  },
+  {
+   "id": "s4",
+   "prompt": "looking up at an alien sky with three other planets hanging huge and close, crescents lit in red light",
+   "seed": 421,
+   "sec": 222.5
+  },
+  {
+   "id": "s5",
+   "prompt": "a giant crescent planet rising over frozen red cliffs, stars, majestic",
+   "seed": 428,
+   "sec": 224.1
+  },
+  {
+   "id": "s6",
+   "prompt": "an alien ocean frozen into jagged ice waves under a red dwarf sun, glittering",
+   "seed": 435,
+   "sec": 222.4
+  },
+  {
+   "id": "s7",
+   "prompt": "a lone black grand piano on a frozen alien shoreline under a red sun, dreamy",
+   "seed": 442,
+   "sec": 223.5
+  },
+  {
+   "id": "s8",
+   "prompt": "aurora in deep red and violet ribbons over a dark alien sea, stars",
+   "seed": 449,
+   "sec": 224.9
+  },
+  {
+   "id": "s9",
+   "prompt": "tidally locked planet: half the sky eternal sunset, half eternal night, a line of twilight across the land",
+   "seed": 456,
+   "sec": 223.4
+  },
+  {
+   "id": "s10",
+   "prompt": "tall dark rock arches over an alien sea, red light shining through, mist",
+   "seed": 463,
+   "sec": 223.7
+  },
+  {
+   "id": "s11",
+   "prompt": "a meteor shower over a red-lit alien ocean, many glowing streaks",
+   "seed": 470,
+   "sec": 224.0
+  }
+ ]
+}
