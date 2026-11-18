@@ -5,7 +5,7 @@ on:
   push: { branches: [main], paths: ["requests/i2v/*.json"] }
   workflow_dispatch: { inputs: { req: { description: "requests/i2v/<ad>.json", required: true }, kernel: { description: "yalnız çıktıyı al: <kullanıcı>/<slug> (push yok)", required: false, default: "" } } }
 permissions: { contents: write }
-concurrency: { group: kaggle-i2v, cancel-in-progress: false }   # Kaggle'da aynı anda tek GPU işi
+concurrency: { group: "kaggle-${{ inputs.req || github.sha }}", cancel-in-progress: false }   # işler paralel (Kaggle kendi sırasını tutar)
 jobs:
   run:
     runs-on: ubuntu-latest
