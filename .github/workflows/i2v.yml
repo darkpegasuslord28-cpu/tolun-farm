@@ -1,6 +1,6 @@
 name: i2v
 # İKİNCİ ÇİFTLİK (Kaggle GPU): requests/i2v/<ad>.json push'lanınca → Kaggle'da görüntü→video → i2v-cache dalına mp4.
-# Secrets (Oğulcan girer, bu repoda): KAGGLE_USERNAME, KAGGLE_KEY. İstek: {"name", "size":[w,h], "frames", "steps", "items":[{"id","image":"<artgen klasörü>/<dosya>.png","prompt","seed"}]}
+# Secrets (Oğulcan girer, bu repoda): KAGGLE_USERNAME + (KAGGLE_API_TOKEN [yeni KGAT_ anahtar] ya da KAGGLE_KEY [eski kaggle.json]). İstek: {"name", "size":[w,h], "frames", "steps", "items":[{"id","image":"<artgen klasörü>/<dosya>.png","prompt","seed"}]}
 on:
   push: { branches: [main], paths: ["requests/i2v/*.json"] }
   workflow_dispatch: { inputs: { req: { description: "requests/i2v/<ad>.json", required: true } } }
@@ -18,9 +18,9 @@ jobs:
           if [ -n "${{ inputs.req }}" ]; then L="${{ inputs.req }}"; else B="${{ github.event.before }}"; if [ -z "$B" ] || ! git cat-file -e "$B^{commit}" 2>/dev/null; then L=$(git diff-tree --no-commit-id --name-only --diff-filter=AM -r --root HEAD -- 'requests/i2v/*.json'); else L=$(git diff --name-only --diff-filter=AM "$B" HEAD -- 'requests/i2v/*.json'); fi; fi
           echo "req=$(echo $L | awk '{print $1}')" >> $GITHUB_OUTPUT
       - if: steps.r.outputs.req != ''
-        env: { KAGGLE_USERNAME: "${{ secrets.KAGGLE_USERNAME }}", KAGGLE_KEY: "${{ secrets.KAGGLE_KEY }}", REQ: "${{ steps.r.outputs.req }}" }
+        env: { KAGGLE_USERNAME: "${{ secrets.KAGGLE_USERNAME }}", KAGGLE_KEY: "${{ secrets.KAGGLE_KEY }}", KAGGLE_API_TOKEN: "${{ secrets.KAGGLE_API_TOKEN }}", REQ: "${{ steps.r.outputs.req }}" }
         run: |
-          [ -n "$KAGGLE_KEY" ] || { echo "KAGGLE anahtarı yok"; exit 1; }
+          [ -n "$KAGGLE_KEY$KAGGLE_API_TOKEN" ] || { echo "KAGGLE anahtarı yok"; exit 1; }; [ -n "$KAGGLE_USERNAME" ] || { echo "KAGGLE_USERNAME secret yok"; exit 1; }
           pip install -q kaggle
           N=$(python3 -c "import json;print(json.load(open('$REQ'))['name'])"); SLUG=$(echo "tolun-i2v-$N" | tr 'A-Z_.' 'a-z--' | cut -c1-50)
           mkdir -p k && cp kaggle_i2v/run.py k/ && cp "$REQ" k/job.json
