@@ -1,0 +1,92 @@
+[{"stream_name":"stderr","time":26.839561268,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":26.839618443,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":44.746476787,"data":"Disabling torchao because diffusers requires `torchao\u003e=0.15.0` but found version 0.10.0. Upgrade it with `pip install -U 'torchao\u003e=0.15.0'`.\n"}
+,{"stream_name":"stderr","time":58.2752024,"data":"/usr/local/lib/python3.13/dist-packages/diffusers/utils/deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.\n"}
+,{"stream_name":"stderr","time":58.275238806,"data":"  deprecate(\"torch_dtype\", \"1.0.0\", _TORCH_DTYPE_DEPRECATION_MESSAGE)\n"}
+,{"stream_name":"stderr","time":58.767183816,"data":"\rFetching 18 files:   0%|          | 0/18 [00:00\u003c?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":93.066301741,"data":"\rFetching 18 files:  11%|█         | 2/18 [00:00\u003c00:01, 11.00it/s]\rFetching 18 files:  61%|██████    | 11/18 [00:00\u003c00:00, 45.08it/s]\rFetching 18 files:  94%|█████████▍| 17/18 [00:13\u003c00:01,  1.01s/it]\rFetching 18 files: 100%|██████████| 18/18 [00:34\u003c00:00,  2.93s/it]\rFetching 18 files: 100%|██████████| 18/18 [00:34\u003c00:00,  1.91s/it]\n"}
+,{"stream_name":"stderr","time":93.691397523,"data":"\rLoading pipeline components...:   0%|          | 0/7 [00:00\u003c?, ?it/s]\rLoading pipeline components...:  14%|█▍        | 1/7 [00:00\u003c00:00,  9.52it/s]\n"}
+,{"stream_name":"stderr","time":93.791647368,"data":"\rLoading weights:   0%|          | 0/517 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":93.895085603,"data":"\rLoading weights:  49%|████▉     | 253/517 [00:00\u003c00:00, 2528.19it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":93.897143882,"data":"\rLoading weights:  98%|█████████▊| 506/517 [00:00\u003c00:00, 2478.63it/s]\u001b[A\rLoading weights: 100%|██████████| 517/517 [00:00\u003c00:00, 2514.94it/s]\n"}
+,{"stream_name":"stderr","time":93.985425841,"data":"\rLoading pipeline components...:  29%|██▊       | 2/7 [00:00\u003c00:02,  2.07it/s]\n"}
+,{"stream_name":"stderr","time":94.061474471,"data":"\rLoading weights:   0%|          | 0/196 [00:00\u003c?, ?it/s]\u001b[A\rLoading weights: 100%|██████████| 196/196 [00:00\u003c00:00, 2586.01it/s]\n"}
+,{"stream_name":"stderr","time":96.308618729,"data":"\rLoading pipeline components...:  43%|████▎     | 3/7 [00:00\u003c00:01,  3.04it/s]\rLoading pipeline components...:  57%|█████▋    | 4/7 [00:03\u003c00:03,  1.03s/it]\rLoading pipeline components...: 100%|██████████| 7/7 [00:03\u003c00:00,  2.44it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:03\u003c00:00,  2.16it/s]\n"}
+,{"stream_name":"stdout","time":98.719158515,"data":"{'id': 'p01_hero', 'model': 't2i', 'ok': False, 'err': 'AttributeError(\"\\'StableDiffusionXLPipeline\\' object has no attribute \\'enable_vae_tiling\\'\")'}\n"}
+,{"stream_name":"stderr","time":99.371780085,"data":"\rLoading pipeline components...:   0%|          | 0/7 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":99.47252308,"data":"\rLoading weights:   0%|          | 0/517 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":99.575508344,"data":"\rLoading weights:  49%|████▊     | 252/517 [00:00\u003c00:00, 2506.58it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":99.57967744,"data":"\rLoading weights:  97%|█████████▋| 503/517 [00:00\u003c00:00, 2465.85it/s]\u001b[A\rLoading weights: 100%|██████████| 517/517 [00:00\u003c00:00, 2490.31it/s]\n"}
+,{"stream_name":"stderr","time":99.654953679,"data":"\rLoading pipeline components...:  29%|██▊       | 2/7 [00:00\u003c00:01,  4.72it/s]\n"}
+,{"stream_name":"stderr","time":99.730802003,"data":"\rLoading weights:   0%|          | 0/196 [00:00\u003c?, ?it/s]\u001b[A\rLoading weights: 100%|██████████| 196/196 [00:00\u003c00:00, 2594.54it/s]\n"}
+,{"stream_name":"stderr","time":100.085282003,"data":"\rLoading pipeline components...:  43%|████▎     | 3/7 [00:00\u003c00:00,  5.45it/s]\rLoading pipeline components...:  57%|█████▋    | 4/7 [00:00\u003c00:00,  4.85it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:00\u003c00:00,  9.92it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:00\u003c00:00,  7.64it/s]\n"}
+,{"stream_name":"stdout","time":102.237779583,"data":"{'id': 'p02_swirl', 'model': 't2i', 'ok': False, 'err': 'AttributeError(\"\\'StableDiffusionXLPipeline\\' object has no attribute \\'enable_vae_tiling\\'\")'}\n"}
+,{"stream_name":"stderr","time":102.739509647,"data":"\rLoading pipeline components...:   0%|          | 0/7 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":102.840277431,"data":"\rLoading weights:   0%|          | 0/517 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":102.942545601,"data":"\rLoading weights:  48%|████▊     | 248/517 [00:00\u003c00:00, 2464.73it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":102.948896758,"data":"\rLoading weights:  96%|█████████▌| 495/517 [00:00\u003c00:00, 2435.58it/s]\u001b[A\rLoading weights: 100%|██████████| 517/517 [00:00\u003c00:00, 2470.85it/s]\n"}
+,{"stream_name":"stderr","time":103.022660075,"data":"\rLoading pipeline components...:  29%|██▊       | 2/7 [00:00\u003c00:01,  4.81it/s]\n"}
+,{"stream_name":"stderr","time":103.101939346,"data":"\rLoading weights:   0%|          | 0/196 [00:00\u003c?, ?it/s]\u001b[A\rLoading weights: 100%|██████████| 196/196 [00:00\u003c00:00, 2479.16it/s]\n"}
+,{"stream_name":"stderr","time":103.740833437,"data":"\rLoading pipeline components...:  43%|████▎     | 3/7 [00:00\u003c00:00,  5.49it/s]\rLoading pipeline components...:  57%|█████▋    | 4/7 [00:01\u003c00:00,  3.22it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:01\u003c00:00,  7.07it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:01\u003c00:00,  5.86it/s]\n"}
+,{"stream_name":"stdout","time":105.879277235,"data":"{'id': 'p03_splash', 'model': 't2i', 'ok': False, 'err': 'AttributeError(\"\\'StableDiffusionXLPipeline\\' object has no attribute \\'enable_vae_tiling\\'\")'}\n"}
+,{"stream_name":"stderr","time":106.394974376,"data":"\rLoading pipeline components...:   0%|          | 0/7 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":106.495761727,"data":"\rLoading weights:   0%|          | 0/517 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":106.595944811,"data":"\rLoading weights:  46%|████▌     | 238/517 [00:00\u003c00:00, 2375.17it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":106.605250829,"data":"\rLoading weights:  94%|█████████▎| 484/517 [00:00\u003c00:00, 2421.88it/s]\u001b[A\rLoading weights: 100%|██████████| 517/517 [00:00\u003c00:00, 2465.82it/s]\n"}
+,{"stream_name":"stderr","time":106.68319205,"data":"\rLoading pipeline components...:  29%|██▊       | 2/7 [00:00\u003c00:01,  4.64it/s]\n"}
+,{"stream_name":"stderr","time":106.75420939,"data":"\rLoading weights:   0%|          | 0/196 [00:00\u003c?, ?it/s]\u001b[A\rLoading weights: 100%|██████████| 196/196 [00:00\u003c00:00, 2804.77it/s]\n"}
+,{"stream_name":"stderr","time":107.120943264,"data":"\rLoading pipeline components...:  43%|████▎     | 3/7 [00:00\u003c00:00,  5.41it/s]\rLoading pipeline components...:  57%|█████▋    | 4/7 [00:00\u003c00:00,  4.78it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:00\u003c00:00,  9.68it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:00\u003c00:00,  7.49it/s]\n"}
+,{"stream_name":"stdout","time":109.266781673,"data":"{'id': 'p04_silk', 'model': 't2i', 'ok': False, 'err': 'AttributeError(\"\\'StableDiffusionXLPipeline\\' object has no attribute \\'enable_vae_tiling\\'\")'}\n"}
+,{"stream_name":"stderr","time":109.768574786,"data":"\rLoading pipeline components...:   0%|          | 0/7 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":109.87014932,"data":"\rLoading weights:   0%|          | 0/517 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":109.970384356,"data":"\rLoading weights:  51%|█████     | 264/517 [00:00\u003c00:00, 2639.34it/s]\u001b[A\rLoading weights: 100%|██████████| 517/517 [00:00\u003c00:00, 2582.32it/s]\n"}
+,{"stream_name":"stderr","time":110.048102327,"data":"\rLoading pipeline components...:  29%|██▊       | 2/7 [00:00\u003c00:01,  4.86it/s]\n"}
+,{"stream_name":"stderr","time":110.122854366,"data":"\rLoading weights:   0%|          | 0/196 [00:00\u003c?, ?it/s]\u001b[A\rLoading weights: 100%|██████████| 196/196 [00:00\u003c00:00, 2642.20it/s]\n"}
+,{"stream_name":"stderr","time":110.489435731,"data":"\rLoading pipeline components...:  43%|████▎     | 3/7 [00:00\u003c00:00,  5.54it/s]\rLoading pipeline components...:  57%|█████▋    | 4/7 [00:00\u003c00:00,  4.82it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:00\u003c00:00,  9.80it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:00\u003c00:00,  7.63it/s]\n"}
+,{"stream_name":"stdout","time":112.647219478,"data":"{'id': 'p05_city', 'model': 't2i', 'ok': False, 'err': 'AttributeError(\"\\'StableDiffusionXLPipeline\\' object has no attribute \\'enable_vae_tiling\\'\")'}\n"}
+,{"stream_name":"stderr","time":113.167807702,"data":"\rLoading pipeline components...:   0%|          | 0/7 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":113.268269392,"data":"\rLoading weights:   0%|          | 0/517 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":113.365622778,"data":"\rLoading weights:  50%|█████     | 260/517 [00:00\u003c00:00, 2595.99it/s]\u001b[A\rLoading weights: 100%|██████████| 517/517 [00:00\u003c00:00, 2618.70it/s]\n"}
+,{"stream_name":"stderr","time":113.439109159,"data":"\rLoading pipeline components...:  29%|██▊       | 2/7 [00:00\u003c00:01,  4.79it/s]\n"}
+,{"stream_name":"stderr","time":113.51265189,"data":"\rLoading weights:   0%|          | 0/196 [00:00\u003c?, ?it/s]\u001b[A\rLoading weights: 100%|██████████| 196/196 [00:00\u003c00:00, 2675.55it/s]\n"}
+,{"stream_name":"stderr","time":113.879465012,"data":"\rLoading pipeline components...:  43%|████▎     | 3/7 [00:00\u003c00:00,  5.54it/s]\rLoading pipeline components...:  57%|█████▋    | 4/7 [00:00\u003c00:00,  4.83it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:00\u003c00:00,  9.80it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:00\u003c00:00,  7.62it/s]\n"}
+,{"stream_name":"stdout","time":116.005223215,"data":"{'id': 'p06_cap', 'model': 't2i', 'ok': False, 'err': 'AttributeError(\"\\'StableDiffusionXLPipeline\\' object has no attribute \\'enable_vae_tiling\\'\")'}\n"}
+,{"stream_name":"stderr","time":116.802551455,"data":"\rLoading pipeline components...:   0%|          | 0/7 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":116.904027369,"data":"\rLoading weights:   0%|          | 0/517 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":117.007443868,"data":"\rLoading weights:  49%|████▊     | 252/517 [00:00\u003c00:00, 2500.44it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":117.010770727,"data":"\rLoading weights:  97%|█████████▋| 503/517 [00:00\u003c00:00, 2456.60it/s]\u001b[A\rLoading weights: 100%|██████████| 517/517 [00:00\u003c00:00, 2491.23it/s]\n"}
+,{"stream_name":"stderr","time":117.08470708,"data":"\rLoading pipeline components...:  29%|██▊       | 2/7 [00:00\u003c00:01,  2.79it/s]\n"}
+,{"stream_name":"stderr","time":117.16236882,"data":"\rLoading weights:   0%|          | 0/196 [00:00\u003c?, ?it/s]\u001b[A\rLoading weights: 100%|██████████| 196/196 [00:00\u003c00:00, 2540.49it/s]\n"}
+,{"stream_name":"stderr","time":117.532133464,"data":"\rLoading pipeline components...:  43%|████▎     | 3/7 [00:00\u003c00:01,  3.72it/s]\rLoading pipeline components...:  57%|█████▋    | 4/7 [00:01\u003c00:00,  3.79it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:01\u003c00:00,  8.07it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:01\u003c00:00,  5.71it/s]\n"}
+,{"stream_name":"stdout","time":119.694377959,"data":"{'id': 'p07_smoke', 'model': 't2i', 'ok': False, 'err': 'AttributeError(\"\\'StableDiffusionXLPipeline\\' object has no attribute \\'enable_vae_tiling\\'\")'}\n"}
+,{"stream_name":"stderr","time":120.227942905,"data":"\rLoading pipeline components...:   0%|          | 0/7 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":120.328429797,"data":"\rLoading weights:   0%|          | 0/517 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":120.428499583,"data":"\rLoading weights:  47%|████▋     | 245/517 [00:00\u003c00:00, 2447.96it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":120.437072715,"data":"\rLoading weights:  95%|█████████▍| 490/517 [00:00\u003c00:00, 2447.65it/s]\u001b[A\rLoading weights: 100%|██████████| 517/517 [00:00\u003c00:00, 2476.95it/s]\n"}
+,{"stream_name":"stderr","time":120.512727365,"data":"\rLoading pipeline components...:  29%|██▊       | 2/7 [00:00\u003c00:01,  4.59it/s]\n"}
+,{"stream_name":"stderr","time":120.590898422,"data":"\rLoading weights:   0%|          | 0/196 [00:00\u003c?, ?it/s]\u001b[A\rLoading weights: 100%|██████████| 196/196 [00:00\u003c00:00, 2514.79it/s]\n"}
+,{"stream_name":"stderr","time":120.985551224,"data":"\rLoading pipeline components...:  43%|████▎     | 3/7 [00:00\u003c00:00,  5.31it/s]\rLoading pipeline components...:  57%|█████▋    | 4/7 [00:00\u003c00:00,  4.51it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:00\u003c00:00,  9.26it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:00\u003c00:00,  7.21it/s]\n"}
+,{"stream_name":"stdout","time":123.148008184,"data":"{'id': 'p08_notes', 'model': 't2i', 'ok': False, 'err': 'AttributeError(\"\\'StableDiffusionXLPipeline\\' object has no attribute \\'enable_vae_tiling\\'\")'}\n"}
+,{"stream_name":"stderr","time":123.646634322,"data":"\rLoading pipeline components...:   0%|          | 0/7 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":123.747516611,"data":"\rLoading weights:   0%|          | 0/517 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":123.848318522,"data":"\rLoading weights:  48%|████▊     | 248/517 [00:00\u003c00:00, 2468.74it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":123.855555178,"data":"\rLoading weights:  96%|█████████▌| 495/517 [00:00\u003c00:00, 2457.57it/s]\u001b[A\rLoading weights: 100%|██████████| 517/517 [00:00\u003c00:00, 2479.75it/s]\n"}
+,{"stream_name":"stderr","time":123.929607645,"data":"\rLoading pipeline components...:  29%|██▊       | 2/7 [00:00\u003c00:01,  4.79it/s]\n"}
+,{"stream_name":"stderr","time":124.007526214,"data":"\rLoading weights:   0%|          | 0/196 [00:00\u003c?, ?it/s]\u001b[A\rLoading weights: 100%|██████████| 196/196 [00:00\u003c00:00, 2522.36it/s]\n"}
+,{"stream_name":"stderr","time":124.367240326,"data":"\rLoading pipeline components...:  43%|████▎     | 3/7 [00:00\u003c00:00,  5.48it/s]\rLoading pipeline components...:  57%|█████▋    | 4/7 [00:00\u003c00:00,  4.80it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:00\u003c00:00,  9.89it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:00\u003c00:00,  7.63it/s]\n"}
+,{"stream_name":"stdout","time":126.51917477,"data":"{'id': 'p09_glow', 'model': 't2i', 'ok': False, 'err': 'AttributeError(\"\\'StableDiffusionXLPipeline\\' object has no attribute \\'enable_vae_tiling\\'\")'}\n"}
+,{"stream_name":"stderr","time":127.325862126,"data":"\rLoading pipeline components...:   0%|          | 0/7 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":127.426620908,"data":"\rLoading weights:   0%|          | 0/517 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":127.528754377,"data":"\rLoading weights:  47%|████▋     | 244/517 [00:00\u003c00:00, 2426.69it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":127.538505088,"data":"\rLoading weights:  94%|█████████▍| 487/517 [00:00\u003c00:00, 2398.70it/s]\u001b[A\rLoading weights: 100%|██████████| 517/517 [00:00\u003c00:00, 2433.89it/s]\n"}
+,{"stream_name":"stderr","time":127.612689381,"data":"\rLoading pipeline components...:  29%|██▊       | 2/7 [00:00\u003c00:01,  2.78it/s]\n"}
+,{"stream_name":"stderr","time":127.690664433,"data":"\rLoading weights:   0%|          | 0/196 [00:00\u003c?, ?it/s]\u001b[A\rLoading weights: 100%|██████████| 196/196 [00:00\u003c00:00, 2545.53it/s]\n"}
+,{"stream_name":"stderr","time":128.053370299,"data":"\rLoading pipeline components...:  43%|████▎     | 3/7 [00:00\u003c00:01,  3.71it/s]\rLoading pipeline components...:  57%|█████▋    | 4/7 [00:01\u003c00:00,  3.81it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:01\u003c00:00,  8.13it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:01\u003c00:00,  5.73it/s]\n"}
+,{"stream_name":"stdout","time":130.177974136,"data":"{'id': 'p10_packshot', 'model': 't2i', 'ok': False, 'err': 'AttributeError(\"\\'StableDiffusionXLPipeline\\' object has no attribute \\'enable_vae_tiling\\'\")'}\n"}
+,{"stream_name":"stderr","time":136.697222651,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":136.697255341,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":136.96355895599999,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":136.963589636,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":137.794492728,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":138.860396307,"data":"[NbConvertApp] Writing 309444 bytes to __results__.html\n"}
+]

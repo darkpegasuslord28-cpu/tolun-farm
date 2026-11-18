@@ -1,0 +1,62 @@
+[
+ {
+  "id": "p01_hero",
+  "model": "t2i",
+  "ok": false,
+  "err": "AttributeError(\"'StableDiffusionXLPipeline' object has no attribute 'enable_vae_tiling'\")"
+ },
+ {
+  "id": "p02_swirl",
+  "model": "t2i",
+  "ok": false,
+  "err": "AttributeError(\"'StableDiffusionXLPipeline' object has no attribute 'enable_vae_tiling'\")"
+ },
+ {
+  "id": "p03_splash",
+  "model": "t2i",
+  "ok": false,
+  "err": "AttributeError(\"'StableDiffusionXLPipeline' object has no attribute 'enable_vae_tiling'\")"
+ },
+ {
+  "id": "p04_silk",
+  "model": "t2i",
+  "ok": false,
+  "err": "AttributeError(\"'StableDiffusionXLPipeline' object has no attribute 'enable_vae_tiling'\")"
+ },
+ {
+  "id": "p05_city",
+  "model": "t2i",
+  "ok": false,
+  "err": "AttributeError(\"'StableDiffusionXLPipeline' object has no attribute 'enable_vae_tiling'\")"
+ },
+ {
+  "id": "p06_cap",
+  "model": "t2i",
+  "ok": false,
+  "err": "AttributeError(\"'StableDiffusionXLPipeline' object has no attribute 'enable_vae_tiling'\")"
+ },
+ {
+  "id": "p07_smoke",
+  "model": "t2i",
+  "ok": false,
+  "err": "AttributeError(\"'StableDiffusionXLPipeline' object has no attribute 'enable_vae_tiling'\")"
+ },
+ {
+  "id": "p08_notes",
+  "model": "t2i",
+  "ok": false,
+  "err": "AttributeError(\"'StableDiffusionXLPipeline' object has no attribute 'enable_vae_tiling'\")"
+ },
+ {
+  "id": "p09_glow",
+  "model": "t2i",
+  "ok": false,
+  "err": "AttributeError(\"'StableDiffusionXLPipeline' object has no attribute 'enable_vae_tiling'\")"
+ },
+ {
+  "id": "p10_packshot",
+  "model": "t2i",
+  "ok": false,
+  "err": "AttributeError(\"'StableDiffusionXLPipeline' object has no attribute 'enable_vae_tiling'\")"
+ }
+]
