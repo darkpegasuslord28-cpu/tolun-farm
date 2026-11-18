@@ -1,0 +1,11 @@
+{
+ "id": "perf_b",
+ "caption": "high-end fashion advertisement music, minimal elegant electronic beat, deep warm synth bass, airy pads, glamorous, nocturnal, instrumental",
+ "duration": 45,
+ "bpm": 92,
+ "keyscale": "A minor",
+ "seed": 7102,
+ "gen_seconds": 196,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}

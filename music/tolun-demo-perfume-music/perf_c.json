@@ -1,0 +1,11 @@
+{
+ "id": "perf_c",
+ "caption": "cinematic luxury trailer music, slow orchestral swell, golden warm brass and strings, intimate piano, elegant, instrumental",
+ "duration": 45,
+ "bpm": 70,
+ "keyscale": "F minor",
+ "seed": 7103,
+ "gen_seconds": 210,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "perf_a",
+ "caption": "luxury perfume commercial music, slow sensual deep bass pulse, warm cinematic strings, elegant sparse piano, dark and premium, building to a soft climax, instrumental",
+ "duration": 45,
+ "bpm": 84,
+ "keyscale": "D minor",
+ "seed": 7101,
+ "gen_seconds": 204,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}
