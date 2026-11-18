@@ -1,0 +1,37 @@
+{
+ "name": "worlds-ep02-music-4",
+ "tracks": [
+  {
+   "id": "ep02_3_0",
+   "caption": "night ambient, deep soft drones, sparse piano notes, quiet, peaceful, instrumental",
+   "duration": 60,
+   "bpm": 60,
+   "keyscale": "A minor",
+   "seed": 9130
+  },
+  {
+   "id": "ep02_3_1",
+   "caption": "ambient study music, soft guitar harmonics and warm pads, calm, gentle, instrumental",
+   "duration": 60,
+   "bpm": 70,
+   "keyscale": "F major",
+   "seed": 9131
+  },
+  {
+   "id": "ep02_3_2",
+   "caption": "dawn ambient, slowly rising strings and pads, hopeful, serene, instrumental",
+   "duration": 60,
+   "bpm": 64,
+   "keyscale": "E minor",
+   "seed": 9132
+  },
+  {
+   "id": "ep02_3_3",
+   "caption": "chill lofi, warm rhodes keys, brushed drums, relaxed focus, instrumental",
+   "duration": 60,
+   "bpm": 56,
+   "keyscale": "G major",
+   "seed": 9133
+  }
+ ]
+}
