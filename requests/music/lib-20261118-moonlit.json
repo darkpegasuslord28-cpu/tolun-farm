@@ -1,0 +1,29 @@
+{
+ "name": "lib-20261118-moonlit",
+ "tracks": [
+  {
+   "id": "moonlit_20261118_0",
+   "caption": "moonlit elven forest, soft celesta and harp, warm strings, gentle hopeful fantasy, cinematic, instrumental",
+   "duration": 60,
+   "bpm": 72,
+   "keyscale": "E minor",
+   "seed": 7399380
+  },
+  {
+   "id": "moonlit_20261118_1",
+   "caption": "moonlit elven forest, soft celesta and harp, warm strings, gentle hopeful fantasy, cinematic, instrumental",
+   "duration": 60,
+   "bpm": 72,
+   "keyscale": "E minor",
+   "seed": 7399381
+  },
+  {
+   "id": "moonlit_20261118_2",
+   "caption": "moonlit elven forest, soft celesta and harp, warm strings, gentle hopeful fantasy, cinematic, instrumental",
+   "duration": 60,
+   "bpm": 72,
+   "keyscale": "E minor",
+   "seed": 7399382
+  }
+ ]
+}
