@@ -1,0 +1,146 @@
+[
+ {
+  "id": "deniz_0",
+  "model": "t2i",
+  "ok": false,
+  "err": "ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')"
+ },
+ {
+  "id": "deniz_1",
+  "model": "t2i",
+  "ok": false,
+  "err": "ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')"
+ },
+ {
+  "id": "deniz_2",
+  "model": "t2i",
+  "ok": false,
+  "err": "ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')"
+ },
+ {
+  "id": "kerem_0",
+  "model": "t2i",
+  "ok": false,
+  "err": "ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')"
+ },
+ {
+  "id": "kerem_1",
+  "model": "t2i",
+  "ok": false,
+  "err": "ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')"
+ },
+ {
+  "id": "kerem_2",
+  "model": "t2i",
+  "ok": false,
+  "err": "ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')"
+ },
+ {
+  "id": "ece_0",
+  "model": "t2i",
+  "ok": false,
+  "err": "ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')"
+ },
+ {
+  "id": "ece_1",
+  "model": "t2i",
+  "ok": false,
+  "err": "ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')"
+ },
+ {
+  "id": "ece_2",
+  "model": "t2i",
+  "ok": false,
+  "err": "ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')"
+ },
+ {
+  "id": "bora_0",
+  "model": "t2i",
+  "ok": false,
+  "err": "ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')"
+ },
+ {
+  "id": "bora_1",
+  "model": "t2i",
+  "ok": false,
+  "err": "ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')"
+ },
+ {
+  "id": "bora_2",
+  "model": "t2i",
+  "ok": false,
+  "err": "ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')"
+ },
+ {
+  "id": "zeynep_0",
+  "model": "t2i",
+  "ok": false,
+  "err": "ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')"
+ },
+ {
+  "id": "zeynep_1",
+  "model": "t2i",
+  "ok": false,
+  "err": "ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')"
+ },
+ {
+  "id": "zeynep_2",
+  "model": "t2i",
+  "ok": false,
+  "err": "ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')"
+ },
+ {
+  "id": "mert_0",
+  "model": "t2i",
+  "ok": false,
+  "err": "ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')"
+ },
+ {
+  "id": "mert_1",
+  "model": "t2i",
+  "ok": false,
+  "err": "ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')"
+ },
+ {
+  "id": "mert_2",
+  "model": "t2i",
+  "ok": false,
+  "err": "ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')"
+ },
+ {
+  "id": "can_0",
+  "model": "t2i",
+  "ok": false,
+  "err": "ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')"
+ },
+ {
+  "id": "can_1",
+  "model": "t2i",
+  "ok": false,
+  "err": "ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')"
+ },
+ {
+  "id": "can_2",
+  "model": "t2i",
+  "ok": false,
+  "err": "ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')"
+ },
+ {
+  "id": "hoca_0",
+  "model": "t2i",
+  "ok": false,
+  "err": "ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')"
+ },
+ {
+  "id": "hoca_1",
+  "model": "t2i",
+  "ok": false,
+  "err": "ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')"
+ },
+ {
+  "id": "hoca_2",
+  "model": "t2i",
+  "ok": false,
+  "err": "ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')"
+ }
+]

@@ -1,0 +1,188 @@
+[{"stream_name":"stderr","time":34.835585325,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":34.835624521,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":52.375279984,"data":"Disabling torchao because diffusers requires `torchao\u003e=0.15.0` but found version 0.10.0. Upgrade it with `pip install -U 'torchao\u003e=0.15.0'`.\n"}
+,{"stream_name":"stderr","time":65.952030263,"data":"/usr/local/lib/python3.13/dist-packages/diffusers/utils/deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.\n"}
+,{"stream_name":"stderr","time":65.952062181,"data":"  deprecate(\"torch_dtype\", \"1.0.0\", _TORCH_DTYPE_DEPRECATION_MESSAGE)\n"}
+,{"stream_name":"stderr","time":66.191978705,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":100.274617921,"data":"\rFetching 18 files:   0%|          | 0/18 [00:00\u003c?, ?it/s]\rFetching 18 files:  17%|█▋        | 3/18 [00:00\u003c00:00, 20.74it/s]\rFetching 18 files:  44%|████▍     | 8/18 [00:00\u003c00:00, 35.01it/s]\rFetching 18 files:  83%|████████▎ | 15/18 [00:02\u003c00:00,  4.35it/s]\rFetching 18 files:  94%|█████████▍| 17/18 [00:19\u003c00:00,  4.35it/s]\rFetching 18 files: 100%|██████████| 18/18 [00:34\u003c00:00,  2.91s/it]\rFetching 18 files: 100%|██████████| 18/18 [00:34\u003c00:00,  1.89s/it]\n"}
+,{"stream_name":"stderr","time":102.719942235,"data":"\rLoading pipeline components...:   0%|          | 0/7 [00:00\u003c?, ?it/s]\rLoading pipeline components...:  14%|█▍        | 1/7 [00:02\u003c00:13,  2.27s/it]\n"}
+,{"stream_name":"stderr","time":102.793325432,"data":"\rLoading weights:   0%|          | 0/196 [00:00\u003c?, ?it/s]\u001b[A\rLoading weights: 100%|██████████| 196/196 [00:00\u003c00:00, 2711.69it/s]\n"}
+,{"stream_name":"stderr","time":103.073194738,"data":"\rLoading pipeline components...:  29%|██▊       | 2/7 [00:02\u003c00:05,  1.08s/it]\rLoading pipeline components...:  43%|████▎     | 3/7 [00:02\u003c00:02,  1.53it/s]\n"}
+,{"stream_name":"stderr","time":103.173494385,"data":"\rLoading weights:   0%|          | 0/517 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":103.268724112,"data":"\rLoading weights:  51%|█████▏    | 266/517 [00:00\u003c00:00, 2656.52it/s]\u001b[A\rLoading weights: 100%|██████████| 517/517 [00:00\u003c00:00, 2646.79it/s]\n"}
+,{"stream_name":"stderr","time":103.690973711,"data":"\rLoading pipeline components...:  57%|█████▋    | 4/7 [00:03\u003c00:01,  1.89it/s]\rLoading pipeline components...:  71%|███████▏  | 5/7 [00:03\u003c00:00,  2.63it/s]\rLoading pipeline components...:  86%|████████▌ | 6/7 [00:03\u003c00:00,  3.02it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:03\u003c00:00,  2.05it/s]\n"}
+,{"stream_name":"stdout","time":106.010786443,"data":"{'id': 'deniz_0', 'model': 't2i', 'ok': False, 'err': \"ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')\"}\n"}
+,{"stream_name":"stderr","time":106.504834169,"data":"\rLoading pipeline components...:   0%|          | 0/7 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":106.575908078,"data":"\rLoading weights:   0%|          | 0/196 [00:00\u003c?, ?it/s]\u001b[A\rLoading weights: 100%|██████████| 196/196 [00:00\u003c00:00, 2771.22it/s]\n"}
+,{"stream_name":"stderr","time":106.816273044,"data":"\rLoading pipeline components...:  29%|██▊       | 2/7 [00:00\u003c00:00, 13.49it/s]\n"}
+,{"stream_name":"stderr","time":106.918077944,"data":"\rLoading weights:   0%|          | 0/517 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":107.017567006,"data":"\rLoading weights:  50%|████▉     | 256/517 [00:00\u003c00:00, 2541.44it/s]\u001b[A\rLoading weights: 100%|██████████| 517/517 [00:00\u003c00:00, 2584.15it/s]\n"}
+,{"stream_name":"stderr","time":107.377069068,"data":"\rLoading pipeline components...:  57%|█████▋    | 4/7 [00:00\u003c00:00,  6.16it/s]\rLoading pipeline components...:  86%|████████▌ | 6/7 [00:00\u003c00:00,  6.45it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:00\u003c00:00,  7.41it/s]\n"}
+,{"stream_name":"stdout","time":109.428637809,"data":"{'id': 'deniz_1', 'model': 't2i', 'ok': False, 'err': \"ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')\"}\n"}
+,{"stream_name":"stderr","time":109.841122248,"data":"\rLoading pipeline components...:   0%|          | 0/7 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":109.91506644,"data":"\rLoading weights:   0%|          | 0/196 [00:00\u003c?, ?it/s]\u001b[A\rLoading weights: 100%|██████████| 196/196 [00:00\u003c00:00, 2659.58it/s]\n"}
+,{"stream_name":"stderr","time":110.158384803,"data":"\rLoading pipeline components...:  29%|██▊       | 2/7 [00:00\u003c00:00, 13.24it/s]\n"}
+,{"stream_name":"stderr","time":110.258615368,"data":"\rLoading weights:   0%|          | 0/517 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":110.354390678,"data":"\rLoading weights:  50%|████▉     | 258/517 [00:00\u003c00:00, 2577.51it/s]\u001b[A\rLoading weights: 100%|██████████| 517/517 [00:00\u003c00:00, 2641.27it/s]\n"}
+,{"stream_name":"stderr","time":110.978905989,"data":"\rLoading pipeline components...:  57%|█████▋    | 4/7 [00:00\u003c00:00,  6.17it/s]\rLoading pipeline components...:  86%|████████▌ | 6/7 [00:01\u003c00:00,  4.68it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:01\u003c00:00,  5.78it/s]\n"}
+,{"stream_name":"stdout","time":113.054483571,"data":"{'id': 'deniz_2', 'model': 't2i', 'ok': False, 'err': \"ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')\"}\n"}
+,{"stream_name":"stderr","time":113.461123767,"data":"\rLoading pipeline components...:   0%|          | 0/7 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":113.538337931,"data":"\rLoading weights:   0%|          | 0/196 [00:00\u003c?, ?it/s]\u001b[A\rLoading weights: 100%|██████████| 196/196 [00:00\u003c00:00, 2554.76it/s]\n"}
+,{"stream_name":"stderr","time":113.736210915,"data":"\rLoading pipeline components...:  29%|██▊       | 2/7 [00:00\u003c00:00, 12.84it/s]\n"}
+,{"stream_name":"stderr","time":113.838431766,"data":"\rLoading weights:   0%|          | 0/517 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":113.937449573,"data":"\rLoading weights:  50%|█████     | 261/517 [00:00\u003c00:00, 2573.31it/s]\u001b[A\rLoading weights: 100%|██████████| 517/517 [00:00\u003c00:00, 2580.10it/s]\n"}
+,{"stream_name":"stderr","time":114.310263773,"data":"\rLoading pipeline components...:  57%|█████▋    | 4/7 [00:00\u003c00:00,  6.60it/s]\rLoading pipeline components...:  86%|████████▌ | 6/7 [00:00\u003c00:00,  6.65it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:00\u003c00:00,  7.59it/s]\n"}
+,{"stream_name":"stdout","time":116.38146846,"data":"{'id': 'kerem_0', 'model': 't2i', 'ok': False, 'err': \"ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')\"}\n"}
+,{"stream_name":"stderr","time":116.805966515,"data":"\rLoading pipeline components...:   0%|          | 0/7 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":116.878034243,"data":"\rLoading weights:   0%|          | 0/196 [00:00\u003c?, ?it/s]\u001b[A\rLoading weights: 100%|██████████| 196/196 [00:00\u003c00:00, 2780.25it/s]\n"}
+,{"stream_name":"stderr","time":117.092535871,"data":"\rLoading pipeline components...:  29%|██▊       | 2/7 [00:00\u003c00:00, 13.30it/s]\n"}
+,{"stream_name":"stderr","time":117.193385784,"data":"\rLoading weights:   0%|          | 0/517 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":117.277796396,"data":"\rLoading weights:  53%|█████▎    | 276/517 [00:00\u003c00:00, 2742.73it/s]\u001b[A\rLoading weights: 100%|██████████| 517/517 [00:00\u003c00:00, 2794.37it/s]\n"}
+,{"stream_name":"stderr","time":117.645455061,"data":"\rLoading pipeline components...:  57%|█████▋    | 4/7 [00:00\u003c00:00,  6.65it/s]\rLoading pipeline components...:  86%|████████▌ | 6/7 [00:00\u003c00:00,  6.68it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:00\u003c00:00,  7.67it/s]\n"}
+,{"stream_name":"stdout","time":119.714254984,"data":"{'id': 'kerem_1', 'model': 't2i', 'ok': False, 'err': \"ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')\"}\n"}
+,{"stream_name":"stderr","time":120.099673489,"data":"\rLoading pipeline components...:   0%|          | 0/7 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":120.17039053,"data":"\rLoading weights:   0%|          | 0/196 [00:00\u003c?, ?it/s]\u001b[A\rLoading weights: 100%|██████████| 196/196 [00:00\u003c00:00, 2803.49it/s]\n"}
+,{"stream_name":"stderr","time":120.410494528,"data":"\rLoading pipeline components...:  29%|██▊       | 2/7 [00:00\u003c00:00, 13.33it/s]\n"}
+,{"stream_name":"stderr","time":120.510755634,"data":"\rLoading weights:   0%|          | 0/517 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":120.602066221,"data":"\rLoading weights:  51%|█████     | 263/517 [00:00\u003c00:00, 2627.63it/s]\u001b[A\rLoading weights: 100%|██████████| 517/517 [00:00\u003c00:00, 2702.39it/s]\n"}
+,{"stream_name":"stderr","time":121.292629051,"data":"\rLoading pipeline components...:  57%|█████▋    | 4/7 [00:00\u003c00:00,  6.26it/s]\rLoading pipeline components...:  86%|████████▌ | 6/7 [00:01\u003c00:00,  4.41it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:01\u003c00:00,  5.52it/s]\n"}
+,{"stream_name":"stdout","time":123.351914639,"data":"{'id': 'kerem_2', 'model': 't2i', 'ok': False, 'err': \"ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')\"}\n"}
+,{"stream_name":"stderr","time":123.835759635,"data":"\rLoading pipeline components...:   0%|          | 0/7 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":123.907516618,"data":"\rLoading weights:   0%|          | 0/196 [00:00\u003c?, ?it/s]\u001b[A\rLoading weights: 100%|██████████| 196/196 [00:00\u003c00:00, 2773.71it/s]\n"}
+,{"stream_name":"stderr","time":124.110693954,"data":"\rLoading pipeline components...:  29%|██▊       | 2/7 [00:00\u003c00:00, 13.13it/s]\n"}
+,{"stream_name":"stderr","time":124.212799439,"data":"\rLoading weights:   0%|          | 0/517 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":124.304122273,"data":"\rLoading weights:  52%|█████▏    | 270/517 [00:00\u003c00:00, 2696.97it/s]\u001b[A\rLoading weights: 100%|██████████| 517/517 [00:00\u003c00:00, 2701.24it/s]\n"}
+,{"stream_name":"stderr","time":124.676275314,"data":"\rLoading pipeline components...:  57%|█████▋    | 4/7 [00:00\u003c00:00,  6.67it/s]\rLoading pipeline components...:  86%|████████▌ | 6/7 [00:00\u003c00:00,  6.66it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:00\u003c00:00,  7.64it/s]\n"}
+,{"stream_name":"stdout","time":126.748099306,"data":"{'id': 'ece_0', 'model': 't2i', 'ok': False, 'err': \"ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')\"}\n"}
+,{"stream_name":"stderr","time":127.135241451,"data":"\rLoading pipeline components...:   0%|          | 0/7 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":127.206098618,"data":"\rLoading weights:   0%|          | 0/196 [00:00\u003c?, ?it/s]\u001b[A\rLoading weights: 100%|██████████| 196/196 [00:00\u003c00:00, 2774.90it/s]\n"}
+,{"stream_name":"stderr","time":127.403631537,"data":"\rLoading pipeline components...:  29%|██▊       | 2/7 [00:00\u003c00:00, 13.40it/s]\n"}
+,{"stream_name":"stderr","time":127.503900349,"data":"\rLoading weights:   0%|          | 0/517 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":127.603937862,"data":"\rLoading weights:  48%|████▊     | 250/517 [00:00\u003c00:00, 2496.50it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":127.608152433,"data":"\rLoading weights:  97%|█████████▋| 503/517 [00:00\u003c00:00, 2515.92it/s]\u001b[A\rLoading weights: 100%|██████████| 517/517 [00:00\u003c00:00, 2530.49it/s]\n"}
+,{"stream_name":"stderr","time":127.978545158,"data":"\rLoading pipeline components...:  57%|█████▋    | 4/7 [00:00\u003c00:00,  6.62it/s]\rLoading pipeline components...:  86%|████████▌ | 6/7 [00:00\u003c00:00,  6.64it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:00\u003c00:00,  7.64it/s]\n"}
+,{"stream_name":"stdout","time":130.018071759,"data":"{'id': 'ece_1', 'model': 't2i', 'ok': False, 'err': \"ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')\"}\n"}
+,{"stream_name":"stderr","time":130.434936442,"data":"\rLoading pipeline components...:   0%|          | 0/7 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":130.516074243,"data":"\rLoading weights:   0%|          | 0/196 [00:00\u003c?, ?it/s]\u001b[A\rLoading weights: 100%|██████████| 196/196 [00:00\u003c00:00, 2446.66it/s]\n"}
+,{"stream_name":"stderr","time":130.722514204,"data":"\rLoading pipeline components...:  29%|██▊       | 2/7 [00:00\u003c00:00, 12.21it/s]\n"}
+,{"stream_name":"stderr","time":130.823340126,"data":"\rLoading weights:   0%|          | 0/517 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":130.92345505,"data":"\rLoading weights:  48%|████▊     | 247/517 [00:00\u003c00:00, 2467.88it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":130.928969302,"data":"\rLoading weights:  96%|█████████▌| 494/517 [00:00\u003c00:00, 2467.91it/s]\u001b[A\rLoading weights: 100%|██████████| 517/517 [00:00\u003c00:00, 2513.62it/s]\n"}
+,{"stream_name":"stderr","time":131.343490853,"data":"\rLoading pipeline components...:  57%|█████▋    | 4/7 [00:00\u003c00:00,  6.37it/s]\rLoading pipeline components...:  86%|████████▌ | 6/7 [00:00\u003c00:00,  6.13it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:00\u003c00:00,  7.11it/s]\n"}
+,{"stream_name":"stdout","time":133.3889007,"data":"{'id': 'ece_2', 'model': 't2i', 'ok': False, 'err': \"ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')\"}\n"}
+,{"stream_name":"stderr","time":134.062254319,"data":"\rLoading pipeline components...:   0%|          | 0/7 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":134.136214108,"data":"\rLoading weights:   0%|          | 0/196 [00:00\u003c?, ?it/s]\u001b[A\rLoading weights: 100%|██████████| 196/196 [00:00\u003c00:00, 2658.97it/s]\n"}
+,{"stream_name":"stderr","time":134.337896389,"data":"\rLoading pipeline components...:  29%|██▊       | 2/7 [00:00\u003c00:01,  4.59it/s]\n"}
+,{"stream_name":"stderr","time":134.439345492,"data":"\rLoading weights:   0%|          | 0/517 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":134.539939541,"data":"\rLoading weights:  50%|█████     | 261/517 [00:00\u003c00:00, 2605.77it/s]\u001b[A\rLoading weights: 100%|██████████| 517/517 [00:00\u003c00:00, 2576.30it/s]\n"}
+,{"stream_name":"stderr","time":134.935547507,"data":"\rLoading pipeline components...:  57%|█████▋    | 4/7 [00:00\u003c00:00,  4.75it/s]\rLoading pipeline components...:  86%|████████▌ | 6/7 [00:01\u003c00:00,  5.45it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:01\u003c00:00,  5.69it/s]\n"}
+,{"stream_name":"stdout","time":137.009978773,"data":"{'id': 'bora_0', 'model': 't2i', 'ok': False, 'err': \"ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')\"}\n"}
+,{"stream_name":"stderr","time":137.464698639,"data":"\rLoading pipeline components...:   0%|          | 0/7 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":137.53608099,"data":"\rLoading weights:   0%|          | 0/196 [00:00\u003c?, ?it/s]\u001b[A\rLoading weights: 100%|██████████| 196/196 [00:00\u003c00:00, 2756.13it/s]\n"}
+,{"stream_name":"stderr","time":137.735441106,"data":"\rLoading pipeline components...:  29%|██▊       | 2/7 [00:00\u003c00:00, 13.20it/s]\n"}
+,{"stream_name":"stderr","time":137.836418824,"data":"\rLoading weights:   0%|          | 0/517 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":137.934343304,"data":"\rLoading weights:  51%|█████     | 264/517 [00:00\u003c00:00, 2624.51it/s]\u001b[A\rLoading weights: 100%|██████████| 517/517 [00:00\u003c00:00, 2605.53it/s]\n"}
+,{"stream_name":"stderr","time":138.30538959,"data":"\rLoading pipeline components...:  57%|█████▋    | 4/7 [00:00\u003c00:00,  6.64it/s]\rLoading pipeline components...:  86%|████████▌ | 6/7 [00:00\u003c00:00,  6.69it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:00\u003c00:00,  7.64it/s]\n"}
+,{"stream_name":"stdout","time":140.361356255,"data":"{'id': 'bora_1', 'model': 't2i', 'ok': False, 'err': \"ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')\"}\n"}
+,{"stream_name":"stderr","time":140.746047878,"data":"\rLoading pipeline components...:   0%|          | 0/7 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":140.818056736,"data":"\rLoading weights:   0%|          | 0/196 [00:00\u003c?, ?it/s]\u001b[A\rLoading weights: 100%|██████████| 196/196 [00:00\u003c00:00, 2750.34it/s]\n"}
+,{"stream_name":"stderr","time":141.063748707,"data":"\rLoading pipeline components...:  29%|██▊       | 2/7 [00:00\u003c00:00, 13.31it/s]\n"}
+,{"stream_name":"stderr","time":141.164026314,"data":"\rLoading weights:   0%|          | 0/517 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":141.257767256,"data":"\rLoading weights:  50%|█████     | 261/517 [00:00\u003c00:00, 2608.44it/s]\u001b[A\rLoading weights: 100%|██████████| 517/517 [00:00\u003c00:00, 2668.07it/s]\n"}
+,{"stream_name":"stderr","time":141.627544664,"data":"\rLoading pipeline components...:  57%|█████▋    | 4/7 [00:00\u003c00:00,  6.17it/s]\rLoading pipeline components...:  86%|████████▌ | 6/7 [00:00\u003c00:00,  6.40it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:00\u003c00:00,  7.33it/s]\n"}
+,{"stream_name":"stdout","time":143.67531837,"data":"{'id': 'bora_2', 'model': 't2i', 'ok': False, 'err': \"ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')\"}\n"}
+,{"stream_name":"stderr","time":144.092788677,"data":"\rLoading pipeline components...:   0%|          | 0/7 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":144.163091423,"data":"\rLoading weights:   0%|          | 0/196 [00:00\u003c?, ?it/s]\u001b[A\rLoading weights: 100%|██████████| 196/196 [00:00\u003c00:00, 2814.29it/s]\n"}
+,{"stream_name":"stderr","time":144.653235858,"data":"\rLoading pipeline components...:  29%|██▊       | 2/7 [00:00\u003c00:00, 13.32it/s]\n"}
+,{"stream_name":"stderr","time":144.753829768,"data":"\rLoading weights:   0%|          | 0/517 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":144.848263295,"data":"\rLoading weights:  51%|█████     | 262/517 [00:00\u003c00:00, 2619.47it/s]\u001b[A\rLoading weights: 100%|██████████| 517/517 [00:00\u003c00:00, 2659.24it/s]\n"}
+,{"stream_name":"stderr","time":145.219211207,"data":"\rLoading pipeline components...:  57%|█████▋    | 4/7 [00:00\u003c00:00,  4.27it/s]\rLoading pipeline components...:  86%|████████▌ | 6/7 [00:01\u003c00:00,  5.11it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:01\u003c00:00,  5.83it/s]\n"}
+,{"stream_name":"stdout","time":147.273682963,"data":"{'id': 'zeynep_0', 'model': 't2i', 'ok': False, 'err': \"ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')\"}\n"}
+,{"stream_name":"stderr","time":147.699424206,"data":"\rLoading pipeline components...:   0%|          | 0/7 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":147.772248435,"data":"\rLoading weights:   0%|          | 0/196 [00:00\u003c?, ?it/s]\u001b[A\rLoading weights: 100%|██████████| 196/196 [00:00\u003c00:00, 2710.47it/s]\n"}
+,{"stream_name":"stderr","time":147.965808851,"data":"\rLoading pipeline components...:  29%|██▊       | 2/7 [00:00\u003c00:00, 13.19it/s]\n"}
+,{"stream_name":"stderr","time":148.06765941,"data":"\rLoading weights:   0%|          | 0/517 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":148.163226686,"data":"\rLoading weights:  51%|█████     | 264/517 [00:00\u003c00:00, 2597.21it/s]\u001b[A\rLoading weights: 100%|██████████| 517/517 [00:00\u003c00:00, 2621.90it/s]\n"}
+,{"stream_name":"stderr","time":148.538587703,"data":"\rLoading pipeline components...:  57%|█████▋    | 4/7 [00:00\u003c00:00,  6.75it/s]\rLoading pipeline components...:  86%|████████▌ | 6/7 [00:00\u003c00:00,  6.70it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:00\u003c00:00,  7.67it/s]\n"}
+,{"stream_name":"stdout","time":150.599584653,"data":"{'id': 'zeynep_1', 'model': 't2i', 'ok': False, 'err': \"ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')\"}\n"}
+,{"stream_name":"stderr","time":150.989035108,"data":"\rLoading pipeline components...:   0%|          | 0/7 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":151.064096176,"data":"\rLoading weights:   0%|          | 0/196 [00:00\u003c?, ?it/s]\u001b[A\rLoading weights: 100%|██████████| 196/196 [00:00\u003c00:00, 2618.84it/s]\n"}
+,{"stream_name":"stderr","time":151.293234444,"data":"\rLoading pipeline components...:  29%|██▊       | 2/7 [00:00\u003c00:00, 13.06it/s]\n"}
+,{"stream_name":"stderr","time":151.39351444,"data":"\rLoading weights:   0%|          | 0/517 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":151.493896878,"data":"\rLoading weights:  50%|████▉     | 257/517 [00:00\u003c00:00, 2566.85it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":151.494459676,"data":"\rLoading weights:  99%|█████████▉| 514/517 [00:00\u003c00:00, 2563.40it/s]\u001b[A\rLoading weights: 100%|██████████| 517/517 [00:00\u003c00:00, 2572.80it/s]\n"}
+,{"stream_name":"stderr","time":151.861382236,"data":"\rLoading pipeline components...:  57%|█████▋    | 4/7 [00:00\u003c00:00,  6.26it/s]\rLoading pipeline components...:  86%|████████▌ | 6/7 [00:00\u003c00:00,  6.46it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:00\u003c00:00,  7.41it/s]\n"}
+,{"stream_name":"stdout","time":153.91442327,"data":"{'id': 'zeynep_2', 'model': 't2i', 'ok': False, 'err': \"ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')\"}\n"}
+,{"stream_name":"stderr","time":154.344615896,"data":"\rLoading pipeline components...:   0%|          | 0/7 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":154.419003331,"data":"\rLoading weights:   0%|          | 0/196 [00:00\u003c?, ?it/s]\u001b[A\rLoading weights: 100%|██████████| 196/196 [00:00\u003c00:00, 2640.68it/s]\n"}
+,{"stream_name":"stderr","time":154.87807743,"data":"\rLoading pipeline components...:  29%|██▊       | 2/7 [00:00\u003c00:00, 13.09it/s]\n"}
+,{"stream_name":"stderr","time":154.978728533,"data":"\rLoading weights:   0%|          | 0/517 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":155.079753165,"data":"\rLoading weights:  48%|████▊     | 250/517 [00:00\u003c00:00, 2499.56it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":155.085553976,"data":"\rLoading weights:  97%|█████████▋| 500/517 [00:00\u003c00:00, 2484.48it/s]\u001b[A\rLoading weights: 100%|██████████| 517/517 [00:00\u003c00:00, 2500.58it/s]\n"}
+,{"stream_name":"stderr","time":155.459878187,"data":"\rLoading pipeline components...:  57%|█████▋    | 4/7 [00:00\u003c00:00,  4.36it/s]\rLoading pipeline components...:  86%|████████▌ | 6/7 [00:01\u003c00:00,  5.17it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:01\u003c00:00,  5.89it/s]\n"}
+,{"stream_name":"stdout","time":157.527177904,"data":"{'id': 'mert_0', 'model': 't2i', 'ok': False, 'err': \"ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')\"}\n"}
+,{"stream_name":"stderr","time":157.957610111,"data":"\rLoading pipeline components...:   0%|          | 0/7 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":158.030894393,"data":"\rLoading weights:   0%|          | 0/196 [00:00\u003c?, ?it/s]\u001b[A\rLoading weights: 100%|██████████| 196/196 [00:00\u003c00:00, 2715.61it/s]\n"}
+,{"stream_name":"stderr","time":158.226628158,"data":"\rLoading pipeline components...:  29%|██▊       | 2/7 [00:00\u003c00:00, 13.20it/s]\n"}
+,{"stream_name":"stderr","time":158.327919558,"data":"\rLoading weights:   0%|          | 0/517 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":158.422741442,"data":"\rLoading weights:  52%|█████▏    | 268/517 [00:00\u003c00:00, 2655.37it/s]\u001b[A\rLoading weights: 100%|██████████| 517/517 [00:00\u003c00:00, 2644.58it/s]\n"}
+,{"stream_name":"stderr","time":158.797220693,"data":"\rLoading pipeline components...:  57%|█████▋    | 4/7 [00:00\u003c00:00,  6.74it/s]\rLoading pipeline components...:  86%|████████▌ | 6/7 [00:00\u003c00:00,  6.68it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:00\u003c00:00,  7.67it/s]\n"}
+,{"stream_name":"stdout","time":160.862369031,"data":"{'id': 'mert_1', 'model': 't2i', 'ok': False, 'err': \"ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')\"}\n"}
+,{"stream_name":"stderr","time":161.277531126,"data":"\rLoading pipeline components...:   0%|          | 0/7 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":161.34930745,"data":"\rLoading weights:   0%|          | 0/196 [00:00\u003c?, ?it/s]\u001b[A\rLoading weights: 100%|██████████| 196/196 [00:00\u003c00:00, 2740.05it/s]\n"}
+,{"stream_name":"stderr","time":161.557425521,"data":"\rLoading pipeline components...:  29%|██▊       | 2/7 [00:00\u003c00:00, 11.32it/s]\n"}
+,{"stream_name":"stderr","time":161.658033963,"data":"\rLoading weights:   0%|          | 0/517 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":161.75817209,"data":"\rLoading weights:  50%|████▉     | 257/517 [00:00\u003c00:00, 2559.40it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":161.758842367,"data":"\rLoading weights:  99%|█████████▉| 514/517 [00:00\u003c00:00, 2563.92it/s]\u001b[A\rLoading weights: 100%|██████████| 517/517 [00:00\u003c00:00, 2569.58it/s]\n"}
+,{"stream_name":"stderr","time":162.13890733,"data":"\rLoading pipeline components...:  57%|█████▋    | 4/7 [00:00\u003c00:00,  6.29it/s]\rLoading pipeline components...:  86%|████████▌ | 6/7 [00:00\u003c00:00,  6.37it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:00\u003c00:00,  7.28it/s]\n"}
+,{"stream_name":"stdout","time":164.20867464,"data":"{'id': 'mert_2', 'model': 't2i', 'ok': False, 'err': \"ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')\"}\n"}
+,{"stream_name":"stderr","time":164.608931052,"data":"\rLoading pipeline components...:   0%|          | 0/7 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":164.681738368,"data":"\rLoading weights:   0%|          | 0/196 [00:00\u003c?, ?it/s]\u001b[A\rLoading weights: 100%|██████████| 196/196 [00:00\u003c00:00, 2711.71it/s]\n"}
+,{"stream_name":"stderr","time":164.880485245,"data":"\rLoading pipeline components...:  29%|██▊       | 2/7 [00:00\u003c00:00, 13.31it/s]\n"}
+,{"stream_name":"stderr","time":164.981499263,"data":"\rLoading weights:   0%|          | 0/517 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":165.079928016,"data":"\rLoading weights:  51%|█████▏    | 265/517 [00:00\u003c00:00, 2642.26it/s]\u001b[A\rLoading weights: 100%|██████████| 517/517 [00:00\u003c00:00, 2603.16it/s]\n"}
+,{"stream_name":"stderr","time":165.693064131,"data":"\rLoading pipeline components...:  57%|█████▋    | 4/7 [00:00\u003c00:00,  6.67it/s]\rLoading pipeline components...:  86%|████████▌ | 6/7 [00:01\u003c00:00,  4.86it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:01\u003c00:00,  6.05it/s]\n"}
+,{"stream_name":"stdout","time":167.765284348,"data":"{'id': 'can_0', 'model': 't2i', 'ok': False, 'err': \"ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')\"}\n"}
+,{"stream_name":"stderr","time":168.196501442,"data":"\rLoading pipeline components...:   0%|          | 0/7 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":168.267864904,"data":"\rLoading weights:   0%|          | 0/196 [00:00\u003c?, ?it/s]\u001b[A\rLoading weights: 100%|██████████| 196/196 [00:00\u003c00:00, 2783.12it/s]\n"}
+,{"stream_name":"stderr","time":168.461159503,"data":"\rLoading pipeline components...:  29%|██▊       | 2/7 [00:00\u003c00:00, 13.55it/s]\n"}
+,{"stream_name":"stderr","time":168.562569638,"data":"\rLoading weights:   0%|          | 0/517 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":168.655024456,"data":"\rLoading weights:  52%|█████▏    | 270/517 [00:00\u003c00:00, 2684.86it/s]\u001b[A\rLoading weights: 100%|██████████| 517/517 [00:00\u003c00:00, 2679.18it/s]\n"}
+,{"stream_name":"stderr","time":169.026882767,"data":"\rLoading pipeline components...:  57%|█████▋    | 4/7 [00:00\u003c00:00,  6.85it/s]\rLoading pipeline components...:  86%|████████▌ | 6/7 [00:00\u003c00:00,  6.76it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:00\u003c00:00,  7.77it/s]\n"}
+,{"stream_name":"stdout","time":171.085418383,"data":"{'id': 'can_1', 'model': 't2i', 'ok': False, 'err': \"ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')\"}\n"}
+,{"stream_name":"stderr","time":171.475278448,"data":"\rLoading pipeline components...:   0%|          | 0/7 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":171.547105358,"data":"\rLoading weights:   0%|          | 0/196 [00:00\u003c?, ?it/s]\u001b[A\rLoading weights: 100%|██████████| 196/196 [00:00\u003c00:00, 2803.01it/s]\n"}
+,{"stream_name":"stderr","time":171.744864081,"data":"\rLoading pipeline components...:  29%|██▊       | 2/7 [00:00\u003c00:00, 13.18it/s]\n"}
+,{"stream_name":"stderr","time":171.845470328,"data":"\rLoading weights:   0%|          | 0/517 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":171.942593538,"data":"\rLoading weights:  51%|█████     | 262/517 [00:00\u003c00:00, 2608.81it/s]\u001b[A\rLoading weights: 100%|██████████| 517/517 [00:00\u003c00:00, 2617.54it/s]\n"}
+,{"stream_name":"stderr","time":172.312924755,"data":"\rLoading pipeline components...:  57%|█████▋    | 4/7 [00:00\u003c00:00,  6.65it/s]\rLoading pipeline components...:  86%|████████▌ | 6/7 [00:00\u003c00:00,  6.69it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:00\u003c00:00,  7.67it/s]\n"}
+,{"stream_name":"stdout","time":174.371913793,"data":"{'id': 'can_2', 'model': 't2i', 'ok': False, 'err': \"ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')\"}\n"}
+,{"stream_name":"stderr","time":174.784618012,"data":"\rLoading pipeline components...:   0%|          | 0/7 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":174.856788316,"data":"\rLoading weights:   0%|          | 0/196 [00:00\u003c?, ?it/s]\u001b[A\rLoading weights: 100%|██████████| 196/196 [00:00\u003c00:00, 2721.01it/s]\n"}
+,{"stream_name":"stderr","time":175.055424196,"data":"\rLoading pipeline components...:  29%|██▊       | 2/7 [00:00\u003c00:00, 13.16it/s]\n"}
+,{"stream_name":"stderr","time":175.157355247,"data":"\rLoading weights:   0%|          | 0/517 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":175.257430592,"data":"\rLoading weights:  46%|████▋     | 240/517 [00:00\u003c00:00, 2371.56it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":175.260098445,"data":"\rLoading weights:  98%|█████████▊| 508/517 [00:00\u003c00:00, 2550.64it/s]\u001b[A\rLoading weights: 100%|██████████| 517/517 [00:00\u003c00:00, 2535.10it/s]\n"}
+,{"stream_name":"stderr","time":175.922008661,"data":"\rLoading pipeline components...:  57%|█████▋    | 4/7 [00:00\u003c00:00,  6.57it/s]\rLoading pipeline components...:  86%|████████▌ | 6/7 [00:01\u003c00:00,  4.62it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:01\u003c00:00,  5.78it/s]\n"}
+,{"stream_name":"stdout","time":178.021910472,"data":"{'id': 'hoca_0', 'model': 't2i', 'ok': False, 'err': \"ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')\"}\n"}
+,{"stream_name":"stderr","time":178.446925391,"data":"\rLoading pipeline components...:   0%|          | 0/7 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":178.520275579,"data":"\rLoading weights:   0%|          | 0/196 [00:00\u003c?, ?it/s]\u001b[A\rLoading weights: 100%|██████████| 196/196 [00:00\u003c00:00, 2682.59it/s]\n"}
+,{"stream_name":"stderr","time":178.717897121,"data":"\rLoading pipeline components...:  29%|██▊       | 2/7 [00:00\u003c00:00, 12.89it/s]\n"}
+,{"stream_name":"stderr","time":178.818243838,"data":"\rLoading weights:   0%|          | 0/517 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":178.918036184,"data":"\rLoading weights:  50%|█████     | 259/517 [00:00\u003c00:00, 2586.08it/s]\u001b[A\rLoading weights: 100%|██████████| 517/517 [00:00\u003c00:00, 2586.36it/s]\n"}
+,{"stream_name":"stderr","time":179.295073128,"data":"\rLoading pipeline components...:  57%|█████▋    | 4/7 [00:00\u003c00:00,  6.62it/s]\rLoading pipeline components...:  86%|████████▌ | 6/7 [00:00\u003c00:00,  6.60it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:00\u003c00:00,  7.57it/s]\n"}
+,{"stream_name":"stdout","time":181.351737784,"data":"{'id': 'hoca_1', 'model': 't2i', 'ok': False, 'err': \"ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')\"}\n"}
+,{"stream_name":"stderr","time":181.738954814,"data":"\rLoading pipeline components...:   0%|          | 0/7 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stderr","time":181.81205613,"data":"\rLoading weights:   0%|          | 0/196 [00:00\u003c?, ?it/s]\u001b[A\rLoading weights: 100%|██████████| 196/196 [00:00\u003c00:00, 2703.64it/s]\n"}
+,{"stream_name":"stderr","time":182.006966208,"data":"\rLoading pipeline components...:  29%|██▊       | 2/7 [00:00\u003c00:00, 13.12it/s]\n"}
+,{"stream_name":"stderr","time":182.107909041,"data":"\rLoading weights:   0%|          | 0/517 [00:00\u003c?, ?it/s]\u001b[A\n"}
+,{"stream_name":"stderr","time":182.20294422,"data":"\rLoading weights:  51%|█████     | 263/517 [00:00\u003c00:00, 2620.06it/s]\u001b[A\rLoading weights: 100%|██████████| 517/517 [00:00\u003c00:00, 2646.92it/s]\n"}
+,{"stream_name":"stderr","time":182.57007056,"data":"\rLoading pipeline components...:  57%|█████▋    | 4/7 [00:00\u003c00:00,  6.74it/s]\rLoading pipeline components...:  86%|████████▌ | 6/7 [00:00\u003c00:00,  6.75it/s]\rLoading pipeline components...: 100%|██████████| 7/7 [00:00\u003c00:00,  7.73it/s]\n"}
+,{"stream_name":"stdout","time":184.623979616,"data":"{'id': 'hoca_2', 'model': 't2i', 'ok': False, 'err': \"ValueError('`final_sigmas_type` zero is not supported for `algorithm_type` deis. Please choose `sigma_min` instead.')\"}\n"}
+,{"stream_name":"stderr","time":190.975718386,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":190.975755104,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":191.233685158,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":191.233706766,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":192.01435145,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":193.068281453,"data":"[NbConvertApp] Writing 343057 bytes to __results__.html\n"}
+]
