@@ -1,0 +1,31 @@
+{
+ "name": "worlds-ep02-piano-2",
+ "style": "cinematic matte painting, ultra detailed, atmospheric, volumetric light, painterly, awe, calm, no people, no text",
+ "negative": "people, person, human, hands, astronaut, text, letters, watermark, logo, signature, frame, border, blurry, lowres, cartoon, trees, ocean, clouds, buildings, walls, window, room interior",
+ "width": 1344,
+ "height": 576,
+ "steps": 6,
+ "cfg": 1.5,
+ "shots": [
+  {
+   "id": "p05_crystals",
+   "prompt": "first-person view sitting at a black grand piano in the middle of the open Martian desert, the piano lid open, keys in the foreground, a warm brass candle lamp on the piano, red rocky dunes stretching all around to distant mountains, looking out over the landscape, twilight, looking right, tall glowing translucent crystal spires rising from the sand, soft cyan light",
+   "seed": 2027
+  },
+  {
+   "id": "p06_twomoons",
+   "prompt": "first-person view sitting at a black grand piano in the middle of the open Martian desert, the piano lid open, keys in the foreground, a warm brass candle lamp on the piano, red rocky dunes stretching all around to distant mountains, looking out over the landscape, night, two small moons in the sky, the Milky Way arching overhead, deep calm",
+   "seed": 2027
+  },
+  {
+   "id": "p07_dustwall",
+   "prompt": "first-person view sitting at a black grand piano in the middle of the open Martian desert, the piano lid open, keys in the foreground, a warm brass candle lamp on the piano, red rocky dunes stretching all around to distant mountains, looking out over the landscape, looking far ahead, a vast slow dust storm wall on the horizon, dramatic orange light",
+   "seed": 2027
+  },
+  {
+   "id": "p08_flowers",
+   "prompt": "first-person view sitting at a black grand piano in the middle of the open Martian desert, the piano lid open, keys in the foreground, a warm brass candle lamp on the piano, red rocky dunes stretching all around to distant mountains, looking out over the landscape, night, looking down beside the piano, small bioluminescent alien flowers glowing blue in the sand, floating specks of light",
+   "seed": 2027
+  }
+ ]
+}
