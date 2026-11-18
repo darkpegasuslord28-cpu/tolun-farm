@@ -1,0 +1,26 @@
+{
+ "name": "worlds-ep02-fixa",
+ "style": "cinematic matte painting, ultra detailed, atmospheric, volumetric light, painterly, awe, calm, no people, no text",
+ "negative": "two pianos, multiple pianos, duplicate, people, person, hands, astronaut, text, letters, watermark, logo, signature, frame, border, curtain, stage, theater, blurry, lowres, cartoon, trees, ocean, clouds, buildings, walls, window, room interior",
+ "width": 1024,
+ "height": 576,
+ "steps": 6,
+ "cfg": 1.5,
+ "shots": [
+  {
+   "id": "p06_twomoons_a",
+   "prompt": "ONE single black grand piano standing alone in the center foreground of the open red Martian desert, night, two small moons high in the sky, the Milky Way arching overhead, deep calm, wide landscape",
+   "seed": 55
+  },
+  {
+   "id": "p07_dustwall_a",
+   "prompt": "ONE single black grand piano standing alone in the center foreground of the open red Martian desert, a gigantic orange dust storm wall rising on the far horizon behind the piano, dramatic light, wide landscape",
+   "seed": 55
+  },
+  {
+   "id": "p09_saturn_a",
+   "prompt": "ONE single black grand piano standing alone in the center foreground of the open red Martian desert, a giant planet with bright wide rings (like Saturn) hanging low in the sky, surreal, majestic, wide landscape",
+   "seed": 55
+  }
+ ]
+}
