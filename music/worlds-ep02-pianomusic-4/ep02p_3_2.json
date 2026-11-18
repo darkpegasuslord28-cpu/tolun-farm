@@ -1,0 +1,11 @@
+{
+ "id": "ep02p_3_2",
+ "caption": "ambient piano with soft warm pads, distant and dreamy, deep focus, instrumental",
+ "duration": 60,
+ "bpm": 62,
+ "keyscale": "E minor",
+ "seed": 9332,
+ "gen_seconds": 229,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}
