@@ -1,0 +1,37 @@
+{
+ "name": "worlds-ep02-pianomusic-2",
+ "tracks": [
+  {
+   "id": "ep02p_1_0",
+   "caption": "ambient piano with soft warm pads, distant and dreamy, deep focus, instrumental",
+   "duration": 60,
+   "bpm": 58,
+   "keyscale": "E minor",
+   "seed": 9310
+  },
+  {
+   "id": "ep02p_1_1",
+   "caption": "felt piano lullaby, quiet, intimate, slow, peaceful night, instrumental",
+   "duration": 60,
+   "bpm": 66,
+   "keyscale": "G major",
+   "seed": 9311
+  },
+  {
+   "id": "ep02p_1_2",
+   "caption": "cinematic piano and soft strings, hopeful, slow, vast landscape, instrumental",
+   "duration": 60,
+   "bpm": 62,
+   "keyscale": "C major",
+   "seed": 9312
+  },
+  {
+   "id": "ep02p_1_3",
+   "caption": "solo grand piano, slow and spacious, gentle reverb, awe, wonder, calm, instrumental",
+   "duration": 60,
+   "bpm": 54,
+   "keyscale": "Bb major",
+   "seed": 9313
+  }
+ ]
+}
