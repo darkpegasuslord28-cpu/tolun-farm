@@ -1,0 +1,126 @@
+{
+ "name": "tolun-demo-perfume-02",
+ "t2i_model": "SG161222/RealVisXL_V5.0",
+ "items": [
+  {
+   "id": "p01_hero",
+   "model": "t2i",
+   "prompt": "an elegant faceted crystal perfume bottle filled with amber-gold liquid, heavy polished gold cap, no label, no text, standing on a black reflective surface, dramatic golden rim light, deep black background, luxury perfume advertising photography, high-end commercial, dark luxury, cinematic lighting, photorealistic, 85mm, shallow depth of field, ultra detailed, 8k, award-winning product photo",
+   "size": [
+    832,
+    1216
+   ],
+   "seed": 100,
+   "steps": 32,
+   "cfg": 5.0
+  },
+  {
+   "id": "p02_swirl",
+   "model": "t2i",
+   "prompt": "extreme macro of amber-gold perfume liquid swirling inside thick crystal glass, light refracting into golden caustics, luxury perfume advertising photography, high-end commercial, dark luxury, cinematic lighting, photorealistic, 85mm, shallow depth of field, ultra detailed, 8k, award-winning product photo",
+   "size": [
+    832,
+    1216
+   ],
+   "seed": 111,
+   "steps": 32,
+   "cfg": 5.0
+  },
+  {
+   "id": "p03_splash",
+   "model": "t2i",
+   "prompt": "an elegant faceted crystal perfume bottle filled with amber-gold liquid, heavy polished gold cap, no label, no text, golden liquid droplets splashing frozen in mid air around it, black background, high-speed photography, luxury perfume advertising photography, high-end commercial, dark luxury, cinematic lighting, photorealistic, 85mm, shallow depth of field, ultra detailed, 8k, award-winning product photo",
+   "size": [
+    832,
+    1216
+   ],
+   "seed": 122,
+   "steps": 32,
+   "cfg": 5.0
+  },
+  {
+   "id": "p04_silk",
+   "model": "t2i",
+   "prompt": "an elegant faceted crystal perfume bottle filled with amber-gold liquid, heavy polished gold cap, no label, no text, black silk fabric flowing and draping around it, soft specular highlights on the silk, luxury perfume advertising photography, high-end commercial, dark luxury, cinematic lighting, photorealistic, 85mm, shallow depth of field, ultra detailed, 8k, award-winning product photo",
+   "size": [
+    832,
+    1216
+   ],
+   "seed": 133,
+   "steps": 32,
+   "cfg": 5.0
+  },
+  {
+   "id": "p05_city",
+   "model": "t2i",
+   "prompt": "an elegant faceted crystal perfume bottle filled with amber-gold liquid, heavy polished gold cap, no label, no text on dark marble, blurred golden night city lights bokeh behind through a window, evening, luxury perfume advertising photography, high-end commercial, dark luxury, cinematic lighting, photorealistic, 85mm, shallow depth of field, ultra detailed, 8k, award-winning product photo",
+   "size": [
+    832,
+    1216
+   ],
+   "seed": 144,
+   "steps": 32,
+   "cfg": 5.0
+  },
+  {
+   "id": "p06_cap",
+   "model": "t2i",
+   "prompt": "extreme macro of a heavy polished gold perfume cap with engraved geometric art deco pattern, no letters, warm light, luxury perfume advertising photography, high-end commercial, dark luxury, cinematic lighting, photorealistic, 85mm, shallow depth of field, ultra detailed, 8k, award-winning product photo",
+   "size": [
+    832,
+    1216
+   ],
+   "seed": 155,
+   "steps": 32,
+   "cfg": 5.0
+  },
+  {
+   "id": "p07_smoke",
+   "model": "t2i",
+   "prompt": "an elegant faceted crystal perfume bottle filled with amber-gold liquid, heavy polished gold cap, no label, no text, soft white smoke curling around it, warm amber backlight, mysterious, luxury perfume advertising photography, high-end commercial, dark luxury, cinematic lighting, photorealistic, 85mm, shallow depth of field, ultra detailed, 8k, award-winning product photo",
+   "size": [
+    832,
+    1216
+   ],
+   "seed": 166,
+   "steps": 32,
+   "cfg": 5.0
+  },
+  {
+   "id": "p08_notes",
+   "model": "t2i",
+   "prompt": "an elegant faceted crystal perfume bottle filled with amber-gold liquid, heavy polished gold cap, no label, no text surrounded by dark red rose petals, pieces of amber resin and vanilla pods on black stone, still life, luxury perfume advertising photography, high-end commercial, dark luxury, cinematic lighting, photorealistic, 85mm, shallow depth of field, ultra detailed, 8k, award-winning product photo",
+   "size": [
+    832,
+    1216
+   ],
+   "seed": 177,
+   "steps": 32,
+   "cfg": 5.0
+  },
+  {
+   "id": "p09_glow",
+   "model": "t2i",
+   "prompt": "silhouette of an elegant faceted crystal perfume bottle filled with amber-gold liquid, heavy polished gold cap, no label, no text against a glowing golden horizon light, minimal composition, lots of negative space, luxury perfume advertising photography, high-end commercial, dark luxury, cinematic lighting, photorealistic, 85mm, shallow depth of field, ultra detailed, 8k, award-winning product photo",
+   "size": [
+    832,
+    1216
+   ],
+   "seed": 188,
+   "steps": 32,
+   "cfg": 5.0
+  },
+  {
+   "id": "p10_packshot",
+   "model": "t2i",
+   "prompt": "an elegant faceted crystal perfume bottle filled with amber-gold liquid, heavy polished gold cap, no label, no text centered low in frame, empty black space above, a soft golden light sweep across the glass, minimal premium packshot, luxury perfume advertising photography, high-end commercial, dark luxury, cinematic lighting, photorealistic, 85mm, shallow depth of field, ultra detailed, 8k, award-winning product photo",
+   "size": [
+    832,
+    1216
+   ],
+   "seed": 199,
+   "steps": 32,
+   "cfg": 5.0
+  }
+ ]
+}
