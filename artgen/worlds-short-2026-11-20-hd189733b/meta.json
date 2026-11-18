@@ -1,0 +1,25 @@
+{
+ "name": "worlds-short-2026-11-20-hd189733b",
+ "model": "Lykon/dreamshaper-8",
+ "license": "CreativeML OpenRAIL-M (model); outputs ours",
+ "shots": [
+  {
+   "id": "s1",
+   "prompt": "first-person view from high above a deep cobalt blue gas giant planet, swirling blue cloud bands, a bright orange star glaring at the edge, majestic and dangerous",
+   "seed": 400,
+   "sec": 108.2
+  },
+  {
+   "id": "s2",
+   "prompt": "inside a violent deep blue storm, millions of tiny glittering glass shards flying sideways through the air in howling wind, cobalt blue light, surreal",
+   "seed": 401,
+   "sec": 109.6
+  },
+  {
+   "id": "s3",
+   "prompt": "a lone black grand piano floating calmly on a blue cloud sea while glittering glass rain streaks sideways past it, dreamy, surreal",
+   "seed": 402,
+   "sec": 110.0
+  }
+ ]
+}
