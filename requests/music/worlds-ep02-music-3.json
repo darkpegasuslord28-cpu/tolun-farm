@@ -1,0 +1,37 @@
+{
+ "name": "worlds-ep02-music-3",
+ "tracks": [
+  {
+   "id": "ep02_2_0",
+   "caption": "dreamy ambient, shimmering synth textures, slow, wonder, floating, calm, instrumental",
+   "duration": 60,
+   "bpm": 60,
+   "keyscale": "Bb major",
+   "seed": 9120
+  },
+  {
+   "id": "ep02_2_1",
+   "caption": "night ambient, deep soft drones, sparse piano notes, quiet, peaceful, instrumental",
+   "duration": 60,
+   "bpm": 70,
+   "keyscale": "C# minor",
+   "seed": 9121
+  },
+  {
+   "id": "ep02_2_2",
+   "caption": "ambient study music, soft guitar harmonics and warm pads, calm, gentle, instrumental",
+   "duration": 60,
+   "bpm": 64,
+   "keyscale": "D major",
+   "seed": 9122
+  },
+  {
+   "id": "ep02_2_3",
+   "caption": "dawn ambient, slowly rising strings and pads, hopeful, serene, instrumental",
+   "duration": 60,
+   "bpm": 56,
+   "keyscale": "A minor",
+   "seed": 9123
+  }
+ ]
+}
