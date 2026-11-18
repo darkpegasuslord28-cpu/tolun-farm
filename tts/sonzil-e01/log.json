@@ -1,0 +1,121 @@
+[
+ {
+  "id": "l01",
+  "voice": "anlatici",
+  "ok": true,
+  "sec": 37.4,
+  "dur": 4.16
+ },
+ {
+  "id": "l02",
+  "voice": "anlatici",
+  "ok": true,
+  "sec": 30.4,
+  "dur": 3.16
+ },
+ {
+  "id": "l03",
+  "voice": "hoca",
+  "ok": true,
+  "sec": 45.3,
+  "dur": 3.84
+ },
+ {
+  "id": "l04",
+  "voice": "anlatici",
+  "ok": true,
+  "sec": 36.9,
+  "dur": 3.12
+ },
+ {
+  "id": "l05",
+  "voice": "anlatici",
+  "ok": true,
+  "sec": 34.8,
+  "dur": 2.8
+ },
+ {
+  "id": "l06",
+  "voice": "bora",
+  "ok": true,
+  "sec": 25.7,
+  "dur": 1.56
+ },
+ {
+  "id": "l07",
+  "voice": "ece",
+  "ok": true,
+  "sec": 33.1,
+  "dur": 2.4
+ },
+ {
+  "id": "l08",
+  "voice": "kerem",
+  "ok": true,
+  "sec": 49.7,
+  "dur": 4.8
+ },
+ {
+  "id": "l09",
+  "voice": "anlatici",
+  "ok": true,
+  "sec": 33.3,
+  "dur": 2.52
+ },
+ {
+  "id": "l10",
+  "voice": "deniz",
+  "ok": true,
+  "sec": 43.9,
+  "dur": 3.8
+ },
+ {
+  "id": "l11",
+  "voice": "kerem",
+  "ok": true,
+  "sec": 33.6,
+  "dur": 2.64
+ },
+ {
+  "id": "l12",
+  "voice": "deniz",
+  "ok": true,
+  "sec": 45.5,
+  "dur": 4.04
+ },
+ {
+  "id": "l13",
+  "voice": "anlatici",
+  "ok": true,
+  "sec": 64.3,
+  "dur": 6.76
+ },
+ {
+  "id": "l14",
+  "voice": "anlatici",
+  "ok": true,
+  "sec": 39.2,
+  "dur": 3.32
+ },
+ {
+  "id": "l15",
+  "voice": "anlatici",
+  "ok": true,
+  "sec": 48.1,
+  "dur": 4.48
+ },
+ {
+  "id": "l16",
+  "voice": "deniz",
+  "ok": true,
+  "sec": 44.9,
+  "dur": 3.96
+ },
+ {
+  "id": "l17",
+  "voice": "anlatici",
+  "ok": true,
+  "sec": 51.4,
+  "dur": 4.92
+ }
+]
