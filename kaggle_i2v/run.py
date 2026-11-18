@@ -2,11 +2,29 @@
 Modeller: "ltx" = Lightricks LTX-Video (diffusers LTXImageToVideoPipeline) · "wan" = Wan2.2-TI2V-5B (Apache-2.0, diffusers).
 Çıktı: /kaggle/working/out/<id>.mp4 (+ log.json, hareket ölçüsü). Görseller tolun-farm artgen-cache'ten. Kişisel bilgi/anahtar YOK."""
 import json, os, sys, time, subprocess, urllib.request, io
+J = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "job.json")))
+if J.get("mode") == "blender":   # 3B ÜRÜN SAHNELERİ (Blender/bpy, Cycles GPU): kaggle_i2v/tolun3d.py — her sahnede aynı ürün
+    OUT = "/kaggle/working/out"; os.makedirs(OUT, exist_ok=True); log = []
+    subprocess.run("apt-get install -y -qq libxi6 libxxf86vm1 libxfixes3 libxrender1 libgl1 libxkbcommon0 libsm6 > /dev/null 2>&1", shell=True)
+    subprocess.run([sys.executable, "-m", "pip", "install", "-q", "bpy", "imageio-ffmpeg"], check=False)
+    import imageio_ffmpeg; FF = imageio_ffmpeg.get_ffmpeg_exe()
+    sc = "/kaggle/working/" + J.get("script", "tolun3d.py")
+    urllib.request.urlretrieve("https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/main/kaggle_i2v/" + J.get("script", "tolun3d.py"), sc)
+    for it in J["shots"]:
+        t0 = time.time(); fr = f"/kaggle/working/fr_{it['id']}"; fps = J.get("fps", 30)
+        env = dict(os.environ, SCENE=it["scene"], W=str(J.get("w", 1080)), H=str(J.get("h", 1920)), SAMPLES=str(it.get("samples", J.get("samples", 48))), GPU="1")
+        r = subprocess.run([sys.executable, sc, "anim", fr, str(fps), str(it["sec"])], env=env, capture_output=True, text=True)
+        ok = r.returncode == 0 and os.path.exists(fr)
+        if ok:
+            subprocess.run([FF, "-y", "-v", "error", "-framerate", str(fps), "-i", f"{fr}/f_%04d.png", "-c:v", "libx264", "-crf", "14", "-preset", "slow", "-pix_fmt", "yuv420p", f"{OUT}/{it['id']}.mp4"])
+            fs = sorted(os.listdir(fr)); __import__("shutil").copy(os.path.join(fr, fs[len(fs) // 2]), f"{OUT}/{it['id']}.png")
+        log.append({"id": it["id"], "model": "blender", "ok": ok, "sec": round(time.time() - t0), "err": "" if ok else (r.stdout[-600:] + r.stderr[-900:])})
+        json.dump(log, open(f"{OUT}/log.json", "w"), indent=1); print(log[-1], flush=True)
+    sys.exit(0)
 subprocess.run([sys.executable, "-m", "pip", "install", "-q", "-U", "diffusers>=0.35", "transformers", "accelerate", "sentencepiece", "ftfy", "imageio[ffmpeg]"], check=False)
 import torch, numpy as np
 from PIL import Image
 from diffusers.utils import export_to_video
-J = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "job.json")))
 OUT = "/kaggle/working/out"; os.makedirs(OUT, exist_ok=True); log = []
 RAW = "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/artgen-cache/artgen/"
 NEG = "static, still image, frozen, no motion, worst quality, blurry, jittery, distorted, text, watermark, people, morphing"
