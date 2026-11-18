@@ -1,0 +1,37 @@
+{
+ "name": "worlds-ep02-music-6",
+ "tracks": [
+  {
+   "id": "ep02_5_0",
+   "caption": "dawn ambient, slowly rising strings and pads, hopeful, serene, instrumental",
+   "duration": 60,
+   "bpm": 60,
+   "keyscale": "C# minor",
+   "seed": 9150
+  },
+  {
+   "id": "ep02_5_1",
+   "caption": "chill lofi, warm rhodes keys, brushed drums, relaxed focus, instrumental",
+   "duration": 60,
+   "bpm": 70,
+   "keyscale": "D major",
+   "seed": 9151
+  },
+  {
+   "id": "ep02_5_2",
+   "caption": "space ambient, cold glassy bells, slow wind-like pads, mysterious, calm, instrumental",
+   "duration": 60,
+   "bpm": 64,
+   "keyscale": "A minor",
+   "seed": 9152
+  },
+  {
+   "id": "ep02_5_3",
+   "caption": "vast cosmic ambient, slow evolving warm pads, distant soft piano, awe, deep focus, no drums, instrumental",
+   "duration": 60,
+   "bpm": 56,
+   "keyscale": "F major",
+   "seed": 9153
+  }
+ ]
+}
