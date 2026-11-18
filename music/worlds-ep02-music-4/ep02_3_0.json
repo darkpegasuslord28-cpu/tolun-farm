@@ -1,0 +1,11 @@
+{
+ "id": "ep02_3_0",
+ "caption": "night ambient, deep soft drones, sparse piano notes, quiet, peaceful, instrumental",
+ "duration": 60,
+ "bpm": 60,
+ "keyscale": "A minor",
+ "seed": 9130,
+ "gen_seconds": 377,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}

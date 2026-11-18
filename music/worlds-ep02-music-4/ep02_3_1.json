@@ -1,0 +1,11 @@
+{
+ "id": "ep02_3_1",
+ "caption": "ambient study music, soft guitar harmonics and warm pads, calm, gentle, instrumental",
+ "duration": 60,
+ "bpm": 70,
+ "keyscale": "F major",
+ "seed": 9131,
+ "gen_seconds": 376,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}
