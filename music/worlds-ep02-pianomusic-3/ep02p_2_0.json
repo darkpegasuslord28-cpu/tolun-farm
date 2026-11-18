@@ -1,0 +1,11 @@
+{
+ "id": "ep02p_2_0",
+ "caption": "felt piano lullaby, quiet, intimate, slow, peaceful night, instrumental",
+ "duration": 60,
+ "bpm": 58,
+ "keyscale": "Bb major",
+ "seed": 9320,
+ "gen_seconds": 249,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}
