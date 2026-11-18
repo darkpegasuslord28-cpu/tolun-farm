@@ -1,0 +1,11 @@
+{
+ "id": "ep02p_1_3",
+ "caption": "solo grand piano, slow and spacious, gentle reverb, awe, wonder, calm, instrumental",
+ "duration": 60,
+ "bpm": 54,
+ "keyscale": "Bb major",
+ "seed": 9313,
+ "gen_seconds": 236,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}
