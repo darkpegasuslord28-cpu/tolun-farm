@@ -1,0 +1,26 @@
+{
+ "name": "worlds-short-2026-11-19-trappist-1e",
+ "style": "cinematic matte painting, ultra detailed, atmospheric, volumetric light, painterly, awe, otherworldly, no people, no text",
+ "negative": "people, person, astronaut, hands, text, letters, watermark, logo, signature, frame, border, blurry, lowres, cartoon, earth trees, city, buildings",
+ "width": 576,
+ "height": 1024,
+ "steps": 6,
+ "cfg": 1.5,
+ "shots": [
+  {
+   "id": "s1",
+   "prompt": "first-person view standing on a dark rocky shore of a calm ocean on an alien planet, a huge dim red star low on the horizon, deep red twilight light, mist over the water",
+   "seed": 400
+  },
+  {
+   "id": "s2",
+   "prompt": "looking up at an alien sky, several other planets hanging huge and close in the sky, crescents glowing in red starlight, stars, surreal and majestic",
+   "seed": 401
+  },
+  {
+   "id": "s3",
+   "prompt": "a lone black grand piano on a frozen alien shoreline under a red dwarf sun, ice glittering, tiny planets in the sky, dreamy",
+   "seed": 402
+  }
+ ]
+}
