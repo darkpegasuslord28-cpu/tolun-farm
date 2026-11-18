@@ -1,0 +1,25 @@
+{
+ "name": "worlds-ep02-fixa",
+ "model": "Lykon/dreamshaper-8",
+ "license": "CreativeML OpenRAIL-M (model); outputs ours",
+ "shots": [
+  {
+   "id": "p06_twomoons_a",
+   "prompt": "ONE single black grand piano standing alone in the center foreground of the open red Martian desert, night, two small moons high in the sky, the Milky Way arching overhead, deep calm, wide landscape",
+   "seed": 55,
+   "sec": 215.2
+  },
+  {
+   "id": "p07_dustwall_a",
+   "prompt": "ONE single black grand piano standing alone in the center foreground of the open red Martian desert, a gigantic orange dust storm wall rising on the far horizon behind the piano, dramatic light, wide landscape",
+   "seed": 55,
+   "sec": 216.5
+  },
+  {
+   "id": "p09_saturn_a",
+   "prompt": "ONE single black grand piano standing alone in the center foreground of the open red Martian desert, a giant planet with bright wide rings (like Saturn) hanging low in the sky, surreal, majestic, wide landscape",
+   "seed": 55,
+   "sec": 216.6
+  }
+ ]
+}
