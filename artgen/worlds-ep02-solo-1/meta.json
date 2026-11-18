@@ -1,0 +1,31 @@
+{
+ "name": "worlds-ep02-solo-1",
+ "model": "Lykon/dreamshaper-8",
+ "license": "CreativeML OpenRAIL-M (model); outputs ours",
+ "shots": [
+  {
+   "id": "p01_golden",
+   "prompt": "late afternoon, butterscotch dusty sky, small pale sun, long soft shadows, ONE single black grand piano with a small candle standing alone in the center of the open red Martian desert, seen from behind the piano bench, wide landscape all around",
+   "seed": 31,
+   "sec": 220.2
+  },
+  {
+   "id": "p02_earthrise",
+   "prompt": "a HUGE glowing blue planet Earth rising behind the piano filling the sky, magical, ONE single black grand piano with a small candle standing alone in the center of the open red Martian desert, seen from behind the piano bench, wide landscape all around",
+   "seed": 31,
+   "sec": 220.3
+  },
+  {
+   "id": "p03_bluesunset",
+   "prompt": "sunset with a blue halo around a small sun, ONE single black grand piano with a small candle standing alone in the center of the open red Martian desert, seen from behind the piano bench, wide landscape all around",
+   "seed": 31,
+   "sec": 217.6
+  },
+  {
+   "id": "p04_aurora",
+   "prompt": "night, bright green and violet aurora ribbons filling the sky, stars, ONE single black grand piano with a small candle standing alone in the center of the open red Martian desert, seen from behind the piano bench, wide landscape all around",
+   "seed": 31,
+   "sec": 218.4
+  }
+ ]
+}
