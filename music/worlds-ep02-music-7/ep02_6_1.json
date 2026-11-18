@@ -1,0 +1,11 @@
+{
+ "id": "ep02_6_1",
+ "caption": "space ambient, cold glassy bells, slow wind-like pads, mysterious, calm, instrumental",
+ "duration": 60,
+ "bpm": 70,
+ "keyscale": "E minor",
+ "seed": 9161,
+ "gen_seconds": 343,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "ep02_6_0",
+ "caption": "chill lofi, warm rhodes keys, brushed drums, relaxed focus, instrumental",
+ "duration": 60,
+ "bpm": 60,
+ "keyscale": "F major",
+ "seed": 9160,
+ "gen_seconds": 334,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}
