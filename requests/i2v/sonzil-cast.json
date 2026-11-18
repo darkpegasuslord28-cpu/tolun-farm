@@ -1,0 +1,319 @@
+{
+ "name": "sonzil-cast",
+ "model": "t2i",
+ "t2i_model": "Lykon/dreamshaper-xl-1-0",
+ "items": [
+  {
+   "id": "deniz_0",
+   "model": "t2i",
+   "prompt": "17 year old Turkish girl, shoulder-length wavy dark brown hair, light freckles, curious bright brown eyes, mustard yellow raincoat jacket over a grey hoodie, small smile, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, half-body portrait of a single character facing camera, dark night high school classroom background softly blurred, moody cinematic lighting, cool blue fluorescent light with warm rim light, detailed expressive face, high quality",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, multiple people, extra fingers, deformed face, blurry, lowres, anime chibi",
+   "seed": 100,
+   "size": [
+    832,
+    1216
+   ],
+   "steps": 30,
+   "cfg": 6.0
+  },
+  {
+   "id": "deniz_1",
+   "model": "t2i",
+   "prompt": "17 year old Turkish girl, shoulder-length wavy dark brown hair, light freckles, curious bright brown eyes, mustard yellow raincoat jacket over a grey hoodie, small smile, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, half-body portrait of a single character facing camera, dark night high school classroom background softly blurred, moody cinematic lighting, cool blue fluorescent light with warm rim light, detailed expressive face, high quality",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, multiple people, extra fingers, deformed face, blurry, lowres, anime chibi",
+   "seed": 117,
+   "size": [
+    832,
+    1216
+   ],
+   "steps": 30,
+   "cfg": 6.0
+  },
+  {
+   "id": "deniz_2",
+   "model": "t2i",
+   "prompt": "17 year old Turkish girl, shoulder-length wavy dark brown hair, light freckles, curious bright brown eyes, mustard yellow raincoat jacket over a grey hoodie, small smile, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, half-body portrait of a single character facing camera, dark night high school classroom background softly blurred, moody cinematic lighting, cool blue fluorescent light with warm rim light, detailed expressive face, high quality",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, multiple people, extra fingers, deformed face, blurry, lowres, anime chibi",
+   "seed": 134,
+   "size": [
+    832,
+    1216
+   ],
+   "steps": 30,
+   "cfg": 6.0
+  },
+  {
+   "id": "kerem_0",
+   "model": "t2i",
+   "prompt": "17 year old Turkish boy, neat short black hair, navy school blazer, white shirt, dark red tie, serious confident face, class president, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, half-body portrait of a single character facing camera, dark night high school classroom background softly blurred, moody cinematic lighting, cool blue fluorescent light with warm rim light, detailed expressive face, high quality",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, multiple people, extra fingers, deformed face, blurry, lowres, anime chibi",
+   "seed": 100,
+   "size": [
+    832,
+    1216
+   ],
+   "steps": 30,
+   "cfg": 6.0
+  },
+  {
+   "id": "kerem_1",
+   "model": "t2i",
+   "prompt": "17 year old Turkish boy, neat short black hair, navy school blazer, white shirt, dark red tie, serious confident face, class president, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, half-body portrait of a single character facing camera, dark night high school classroom background softly blurred, moody cinematic lighting, cool blue fluorescent light with warm rim light, detailed expressive face, high quality",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, multiple people, extra fingers, deformed face, blurry, lowres, anime chibi",
+   "seed": 117,
+   "size": [
+    832,
+    1216
+   ],
+   "steps": 30,
+   "cfg": 6.0
+  },
+  {
+   "id": "kerem_2",
+   "model": "t2i",
+   "prompt": "17 year old Turkish boy, neat short black hair, navy school blazer, white shirt, dark red tie, serious confident face, class president, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, half-body portrait of a single character facing camera, dark night high school classroom background softly blurred, moody cinematic lighting, cool blue fluorescent light with warm rim light, detailed expressive face, high quality",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, multiple people, extra fingers, deformed face, blurry, lowres, anime chibi",
+   "seed": 134,
+   "size": [
+    832,
+    1216
+   ],
+   "steps": 30,
+   "cfg": 6.0
+  },
+  {
+   "id": "ece_0",
+   "model": "t2i",
+   "prompt": "17 year old Turkish girl, light brown hair in a high ponytail, rectangular black glasses, green cardigan over white shirt, skeptical clever look, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, half-body portrait of a single character facing camera, dark night high school classroom background softly blurred, moody cinematic lighting, cool blue fluorescent light with warm rim light, detailed expressive face, high quality",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, multiple people, extra fingers, deformed face, blurry, lowres, anime chibi",
+   "seed": 100,
+   "size": [
+    832,
+    1216
+   ],
+   "steps": 30,
+   "cfg": 6.0
+  },
+  {
+   "id": "ece_1",
+   "model": "t2i",
+   "prompt": "17 year old Turkish girl, light brown hair in a high ponytail, rectangular black glasses, green cardigan over white shirt, skeptical clever look, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, half-body portrait of a single character facing camera, dark night high school classroom background softly blurred, moody cinematic lighting, cool blue fluorescent light with warm rim light, detailed expressive face, high quality",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, multiple people, extra fingers, deformed face, blurry, lowres, anime chibi",
+   "seed": 117,
+   "size": [
+    832,
+    1216
+   ],
+   "steps": 30,
+   "cfg": 6.0
+  },
+  {
+   "id": "ece_2",
+   "model": "t2i",
+   "prompt": "17 year old Turkish girl, light brown hair in a high ponytail, rectangular black glasses, green cardigan over white shirt, skeptical clever look, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, half-body portrait of a single character facing camera, dark night high school classroom background softly blurred, moody cinematic lighting, cool blue fluorescent light with warm rim light, detailed expressive face, high quality",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, multiple people, extra fingers, deformed face, blurry, lowres, anime chibi",
+   "seed": 134,
+   "size": [
+    832,
+    1216
+   ],
+   "steps": 30,
+   "cfg": 6.0
+  },
+  {
+   "id": "bora_0",
+   "model": "t2i",
+   "prompt": "17 year old Turkish boy, curly black hair, tan skin, red hoodie, mischievous grin, playful eyes, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, half-body portrait of a single character facing camera, dark night high school classroom background softly blurred, moody cinematic lighting, cool blue fluorescent light with warm rim light, detailed expressive face, high quality",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, multiple people, extra fingers, deformed face, blurry, lowres, anime chibi",
+   "seed": 100,
+   "size": [
+    832,
+    1216
+   ],
+   "steps": 30,
+   "cfg": 6.0
+  },
+  {
+   "id": "bora_1",
+   "model": "t2i",
+   "prompt": "17 year old Turkish boy, curly black hair, tan skin, red hoodie, mischievous grin, playful eyes, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, half-body portrait of a single character facing camera, dark night high school classroom background softly blurred, moody cinematic lighting, cool blue fluorescent light with warm rim light, detailed expressive face, high quality",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, multiple people, extra fingers, deformed face, blurry, lowres, anime chibi",
+   "seed": 117,
+   "size": [
+    832,
+    1216
+   ],
+   "steps": 30,
+   "cfg": 6.0
+  },
+  {
+   "id": "bora_2",
+   "model": "t2i",
+   "prompt": "17 year old Turkish boy, curly black hair, tan skin, red hoodie, mischievous grin, playful eyes, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, half-body portrait of a single character facing camera, dark night high school classroom background softly blurred, moody cinematic lighting, cool blue fluorescent light with warm rim light, detailed expressive face, high quality",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, multiple people, extra fingers, deformed face, blurry, lowres, anime chibi",
+   "seed": 134,
+   "size": [
+    832,
+    1216
+   ],
+   "steps": 30,
+   "cfg": 6.0
+  },
+  {
+   "id": "zeynep_0",
+   "model": "t2i",
+   "prompt": "17 year old Turkish girl, long straight black hair, burgundy headband, grey knit sweater, quiet melancholic eyes, mysterious, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, half-body portrait of a single character facing camera, dark night high school classroom background softly blurred, moody cinematic lighting, cool blue fluorescent light with warm rim light, detailed expressive face, high quality",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, multiple people, extra fingers, deformed face, blurry, lowres, anime chibi",
+   "seed": 100,
+   "size": [
+    832,
+    1216
+   ],
+   "steps": 30,
+   "cfg": 6.0
+  },
+  {
+   "id": "zeynep_1",
+   "model": "t2i",
+   "prompt": "17 year old Turkish girl, long straight black hair, burgundy headband, grey knit sweater, quiet melancholic eyes, mysterious, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, half-body portrait of a single character facing camera, dark night high school classroom background softly blurred, moody cinematic lighting, cool blue fluorescent light with warm rim light, detailed expressive face, high quality",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, multiple people, extra fingers, deformed face, blurry, lowres, anime chibi",
+   "seed": 117,
+   "size": [
+    832,
+    1216
+   ],
+   "steps": 30,
+   "cfg": 6.0
+  },
+  {
+   "id": "zeynep_2",
+   "model": "t2i",
+   "prompt": "17 year old Turkish girl, long straight black hair, burgundy headband, grey knit sweater, quiet melancholic eyes, mysterious, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, half-body portrait of a single character facing camera, dark night high school classroom background softly blurred, moody cinematic lighting, cool blue fluorescent light with warm rim light, detailed expressive face, high quality",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, multiple people, extra fingers, deformed face, blurry, lowres, anime chibi",
+   "seed": 134,
+   "size": [
+    832,
+    1216
+   ],
+   "steps": 30,
+   "cfg": 6.0
+  },
+  {
+   "id": "mert_0",
+   "model": "t2i",
+   "prompt": "18 year old Turkish boy, buzz cut dark hair, small scar through left eyebrow, black leather jacket, stern stubborn face, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, half-body portrait of a single character facing camera, dark night high school classroom background softly blurred, moody cinematic lighting, cool blue fluorescent light with warm rim light, detailed expressive face, high quality",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, multiple people, extra fingers, deformed face, blurry, lowres, anime chibi",
+   "seed": 100,
+   "size": [
+    832,
+    1216
+   ],
+   "steps": 30,
+   "cfg": 6.0
+  },
+  {
+   "id": "mert_1",
+   "model": "t2i",
+   "prompt": "18 year old Turkish boy, buzz cut dark hair, small scar through left eyebrow, black leather jacket, stern stubborn face, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, half-body portrait of a single character facing camera, dark night high school classroom background softly blurred, moody cinematic lighting, cool blue fluorescent light with warm rim light, detailed expressive face, high quality",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, multiple people, extra fingers, deformed face, blurry, lowres, anime chibi",
+   "seed": 117,
+   "size": [
+    832,
+    1216
+   ],
+   "steps": 30,
+   "cfg": 6.0
+  },
+  {
+   "id": "mert_2",
+   "model": "t2i",
+   "prompt": "18 year old Turkish boy, buzz cut dark hair, small scar through left eyebrow, black leather jacket, stern stubborn face, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, half-body portrait of a single character facing camera, dark night high school classroom background softly blurred, moody cinematic lighting, cool blue fluorescent light with warm rim light, detailed expressive face, high quality",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, multiple people, extra fingers, deformed face, blurry, lowres, anime chibi",
+   "seed": 134,
+   "size": [
+    832,
+    1216
+   ],
+   "steps": 30,
+   "cfg": 6.0
+  },
+  {
+   "id": "can_0",
+   "model": "t2i",
+   "prompt": "17 year old Turkish boy, neatly side-parted brown hair, old-fashioned 1980s argyle sweater vest over white collared shirt, calm polite face, blue-grey eyes, slightly vintage look, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, half-body portrait of a single character facing camera, dark night high school classroom background softly blurred, moody cinematic lighting, cool blue fluorescent light with warm rim light, detailed expressive face, high quality",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, multiple people, extra fingers, deformed face, blurry, lowres, anime chibi",
+   "seed": 100,
+   "size": [
+    832,
+    1216
+   ],
+   "steps": 30,
+   "cfg": 6.0
+  },
+  {
+   "id": "can_1",
+   "model": "t2i",
+   "prompt": "17 year old Turkish boy, neatly side-parted brown hair, old-fashioned 1980s argyle sweater vest over white collared shirt, calm polite face, blue-grey eyes, slightly vintage look, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, half-body portrait of a single character facing camera, dark night high school classroom background softly blurred, moody cinematic lighting, cool blue fluorescent light with warm rim light, detailed expressive face, high quality",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, multiple people, extra fingers, deformed face, blurry, lowres, anime chibi",
+   "seed": 117,
+   "size": [
+    832,
+    1216
+   ],
+   "steps": 30,
+   "cfg": 6.0
+  },
+  {
+   "id": "can_2",
+   "model": "t2i",
+   "prompt": "17 year old Turkish boy, neatly side-parted brown hair, old-fashioned 1980s argyle sweater vest over white collared shirt, calm polite face, blue-grey eyes, slightly vintage look, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, half-body portrait of a single character facing camera, dark night high school classroom background softly blurred, moody cinematic lighting, cool blue fluorescent light with warm rim light, detailed expressive face, high quality",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, multiple people, extra fingers, deformed face, blurry, lowres, anime chibi",
+   "seed": 134,
+   "size": [
+    832,
+    1216
+   ],
+   "steps": 30,
+   "cfg": 6.0
+  },
+  {
+   "id": "hoca_0",
+   "model": "t2i",
+   "prompt": "60 year old Turkish male teacher, receding grey hair, grey moustache, glasses, brown wool coat, worried tired face, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, half-body portrait of a single character facing camera, dark night high school classroom background softly blurred, moody cinematic lighting, cool blue fluorescent light with warm rim light, detailed expressive face, high quality",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, multiple people, extra fingers, deformed face, blurry, lowres, anime chibi",
+   "seed": 100,
+   "size": [
+    832,
+    1216
+   ],
+   "steps": 30,
+   "cfg": 6.0
+  },
+  {
+   "id": "hoca_1",
+   "model": "t2i",
+   "prompt": "60 year old Turkish male teacher, receding grey hair, grey moustache, glasses, brown wool coat, worried tired face, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, half-body portrait of a single character facing camera, dark night high school classroom background softly blurred, moody cinematic lighting, cool blue fluorescent light with warm rim light, detailed expressive face, high quality",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, multiple people, extra fingers, deformed face, blurry, lowres, anime chibi",
+   "seed": 117,
+   "size": [
+    832,
+    1216
+   ],
+   "steps": 30,
+   "cfg": 6.0
+  },
+  {
+   "id": "hoca_2",
+   "model": "t2i",
+   "prompt": "60 year old Turkish male teacher, receding grey hair, grey moustache, glasses, brown wool coat, worried tired face, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, half-body portrait of a single character facing camera, dark night high school classroom background softly blurred, moody cinematic lighting, cool blue fluorescent light with warm rim light, detailed expressive face, high quality",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, multiple people, extra fingers, deformed face, blurry, lowres, anime chibi",
+   "seed": 134,
+   "size": [
+    832,
+    1216
+   ],
+   "steps": 30,
+   "cfg": 6.0
+  }
+ ]
+}

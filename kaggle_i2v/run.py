@@ -51,7 +51,9 @@ def t2i(it):   # GÖRSEL ÜRETİMİ (GPU): RealVisXL V5 (SDXL, CreativeML OpenRA
         for k in list(PIPES): del PIPES[k]
         torch.cuda.empty_cache()
         from diffusers import StableDiffusionXLPipeline, DPMSolverMultistepScheduler
-        p = StableDiffusionXLPipeline.from_pretrained(J.get("t2i_model", "SG161222/RealVisXL_V5.0"), torch_dtype=torch.float16, variant="fp16").to("cuda")
+        mid = J.get("t2i_model", "SG161222/RealVisXL_V5.0")
+        try: p = StableDiffusionXLPipeline.from_pretrained(mid, torch_dtype=torch.float16, variant="fp16").to("cuda")
+        except Exception: p = StableDiffusionXLPipeline.from_pretrained(mid, torch_dtype=torch.float16).to("cuda")
         p.scheduler = DPMSolverMultistepScheduler.from_config(p.scheduler.config, use_karras_sigmas=True); p.vae.enable_tiling(); T2I["p"] = p
     w, h = it.get("size", [832, 1216]); g = torch.Generator("cuda").manual_seed(it.get("seed", 7))
     im = T2I["p"](prompt=it["prompt"], negative_prompt=it.get("negative", "text, letters, logo, watermark, people, hands, blurry, lowres, deformed, cartoon, illustration, cgi look"),
