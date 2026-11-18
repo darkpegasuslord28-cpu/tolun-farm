@@ -1,0 +1,11 @@
+{
+ "id": "ep02_1_1",
+ "caption": "dreamy ambient, shimmering synth textures, slow, wonder, floating, calm, instrumental",
+ "duration": 60,
+ "bpm": 70,
+ "keyscale": "G major",
+ "seed": 9111,
+ "gen_seconds": 194,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}
