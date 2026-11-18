@@ -1,0 +1,73 @@
+{
+ "name": "worlds-short-2026-11-20-hd189733b-v2",
+ "model": "Lykon/dreamshaper-8",
+ "license": "CreativeML OpenRAIL-M (model); outputs ours",
+ "shots": [
+  {
+   "id": "s1",
+   "prompt": "first-person view from high above a deep cobalt blue gas giant, swirling blue cloud bands, a bright orange star glaring at the edge",
+   "seed": 400,
+   "sec": 110.9
+  },
+  {
+   "id": "s2",
+   "prompt": "inside a violent deep blue storm, millions of glittering glass shards flying sideways, cobalt light",
+   "seed": 407,
+   "sec": 111.4
+  },
+  {
+   "id": "s3",
+   "prompt": "close-up of tiny glass crystals spinning in blue wind, sparkling like diamonds",
+   "seed": 414,
+   "sec": 111.7
+  },
+  {
+   "id": "s4",
+   "prompt": "a towering blue thunderhead with lightning inside, on an alien gas giant",
+   "seed": 421,
+   "sec": 112.6
+  },
+  {
+   "id": "s5",
+   "prompt": "looking down into an endless abyss of blue clouds, glowing deep below",
+   "seed": 428,
+   "sec": 113.3
+  },
+  {
+   "id": "s6",
+   "prompt": "a lone black grand piano floating on a blue cloud sea while glass rain streaks sideways past it",
+   "seed": 435,
+   "sec": 113.0
+  },
+  {
+   "id": "s7",
+   "prompt": "the night side of a blue gas giant glowing faintly, stars above, eerie",
+   "seed": 442,
+   "sec": 111.7
+  },
+  {
+   "id": "s8",
+   "prompt": "a giant orange star half hidden behind blue cloud tops, rays of light",
+   "seed": 449,
+   "sec": 111.5
+  },
+  {
+   "id": "s9",
+   "prompt": "blue cyclone eye seen from above, spiral of clouds, majestic",
+   "seed": 456,
+   "sec": 111.6
+  },
+  {
+   "id": "s10",
+   "prompt": "glass rain catching starlight, streaks of silver across a dark blue sky",
+   "seed": 463,
+   "sec": 112.1
+  },
+  {
+   "id": "s11",
+   "prompt": "a tiny moon passing in front of a huge blue planet, silhouette, quiet",
+   "seed": 470,
+   "sec": 111.6
+  }
+ ]
+}
