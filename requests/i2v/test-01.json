@@ -1,0 +1,10 @@
+{
+ "name": "test-01",
+ "frames": 97, "steps": 40,
+ "items": [
+  {"id": "mars_earthrise", "image": "worlds-ep02-solo-1/p02_earthrise.png", "size": [768, 512], "seed": 7,
+   "prompt": "A black grand piano stands in the red Martian desert while a huge blue Earth slowly rises over the horizon, fine red dust drifts across the sand in the wind, soft light shifts, slow cinematic camera push in, calm, majestic"},
+  {"id": "glass_storm", "image": "worlds-short-2026-11-20-hd189733b-v3/s3.png", "size": [512, 768], "seed": 7,
+   "prompt": "A violent deep blue storm on an alien gas giant, clouds swirling and churning, glittering glass particles streaming sideways in the fierce wind, lightning flickering inside the clouds, cinematic, dramatic"}
+ ]
+}
