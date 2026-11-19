@@ -1,0 +1,50 @@
+{
+ "name": "sonzil-e02-kadin",
+ "mode": "voxcpm",
+ "tts_model": "openbmb/VoxCPM2",
+ "takes": 3,
+ "steps": 14,
+ "voices": {
+  "deniz": {
+   "ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/sonzil-e01-vox3/ref_deniz.wav"
+  },
+  "ece": {
+   "ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/sonzil-e01-vox3/ref_ece.wav"
+  },
+  "zeynep": {
+   "ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/sonzil-e02-vox/ref_zeynep.wav"
+  }
+ },
+ "lines": [
+  {
+   "id": "a06",
+   "voice": "ece",
+   "text": "Halatı çekin! Çabuk!",
+   "style": "young woman, smart, anxious, rational"
+  },
+  {
+   "id": "a10",
+   "voice": "zeynep",
+   "text": "Bu okuldan... öyle çıkılmıyor.",
+   "style": "young woman, quiet, secretive, haunted"
+  },
+  {
+   "id": "b03",
+   "voice": "ece",
+   "text": "Okulda kimsenin girmediği tek yer var. Eski Bina.",
+   "style": "young woman, smart, anxious, rational"
+  },
+  {
+   "id": "b07",
+   "voice": "zeynep",
+   "text": "Anahtar bende. Dedem bu okulun hademesiydi.",
+   "style": "young woman, quiet, secretive, haunted"
+  },
+  {
+   "id": "b10",
+   "voice": "deniz",
+   "text": "Beni duyuyor musunuz?",
+   "style": "young woman, scared, whispering, echoing"
+  }
+ ]
+}

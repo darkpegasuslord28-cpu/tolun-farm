@@ -1,0 +1,119 @@
+{
+ "name": "sonzil-e02-erkek",
+ "mode": "voxcpm",
+ "tts_model": "Trendyol/Trendyol-TTS",
+ "takes": 3,
+ "steps": 14,
+ "voices": {
+  "anlatici": {
+   "ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/sonzil-anlatici-voices/ref_anlatici_C.wav"
+  },
+  "kerem": {
+   "ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/sonzil-cast-voices/ref_kerem_B.wav"
+  },
+  "bora": {
+   "ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/sonzil-cast-voices/ref_bora_A.wav"
+  },
+  "mert": {
+   "ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/sonzil-cast-voices/ref_mert_A.wav"
+  }
+ },
+ "lines": [
+  {
+   "id": "a01",
+   "voice": "anlatici",
+   "text": "Oylar konuştu... ve kader, kapıyı açmalarını istedi. Ama bazı kapılar... açılmak için yapılmamıştır.",
+   "style": "old wise storyteller, slow, mysterious, warm, pauses between phrases, talking to the listener"
+  },
+  {
+   "id": "a02",
+   "voice": "mert",
+   "text": "Ben giderim. Üç adım atıp dönerim, o kadar.",
+   "style": "tough young man, short and blunt"
+  },
+  {
+   "id": "a03",
+   "voice": "kerem",
+   "text": "Belinden halat bağlıyoruz. Kimse kopmuyor.",
+   "style": "young man, tense, trying to stay in control"
+  },
+  {
+   "id": "a04",
+   "voice": "anlatici",
+   "text": "Mert sise adım attı. Bir... iki... üç. Halat hâlâ ellerindeydi. Henüz.",
+   "style": "old wise storyteller, slow, mysterious, warm, pauses between phrases, talking to the listener"
+  },
+  {
+   "id": "a05",
+   "voice": "anlatici",
+   "text": "Sonra... halat gevşedi.",
+   "style": "old wise storyteller, slow, mysterious, warm, pauses between phrases, talking to the listener"
+  },
+  {
+   "id": "a07",
+   "voice": "anlatici",
+   "text": "Halatın ucu boştu. Ama koridorun öbür ucundan... tanıdık ayak sesleri geliyordu.",
+   "style": "old wise storyteller, slow, mysterious, warm, pauses between phrases, talking to the listener"
+  },
+  {
+   "id": "a08",
+   "voice": "mert",
+   "text": "Düz yürüdüm... Yemin ederim düz yürüdüm. Nasıl buradayım?",
+   "style": "tough young man, short and blunt"
+  },
+  {
+   "id": "a09",
+   "voice": "anlatici",
+   "text": "Ve okul... kapısını kapattı. Sanki birini bekliyormuş gibi.",
+   "style": "old wise storyteller, slow, mysterious, warm, pauses between phrases, talking to the listener"
+  },
+  {
+   "id": "a11",
+   "voice": "anlatici",
+   "text": "Herkes Zeynep'e döndü. Avucunda, paslı eski bir anahtar duruyordu. Bazı sırlar... yüz yıl saklanır. Bazıları ise yalnızca bir gece.",
+   "style": "old wise storyteller, slow, mysterious, warm, pauses between phrases, talking to the listener"
+  },
+  {
+   "id": "b01",
+   "voice": "anlatici",
+   "text": "Mesaja güvendiler. Akıllıca mı... yoksa tam da okulun istediği şey mi? Bunu yakında anlayacaklardı.",
+   "style": "old wise storyteller, slow, mysterious, warm, pauses between phrases, talking to the listener"
+  },
+  {
+   "id": "b02",
+   "voice": "kerem",
+   "text": "Deniz dışarıda değilim diyorsa... içeride bir yerde.",
+   "style": "young man, tense, trying to stay in control"
+  },
+  {
+   "id": "b04",
+   "voice": "anlatici",
+   "text": "Eski Bina'ya giden koridor, bin dokuz yüz seksen yediden beri kilitliydi. Kilitler... içeriyi korumak için değil, dışarıyı korumak için vurulmuştu.",
+   "style": "old wise storyteller, slow, mysterious, warm, pauses between phrases, talking to the listener"
+  },
+  {
+   "id": "b05",
+   "voice": "bora",
+   "text": "Zincirli. Anahtar olmadan giremeyiz.",
+   "style": "nervous teen boy, joking to hide fear"
+  },
+  {
+   "id": "b06",
+   "voice": "anlatici",
+   "text": "Ve o zaman... Zeynep sessizce öne çıktı.",
+   "style": "old wise storyteller, slow, mysterious, warm, pauses between phrases, talking to the listener"
+  },
+  {
+   "id": "b08",
+   "voice": "mert",
+   "text": "Bunu şimdi mi söylüyorsun?",
+   "style": "tough young man, short and blunt"
+  },
+  {
+   "id": "b09",
+   "voice": "anlatici",
+   "text": "Kilit açıldı. İçeriden soğuk bir nefes geldi... ve otuz dokuz yıldır kimsenin duymadığı bir ses.",
+   "style": "old wise storyteller, slow, mysterious, warm, pauses between phrases, talking to the listener"
+  }
+ ]
+}
