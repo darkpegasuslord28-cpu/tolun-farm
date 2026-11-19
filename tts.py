@@ -11,21 +11,24 @@ from chatterbox.mtl_tts import ChatterboxMultilingualTTS
 J = json.load(open(os.environ["TTS_REQ"])); NAME = J["name"]; OUT = f"tts/{NAME}"; os.makedirs(OUT, exist_ok=True); os.makedirs("/tmp/ref", exist_ok=True)
 REF_TXT = ("Akşam olmuştu ve okulun koridorları yavaş yavaş sessizleşiyordu. Pencerelerden soğuk bir rüzgâr giriyordu. "
            "Kimse ne olacağını bilmiyordu, ama herkes bir şeylerin değişmek üzere olduğunu hissediyordu.")
-PIPER = "https://huggingface.co/rhasspy/piper-voices/resolve/main/tr/tr_TR/{spk}/{q}/tr_TR-{spk}-{q}.onnx"
+PIPER = "https://huggingface.co/rhasspy/piper-voices/resolve/main/{lang}/{loc}/{spk}/{q}/{loc}-{spk}-{q}.onnx"
+REF_EN = ("It was getting dark, and the long hallways of the old school were slowly going quiet. A cold wind came through the windows. "
+          "Nobody knew what was about to happen, but everyone felt that something was about to change.")
 def shift(src, dst, st):
     if abs(st) < 0.01: subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", src, "-ar", "24000", "-ac", "1", dst], check=True); return
     k = 2 ** (st / 12); r = subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", src, "-af", f"rubberband=pitch={k:.4f}", "-ar", "24000", "-ac", "1", dst])
     if r.returncode: subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", src, "-af", f"asetrate=24000*{k:.4f},aresample=24000,atempo={1 / k:.4f}", "-ar", "24000", "-ac", "1", dst], check=True)
 def piper_ref(model, dst):
-    spk, q = model.split("-")[1], model.split("-")[2]
+    loc, spk, q = model.split("-")[0], model.split("-")[1], model.split("-")[2]
     p = f"/tmp/ref/{model}.onnx"
     if not os.path.exists(p):
-        u = PIPER.format(spk=spk, q=q); urllib.request.urlretrieve(u, p); urllib.request.urlretrieve(u + ".json", p + ".json")
+        u = PIPER.format(lang=loc.split("_")[0], loc=loc, spk=spk, q=q); urllib.request.urlretrieve(u, p); urllib.request.urlretrieve(u + ".json", p + ".json")
+    txt = REF_TXT if loc.startswith("tr") else REF_EN   # yabancı model yalnız ses rengi (tını) referansı; konuşma yine Türkçe üretilir
     from piper import PiperVoice
     v = PiperVoice.load(p)
     with wave.open(dst, "wb") as wf:
-        if hasattr(v, "synthesize_wav"): v.synthesize_wav(REF_TXT, wf)
-        else: v.synthesize(REF_TXT, wf)
+        if hasattr(v, "synthesize_wav"): v.synthesize_wav(txt, wf)
+        else: v.synthesize(txt, wf)
 model = ChatterboxMultilingualTTS.from_pretrained(device="cpu")
 REF = {}; log = []
 for name, V in J["voices"].items():

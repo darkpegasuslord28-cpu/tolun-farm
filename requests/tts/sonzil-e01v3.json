@@ -1,0 +1,118 @@
+{
+ "name": "sonzil-e01v3",
+ "voices": {
+  "anlatici": {
+   "ref": "piper:tr_TR-dfki-medium",
+   "pitch": -2.5,
+   "exag": 0.45,
+   "cfg": 0.35
+  },
+  "hoca": {
+   "ref": "piper:en_GB-alan-medium",
+   "pitch": -2,
+   "exag": 0.55,
+   "cfg": 0.4
+  },
+  "kerem": {
+   "ref": "piper:en_US-joe-medium",
+   "pitch": 0,
+   "exag": 0.55,
+   "cfg": 0.5
+  },
+  "bora": {
+   "ref": "piper:en_US-ryan-high",
+   "pitch": 1.5,
+   "exag": 0.6,
+   "cfg": 0.5
+  },
+  "deniz": {
+   "ref": "default",
+   "pitch": 1.5,
+   "exag": 0.55,
+   "cfg": 0.5
+  },
+  "ece": {
+   "ref": "piper:en_US-lessac-medium",
+   "pitch": 0,
+   "exag": 0.45,
+   "cfg": 0.5
+  }
+ },
+ "lines": [
+  {
+   "id": "l01",
+   "voice": "anlatici",
+   "text": "Kasım. Gece etüdü. Okulda yedi öğrenci kaldı."
+  },
+  {
+   "id": "l02",
+   "voice": "anlatici",
+   "text": "Nöbetçi hoca çıkarken, tek bir şey söyledi."
+  },
+  {
+   "id": "l03",
+   "voice": "hoca",
+   "text": "Zil çalarsa... koridora sakın tek başınıza çıkmayın."
+  },
+  {
+   "id": "l05",
+   "voice": "anlatici",
+   "text": "Okulun zili yıllardır çalmıyordu. Ta ki dokuzu kırk yedi geçeye kadar."
+  },
+  {
+   "id": "l06",
+   "voice": "bora",
+   "text": "Bu kimin şakası ya?"
+  },
+  {
+   "id": "l07",
+   "voice": "ece",
+   "text": "Telefonlar... hiçbirinde şebeke yok."
+  },
+  {
+   "id": "l08",
+   "voice": "kerem",
+   "text": "Herkes sakin olsun. Kimse bir yere ayrılmıyor."
+  },
+  {
+   "id": "l09",
+   "voice": "anlatici",
+   "text": "Pencerenin dışında şehir yoktu. Sadece sis."
+  },
+  {
+   "id": "l10",
+   "voice": "deniz",
+   "text": "Orada biri var. Bahçe kapısının yanında... bir ışık."
+  },
+  {
+   "id": "l11",
+   "voice": "kerem",
+   "text": "Deniz, dur. Kimse çıkmıyor dedim."
+  },
+  {
+   "id": "l12",
+   "voice": "deniz",
+   "text": "İki dakika. Sadece bakıp geleceğim."
+  },
+  {
+   "id": "l13",
+   "voice": "anlatici",
+   "text": "Deniz, ışığa doğru yürüdü. Ve ışıkla birlikte... kayboldu."
+  },
+  {
+   "id": "l15",
+   "voice": "anlatici",
+   "text": "O anda, altısının telefonu aynı anda titredi. Mesaj, Deniz'dendi."
+  },
+  {
+   "id": "l16",
+   "voice": "deniz",
+   "text": "Sakın kapıyı açmayın. Ben dışarıda değilim."
+  },
+  {
+   "id": "l17",
+   "voice": "anlatici",
+   "text": "Mesajın tarihi: on dokuz Kasım... bin dokuz yüz seksen yedi."
+  }
+ ]
+}
