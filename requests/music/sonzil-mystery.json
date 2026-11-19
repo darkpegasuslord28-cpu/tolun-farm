@@ -1,0 +1,8 @@
+{
+ "name": "sonzil-mystery",
+ "tracks": [
+  {"id": "myst_a", "caption": "dark mysterious ambient soundtrack, slow evolving drone, eerie distant piano notes, soft reverb, no drums, no beat, haunting, suspenseful atmosphere, instrumental", "duration": 90, "bpm": 60, "keyscale": "D minor", "seed": 9201},
+  {"id": "myst_b", "caption": "haunting mystery underscore, low cello drone, ghostly music box melody, whispering pads, very slow, no percussion, cinematic horror atmosphere, instrumental", "duration": 90, "bpm": 56, "keyscale": "A minor", "seed": 9202},
+  {"id": "myst_c", "caption": "eerie dark ambient, deep sub bass hum, distant metallic resonances, sparse high strings, slow building dread, no drums, mysterious night, instrumental", "duration": 90, "bpm": 50, "keyscale": "E minor", "seed": 9203}
+ ]
+}
