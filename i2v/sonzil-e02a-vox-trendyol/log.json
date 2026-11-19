@@ -1,0 +1,90 @@
+[
+ {
+  "id": "a01",
+  "ok": true,
+  "cer": -0.086,
+  "asr": " Oylar konuştu. Kapıyı açmaya karar verdiler.",
+  "dur": 3.2,
+  "sec": 51
+ },
+ {
+  "id": "a02",
+  "ok": true,
+  "cer": -0.086,
+  "asr": " Ben giderim. Üç adım atıp dönerim. O kadar.",
+  "dur": 2.88,
+  "sec": 30
+ },
+ {
+  "id": "a03",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Belinden halat bağlıyoruz. Kimse kopmuyor.",
+  "dur": 2.88,
+  "sec": 29
+ },
+ {
+  "id": "a04",
+  "ok": true,
+  "cer": -0.07,
+  "asr": " Mert, sise üç adım attı. Halat elimizdeydi.",
+  "dur": 2.88,
+  "sec": 32
+ },
+ {
+  "id": "a05",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Sonra halat gevşedi.",
+  "dur": 1.76,
+  "sec": 21
+ },
+ {
+  "id": "a06",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Halatı çekin. Çabuk!",
+  "dur": 2.08,
+  "sec": 22
+ },
+ {
+  "id": "a07",
+  "ok": true,
+  "cer": -0.073,
+  "asr": " Halatın ucu boştu. Ama koridorun sonundan, arka kapıdan ayak sesleri geliyordu.",
+  "dur": 5.28,
+  "sec": 55
+ },
+ {
+  "id": "a08",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Düz yürüdüm. Yemin ederim düz yürüdüm. Nasıl buradayım?",
+  "dur": 3.36,
+  "sec": 36
+ },
+ {
+  "id": "a09",
+  "ok": true,
+  "cer": -0.079,
+  "asr": " Ön kapı kendi kendine kapandı ve kilitlendi.",
+  "dur": 3.36,
+  "sec": 33
+ },
+ {
+  "id": "a10",
+  "ok": true,
+  "cer": -0.089,
+  "asr": " Bu okuldan öyle çıkılmıyor.",
+  "dur": 2.08,
+  "sec": 23
+ },
+ {
+  "id": "a11",
+  "ok": true,
+  "cer": -0.068,
+  "asr": " Herkes Zeynep'e döndü. Elinde paslı eski bir anahtar vardı.",
+  "dur": 4.16,
+  "sec": 42
+ }
+]
