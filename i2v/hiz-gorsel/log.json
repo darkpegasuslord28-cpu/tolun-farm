@@ -2,13 +2,13 @@
  {
   "id": "g1",
   "model": "t2i",
-  "ok": false,
-  "err": "OSError('Error no file named model.safetensors, or pytorch_model.bin, found in directory /kaggle/input/notebooks/ogulcan3426/tolun-i2v-tolun-env/models/h94__IP-Adapter.')"
+  "ok": true,
+  "sec": 110
  },
  {
   "id": "g2",
   "model": "t2i",
-  "ok": false,
-  "err": "OSError('Error no file named model.safetensors, or pytorch_model.bin, found in directory /kaggle/input/notebooks/ogulcan3426/tolun-i2v-tolun-env/models/h94__IP-Adapter.')"
+  "ok": true,
+  "sec": 29
  }
 ]

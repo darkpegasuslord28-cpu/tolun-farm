@@ -2,12 +2,17 @@
  {
   "id": "t1",
   "ok": true,
-  "cer": -0.006,
-  "asr": " Bakın bunun bir açıklaması var. Panik yapmayın.",
-  "dur": 2.72,
-  "sec": 24
+  "cer": -0.056,
+  "asr": " Bakın bunun bir açıklaması var panik yapmayın.",
+  "dur": 3.04,
+  "sec": 25
  },
  {
   "id": "t2",
   "ok": true,
-  "cer": 
+  "cer": -0.048,
+  "asr": " Halatı çekin. Hadi çabuk.",
+  "dur": 1.92,
+  "sec": 12
+ }
+]
