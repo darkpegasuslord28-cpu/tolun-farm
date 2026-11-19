@@ -1,0 +1,5 @@
+{"name": "tolun-v2-3d", "mode": "blender", "script": "tolun3d.py", "w": 1080, "h": 1920, "fps": 30, "samples": 64,
+ "hdri": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/2k/studio_small_09_2k.hdr",
+ "shots": [{"id": "silhouette", "scene": "silhouette", "sec": 3.5}, {"id": "macro", "scene": "macro", "sec": 4},
+           {"id": "lightsweep", "scene": "lightsweep", "sec": 3.5}, {"id": "turntable", "scene": "turntable", "sec": 4},
+           {"id": "hero", "scene": "hero", "sec": 4}]}

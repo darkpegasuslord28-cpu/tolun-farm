@@ -26,6 +26,7 @@ def emit_mat(name, col, strength):
 
 
 GOLD = mat("gold", **{"Base Color": (1.0, 0.72, 0.33, 1), "Metallic": 1.0, "Roughness": 0.18})
+GOLDTXT = mat("goldtxt", **{"Base Color": (1.0, 0.72, 0.33, 1), "Metallic": 1.0, "Roughness": 0.32, "Emission Color": (1.0, 0.7, 0.32, 1), "Emission Strength": 0.9})   # yazı karanlıkta da okunsun
 
 
 def bottle(x=0.0, y=0.0, z=0.0):
@@ -44,7 +45,7 @@ def bottle(x=0.0, y=0.0, z=0.0):
     bpy.ops.mesh.primitive_cylinder_add(radius=0.11, depth=0.12, location=(x, y, z + 1.56)); bpy.context.object.data.materials.append(GOLD)
     cube((0, 0, 1.63), (0.44, 0.32, 0.025), GOLD); cube((0, 0, 1.79), (0.42, 0.30, 0.34), BLACK, 0.02, 2)
     bpy.ops.object.text_add(location=(x, y - 0.212, z + 0.55)); t = bpy.context.object; t.data.body = "TOLUN"; t.data.align_x = "CENTER"; t.data.size = 0.11
-    t.data.extrude = 0.004; t.rotation_euler = (math.radians(90), 0, 0); t.data.space_character = 1.6; t.data.materials.append(GOLD)
+    t.data.extrude = 0.004; t.rotation_euler = (math.radians(90), 0, 0); t.data.space_character = 1.6; t.data.materials.append(GOLDTXT)
 
 
 def light(name, loc, size, energy, col, rot, kind="AREA", trans=False):
@@ -176,13 +177,105 @@ def sc_marble():
     camera([(1, (0, -9.5, 0.2)), (N, (0, -5.6, 0.85))], target=(0, 0, 0.55), lens=50, fstop=4.0)
 
 
-{"candle": sc_candle, "reveal": sc_reveal, "desert": sc_desert, "city": sc_city, "marble": sc_marble}[SCENE]()
+# ───────────── v2: STÜDYO SAHNELERİ (stil/parfum.json) ─────────────
+def studio_world(strength=0.6):
+    """Poly Haven CC0 stüdyo HDRI (HDRI env: yol ya da URL) yalnız yansımalarda; kameraya siyah görünür (negatif dolgu hissi)."""
+    W = world((0, 0, 0)); src = os.environ.get("HDRI", "")
+    if src.startswith("http"):
+        import urllib.request
+        try: urllib.request.urlretrieve(src, "/tmp/studio.hdr"); src = "/tmp/studio.hdr"
+        except Exception as e: print("HDRI inemedi", e); src = ""
+    if not src or not os.path.exists(src): return W
+    nt = W.node_tree; bg = nt.nodes["Background"]; env = nt.nodes.new("ShaderNodeTexEnvironment"); env.image = bpy.data.images.load(src)
+    lp = nt.nodes.new("ShaderNodeLightPath"); mix = nt.nodes.new("ShaderNodeMixShader"); blk = nt.nodes.new("ShaderNodeBackground"); blk.inputs[0].default_value = (0, 0, 0, 1)
+    bg.inputs[1].default_value = strength; nt.links.new(env.outputs["Color"], bg.inputs["Color"]); out = nt.nodes["World Output"]
+    nt.links.new(lp.outputs["Is Camera Ray"], mix.inputs[0]); nt.links.new(bg.outputs[0], mix.inputs[1]); nt.links.new(blk.outputs[0], mix.inputs[2]); nt.links.new(mix.outputs[0], out.inputs["Surface"])
+    return W
+
+
+def strips(energy=1100, x=2.4, col=(1.0, 0.86, 0.66)):
+    """kadraj dışı iki dikey şerit ışık, şişeye geri bakar → cam konturu"""
+    out = []
+    for nm, sx in (("stripL", -x), ("stripR", x)):
+        L = light(nm, (sx, 1.2, 1.0), 0.25, energy, col, (math.radians(90), 0, math.radians(-90 if sx < 0 else 90) + math.radians(-35 if sx < 0 else 35)))
+        L.data.shape = "RECTANGLE"; L.data.size = 0.25; L.data.size_y = 3.2; out.append(L)
+    return out
+
+
+def backpanel(strength=2.2, col=(1.0, 0.62, 0.22)):
+    """arkada geniş yumuşak panel: sıvı içten amber parlar (kameraya görünür, yumuşak radyal)"""
+    g = glow_card((0, 5.0, 0.9), 12, col, strength, scale=0.55)   # büyük, uzak, yumuşak: şişenin içinde "top" görünmesin
+    cr = [n for n in g.data.materials[0].node_tree.nodes if n.type == "VALTORGB"][0]; cr.color_ramp.elements[1].position = 1.0; cr.color_ramp.interpolation = "EASE"
+    return g
+
+
+def frontkey(energy=55):
+    """kameranın üstünden geniş yumuşak ön ışık: altın yazı ve bilezik okunsun"""
+    return light("front", (0.4, -3.2, 2.4), 2.5, energy, (1.0, 0.9, 0.78), (math.radians(55), 0, math.radians(8)))
+
+
+def glossy_floor(rough=0.06): return plane(40, (0, 0, 0), mat("fl", **{"Base Color": (0.006, 0.006, 0.007, 1), "Roughness": rough}))
+
+
+def bottle_group():
+    """şişenin tüm parçalarını tek boş nesneye bağla (döndürmek için)"""
+    before = set(bpy.data.objects); bottle(); parts = [o for o in bpy.data.objects if o not in before]
+    bpy.ops.object.empty_add(location=(0, 0, 0)); g = bpy.context.object
+    for o in parts: o.parent = g
+    return g
+
+
+def sc_turntable():
+    """dönen tabla: göz hizası 45°, şişe yavaşça döner; arka panel sıvıyı yakar, iki şerit kontur, parlak siyah zemin"""
+    studio_world(0.5); glossy_floor(); g = bottle_group(); backpanel(); strips(); frontkey()
+    light("capspot", (0.6, -1.2, 3.2), 0.15, 60, (1.0, 0.9, 0.75), (math.radians(25), 0, math.radians(15)))
+    key(g, "rotation_euler", ((1, (0, 0, math.radians(-35))), (N, (0, 0, math.radians(35)))))
+    camera([(1, (0, -5.4, 1.05)), (N, (0, -5.1, 1.05))], lens=65, fstop=3.2)
+
+
+def sc_macro():
+    """makro: kapak ve altın bilezikten TOLUN yazısına odak kayar (rack focus), çok sığ alan derinliği"""
+    studio_world(0.7); glossy_floor(); bottle(); backpanel(1.8); strips(900); frontkey(40)
+    light("capspot", (0.4, -1.0, 2.6), 0.1, 45, (1.0, 0.9, 0.75), (math.radians(30), 0, math.radians(10)))
+    cam, tgt = camera([(1, (0.45, -1.3, 1.78)), (N, (0.22, -1.35, 0.72))], target=(0, 0, 1.7), lens=55, fstop=2.0)
+    key(tgt, "location", ((1, (0, 0, 1.7)), (int(N * 0.25), (0, 0, 1.68)), (int(N * 0.75), (0, -0.21, 0.56)), (N, (0, -0.21, 0.56))))
+
+
+def sc_lightsweep():
+    """karanlık: tek dar ışık şeridi şişenin arkasından geçer, kenarlar sırayla parlar; sonda arka panel yumuşakça açılır"""
+    world((0, 0, 0)); glossy_floor(0.04); bottle()
+    sw = light("sweep", (-2.6, 1.4, 1.0), 0.1, 1600, (1.0, 0.88, 0.7), (math.radians(90), 0, math.radians(180))); sw.data.shape = "RECTANGLE"; sw.data.size_y = 3.0
+    key(sw, "location", ((1, (-2.6, 1.4, 1.0)), (N, (2.6, 1.4, 1.0))))
+    g = backpanel(0.0); em = g.data.materials[0].node_tree.nodes["Emission"]
+    for f, v in ((1, 0.0), (int(N * 0.6), 0.0), (N, 1.8)): em.inputs["Strength"].default_value = v; em.inputs["Strength"].keyframe_insert("default_value", frame=f)
+    camera([(1, (0.3, -5.6, 1.0)), (N, (-0.2, -5.3, 1.0))], lens=70, fstop=2.8)
+
+
+def sc_hero():
+    """kahraman: alçak açı yukarı (otorite), yavaş yaklaşma; arka ışık sıvıdan zemine altın kostik düşürür"""
+    studio_world(0.4); fl = glossy_floor(0.12); fl.cycles.is_caustics_receiver = True; g = bottle_group()
+    for o in g.children: o.cycles.is_caustics_caster = True
+    bl = light("caustic", (0, 2.2, 1.3), 0.3, 900, (1.0, 0.7, 0.35), (math.radians(-100), 0, 0), kind="SPOT"); bl.data.spot_size = math.radians(40); bl.data.cycles.is_caustics_light = True
+    backpanel(1.4); strips(1000); frontkey(35)
+    camera([(1, (0.8, -6.2, 0.25)), (N, (0.4, -4.8, 0.35))], target=(0, 0, 0.95), lens=50, fstop=2.8)
+
+
+def sc_silhouette():
+    """siluet → açılış: yalnız arka ışık (dolgu yok) şişeyi siyah siluet yapar; sonra şeritler yükselir, cam ve yazı belirir"""
+    world((0, 0, 0)); glossy_floor(); bottle(); backpanel(2.6, (1.0, 0.55, 0.18))
+    for L in strips(1100): key(L, "energy", ((1, 0), (int(N * 0.45), 0), (N, 1100)), data=True)
+    fk = frontkey(45); key(fk, "energy", ((1, 0), (int(N * 0.6), 0), (N, 45)), data=True)
+    camera([(1, (0, -6.0, 0.95)), (N, (0, -5.6, 0.95))], lens=60, fstop=3.5)
+
+
+{"turntable": sc_turntable, "macro": sc_macro, "lightsweep": sc_lightsweep, "hero": sc_hero, "silhouette": sc_silhouette,
+ "candle": sc_candle, "reveal": sc_reveal, "desert": sc_desert, "city": sc_city, "marble": sc_marble}[SCENE]()
 for o in bpy.data.objects:
     if o.animation_data and o.animation_data.action:
         for fc in getattr(o.animation_data.action, "fcurves", []):
             for kp in fc.keyframe_points: kp.interpolation = "BEZIER"
 S.render.engine = "CYCLES"; S.cycles.samples = SAMPLES; S.cycles.use_denoising = True; S.cycles.max_bounces = 12; S.cycles.transmission_bounces = 12
-S.render.resolution_x, S.render.resolution_y = RES; S.view_settings.view_transform = "AgX"
+S.render.resolution_x, S.render.resolution_y = RES; S.render.use_motion_blur = True; S.view_settings.view_transform = "AgX"
 try: S.view_settings.look = "AgX - Punchy"
 except Exception: pass
 if os.environ.get("GPU"):

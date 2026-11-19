@@ -106,7 +106,7 @@ if J.get("mode") == "blender":   # 3B ÜRÜN SAHNELERİ (Blender/bpy, Cycles GPU
     urllib.request.urlretrieve("https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/main/kaggle_i2v/" + J.get("script", "tolun3d.py"), sc)
     for it in J["shots"]:
         t0 = time.time(); fr = f"/kaggle/working/fr_{it['id']}"; fps = J.get("fps", 30)
-        env = dict(os.environ, SCENE=it["scene"], W=str(J.get("w", 1080)), H=str(J.get("h", 1920)), SAMPLES=str(it.get("samples", J.get("samples", 48))), GPU="1")
+        env = dict(os.environ, HDRI=J.get("hdri", ""), SCENE=it["scene"], W=str(J.get("w", 1080)), H=str(J.get("h", 1920)), SAMPLES=str(it.get("samples", J.get("samples", 48))), GPU="1")
         r = subprocess.run([sys.executable, sc, "anim", fr, str(fps), str(it["sec"])], env=env, capture_output=True, text=True)
         ok = r.returncode == 0 and os.path.exists(fr)
         if ok:
