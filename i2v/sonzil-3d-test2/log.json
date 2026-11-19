@@ -1,0 +1,80 @@
+[
+ {
+  "id": "deniz_korku_0",
+  "model": "t2i",
+  "ok": true,
+  "sec": 82
+ },
+ {
+  "id": "deniz_korku_1",
+  "model": "t2i",
+  "ok": true,
+  "sec": 34
+ },
+ {
+  "id": "deniz_kararli_0",
+  "model": "t2i",
+  "ok": true,
+  "sec": 38
+ },
+ {
+  "id": "deniz_kararli_1",
+  "model": "t2i",
+  "ok": true,
+  "sec": 42
+ },
+ {
+  "id": "kerem_korku_0",
+  "model": "t2i",
+  "ok": true,
+  "sec": 40
+ },
+ {
+  "id": "kerem_korku_1",
+  "model": "t2i",
+  "ok": true,
+  "sec": 41
+ },
+ {
+  "id": "kerem_kararli_0",
+  "model": "t2i",
+  "ok": true,
+  "sec": 41
+ },
+ {
+  "id": "kerem_kararli_1",
+  "model": "t2i",
+  "ok": true,
+  "sec": 41
+ },
+ {
+  "id": "ece_korku_0",
+  "model": "t2i",
+  "ok": true,
+  "sec": 41
+ },
+ {
+  "id": "ece_korku_1",
+  "model": "t2i",
+  "ok": true,
+  "sec": 41
+ },
+ {
+  "id": "ece_kararli_0",
+  "model": "t2i",
+  "ok": true,
+  "sec": 41
+ },
+ {
+  "id": "ece_kararli_1",
+  "model": "t2i",
+  "ok": true,
+  "sec": 41
+ },
+ {
+  "id": "sahne_koridor",
+  "model": "t2i",
+  "ok": true,
+  "sec": 41
+ }
+]
