@@ -1,0 +1,11 @@
+{
+ "id": "myst_c",
+ "caption": "eerie dark ambient, deep sub bass hum, distant metallic resonances, sparse high strings, slow building dread, no drums, mysterious night, instrumental",
+ "duration": 90,
+ "bpm": 50,
+ "keyscale": "E minor",
+ "seed": 9203,
+ "gen_seconds": 371,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}

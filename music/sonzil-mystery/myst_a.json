@@ -1,0 +1,11 @@
+{
+ "id": "myst_a",
+ "caption": "dark mysterious ambient soundtrack, slow evolving drone, eerie distant piano notes, soft reverb, no drums, no beat, haunting, suspenseful atmosphere, instrumental",
+ "duration": 90,
+ "bpm": 60,
+ "keyscale": "D minor",
+ "seed": 9201,
+ "gen_seconds": 364,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}

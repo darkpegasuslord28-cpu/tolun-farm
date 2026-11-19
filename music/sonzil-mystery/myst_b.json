@@ -1,0 +1,11 @@
+{
+ "id": "myst_b",
+ "caption": "haunting mystery underscore, low cello drone, ghostly music box melody, whispering pads, very slow, no percussion, cinematic horror atmosphere, instrumental",
+ "duration": 90,
+ "bpm": 56,
+ "keyscale": "A minor",
+ "seed": 9202,
+ "gen_seconds": 362,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}
