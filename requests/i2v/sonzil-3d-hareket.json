@@ -1,0 +1,47 @@
+{
+ "name": "sonzil-3d-hareket",
+ "items": [
+  {
+   "id": "koridor_hareket",
+   "image": "i2v/sonzil-3d-test2/sahne_koridor.png",
+   "prompt": "A teenage girl in a yellow raincoat walks slowly toward the camera down a dark school corridor, ceiling lights flicker, fog drifts, slow cinematic push-in, smooth natural motion, 3D animated film, eerie mood.",
+   "seed": 11,
+   "model": "wan",
+   "size": [
+    480,
+    832
+   ],
+   "frames": 49,
+   "steps": 20,
+   "fps": 16
+  },
+  {
+   "id": "deniz_mimik",
+   "image": "i2v/sonzil-3d-test2/deniz_korku_0.png",
+   "prompt": "Close-up of a frightened teenage girl, her eyes slowly widen and dart to the side, she breathes nervously, strands of hair move slightly, flickering cold light on her face, very slow push-in, 3D animated film, subtle realistic facial animation.",
+   "seed": 12,
+   "model": "wan",
+   "size": [
+    480,
+    832
+   ],
+   "frames": 49,
+   "steps": 20,
+   "fps": 16
+  },
+  {
+   "id": "ece_mimik",
+   "image": "i2v/sonzil-3d-test2/ece_korku_0.png",
+   "prompt": "Close-up of a scared teenage girl with glasses, she slowly turns her head toward a sound, eyebrows rise, lips part, light flickers, slow camera move, 3D animated film, subtle realistic facial animation.",
+   "seed": 13,
+   "model": "wan",
+   "size": [
+    480,
+    832
+   ],
+   "frames": 49,
+   "steps": 20,
+   "fps": 16
+  }
+ ]
+}
