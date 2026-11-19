@@ -1,0 +1,68 @@
+[
+ {
+  "id": "deniz_korku",
+  "model": "t2i",
+  "ok": true,
+  "sec": 106
+ },
+ {
+  "id": "deniz_kararli",
+  "model": "t2i",
+  "ok": true,
+  "sec": 31
+ },
+ {
+  "id": "deniz_saskin",
+  "model": "t2i",
+  "ok": true,
+  "sec": 32
+ },
+ {
+  "id": "kerem_korku",
+  "model": "t2i",
+  "ok": true,
+  "sec": 33
+ },
+ {
+  "id": "kerem_kararli",
+  "model": "t2i",
+  "ok": true,
+  "sec": 33
+ },
+ {
+  "id": "kerem_saskin",
+  "model": "t2i",
+  "ok": true,
+  "sec": 34
+ },
+ {
+  "id": "ece_korku",
+  "model": "t2i",
+  "ok": true,
+  "sec": 35
+ },
+ {
+  "id": "ece_kararli",
+  "model": "t2i",
+  "ok": true,
+  "sec": 36
+ },
+ {
+  "id": "ece_saskin",
+  "model": "t2i",
+  "ok": true,
+  "sec": 36
+ },
+ {
+  "id": "sahne_koridor",
+  "model": "t2i",
+  "ok": true,
+  "sec": 38
+ },
+ {
+  "id": "sahne_sinif",
+  "model": "t2i",
+  "ok": true,
+  "sec": 37
+ }
+]
