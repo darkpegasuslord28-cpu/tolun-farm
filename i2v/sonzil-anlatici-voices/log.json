@@ -1,0 +1,26 @@
+[
+ {
+  "id": "anlatici_C",
+  "ok": true,
+  "cer": -0.048,
+  "asr": " Kasım. Gece etüdü okulda 7 öğrenci kaldı. Hiçbiri o gecenin sabahı olmayacağını bilmiyordu ama siz biliyorsunuz değil mi?",
+  "dur": 8.32,
+  "sec": 82
+ },
+ {
+  "id": "anlatici_D",
+  "ok": true,
+  "cer": -0.046,
+  "asr": " Kasım. Gece etüdü, okulda 7 öğrenci kaldı. Hiçbiri o gecenin sabahı olmayacağını bilmiyordu. Ama siz biliyorsunuz. Değil mi?",
+  "dur": 8.64,
+  "sec": 66
+ },
+ {
+  "id": "anlatici_E",
+  "ok": true,
+  "cer": -0.035,
+  "asr": " Kasım. Gece etüdü okulda 7 öğrenci kaldı. Hiçbiri o gecenin sabahı olmayacağını bilmiyordu. Ama siz biliyorsunuz, değil mi?",
+  "dur": 8.64,
+  "sec": 65
+ }
+]
