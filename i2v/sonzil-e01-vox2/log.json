@@ -1,0 +1,122 @@
+[
+ {
+  "id": "l01",
+  "ok": true,
+  "cer": 0.095,
+  "asr": " Kasım gece etüdü, okulda 7 öğrenci kaldı.",
+  "dur": 3.04,
+  "sec": 37
+ },
+ {
+  "id": "l02",
+  "ok": true,
+  "cer": 0.0,
+  "asr": " Nöbetçi hoca çıkarken tek bir şey söyledi.",
+  "dur": 2.72,
+  "sec": 20
+ },
+ {
+  "id": "l03",
+  "ok": true,
+  "cer": 0.0,
+  "asr": " Zil çalarsa koridora sakın tek başınıza çıkmayın.",
+  "dur": 3.52,
+  "sec": 23
+ },
+ {
+  "id": "l05",
+  "ok": true,
+  "cer": 0.206,
+  "asr": " Okulun zili yıllardır çalmıyordu. Ta ki 9'u 47 geçeye kadar.",
+  "dur": 4.16,
+  "sec": 31
+ },
+ {
+  "id": "l06",
+  "ok": true,
+  "cer": 0.0,
+  "asr": " Bu kimin şakası ya.",
+  "dur": 1.76,
+  "sec": 13
+ },
+ {
+  "id": "l07",
+  "ok": true,
+  "cer": 0.0,
+  "asr": " Telefonlar, hiçbirinde şebeke yok.",
+  "dur": 2.56,
+  "sec": 18
+ },
+ {
+  "id": "l08",
+  "ok": true,
+  "cer": 0.05,
+  "asr": " Herkes sakin olsun. Kimse bir yere ayrılmıyor.",
+  "dur": 2.4,
+  "sec": 17
+ },
+ {
+  "id": "l09",
+  "ok": true,
+  "cer": 0.024,
+  "asr": " Pencerenin dışında şehir yoktu. Sadece siz.",
+  "dur": 2.88,
+  "sec": 22
+ },
+ {
+  "id": "l10",
+  "ok": true,
+  "cer": 0.0,
+  "asr": " Orada biri var. Bahçe kapısının yanında bir ışık.",
+  "dur": 3.36,
+  "sec": 24
+ },
+ {
+  "id": "l11",
+  "ok": true,
+  "cer": 0.0,
+  "asr": " Deniz dur. Kimse çıkmıyor dedim.",
+  "dur": 2.4,
+  "sec": 16
+ },
+ {
+  "id": "l12",
+  "ok": true,
+  "cer": 0.118,
+  "asr": " 2 dakika. Sadece bakıp geleceğim.",
+  "dur": 2.08,
+  "sec": 15
+ },
+ {
+  "id": "l13",
+  "ok": true,
+  "cer": 0.0,
+  "asr": " Deniz ışığa doğru yürüdü ve ışıkla birlikte kayboldu.",
+  "dur": 4.32,
+  "sec": 29
+ },
+ {
+  "id": "l15",
+  "ok": true,
+  "cer": 0.016,
+  "asr": " O anda altısının telefonu aynı anda titredi. Mesaj denizdendi.",
+  "dur": 4.8,
+  "sec": 32
+ },
+ {
+  "id": "l16",
+  "ok": true,
+  "cer": 0.0,
+  "asr": " Sakın kapıyı açmayın. Ben dışarıda değilim.",
+  "dur": 3.2,
+  "sec": 22
+ },
+ {
+  "id": "l17",
+  "ok": true,
+  "cer": 0.6,
+  "asr": " Mesajın Tarihi 19 Kasım 1987",
+  "dur": 4.48,
+  "sec": 33
+ }
+]
