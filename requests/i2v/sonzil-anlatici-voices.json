@@ -1,0 +1,38 @@
+{
+ "name": "sonzil-anlatici-voices",
+ "mode": "voxcpm",
+ "tts_model": "Trendyol/Trendyol-TTS",
+ "takes": 3,
+ "steps": 14,
+ "voices": {
+  "anlatici_C": {
+   "design": "A very old wise storyteller, deep warm gravelly voice, theatrical and grand, long dramatic pauses, mysterious and knowing"
+  },
+  "anlatici_D": {
+   "design": "An elderly wizard-like narrator, rich resonant bass voice, slow, calm, slightly amused, speaking directly to the listener"
+  },
+  "anlatici_E": {
+   "design": "An old mysterious man telling a ghost story by the fire, husky low voice, whispers at key moments, dramatic pauses"
+  }
+ },
+ "lines": [
+  {
+   "id": "anlatici_C",
+   "voice": "anlatici_C",
+   "text": "Kasım. Gece etüdü... Okulda yedi öğrenci kaldı. Hiçbiri... o gecenin sabahı olmayacağını bilmiyordu. Ama siz biliyorsunuz. Değil mi?",
+   "style": "slow, dramatic pauses, mysterious, speaking to the listener"
+  },
+  {
+   "id": "anlatici_D",
+   "voice": "anlatici_D",
+   "text": "Kasım. Gece etüdü... Okulda yedi öğrenci kaldı. Hiçbiri... o gecenin sabahı olmayacağını bilmiyordu. Ama siz biliyorsunuz. Değil mi?",
+   "style": "slow, dramatic pauses, mysterious, speaking to the listener"
+  },
+  {
+   "id": "anlatici_E",
+   "voice": "anlatici_E",
+   "text": "Kasım. Gece etüdü... Okulda yedi öğrenci kaldı. Hiçbiri... o gecenin sabahı olmayacağını bilmiyordu. Ama siz biliyorsunuz. Değil mi?",
+   "style": "slow, dramatic pauses, mysterious, speaking to the listener"
+  }
+ ]
+}
