@@ -16,6 +16,15 @@ if J.get("mode") == "voxcpm":   # TÜRKÇE SESLENDİRME (GPU): VoxCPM2 (OpenBMB,
     REFS = {}
     for v, V in J["voices"].items():
         if V.get("ref_url"): rp = f"/tmp/ref_{v}.wav"; urllib.request.urlretrieve(V["ref_url"], rp); REFS[v] = rp
+    REF_TR = "Akşam olmuştu ve okulun uzun koridorları yavaş yavaş sessizleşiyordu. Kimse ne olacağını bilmiyordu, ama herkes bir şeylerin değişmek üzere olduğunu hissediyordu."
+    for v, V in J["voices"].items():          # tasarlanan sesi BİR KEZ üret → tüm repliklerde klon referansı (karakter sesi sabit kalır)
+        if v in REFS or not V.get("design"): continue
+        bestr = None
+        for k in range(4):
+            w = m.generate(text=f"({V['design']})" + REF_TR, cfg_value=V.get("cfg", 2.0), inference_timesteps=J.get("steps", 12)); fn = f"{OUT}/ref_{v}_t{k}.wav"; sf.write(fn, w, SR)
+            hyp = asr.transcribe(fn, language="tr", fp16=True)["text"]; er = jiwer.cer(" ".join(norm(REF_TR)), " ".join(norm(hyp)) or "-")
+            if bestr is None or er < bestr[0]: bestr = (er, fn)
+        os.system(f"cp {bestr[1]} {OUT}/ref_{v}.wav"); REFS[v] = f"{OUT}/ref_{v}.wav"; print("ref", v, round(bestr[0], 3), flush=True)
     for L in J["lines"]:
         V = J["voices"][L["voice"]]; t0 = time.time(); best = None
         for k in range(J.get("takes", 3)):
