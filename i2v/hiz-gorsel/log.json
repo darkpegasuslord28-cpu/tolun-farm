@@ -2,13 +2,13 @@
  {
   "id": "g1",
   "model": "t2i",
-  "ok": true,
-  "sec": 110
+  "ok": false,
+  "err": "OSError(40, 'Too many levels of symbolic links')"
  },
  {
   "id": "g2",
   "model": "t2i",
-  "ok": true,
-  "sec": 30
+  "ok": false,
+  "err": "OSError(40, 'Too many levels of symbolic links')"
  }
 ]
