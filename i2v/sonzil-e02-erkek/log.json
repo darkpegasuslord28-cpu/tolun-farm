@@ -1,0 +1,130 @@
+[
+ {
+  "id": "a01",
+  "ok": true,
+  "cer": -0.065,
+  "asr": " Oylar konuştu ve kader kapıyı açmalarını istedi. Ama bazı kapılar açılmak için yapılmamıştır.",
+  "dur": 6.72,
+  "sec": 75
+ },
+ {
+  "id": "a02",
+  "ok": true,
+  "cer": -0.076,
+  "asr": " Ben giderim. Üç adım atıp dönerim. O kadar.",
+  "dur": 2.88,
+  "sec": 26
+ },
+ {
+  "id": "a03",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Belinden halat bağlıyoruz. Kimse kopmuyor.",
+  "dur": 3.36,
+  "sec": 25
+ },
+ {
+  "id": "a04",
+  "ok": true,
+  "cer": 0.005,
+  "asr": " Merts ise adım attı. Bir, iki, üç. Halat hale ellerindeydi. Henüz...",
+  "dur": 5.44,
+  "sec": 45
+ },
+ {
+  "id": "a05",
+  "ok": true,
+  "cer": -0.088,
+  "asr": " Sonra halat gevşedi.",
+  "dur": 1.76,
+  "sec": 16
+ },
+ {
+  "id": "a07",
+  "ok": true,
+  "cer": -0.06,
+  "asr": " Halatın ucu boştu ama koridorun öbür ucundan tanıdık ayak sesleri geliyordu.",
+  "dur": 5.6,
+  "sec": 45
+ },
+ {
+  "id": "a08",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Düz yürüdüm. Yemin ederim düz yürüdüm. Nasıl buradayım?",
+  "dur": 4.48,
+  "sec": 32
+ },
+ {
+  "id": "a09",
+  "ok": true,
+  "cer": -0.062,
+  "asr": " Ve okul kapısını kapattı. Sanki birini bekliyormuş gibi.",
+  "dur": 3.68,
+  "sec": 31
+ },
+ {
+  "id": "a11",
+  "ok": true,
+  "cer": -0.039,
+  "asr": " Herkes Zeynep'e döndü. Avucunda paslı eski bir anahtar duruyordu. Bazı sırlar 100 yıl saklanır, bazıları ise yalnızca bir gece.",
+  "dur": 8.32,
+  "sec": 70
+ },
+ {
+  "id": "b01",
+  "ok": true,
+  "cer": -0.082,
+  "asr": " Mesaja güvendiler. Akıllıca mı yoksa tam da okulun istediği şey mi? Bunu yakında anlayacaklardı.",
+  "dur": 6.08,
+  "sec": 50
+ },
+ {
+  "id": "b02",
+  "ok": true,
+  "cer": -0.028,
+  "asr": " Deniz dışarıda değilim diyorsa içeride bir yerde.",
+  "dur": 2.88,
+  "sec": 25
+ },
+ {
+  "id": "b04",
+  "ok": true,
+  "cer": 0.186,
+  "asr": " Eski binaya giden koridor 1987'den beri kilitliydi. Kilitler içeriği korumak için değil dışarıyı korumak için vurulmuştu.",
+  "dur": 8.8,
+  "sec": 68
+ },
+ {
+  "id": "b05",
+  "ok": true,
+  "cer": -0.086,
+  "asr": " Zincirli, anahtar olmadan giremeyiz.",
+  "dur": 2.4,
+  "sec": 23
+ },
+ {
+  "id": "b06",
+  "ok": true,
+  "cer": -0.059,
+  "asr": " Ve o zaman Zeynep sessizce öne çıktı.",
+  "dur": 2.88,
+  "sec": 24
+ },
+ {
+  "id": "b08",
+  "ok": true,
+  "cer": -0.029,
+  "asr": " Bunu şimdi mi söylüyorsun?",
+  "dur": 1.44,
+  "sec": 14
+ },
+ {
+  "id": "b09",
+  "ok": true,
+  "cer": 0.044,
+  "asr": " Kilit açıldı. İçeriden soğuk bir nefes geldi ve 39 yıldır kimsenin duymadığı bir ses.",
+  "dur": 6.08,
+  "sec": 48
+ }
+]
