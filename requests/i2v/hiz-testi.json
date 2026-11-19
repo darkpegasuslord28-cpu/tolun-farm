@@ -1,0 +1,63 @@
+{
+ "name": "hiz-testi",
+ "env": true,
+ "parallel": true,
+ "jobs": [
+  {
+   "name": "hiz-ses",
+   "mode": "voxcpm",
+   "tts_model": "openbmb/VoxCPM2",
+   "takes": 2,
+   "steps": 12,
+   "voices": {
+    "ece": {
+     "ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/sonzil-e01-vox3/ref_ece.wav"
+    }
+   },
+   "lines": [
+    {
+     "id": "t1",
+     "voice": "ece",
+     "text": "Bakın, bunun bi açıklaması var. Panik yapmayın.",
+     "style": "calm but tense"
+    },
+    {
+     "id": "t2",
+     "voice": "ece",
+     "text": "Halatı çekin! Hadi, çabuk!",
+     "style": "panicked shouting"
+    }
+   ]
+  },
+  {
+   "name": "hiz-gorsel",
+   "model": "t2i",
+   "t2i_model": "Lykon/dreamshaper-xl-1-0",
+   "ip_adapter": true,
+   "items": [
+    {
+     "id": "g1",
+     "prompt": "dark empty school corridor at night, fog, flat 2D digital illustration, soft cel shading, moody",
+     "seed": 1,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 28,
+     "cfg": 6.0
+    },
+    {
+     "id": "g2",
+     "prompt": "old chained school door at night, flashlight beam, flat 2D digital illustration, soft cel shading",
+     "seed": 2,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 28,
+     "cfg": 6.0
+    }
+   ]
+  }
+ ]
+}
