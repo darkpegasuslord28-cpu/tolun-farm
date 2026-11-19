@@ -25,6 +25,8 @@ if J.get("mode") == "env":   # HAZIR ORTAM ÇEKİRDEĞİ: ağırlıkları bir ke
     subprocess.run("du -sh /kaggle/working/hf /kaggle/working/whisper", shell=True); sys.exit(0)
 if J.get("jobs"):   # TEK OTURUM, ÇOK İŞ: alt işler sırayla (ya da "parallel": GPU başına bir iş, T4×2)
     import torch; ng = max(1, torch.cuda.device_count()) if J.get("parallel") else 1; subs = J["jobs"]; running = []
+    if ng > 1:   # paralel alt işler aynı anda pip'e yazmasın: paketleri önce bir kez kur
+        t0 = time.time(); subprocess.run([sys.executable, "-m", "pip", "install", "-q", "-U", "voxcpm", "openai-whisper", "jiwer", "librosa", "diffusers>=0.35", "transformers", "accelerate", "sentencepiece", "ftfy", "imageio[ffmpeg]"], check=False); print("paketler", round(time.time() - t0), "sn", flush=True)
     for k, sub in enumerate(subs):
         jp = f"/kaggle/working/sub_{k}.json"; json.dump(sub, open(jp, "w"))
         env = dict(os.environ, SUBJOB=jp, OUT_ROOT=f"/kaggle/working/out/{sub['name']}")
