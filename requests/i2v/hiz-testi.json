@@ -1,6 +1,5 @@
 {
  "name": "hiz-testi",
- "env": true,
  "parallel": true,
  "jobs": [
   {

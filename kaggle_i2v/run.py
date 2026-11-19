@@ -94,7 +94,7 @@ if J.get("mode") == "voxcpm":   # TÜRKÇE SESLENDİRME (GPU): VoxCPM2 (OpenBMB,
                 wr = asr.transcribe(best[1], language="tr", fp16=True, word_timestamps=True)
                 json.dump([{"w": x["word"].strip(), "s": round(x["start"], 3), "e": round(x["end"], 3)} for sg in wr["segments"] for x in sg.get("words", [])], open(f"{OUT}/{L['id']}.words.json", "w"), ensure_ascii=False)
             except Exception as e: print("kelime zamanı hatası", repr(e)[:150])
-        log.append({"id": L["id"], "ok": bool(best), "cer": round(best[0], 3) if best else None, "asr": best[2] if best else "", "dur": best[3] if best else 0, "sec": round(time.time() - t0)})
+        log.append({"id": L["id"], "ok": bool(best), "cer": float(round(float(best[0]), 3)) if best else None, "asr": best[2] if best else "", "dur": best[3] if best else 0, "sec": round(time.time() - t0)})
         print(log[-1], flush=True); json.dump(log, open(f"{OUT}/log.json", "w"), ensure_ascii=False, indent=1)
     sys.exit(0)
 if J.get("mode") == "blender":   # 3B ÜRÜN SAHNELERİ (Blender/bpy, Cycles GPU): kaggle_i2v/tolun3d.py — her sahnede aynı ürün
