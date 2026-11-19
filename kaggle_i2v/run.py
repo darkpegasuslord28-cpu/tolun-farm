@@ -2,7 +2,37 @@
 Modeller: "ltx" = Lightricks LTX-Video (diffusers LTXImageToVideoPipeline) · "wan" = Wan2.2-TI2V-5B (Apache-2.0, diffusers).
 Çıktı: /kaggle/working/out/<id>.mp4 (+ log.json, hareket ölçüsü). Görseller tolun-farm artgen-cache'ten. Kişisel bilgi/anahtar YOK."""
 import json, os, sys, time, subprocess, urllib.request, io
+def torch_cuda_n():
+    import torch; return torch.cuda.device_count()
 J = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "job.json")))
+if J.get("mode") == "voxcpm":   # TÜRKÇE SESLENDİRME (GPU): VoxCPM2 (OpenBMB, Apache-2.0) ses tasarımı/klon → her replik N deneme → Whisper ile doğruluk → en iyisi
+    OUT = "/kaggle/working/out"; os.makedirs(OUT, exist_ok=True); log = []
+    subprocess.run([sys.executable, "-m", "pip", "install", "-q", "voxcpm", "openai-whisper", "jiwer"], check=False)
+    import soundfile as sf, whisper, jiwer, re, unicodedata
+    from voxcpm import VoxCPM
+    m = VoxCPM.from_pretrained("openbmb/VoxCPM2", load_denoiser=False); SR = m.tts_model.sample_rate
+    asr = whisper.load_model(J.get("asr", "large-v3-turbo"), device="cuda:1" if torch_cuda_n() > 1 else "cuda")
+    def norm(t): t = unicodedata.normalize("NFC", t.lower()); return re.sub(r"[^\wçğıöşü ]", " ", t).split()
+    REFS = {}
+    for v, V in J["voices"].items():
+        if V.get("ref_url"): rp = f"/tmp/ref_{v}.wav"; urllib.request.urlretrieve(V["ref_url"], rp); REFS[v] = rp
+    for L in J["lines"]:
+        V = J["voices"][L["voice"]]; t0 = time.time(); best = None
+        for k in range(J.get("takes", 3)):
+            txt = (f"({V['design']}" + (f", {L['style']}" if L.get("style") else "") + ")" if V.get("design") and L["voice"] not in REFS else (f"({L['style']})" if L.get("style") else "")) + L["text"]
+            kw = dict(text=txt, cfg_value=V.get("cfg", 2.0), inference_timesteps=J.get("steps", 12))
+            if L["voice"] in REFS: kw["reference_wav_path"] = REFS[L["voice"]]
+            try:
+                w = m.generate(**kw); fn = f"{OUT}/{L['id']}_t{k}.wav"; sf.write(fn, w, SR)
+                hyp = asr.transcribe(fn, language="tr", fp16=True)["text"]; er = jiwer.cer(" ".join(norm(L["text"])), " ".join(norm(hyp)) or "-")
+                dur = len(w) / SR; cps = len(L["text"]) / max(dur, 0.1); pen = 0 if 9 <= cps <= 17 else 0.05
+                sc = er + pen
+                if best is None or sc < best[0]: best = (sc, fn, hyp, round(dur, 2))
+            except Exception as e: print("hata", L["id"], repr(e)[:200], flush=True)
+        if best: os.system(f"cp {best[1]} {OUT}/{L['id']}.wav")
+        log.append({"id": L["id"], "ok": bool(best), "cer": round(best[0], 3) if best else None, "asr": best[2] if best else "", "dur": best[3] if best else 0, "sec": round(time.time() - t0)})
+        print(log[-1], flush=True); json.dump(log, open(f"{OUT}/log.json", "w"), ensure_ascii=False, indent=1)
+    sys.exit(0)
 if J.get("mode") == "blender":   # 3B ÜRÜN SAHNELERİ (Blender/bpy, Cycles GPU): kaggle_i2v/tolun3d.py — her sahnede aynı ürün
     OUT = "/kaggle/working/out"; os.makedirs(OUT, exist_ok=True); log = []
     subprocess.run("apt-get install -y -qq libxi6 libxxf86vm1 libxfixes3 libxrender1 libgl1 libxkbcommon0 libsm6 > /dev/null 2>&1", shell=True)
