@@ -1,35 +1,44 @@
-[{"stream_name":"stdout","time":2.4517742829999998,"data":"hazır ortam bağlandı /kaggle/input/notebooks/ogulcan3426/tolun-i2v-tolun-env 1.1 sn\n"}
-,{"stream_name":"stderr","time":65.0943792,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
-,{"stream_name":"stderr","time":65.094412021,"data":"bigframes 2.51.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
-,{"stream_name":"stderr","time":65.094416865,"data":"pathos 0.3.5 requires dill\u003e=0.4.1, but you have dill 0.3.8 which is incompatible.\n"}
-,{"stream_name":"stderr","time":65.094420028,"data":"pathos 0.3.5 requires multiprocess\u003e=0.70.19, but you have multiprocess 0.70.16 which is incompatible.\n"}
-,{"stream_name":"stderr","time":65.094423158,"data":"tpot 1.1.0 requires dill\u003e=0.3.9, but you have dill 0.3.8 which is incompatible.\n"}
-,{"stream_name":"stderr","time":65.094426068,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
-,{"stream_name":"stderr","time":65.094429073,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
-,{"stream_name":"stderr","time":65.094432056,"data":"gcsfs 2025.12.0 requires fsspec==2025.12.0, but you have fsspec 2025.3.0 which is incompatible.\n"}
-,{"stream_name":"stdout","time":65.498158499,"data":"paketler 55 sn\n"}
-,{"stream_name":"stdout","time":65.498589906,"data":"alt iş hiz-ses GPU 0\n"}
-,{"stream_name":"stdout","time":65.499379871,"data":"alt iş hiz-gorsel GPU 1\n"}
-,{"stream_name":"stderr","time":73.598248235,"data":"\rFetching 9 files:   0%|          | 0/9 [00:00\u003c?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
-,{"stream_name":"stderr","time":73.65815984,"data":"\rFetching 9 files:   0%|          | 0/9 [00:00\u003c?, ?it/s]\n"}
-,{"stream_name":"stdout","time":73.658194175,"data":"model yüklenemedi openbmb/VoxCPM2 OSError(40, 'Too many levels of symbolic links')\n"}
-,{"stream_name":"stderr","time":73.659058909,"data":"Traceback (most recent call last):\n"}
-,{"stream_name":"stderr","time":73.659295804,"data":"  File \"/kaggle/src/script.py\", line 117, in \u003cmodule\u003e\n"}
-,{"stream_name":"stderr","time":73.659309357,"data":"    SR = m.tts_model.sample_rate\n"}
-,{"stream_name":"stderr","time":73.659315135,"data":"         ^^^^^^^^^^^\n"}
-,{"stream_name":"stderr","time":73.659320511,"data":"AttributeError: 'NoneType' object has no attribute 'tts_model'\n"}
-,{"stream_name":"stderr","time":80.603625949,"data":"Disabling torchao because diffusers requires `torchao\u003e=0.15.0` but found version 0.10.0. Upgrade it with `pip install -U 'torchao\u003e=0.15.0'`.\n"}
-,{"stream_name":"stderr","time":92.204361528,"data":"/usr/local/lib/python3.13/dist-packages/diffusers/utils/deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.\n"}
-,{"stream_name":"stderr","time":92.204391555,"data":"  deprecate(\"torch_dtype\", \"1.0.0\", _TORCH_DTYPE_DEPRECATION_MESSAGE)\n"}
-,{"stream_name":"stderr","time":92.411205,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
-,{"stream_name":"stdout","time":92.418647623,"data":"fp16 varyant yok: OSError(40, 'Too many levels of symbolic links')\n"}
-,{"stream_name":"stdout","time":92.479517209,"data":"{'id': 'g1', 'model': 't2i', 'ok': False, 'err': \"OSError(40, 'Too many levels of symbolic links')\"}\n"}
-,{"stream_name":"stdout","time":92.546794774,"data":"fp16 varyant yok: OSError(40, 'Too many levels of symbolic links')\n"}
-,{"stream_name":"stdout","time":92.604879444,"data":"{'id': 'g2', 'model': 't2i', 'ok': False, 'err': \"OSError(40, 'Too many levels of symbolic links')\"}\n"}
-,{"stream_name":"stderr","time":96.314808227,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
-,{"stream_name":"stderr","time":96.314848204,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
-,{"stream_name":"stderr","time":96.542644184,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
-,{"stream_name":"stderr","time":96.542667988,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
-,{"stream_name":"stderr","time":97.373222424,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
-,{"stream_name":"stderr","time":98.393592224,"data":"[NbConvertApp] Writing 381206 bytes to __results__.html\n"}
+[{"stream_name":"stdout","time":1.455015162,"data":"hazır ortam bağlandı /kaggle/input/notebooks/ogulcan3426/tolun-i2v-tolun-env 0.0 sn\n"}
+,{"stream_name":"stderr","time":67.10228256,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":67.102328435,"data":"bigframes 2.51.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":67.102335705,"data":"pathos 0.3.5 requires dill\u003e=0.4.1, but you have dill 0.3.8 which is incompatible.\n"}
+,{"stream_name":"stderr","time":67.10234061,"data":"pathos 0.3.5 requires multiprocess\u003e=0.70.19, but you have multiprocess 0.70.16 which is incompatible.\n"}
+,{"stream_name":"stderr","time":67.10234517,"data":"tpot 1.1.0 requires dill\u003e=0.3.9, but you have dill 0.3.8 which is incompatible.\n"}
+,{"stream_name":"stderr","time":67.102349646,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":67.102359735,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":67.102363145,"data":"gcsfs 2025.12.0 requires fsspec==2025.12.0, but you have fsspec 2025.3.0 which is incompatible.\n"}
+,{"stream_name":"stdout","time":67.511931416,"data":"paketler 57 sn\n"}
+,{"stream_name":"stdout","time":67.512423957,"data":"alt iş hiz-ses GPU 0\n"}
+,{"stream_name":"stdout","time":67.513257312,"data":"alt iş hiz-gorsel GPU 1\n"}
+,{"stream_name":"stdout","time":76.707476789,"data":"model yüklenemedi openbmb/VoxCPM2 LocalEntryNotFoundError(\"Cannot find an appropriate cached snapshot folder for the specified revision on the local disk and outgoing traffic has been disabled. To enable repo look-ups and downloads on\n"}
+,{"stream_name":"stderr","time":76.708489078,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":76.708713293,"data":"  File \"/kaggle/src/script.py\", line 117, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":76.708727577,"data":"    SR = m.tts_model.sample_rate\n"}
+,{"stream_name":"stderr","time":76.708732622,"data":"         ^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":76.70873722,"data":"AttributeError: 'NoneType' object has no attribute 'tts_model'\n"}
+,{"stream_name":"stderr","time":81.772599867,"data":"Disabling torchao because diffusers requires `torchao\u003e=0.15.0` but found version 0.10.0. Upgrade it with `pip install -U 'torchao\u003e=0.15.0'`.\n"}
+,{"stream_name":"stderr","time":93.24922981,"data":"/usr/local/lib/python3.13/dist-packages/diffusers/utils/deprecation_utils.py:23: FutureWarning: `torch_dtype` is deprecated and will be removed in version 1.0.0. Please use `dtype` instead.\n"}
+,{"stream_name":"stderr","time":93.249266121,"data":"  deprecate(\"torch_dtype\", \"1.0.0\", _TORCH_DTYPE_DEPRECATION_MESSAGE)\n"}
+,{"stream_name":"stderr","time":93.319197096,"data":"Could not reach the Hub (Cannot reach https://huggingface.co/api/models/Lykon/dreamshaper-xl-1-0: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.). Using cached commit hash for 'Lykon/dreamshaper-xl-1-0'.\n"}
+,{"stream_name":"stderr","time":93.411868827,"data":"Couldn't connect to the Hub: Cannot reach https://huggingface.co/api/models/Lykon/dreamshaper-xl-1-0/revision/main: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable..\n"}
+,{"stream_name":"stderr","time":93.411889669,"data":"Will try to load from local cache.\n"}
+,{"stream_name":"stdout","time":93.445588212,"data":"fp16 varyant yok: OSError(\"Cannot load model Lykon/dreamshaper-xl-1-0: the model is not fully cached locally (Cannot find an appropriate cached snapshot folder for the specified revision on the local disk and outgoing \n"}
+,{"stream_name":"stderr","time":93.446881557,"data":"Could not reach the Hub (Cannot reach https://huggingface.co/api/models/Lykon/dreamshaper-xl-1-0: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.). Using cached commit hash for 'Lykon/dreamshaper-xl-1-0'.\n"}
+,{"stream_name":"stderr","time":93.44809629,"data":"Couldn't connect to the Hub: Cannot reach https://huggingface.co/api/models/Lykon/dreamshaper-xl-1-0/revision/main: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable..\n"}
+,{"stream_name":"stderr","time":93.448126006,"data":"Will try to load from local cache.\n"}
+,{"stream_name":"stdout","time":93.450627787,"data":"{'id': 'g1', 'model': 't2i', 'ok': False, 'err': 'OSError(\"Cannot load model Lykon/dreamshaper-xl-1-0: the model is not fully cached locally (Cannot find an appropriate cached snapshot folder for the specified revision on the local disk and outgoing traffic has been disabled. To enable repo look-ups and downloads online, pass \\'local_files_only=False\\' as input.) and an error occurred while trying to fetch metadata from the Hub. Please check out th'}\n"}
+,{"stream_name":"stderr","time":93.45282277,"data":"Could not reach the Hub (Cannot reach https://huggingface.co/api/models/Lykon/dreamshaper-xl-1-0: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.). Using cached commit hash for 'Lykon/dreamshaper-xl-1-0'.\n"}
+,{"stream_name":"stderr","time":93.453893686,"data":"Couldn't connect to the Hub: Cannot reach https://huggingface.co/api/models/Lykon/dreamshaper-xl-1-0/revision/main: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable..\n"}
+,{"stream_name":"stderr","time":93.453909821,"data":"Will try to load from local cache.\n"}
+,{"stream_name":"stdout","time":93.455539598,"data":"fp16 varyant yok: OSError(\"Cannot load model Lykon/dreamshaper-xl-1-0: the model is not fully cached locally (Cannot find an appropriate cached snapshot folder for the specified revision on the local disk and outgoing \n"}
+,{"stream_name":"stderr","time":93.456620227,"data":"Could not reach the Hub (Cannot reach https://huggingface.co/api/models/Lykon/dreamshaper-xl-1-0: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.). Using cached commit hash for 'Lykon/dreamshaper-xl-1-0'.\n"}
+,{"stream_name":"stderr","time":93.457596819,"data":"Couldn't connect to the Hub: Cannot reach https://huggingface.co/api/models/Lykon/dreamshaper-xl-1-0/revision/main: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable..\n"}
+,{"stream_name":"stderr","time":93.457612222,"data":"Will try to load from local cache.\n"}
+,{"stream_name":"stdout","time":93.459747065,"data":"{'id': 'g2', 'model': 't2i', 'ok': False, 'err': 'OSError(\"Cannot load model Lykon/dreamshaper-xl-1-0: the model is not fully cached locally (Cannot find an appropriate cached snapshot folder for the specified revision on the local disk and outgoing traffic has been disabled. To enable repo look-ups and downloads online, pass \\'local_files_only=False\\' as input.) and an error occurred while trying to fetch metadata from the Hub. Please check out th'}\n"}
+,{"stream_name":"stderr","time":97.022702377,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":97.022731278,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":97.266989501,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":97.267027776,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":98.081338325,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":99.15806192,"data":"[NbConvertApp] Writing 381131 bytes to __results__.html\n"}
 ]

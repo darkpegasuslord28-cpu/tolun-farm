@@ -3,12 +3,12 @@
   "id": "g1",
   "model": "t2i",
   "ok": false,
-  "err": "OSError(40, 'Too many levels of symbolic links')"
+  "err": "OSError(\"Cannot load model Lykon/dreamshaper-xl-1-0: the model is not fully cached locally (Cannot find an appropriate cached snapshot folder for the specified revision on the local disk and outgoing traffic has been disabled. To enable repo look-ups and downloads online, pass 'local_files_only=False' as input.) and an error occurred while trying to fetch metadata from the Hub. Please check out th"
  },
  {
   "id": "g2",
   "model": "t2i",
   "ok": false,
-  "err": "OSError(40, 'Too many levels of symbolic links')"
+  "err": "OSError(\"Cannot load model Lykon/dreamshaper-xl-1-0: the model is not fully cached locally (Cannot find an appropriate cached snapshot folder for the specified revision on the local disk and outgoing traffic has been disabled. To enable repo look-ups and downloads online, pass 'local_files_only=False' as input.) and an error occurred while trying to fetch metadata from the Hub. Please check out th"
  }
 ]
