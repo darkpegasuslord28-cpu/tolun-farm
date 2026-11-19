@@ -11,24 +11,27 @@ OUT_ROOT = os.environ.get("OUT_ROOT", "/kaggle/working/out")
 def _find_env():   # Kaggle çekirdek çıktısını farklı yollara bağlayabiliyor: /kaggle/input altında 'whisper' klasörü olan dizini ara
     for root, dirs, _ in os.walk("/kaggle/input"):
         if root.count(os.sep) > 6: dirs[:] = []; continue
-        if "whisper" in dirs and "hf" in dirs: return root
+        if "whisper" in dirs and "models" in dirs: return root
     return None
+def M(rid):   # hazır ortamda yerel kopya varsa onu kullan, yoksa HF kimliği
+    d = os.path.join(os.environ.get("MODELS_DIR", "/nonexistent"), rid.replace("/", "__"))
+    return d if os.path.isdir(d) else rid
 ENV = _find_env() if os.path.isdir("/kaggle/input") and not os.environ.get("ENV_READY") else None
 if os.path.isdir("/kaggle/input") and not ENV and not os.environ.get("ENV_READY"): print("hazır ortam yok; /kaggle/input:", os.listdir("/kaggle/input"), flush=True)
 if ENV and not os.environ.get("ENV_READY"):   # model önbelleği: salt-okunur girdiden sembolik bağ ağacı (kilit dosyaları yazılabilsin)
     t0 = time.time()
-    if os.path.isdir(ENV + "/hf"): os.environ["HF_HUB_CACHE"] = ENV + "/hf/hub"; os.environ["HF_HUB_OFFLINE"] = "1"   # salt-okunur önbellek, çevrimdışı (kilit yazmaz)
+    if os.path.isdir(ENV + "/models"): os.environ["MODELS_DIR"] = ENV + "/models"   # model klasörleri (sembolik bağsız, Kaggle çıktısı bağları korumaz)
     if os.path.isdir(ENV + "/whisper"): os.environ["WHISPER_ROOT"] = ENV + "/whisper"
     os.environ["ENV_READY"] = "1"; print("hazır ortam bağlandı", ENV, round(time.time() - t0, 1), "sn", flush=True)
 if J.get("mode") == "env":   # HAZIR ORTAM ÇEKİRDEĞİ: ağırlıkları bir kez indir → çıktısı sonraki işlerde kernel_sources ile girdi olur
-    W = "/kaggle/working"; os.environ["HF_HOME"] = W + "/hf"; t0 = time.time()
+    W = "/kaggle/working"; t0 = time.time()
     subprocess.run([sys.executable, "-m", "pip", "install", "-q", "huggingface_hub", "openai-whisper"], check=False)
     from huggingface_hub import snapshot_download
     for rid in J.get("hf", []):
-        try: snapshot_download(rid, allow_patterns=J.get("patterns", {}).get(rid)); print("indi", rid, round(time.time() - t0), flush=True)
+        try: snapshot_download(rid, allow_patterns=J.get("patterns", {}).get(rid), local_dir=f"{W}/models/" + rid.replace("/", "__")); print("indi", rid, round(time.time() - t0), flush=True)
         except Exception as e: print("inemedi", rid, repr(e)[:200], flush=True)
     import whisper; whisper._download(whisper._MODELS[J.get("asr", "large-v3-turbo")], W + "/whisper", False); print("whisper indi", flush=True)
-    subprocess.run("du -sh /kaggle/working/hf /kaggle/working/whisper", shell=True); sys.exit(0)
+    subprocess.run("du -sh /kaggle/working/models/* /kaggle/working/whisper", shell=True); sys.exit(0)
 if J.get("jobs"):   # TEK OTURUM, ÇOK İŞ: alt işler sırayla (ya da "parallel": GPU başına bir iş, T4×2)
     import torch; ng = max(1, torch.cuda.device_count()) if J.get("parallel") else 1; subs = J["jobs"]; running = []
     if ng > 1:   # paralel alt işler aynı anda pip'e yazmasın: paketleri önce bir kez kur
@@ -50,7 +53,7 @@ if J.get("mode") == "voxcpm":   # TÜRKÇE SESLENDİRME (GPU): VoxCPM2 (OpenBMB,
     from voxcpm import VoxCPM
     m = None
     for mid_ in ([J["tts_model"]] if J.get("tts_model") else []) + ["niobures/Trendyol-TTS", "openbmb/VoxCPM2"] if "rendyol" in J.get("tts_model", "") else [J.get("tts_model", "openbmb/VoxCPM2")]:
-        try: m = VoxCPM.from_pretrained(mid_, load_denoiser=False); print("model:", mid_, flush=True); break
+        try: m = VoxCPM.from_pretrained(M(mid_), load_denoiser=False); print("model:", mid_, flush=True); break
         except Exception as e: print("model yüklenemedi", mid_, repr(e)[:200], flush=True)
     SR = m.tts_model.sample_rate
     asr = whisper.load_model(J.get("asr", "large-v3-turbo"), download_root=os.environ.get("WHISPER_ROOT"), device="cuda:1" if torch_cuda_n() > 1 else "cuda")
@@ -144,11 +147,11 @@ def t2i(it):   # GÖRSEL ÜRETİMİ (GPU): RealVisXL V5 (SDXL, CreativeML OpenRA
         from diffusers import StableDiffusionXLPipeline, DPMSolverMultistepScheduler
         mid = J.get("t2i_model", "SG161222/RealVisXL_V5.0")
         sch = DPMSolverMultistepScheduler(num_train_timesteps=1000, beta_start=0.00085, beta_end=0.012, beta_schedule="scaled_linear", algorithm_type="dpmsolver++", solver_order=2, use_karras_sigmas=True, steps_offset=1, timestep_spacing="leading")
-        try: p = StableDiffusionXLPipeline.from_pretrained(mid, torch_dtype=torch.float16, variant="fp16", scheduler=sch).to("cuda")
-        except Exception as e: print("fp16 varyant yok:", repr(e)[:200], flush=True); p = StableDiffusionXLPipeline.from_pretrained(mid, torch_dtype=torch.float16, scheduler=sch).to("cuda")
+        try: p = StableDiffusionXLPipeline.from_pretrained(M(mid), torch_dtype=torch.float16, variant="fp16", scheduler=sch).to("cuda")
+        except Exception as e: print("fp16 varyant yok:", repr(e)[:200], flush=True); p = StableDiffusionXLPipeline.from_pretrained(M(mid), torch_dtype=torch.float16, scheduler=sch).to("cuda")
         p.scheduler = DPMSolverMultistepScheduler(num_train_timesteps=1000, beta_start=0.00085, beta_end=0.012, beta_schedule="scaled_linear", algorithm_type="dpmsolver++", solver_order=2, use_karras_sigmas=True, steps_offset=1, timestep_spacing="leading"); p.vae.enable_tiling()
         if J.get("ip_adapter"):   # karakter tutarlılığı: IP-Adapter Plus Face (h94, Apache-2.0) — referans yüz kartı
-            p.load_ip_adapter("h94/IP-Adapter", subfolder="sdxl_models", weight_name="ip-adapter-plus-face_sdxl_vit-h.safetensors", image_encoder_folder="models/image_encoder")
+            p.load_ip_adapter(M("h94/IP-Adapter"), subfolder="sdxl_models", weight_name="ip-adapter-plus-face_sdxl_vit-h.safetensors", image_encoder_folder="models/image_encoder")
         T2I["p"] = p
     w, h = it.get("size", [832, 1216]); g = torch.Generator("cuda").manual_seed(it.get("seed", 7))
     kw = {}
