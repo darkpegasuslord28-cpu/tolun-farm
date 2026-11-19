@@ -17,7 +17,7 @@ ENV = _find_env() if os.path.isdir("/kaggle/input") and not os.environ.get("ENV_
 if os.path.isdir("/kaggle/input") and not ENV and not os.environ.get("ENV_READY"): print("hazır ortam yok; /kaggle/input:", os.listdir("/kaggle/input"), flush=True)
 if ENV and not os.environ.get("ENV_READY"):   # model önbelleği: salt-okunur girdiden sembolik bağ ağacı (kilit dosyaları yazılabilsin)
     t0 = time.time()
-    if os.path.isdir(ENV + "/hf"): subprocess.run(f"mkdir -p /tmp/hf && cp -rs {ENV}/hf/. /tmp/hf/ 2>/dev/null", shell=True); os.environ["HF_HOME"] = "/tmp/hf"
+    if os.path.isdir(ENV + "/hf"): os.environ["HF_HUB_CACHE"] = ENV + "/hf/hub"; os.environ["HF_HUB_OFFLINE"] = "1"   # salt-okunur önbellek, çevrimdışı (kilit yazmaz)
     if os.path.isdir(ENV + "/whisper"): os.environ["WHISPER_ROOT"] = ENV + "/whisper"
     os.environ["ENV_READY"] = "1"; print("hazır ortam bağlandı", ENV, round(time.time() - t0, 1), "sn", flush=True)
 if J.get("mode") == "env":   # HAZIR ORTAM ÇEKİRDEĞİ: ağırlıkları bir kez indir → çıktısı sonraki işlerde kernel_sources ile girdi olur
