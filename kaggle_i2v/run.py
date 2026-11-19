@@ -8,7 +8,7 @@ J = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "job
 if J.get("mode") == "voxcpm":   # TÜRKÇE SESLENDİRME (GPU): VoxCPM2 (OpenBMB, Apache-2.0) ses tasarımı/klon → her replik N deneme → Whisper ile doğruluk → en iyisi
     OUT = "/kaggle/working/out"; os.makedirs(OUT, exist_ok=True); log = []
     subprocess.run([sys.executable, "-m", "pip", "install", "-q", "voxcpm", "openai-whisper", "jiwer"], check=False)
-    import soundfile as sf, whisper, jiwer, re, unicodedata
+    import soundfile as sf, whisper, jiwer, re, unicodedata, numpy as np
     from voxcpm import VoxCPM
     m = VoxCPM.from_pretrained("openbmb/VoxCPM2", load_denoiser=False); SR = m.tts_model.sample_rate
     asr = whisper.load_model(J.get("asr", "large-v3-turbo"), device="cuda:1" if torch_cuda_n() > 1 else "cuda")
@@ -34,8 +34,13 @@ if J.get("mode") == "voxcpm":   # TÜRKÇE SESLENDİRME (GPU): VoxCPM2 (OpenBMB,
             try:
                 w = m.generate(**kw); fn = f"{OUT}/{L['id']}_t{k}.wav"; sf.write(fn, w, SR)
                 hyp = asr.transcribe(fn, language="tr", fp16=True)["text"]; er = jiwer.cer(" ".join(norm(L["text"])), " ".join(norm(hyp)) or "-")
-                dur = len(w) / SR; cps = len(L["text"]) / max(dur, 0.1); pen = 0 if 9 <= cps <= 17 else 0.05
-                sc = er + pen
+                dur = len(w) / SR; cps = len(L["text"]) / max(dur, 0.1); pen = 0 if 8 <= cps <= 17 else 0.05
+                try:                                                  # ifade gücü: perde + enerji değişkenliği (duygulu okuma ödüllendirilir)
+                    import librosa; y16 = librosa.resample(np.asarray(w, dtype=np.float32), orig_sr=SR, target_sr=16000)
+                    f0, _, _ = librosa.pyin(y16, fmin=60, fmax=500, sr=16000); f0 = f0[~np.isnan(f0)]
+                    rms = librosa.feature.rms(y=y16)[0]; ex = (np.std(np.log(f0)) if len(f0) > 10 else 0) * 4 + np.std(rms) / (np.mean(rms) + 1e-6) * 0.5
+                except Exception: ex = 0
+                sc = er + pen - 0.06 * min(1.5, ex) * (1 if er < 0.12 else 0)
                 if best is None or sc < best[0]: best = (sc, fn, hyp, round(dur, 2))
             except Exception as e: print("hata", L["id"], repr(e)[:200], flush=True)
         if best: os.system(f"cp {best[1]} {OUT}/{L['id']}.wav")

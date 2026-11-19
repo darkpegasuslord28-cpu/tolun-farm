@@ -1,0 +1,118 @@
+{
+ "name": "sonzil-e01-vox3",
+ "mode": "voxcpm",
+ "takes": 4,
+ "steps": 12,
+ "voices": {
+  "anlatici": {
+   "design": "A deep, warm middle-aged male narrator voice, calm, suspenseful, slow pace"
+  },
+  "hoca": {
+   "design": "An elderly man around 60, low raspy tired voice, worried, speaking slowly"
+  },
+  "kerem": {
+   "design": "A 17-year-old boy, clear confident voice, firm leader tone"
+  },
+  "bora": {
+   "design": "A 17-year-old boy, lively playful voice, a little nervous"
+  },
+  "deniz": {
+   "design": "A 17-year-old girl, bright curious voice, warm and brave"
+  },
+  "ece": {
+   "design": "A 17-year-old girl, quick precise voice, slightly anxious"
+  }
+ },
+ "lines": [
+  {
+   "id": "l01",
+   "voice": "anlatici",
+   "text": "Kasım. Gece etüdü. Okulda yedi öğrenci kaldı.",
+   "style": "calm, low, mysterious storytelling, slow"
+  },
+  {
+   "id": "l02",
+   "voice": "anlatici",
+   "text": "Nöbetçi hoca çıkarken, tek bir şey söyledi.",
+   "style": "calm, slightly ominous, slow"
+  },
+  {
+   "id": "l03",
+   "voice": "hoca",
+   "text": "Zil çalarsa... koridora sakın tek başınıza çıkmayın.",
+   "style": "quiet, grave, ominous warning, slow with pauses"
+  },
+  {
+   "id": "l05",
+   "voice": "anlatici",
+   "text": "Okulun zili yıllardır çalmıyordu. Ta ki dokuzu kırk yedi geçeye kadar.",
+   "style": "building suspense, dramatic emphasis on the last words"
+  },
+  {
+   "id": "l06",
+   "voice": "bora",
+   "text": "Bu kimin şakası ya?",
+   "style": "nervous laugh, trying to joke but scared"
+  },
+  {
+   "id": "l07",
+   "voice": "ece",
+   "text": "Telefonlar... hiçbirinde şebeke yok.",
+   "style": "worried, breathless, fast"
+  },
+  {
+   "id": "l08",
+   "voice": "kerem",
+   "text": "Herkes sakin olsun. Kimse bir yere ayrılmıyor.",
+   "style": "firm and commanding but tense"
+  },
+  {
+   "id": "l09",
+   "voice": "anlatici",
+   "text": "Pencerenin dışında şehir yoktu. Sadece sis.",
+   "style": "quiet, eerie, slow"
+  },
+  {
+   "id": "l10",
+   "voice": "deniz",
+   "text": "Orada biri var. Bahçe kapısının yanında... bir ışık.",
+   "style": "amazed whisper, curious and excited"
+  },
+  {
+   "id": "l11",
+   "voice": "kerem",
+   "text": "Deniz, dur. Kimse çıkmıyor dedim.",
+   "style": "shouting, alarmed, desperate"
+  },
+  {
+   "id": "l12",
+   "voice": "deniz",
+   "text": "İki dakika. Sadece bakıp geleceğim.",
+   "style": "brave, light, reassuring, a small smile in the voice"
+  },
+  {
+   "id": "l13",
+   "voice": "anlatici",
+   "text": "Deniz, ışığa doğru yürüdü. Ve ışıkla birlikte... kayboldu.",
+   "style": "slow, tense, haunting, fading to a whisper at the end"
+  },
+  {
+   "id": "l15",
+   "voice": "anlatici",
+   "text": "O anda, altısının telefonu aynı anda titredi. Mesaj, Deniz'dendi.",
+   "style": "sudden urgency, tense, faster"
+  },
+  {
+   "id": "l16",
+   "voice": "deniz",
+   "text": "Sakın kapıyı açmayın. Ben dışarıda değilim.",
+   "style": "scared trembling whisper, urgent"
+  },
+  {
+   "id": "l17",
+   "voice": "anlatici",
+   "text": "Mesajın tarihi: on dokuz Kasım... bin dokuz yüz seksen yedi.",
+   "style": "slow, chilling, dramatic pause before the year"
+  }
+ ]
+}
