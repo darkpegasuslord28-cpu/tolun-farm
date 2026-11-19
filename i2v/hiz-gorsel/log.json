@@ -3,12 +3,12 @@
   "id": "g1",
   "model": "t2i",
   "ok": false,
-  "err": "OSError(\"Cannot load model Lykon/dreamshaper-xl-1-0: the model is not fully cached locally (Cannot find an appropriate cached snapshot folder for the specified revision on the local disk and outgoing traffic has been disabled. To enable repo look-ups and downloads online, pass 'local_files_only=False' as input.) and an error occurred while trying to fetch metadata from the Hub. Please check out th"
+  "err": "OSError('Error no file named model.safetensors, or pytorch_model.bin, found in directory /kaggle/input/notebooks/ogulcan3426/tolun-i2v-tolun-env/models/h94__IP-Adapter.')"
  },
  {
   "id": "g2",
   "model": "t2i",
   "ok": false,
-  "err": "OSError(\"Cannot load model Lykon/dreamshaper-xl-1-0: the model is not fully cached locally (Cannot find an appropriate cached snapshot folder for the specified revision on the local disk and outgoing traffic has been disabled. To enable repo look-ups and downloads online, pass 'local_files_only=False' as input.) and an error occurred while trying to fetch metadata from the Hub. Please check out th"
+  "err": "OSError('Error no file named model.safetensors, or pytorch_model.bin, found in directory /kaggle/input/notebooks/ogulcan3426/tolun-i2v-tolun-env/models/h94__IP-Adapter.')"
  }
 ]
