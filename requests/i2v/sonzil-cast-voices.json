@@ -1,0 +1,173 @@
+{
+ "name": "sonzil-cast-voices",
+ "mode": "voxcpm",
+ "tts_model": "Trendyol/Trendyol-TTS",
+ "takes": 3,
+ "steps": 14,
+ "voices": {
+  "anlatici_A": {
+   "design": "A deep, warm middle-aged male narrator voice, calm, suspenseful, slow pace"
+  },
+  "anlatici_B": {
+   "design": "An older male narrator with a gravelly, haunting voice, slow and dramatic, like a horror storyteller"
+  },
+  "deniz_A": {
+   "design": "A 17-year-old girl, bright curious voice, warm and brave"
+  },
+  "deniz_B": {
+   "design": "A 17-year-old girl, soft breathy voice, dreamy and adventurous"
+  },
+  "kerem_A": {
+   "design": "A 17-year-old boy, clear confident voice, firm leader tone"
+  },
+  "kerem_B": {
+   "design": "A 17-year-old boy, deep serious voice, protective and tense"
+  },
+  "ece_A": {
+   "design": "A 17-year-old girl, quick precise voice, slightly anxious"
+  },
+  "ece_B": {
+   "design": "A 17-year-old girl, sharp clever voice, fast talking, skeptical"
+  },
+  "bora_A": {
+   "design": "A 17-year-old boy, lively playful voice, a little nervous"
+  },
+  "bora_B": {
+   "design": "A 17-year-old boy, funny cheeky voice, cracking jokes, high energy"
+  },
+  "zeynep_A": {
+   "design": "A 17-year-old girl, soft low quiet voice, mysterious and calm"
+  },
+  "zeynep_B": {
+   "design": "A 17-year-old girl, whispery sad voice, haunted and secretive"
+  },
+  "mert_A": {
+   "design": "An 18-year-old boy, rough low stubborn voice, impatient"
+  },
+  "mert_B": {
+   "design": "An 18-year-old boy, hoarse tough voice, aggressive and restless"
+  },
+  "can_A": {
+   "design": "A 17-year-old boy, calm polite soft voice, old-fashioned and gentle"
+  },
+  "can_B": {
+   "design": "A 17-year-old boy, eerily calm clear voice, distant and mysterious"
+  },
+  "hoca_A": {
+   "design": "An elderly man around 60, low raspy tired voice, worried, speaking slowly"
+  },
+  "hoca_B": {
+   "design": "An old man around 65, deep warm but frightened voice, trembling slightly"
+  }
+ },
+ "lines": [
+  {
+   "id": "anlatici_A",
+   "voice": "anlatici_A",
+   "text": "Kasım. Gece etüdü. Okulda yedi öğrenci kaldı. Ve o gece, zil bir kez daha çaldı.",
+   "style": "calm, low, mysterious storytelling"
+  },
+  {
+   "id": "anlatici_B",
+   "voice": "anlatici_B",
+   "text": "Kasım. Gece etüdü. Okulda yedi öğrenci kaldı. Ve o gece, zil bir kez daha çaldı.",
+   "style": "calm, low, mysterious storytelling"
+  },
+  {
+   "id": "deniz_A",
+   "voice": "deniz_A",
+   "text": "Orada biri var. Bahçe kapısının yanında… bir ışık. İki dakika, sadece bakıp geleceğim.",
+   "style": "curious, brave, a little excited"
+  },
+  {
+   "id": "deniz_B",
+   "voice": "deniz_B",
+   "text": "Orada biri var. Bahçe kapısının yanında… bir ışık. İki dakika, sadece bakıp geleceğim.",
+   "style": "curious, brave, a little excited"
+  },
+  {
+   "id": "kerem_A",
+   "voice": "kerem_A",
+   "text": "Herkes sakin olsun. Kimse bir yere ayrılmıyor. Deniz, dur! Kimse çıkmıyor dedim!",
+   "style": "firm leader, then shouting"
+  },
+  {
+   "id": "kerem_B",
+   "voice": "kerem_B",
+   "text": "Herkes sakin olsun. Kimse bir yere ayrılmıyor. Deniz, dur! Kimse çıkmıyor dedim!",
+   "style": "firm leader, then shouting"
+  },
+  {
+   "id": "ece_A",
+   "voice": "ece_A",
+   "text": "Telefonlar… hiçbirinde şebeke yok. Bunun bilimsel bir açıklaması olmalı.",
+   "style": "worried, fast, analytical"
+  },
+  {
+   "id": "ece_B",
+   "voice": "ece_B",
+   "text": "Telefonlar… hiçbirinde şebeke yok. Bunun bilimsel bir açıklaması olmalı.",
+   "style": "worried, fast, analytical"
+  },
+  {
+   "id": "bora_A",
+   "voice": "bora_A",
+   "text": "Bu kimin şakası ya? Tamam, tamam… korkmuyorum. Sadece biraz üşüdüm.",
+   "style": "nervous joking"
+  },
+  {
+   "id": "bora_B",
+   "voice": "bora_B",
+   "text": "Bu kimin şakası ya? Tamam, tamam… korkmuyorum. Sadece biraz üşüdüm.",
+   "style": "nervous joking"
+  },
+  {
+   "id": "zeynep_A",
+   "voice": "zeynep_A",
+   "text": "Bu okuldan… öyle çıkılmıyor. Anahtar bende. Dedem bu okulun hademesiydi.",
+   "style": "quiet, calm, mysterious"
+  },
+  {
+   "id": "zeynep_B",
+   "voice": "zeynep_B",
+   "text": "Bu okuldan… öyle çıkılmıyor. Anahtar bende. Dedem bu okulun hademesiydi.",
+   "style": "quiet, calm, mysterious"
+  },
+  {
+   "id": "mert_A",
+   "voice": "mert_A",
+   "text": "Ben giderim. Üç adım atıp dönerim, o kadar. Bunu şimdi mi söylüyorsun?",
+   "style": "stubborn, then angry"
+  },
+  {
+   "id": "mert_B",
+   "voice": "mert_B",
+   "text": "Ben giderim. Üç adım atıp dönerim, o kadar. Bunu şimdi mi söylüyorsun?",
+   "style": "stubborn, then angry"
+  },
+  {
+   "id": "can_A",
+   "voice": "can_A",
+   "text": "Merhaba. Ben yeni öğrenciyim. Bu okulu… rüyalarımda görmüştüm.",
+   "style": "calm, polite, slightly strange"
+  },
+  {
+   "id": "can_B",
+   "voice": "can_B",
+   "text": "Merhaba. Ben yeni öğrenciyim. Bu okulu… rüyalarımda görmüştüm.",
+   "style": "calm, polite, slightly strange"
+  },
+  {
+   "id": "hoca_A",
+   "voice": "hoca_A",
+   "text": "Zil çalarsa… koridora sakın tek başınıza çıkmayın.",
+   "style": "quiet, grave, ominous warning"
+  },
+  {
+   "id": "hoca_B",
+   "voice": "hoca_B",
+   "text": "Zil çalarsa… koridora sakın tek başınıza çıkmayın.",
+   "style": "quiet, grave, ominous warning"
+  }
+ ]
+}

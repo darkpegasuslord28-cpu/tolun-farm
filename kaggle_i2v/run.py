@@ -10,7 +10,10 @@ if J.get("mode") == "voxcpm":   # TÜRKÇE SESLENDİRME (GPU): VoxCPM2 (OpenBMB,
     subprocess.run([sys.executable, "-m", "pip", "install", "-q", "voxcpm", "openai-whisper", "jiwer"], check=False)
     import soundfile as sf, whisper, jiwer, re, unicodedata, numpy as np
     from voxcpm import VoxCPM
-    m = VoxCPM.from_pretrained(J.get("tts_model", "openbmb/VoxCPM2"), load_denoiser=False); SR = m.tts_model.sample_rate
+    m = None
+    for mid_ in ([J["tts_model"]] if J.get("tts_model") else []) + ["niobures/Trendyol-TTS", "openbmb/VoxCPM2"] if "rendyol" in J.get("tts_model", "") else [J.get("tts_model", "openbmb/VoxCPM2")]:
+        try: m = VoxCPM.from_pretrained(mid_, load_denoiser=False); print("model:", mid_, flush=True); break
+        except Exception as e: print("model yüklenemedi", mid_, repr(e)[:200], flush=True); SR = m.tts_model.sample_rate
     asr = whisper.load_model(J.get("asr", "large-v3-turbo"), device="cuda:1" if torch_cuda_n() > 1 else "cuda")
     def norm(t): t = unicodedata.normalize("NFC", t.lower()); return re.sub(r"[^\wçğıöşü ]", " ", t).split()
     REFS = {}
