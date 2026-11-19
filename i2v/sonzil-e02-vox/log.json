@@ -1,0 +1,170 @@
+[
+ {
+  "id": "a01",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Oylar konuştu. Kapıyı açmaya karar verdiler.",
+  "dur": 2.72,
+  "sec": 49
+ },
+ {
+  "id": "a02",
+  "ok": true,
+  "cer": -0.08,
+  "asr": " Ben giderim. Üç adım atıp dönerim. O kadar.",
+  "dur": 2.88,
+  "sec": 32
+ },
+ {
+  "id": "a03",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " belinden halat bağlıyoruz. Kimse kopmuyor.",
+  "dur": 3.2,
+  "sec": 27
+ },
+ {
+  "id": "a04",
+  "ok": true,
+  "cer": -0.065,
+  "asr": " Mert size üç adım attı. Halat elimizdeydi.",
+  "dur": 3.68,
+  "sec": 33
+ },
+ {
+  "id": "a05",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Sonra halat gevşedi.",
+  "dur": 2.56,
+  "sec": 24
+ },
+ {
+  "id": "a06",
+  "ok": true,
+  "cer": -0.06,
+  "asr": " Halatı çekin çabuk.",
+  "dur": 1.92,
+  "sec": 23
+ },
+ {
+  "id": "a07",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Halatın ucu boştu. Ama koridorun sonundan arka kapıdan ayak sesleri geliyordu.",
+  "dur": 5.44,
+  "sec": 54
+ },
+ {
+  "id": "a08",
+  "ok": true,
+  "cer": -0.083,
+  "asr": " Düz yürüdüm. Yemin ederim düz yürüdüm. Nasıl buradayım?",
+  "dur": 3.52,
+  "sec": 39
+ },
+ {
+  "id": "a09",
+  "ok": true,
+  "cer": -0.081,
+  "asr": " Ön kapı kendi kendine kapandı ve kilitlendi.",
+  "dur": 3.36,
+  "sec": 36
+ },
+ {
+  "id": "a10",
+  "ok": true,
+  "cer": -0.072,
+  "asr": " Bu okuldan öyle çıkılmıyor.",
+  "dur": 2.72,
+  "sec": 26
+ },
+ {
+  "id": "a11",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Herkes Zeynep'e döndü. Elinde paslı eski bir anahtar vardı.",
+  "dur": 4.16,
+  "sec": 41
+ },
+ {
+  "id": "b01",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Mesaja güvendiler. Kapıyı açmadılar.",
+  "dur": 3.36,
+  "sec": 29
+ },
+ {
+  "id": "b02",
+  "ok": true,
+  "cer": -0.04,
+  "asr": " Deniz dışarıda değilim diyorsa içeride bir yerde.",
+  "dur": 2.88,
+  "sec": 30
+ },
+ {
+  "id": "b03",
+  "ok": true,
+  "cer": -0.063,
+  "asr": " Okulda kimsenin girmediği tek yer var. Eski bina.",
+  "dur": 3.04,
+  "sec": 32
+ },
+ {
+  "id": "b04",
+  "ok": true,
+  "cer": 0.352,
+  "asr": " Eski binaya giden koridor 1987'den beri kilitliydi.",
+  "dur": 4.48,
+  "sec": 43
+ },
+ {
+  "id": "b05",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Zincirli. Anahtar olmadan giremeyiz.",
+  "dur": 2.72,
+  "sec": 26
+ },
+ {
+  "id": "b06",
+  "ok": true,
+  "cer": -0.083,
+  "asr": " Zeynep sessizce öne çıktı.",
+  "dur": 1.92,
+  "sec": 19
+ },
+ {
+  "id": "b07",
+  "ok": true,
+  "cer": -0.075,
+  "asr": " Anahtar bende. Dedem bu okulun hademesiydi.",
+  "dur": 4.0,
+  "sec": 40
+ },
+ {
+  "id": "b08",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Bunu şimdi mi söylüyorsun?",
+  "dur": 1.6,
+  "sec": 18
+ },
+ {
+  "id": "b09",
+  "ok": true,
+  "cer": -0.089,
+  "asr": " Kilit açıldı. İçeriden soğuk bir hava ve bir teyp sesi geldi.",
+  "dur": 4.96,
+  "sec": 46
+ },
+ {
+  "id": "b10",
+  "ok": true,
+  "cer": -0.08,
+  "asr": " Beni duyuyor musunuz?",
+  "dur": 1.92,
+  "sec": 16
+ }
+]
