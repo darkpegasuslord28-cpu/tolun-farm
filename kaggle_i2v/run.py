@@ -10,7 +10,7 @@ if J.get("mode") == "voxcpm":   # TÜRKÇE SESLENDİRME (GPU): VoxCPM2 (OpenBMB,
     subprocess.run([sys.executable, "-m", "pip", "install", "-q", "voxcpm", "openai-whisper", "jiwer"], check=False)
     import soundfile as sf, whisper, jiwer, re, unicodedata, numpy as np
     from voxcpm import VoxCPM
-    m = VoxCPM.from_pretrained("openbmb/VoxCPM2", load_denoiser=False); SR = m.tts_model.sample_rate
+    m = VoxCPM.from_pretrained(J.get("tts_model", "openbmb/VoxCPM2"), load_denoiser=False); SR = m.tts_model.sample_rate
     asr = whisper.load_model(J.get("asr", "large-v3-turbo"), device="cuda:1" if torch_cuda_n() > 1 else "cuda")
     def norm(t): t = unicodedata.normalize("NFC", t.lower()); return re.sub(r"[^\wçğıöşü ]", " ", t).split()
     REFS = {}
@@ -43,7 +43,12 @@ if J.get("mode") == "voxcpm":   # TÜRKÇE SESLENDİRME (GPU): VoxCPM2 (OpenBMB,
                 sc = er + pen - 0.06 * min(1.5, ex) * (1 if er < 0.12 else 0)
                 if best is None or sc < best[0]: best = (sc, fn, hyp, round(dur, 2))
             except Exception as e: print("hata", L["id"], repr(e)[:200], flush=True)
-        if best: os.system(f"cp {best[1]} {OUT}/{L['id']}.wav")
+        if best:
+            os.system(f"cp {best[1]} {OUT}/{L['id']}.wav")
+            try:
+                wr = asr.transcribe(best[1], language="tr", fp16=True, word_timestamps=True)
+                json.dump([{"w": x["word"].strip(), "s": round(x["start"], 3), "e": round(x["end"], 3)} for sg in wr["segments"] for x in sg.get("words", [])], open(f"{OUT}/{L['id']}.words.json", "w"), ensure_ascii=False)
+            except Exception as e: print("kelime zamanı hatası", repr(e)[:150])
         log.append({"id": L["id"], "ok": bool(best), "cer": round(best[0], 3) if best else None, "asr": best[2] if best else "", "dur": best[3] if best else 0, "sec": round(time.time() - t0)})
         print(log[-1], flush=True); json.dump(log, open(f"{OUT}/log.json", "w"), ensure_ascii=False, indent=1)
     sys.exit(0)

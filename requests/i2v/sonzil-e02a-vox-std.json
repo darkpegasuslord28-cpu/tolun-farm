@@ -1,0 +1,101 @@
+{
+ "name": "sonzil-e02a-vox-std",
+ "mode": "voxcpm",
+ "takes": 4,
+ "steps": 12,
+ "voices": {
+  "anlatici": {
+   "ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/sonzil-e01-vox3/ref_anlatici.wav"
+  },
+  "hoca": {
+   "ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/sonzil-e01-vox3/ref_hoca.wav"
+  },
+  "kerem": {
+   "ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/sonzil-e01-vox3/ref_kerem.wav"
+  },
+  "bora": {
+   "ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/sonzil-e01-vox3/ref_bora.wav"
+  },
+  "deniz": {
+   "ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/sonzil-e01-vox3/ref_deniz.wav"
+  },
+  "ece": {
+   "ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/sonzil-e01-vox3/ref_ece.wav"
+  },
+  "mert": {
+   "ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/sonzil-e02-vox/ref_mert.wav"
+  },
+  "zeynep": {
+   "ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/sonzil-e02-vox/ref_zeynep.wav"
+  }
+ },
+ "lines": [
+  {
+   "id": "a01",
+   "voice": "anlatici",
+   "text": "Oylar konuştu. Kapıyı açmaya karar verdiler.",
+   "style": "calm, tense, slow storytelling"
+  },
+  {
+   "id": "a02",
+   "voice": "mert",
+   "text": "Ben giderim. Üç adım atıp dönerim, o kadar.",
+   "style": "stubborn, confident, impatient"
+  },
+  {
+   "id": "a03",
+   "voice": "kerem",
+   "text": "Belinden halat bağlıyoruz. Kimse kopmuyor.",
+   "style": "firm, focused, worried"
+  },
+  {
+   "id": "a04",
+   "voice": "anlatici",
+   "text": "Mert sise üç adım attı. Halat elimizdeydi.",
+   "style": "slow, tense"
+  },
+  {
+   "id": "a05",
+   "voice": "anlatici",
+   "text": "Sonra halat... gevşedi.",
+   "style": "slow, chilling, almost whispering"
+  },
+  {
+   "id": "a06",
+   "voice": "ece",
+   "text": "Halatı çekin! Çabuk!",
+   "style": "shouting, panicked"
+  },
+  {
+   "id": "a07",
+   "voice": "anlatici",
+   "text": "Halatın ucu boştu. Ama koridorun sonundan, arka kapıdan... ayak sesleri geliyordu.",
+   "style": "quiet, suspense building, whisper at the end"
+  },
+  {
+   "id": "a08",
+   "voice": "mert",
+   "text": "Düz yürüdüm... Yemin ederim düz yürüdüm. Nasıl buradayım?",
+   "style": "shocked, confused, out of breath"
+  },
+  {
+   "id": "a09",
+   "voice": "anlatici",
+   "text": "Ön kapı kendi kendine kapandı. Ve kilitlendi.",
+   "style": "sudden, dramatic"
+  },
+  {
+   "id": "a10",
+   "voice": "zeynep",
+   "text": "Bu okuldan... öyle çıkılmıyor.",
+   "style": "quiet, calm, mysterious, slow"
+  },
+  {
+   "id": "a11",
+   "voice": "anlatici",
+   "text": "Herkes Zeynep'e döndü. Elinde, paslı eski bir anahtar vardı.",
+   "style": "slow, intriguing, dramatic pause"
+  }
+ ],
+ "tts_model": "openbmb/VoxCPM2"
+}
