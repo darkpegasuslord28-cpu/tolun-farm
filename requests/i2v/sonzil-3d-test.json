@@ -1,0 +1,160 @@
+{
+ "name": "sonzil-3d-test",
+ "model": "t2i",
+ "t2i_model": "Lykon/dreamshaper-xl-1-0",
+ "ip_adapter": true,
+ "items": [
+  {
+   "id": "deniz_korku",
+   "prompt": "teen girl with wavy dark brown shoulder-length hair and freckles, mustard yellow raincoat over grey hoodie, terrified expression, wide eyes, mouth slightly open, looking over shoulder, close-up portrait, 3D animated feature film still, stylized character with large expressive eyes and detailed facial expression, soft subsurface skin, cinematic moody lighting, dark night school, cool blue light with warm rim light, volumetric fog, global illumination, depth of field, highly detailed, vertical frame",
+   "negative": "2d, flat illustration, cel shading, anime, manga, photo, photorealistic, text, letters, watermark, logo, deformed face, extra fingers, blurry, lowres, duplicate person",
+   "seed": 901,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/deniz_2.png",
+   "ip_scale": 0.5
+  },
+  {
+   "id": "deniz_kararli",
+   "prompt": "teen girl with wavy dark brown shoulder-length hair and freckles, mustard yellow raincoat over grey hoodie, determined serious expression, furrowed brows, close-up portrait, 3D animated feature film still, stylized character with large expressive eyes and detailed facial expression, soft subsurface skin, cinematic moody lighting, dark night school, cool blue light with warm rim light, volumetric fog, global illumination, depth of field, highly detailed, vertical frame",
+   "negative": "2d, flat illustration, cel shading, anime, manga, photo, photorealistic, text, letters, watermark, logo, deformed face, extra fingers, blurry, lowres, duplicate person",
+   "seed": 902,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/deniz_2.png",
+   "ip_scale": 0.5
+  },
+  {
+   "id": "deniz_saskin",
+   "prompt": "teen girl with wavy dark brown shoulder-length hair and freckles, mustard yellow raincoat over grey hoodie, shocked surprised expression, raised eyebrows, hand near mouth, close-up portrait, 3D animated feature film still, stylized character with large expressive eyes and detailed facial expression, soft subsurface skin, cinematic moody lighting, dark night school, cool blue light with warm rim light, volumetric fog, global illumination, depth of field, highly detailed, vertical frame",
+   "negative": "2d, flat illustration, cel shading, anime, manga, photo, photorealistic, text, letters, watermark, logo, deformed face, extra fingers, blurry, lowres, duplicate person",
+   "seed": 903,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/deniz_2.png",
+   "ip_scale": 0.5
+  },
+  {
+   "id": "kerem_korku",
+   "prompt": "teen boy with neat short black hair, white shirt and burgundy tie, terrified expression, wide eyes, mouth slightly open, looking over shoulder, close-up portrait, 3D animated feature film still, stylized character with large expressive eyes and detailed facial expression, soft subsurface skin, cinematic moody lighting, dark night school, cool blue light with warm rim light, volumetric fog, global illumination, depth of field, highly detailed, vertical frame",
+   "negative": "2d, flat illustration, cel shading, anime, manga, photo, photorealistic, text, letters, watermark, logo, deformed face, extra fingers, blurry, lowres, duplicate person",
+   "seed": 904,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/kerem_1.png",
+   "ip_scale": 0.5
+  },
+  {
+   "id": "kerem_kararli",
+   "prompt": "teen boy with neat short black hair, white shirt and burgundy tie, determined serious expression, furrowed brows, close-up portrait, 3D animated feature film still, stylized character with large expressive eyes and detailed facial expression, soft subsurface skin, cinematic moody lighting, dark night school, cool blue light with warm rim light, volumetric fog, global illumination, depth of field, highly detailed, vertical frame",
+   "negative": "2d, flat illustration, cel shading, anime, manga, photo, photorealistic, text, letters, watermark, logo, deformed face, extra fingers, blurry, lowres, duplicate person",
+   "seed": 905,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/kerem_1.png",
+   "ip_scale": 0.5
+  },
+  {
+   "id": "kerem_saskin",
+   "prompt": "teen boy with neat short black hair, white shirt and burgundy tie, shocked surprised expression, raised eyebrows, hand near mouth, close-up portrait, 3D animated feature film still, stylized character with large expressive eyes and detailed facial expression, soft subsurface skin, cinematic moody lighting, dark night school, cool blue light with warm rim light, volumetric fog, global illumination, depth of field, highly detailed, vertical frame",
+   "negative": "2d, flat illustration, cel shading, anime, manga, photo, photorealistic, text, letters, watermark, logo, deformed face, extra fingers, blurry, lowres, duplicate person",
+   "seed": 906,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/kerem_1.png",
+   "ip_scale": 0.5
+  },
+  {
+   "id": "ece_korku",
+   "prompt": "teen girl with light brown high ponytail, rectangular black glasses, green cardigan, terrified expression, wide eyes, mouth slightly open, looking over shoulder, close-up portrait, 3D animated feature film still, stylized character with large expressive eyes and detailed facial expression, soft subsurface skin, cinematic moody lighting, dark night school, cool blue light with warm rim light, volumetric fog, global illumination, depth of field, highly detailed, vertical frame",
+   "negative": "2d, flat illustration, cel shading, anime, manga, photo, photorealistic, text, letters, watermark, logo, deformed face, extra fingers, blurry, lowres, duplicate person",
+   "seed": 907,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/ece_2.png",
+   "ip_scale": 0.5
+  },
+  {
+   "id": "ece_kararli",
+   "prompt": "teen girl with light brown high ponytail, rectangular black glasses, green cardigan, determined serious expression, furrowed brows, close-up portrait, 3D animated feature film still, stylized character with large expressive eyes and detailed facial expression, soft subsurface skin, cinematic moody lighting, dark night school, cool blue light with warm rim light, volumetric fog, global illumination, depth of field, highly detailed, vertical frame",
+   "negative": "2d, flat illustration, cel shading, anime, manga, photo, photorealistic, text, letters, watermark, logo, deformed face, extra fingers, blurry, lowres, duplicate person",
+   "seed": 908,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/ece_2.png",
+   "ip_scale": 0.5
+  },
+  {
+   "id": "ece_saskin",
+   "prompt": "teen girl with light brown high ponytail, rectangular black glasses, green cardigan, shocked surprised expression, raised eyebrows, hand near mouth, close-up portrait, 3D animated feature film still, stylized character with large expressive eyes and detailed facial expression, soft subsurface skin, cinematic moody lighting, dark night school, cool blue light with warm rim light, volumetric fog, global illumination, depth of field, highly detailed, vertical frame",
+   "negative": "2d, flat illustration, cel shading, anime, manga, photo, photorealistic, text, letters, watermark, logo, deformed face, extra fingers, blurry, lowres, duplicate person",
+   "seed": 909,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/ece_2.png",
+   "ip_scale": 0.5
+  },
+  {
+   "id": "sahne_koridor",
+   "prompt": "teen girl with wavy dark brown shoulder-length hair and freckles, mustard yellow raincoat over grey hoodie, walking slowly down a long dark school corridor holding a flashlight, lockers, flickering ceiling lights, fog, seen from behind three-quarter, full body, 3D animated feature film still, stylized character with large expressive eyes and detailed facial expression, soft subsurface skin, cinematic moody lighting, dark night school, cool blue light with warm rim light, volumetric fog, global illumination, depth of field, highly detailed, vertical frame",
+   "negative": "2d, flat illustration, cel shading, anime, manga, photo, photorealistic, text, letters, watermark, logo, deformed face, extra fingers, blurry, lowres, duplicate person",
+   "seed": 1201,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 34,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/deniz_2.png",
+   "ip_scale": 0.4
+  },
+  {
+   "id": "sahne_sinif",
+   "prompt": "teen boy with neat short black hair, white shirt and burgundy tie, and teen girl with light brown high ponytail and rectangular black glasses in green cardigan, standing by a classroom window at night looking out at thick fog, scared, medium shot, 3D animated feature film still, stylized character with large expressive eyes and detailed facial expression, soft subsurface skin, cinematic moody lighting, dark night school, cool blue light with warm rim light, volumetric fog, global illumination, depth of field, highly detailed, vertical frame",
+   "negative": "2d, flat illustration, cel shading, anime, manga, photo, photorealistic, text, letters, watermark, logo, deformed face, extra fingers, blurry, lowres, duplicate person",
+   "seed": 1202,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 34,
+   "cfg": 6.0
+  }
+ ]
+}
