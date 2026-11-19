@@ -8,7 +8,13 @@ J = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "job
 # --- HIZLANDIRMA (19 Kas): hazır ortam + tek oturumda çok iş ---------------------------------------------
 if os.environ.get("SUBJOB"): J = json.load(open(os.environ["SUBJOB"]))
 OUT_ROOT = os.environ.get("OUT_ROOT", "/kaggle/working/out")
-ENV = next((d for d in ["/kaggle/input/tolun-i2v-tolun-env", "/kaggle/input/tolun-env"] if os.path.isdir(d)), None)
+def _find_env():   # Kaggle çekirdek çıktısını farklı yollara bağlayabiliyor: /kaggle/input altında 'whisper' klasörü olan dizini ara
+    for root, dirs, _ in os.walk("/kaggle/input"):
+        if root.count(os.sep) > 6: dirs[:] = []; continue
+        if "whisper" in dirs and "hf" in dirs: return root
+    return None
+ENV = _find_env() if os.path.isdir("/kaggle/input") and not os.environ.get("ENV_READY") else None
+if os.path.isdir("/kaggle/input") and not ENV and not os.environ.get("ENV_READY"): print("hazır ortam yok; /kaggle/input:", os.listdir("/kaggle/input"), flush=True)
 if ENV and not os.environ.get("ENV_READY"):   # model önbelleği: salt-okunur girdiden sembolik bağ ağacı (kilit dosyaları yazılabilsin)
     t0 = time.time()
     if os.path.isdir(ENV + "/hf"): subprocess.run(f"mkdir -p /tmp/hf && cp -rs {ENV}/hf/. /tmp/hf/ 2>/dev/null", shell=True); os.environ["HF_HOME"] = "/tmp/hf"
