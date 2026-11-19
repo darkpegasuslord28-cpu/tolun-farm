@@ -1,0 +1,14 @@
+[
+ {
+  "id": "g1",
+  "model": "t2i",
+  "ok": true,
+  "sec": 110
+ },
+ {
+  "id": "g2",
+  "model": "t2i",
+  "ok": true,
+  "sec": 30
+ }
+]

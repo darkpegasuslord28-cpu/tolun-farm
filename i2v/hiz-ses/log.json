@@ -1,0 +1,18 @@
+[
+ {
+  "id": "t1",
+  "ok": true,
+  "cer": -0.045,
+  "asr": " Bakın bunun bir açıklaması var. Panik yapmayın.",
+  "dur": 3.84,
+  "sec": 31
+ },
+ {
+  "id": "t2",
+  "ok": true,
+  "cer": -0.057,
+  "asr": " Halatı çekin hadi çabuk.",
+  "dur": 2.72,
+  "sec": 15
+ }
+]
