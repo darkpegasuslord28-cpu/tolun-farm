@@ -1,0 +1,160 @@
+{
+ "name": "sonzil-e02-vox",
+ "mode": "voxcpm",
+ "takes": 4,
+ "steps": 12,
+ "voices": {
+  "anlatici": {
+   "ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/sonzil-e01-vox3/ref_anlatici.wav"
+  },
+  "hoca": {
+   "ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/sonzil-e01-vox3/ref_hoca.wav"
+  },
+  "kerem": {
+   "ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/sonzil-e01-vox3/ref_kerem.wav"
+  },
+  "bora": {
+   "ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/sonzil-e01-vox3/ref_bora.wav"
+  },
+  "deniz": {
+   "ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/sonzil-e01-vox3/ref_deniz.wav"
+  },
+  "ece": {
+   "ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/sonzil-e01-vox3/ref_ece.wav"
+  },
+  "mert": {
+   "design": "An 18-year-old boy, rough low stubborn voice, impatient"
+  },
+  "zeynep": {
+   "design": "A 17-year-old girl, soft low quiet voice, mysterious and calm"
+  }
+ },
+ "lines": [
+  {
+   "id": "a01",
+   "voice": "anlatici",
+   "text": "Oylar konuştu. Kapıyı açmaya karar verdiler.",
+   "style": "calm, tense, slow storytelling"
+  },
+  {
+   "id": "a02",
+   "voice": "mert",
+   "text": "Ben giderim. Üç adım atıp dönerim, o kadar.",
+   "style": "stubborn, confident, impatient"
+  },
+  {
+   "id": "a03",
+   "voice": "kerem",
+   "text": "Belinden halat bağlıyoruz. Kimse kopmuyor.",
+   "style": "firm, focused, worried"
+  },
+  {
+   "id": "a04",
+   "voice": "anlatici",
+   "text": "Mert sise üç adım attı. Halat elimizdeydi.",
+   "style": "slow, tense"
+  },
+  {
+   "id": "a05",
+   "voice": "anlatici",
+   "text": "Sonra halat... gevşedi.",
+   "style": "slow, chilling, almost whispering"
+  },
+  {
+   "id": "a06",
+   "voice": "ece",
+   "text": "Halatı çekin! Çabuk!",
+   "style": "shouting, panicked"
+  },
+  {
+   "id": "a07",
+   "voice": "anlatici",
+   "text": "Halatın ucu boştu. Ama koridorun sonundan, arka kapıdan... ayak sesleri geliyordu.",
+   "style": "quiet, suspense building, whisper at the end"
+  },
+  {
+   "id": "a08",
+   "voice": "mert",
+   "text": "Düz yürüdüm... Yemin ederim düz yürüdüm. Nasıl buradayım?",
+   "style": "shocked, confused, out of breath"
+  },
+  {
+   "id": "a09",
+   "voice": "anlatici",
+   "text": "Ön kapı kendi kendine kapandı. Ve kilitlendi.",
+   "style": "sudden, dramatic"
+  },
+  {
+   "id": "a10",
+   "voice": "zeynep",
+   "text": "Bu okuldan... öyle çıkılmıyor.",
+   "style": "quiet, calm, mysterious, slow"
+  },
+  {
+   "id": "a11",
+   "voice": "anlatici",
+   "text": "Herkes Zeynep'e döndü. Elinde, paslı eski bir anahtar vardı.",
+   "style": "slow, intriguing, dramatic pause"
+  },
+  {
+   "id": "b01",
+   "voice": "anlatici",
+   "text": "Mesaja güvendiler. Kapıyı açmadılar.",
+   "style": "calm, tense, slow storytelling"
+  },
+  {
+   "id": "b02",
+   "voice": "kerem",
+   "text": "Deniz dışarıda değilim diyorsa... içeride bir yerde.",
+   "style": "thinking, determined"
+  },
+  {
+   "id": "b03",
+   "voice": "ece",
+   "text": "Okulda kimsenin girmediği tek yer var. Eski Bina.",
+   "style": "urgent, quick"
+  },
+  {
+   "id": "b04",
+   "voice": "anlatici",
+   "text": "Eski Bina'ya giden koridor, bin dokuz yüz seksen yediden beri kilitliydi.",
+   "style": "slow, eerie"
+  },
+  {
+   "id": "b05",
+   "voice": "bora",
+   "text": "Zincirli. Anahtar olmadan giremeyiz.",
+   "style": "nervous, a little relieved"
+  },
+  {
+   "id": "b06",
+   "voice": "anlatici",
+   "text": "Zeynep sessizce öne çıktı.",
+   "style": "quiet, slow"
+  },
+  {
+   "id": "b07",
+   "voice": "zeynep",
+   "text": "Anahtar bende. Dedem bu okulun hademesiydi.",
+   "style": "quiet, calm, a little sad"
+  },
+  {
+   "id": "b08",
+   "voice": "mert",
+   "text": "Bunu şimdi mi söylüyorsun?",
+   "style": "angry, shocked, loud"
+  },
+  {
+   "id": "b09",
+   "voice": "anlatici",
+   "text": "Kilit açıldı. İçeriden soğuk bir hava ve... bir teyp sesi geldi.",
+   "style": "suspense, slowing down, whisper at the end"
+  },
+  {
+   "id": "b10",
+   "voice": "deniz",
+   "text": "Beni duyuyor musunuz?",
+   "style": "distant, scared whisper, echo"
+  }
+ ]
+}

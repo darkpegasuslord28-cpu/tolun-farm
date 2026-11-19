@@ -1,0 +1,564 @@
+{
+ "name": "sonzil-e02-scenes",
+ "model": "t2i",
+ "t2i_model": "Lykon/dreamshaper-xl-1-0",
+ "ip_adapter": true,
+ "items": [
+  {
+   "id": "a01_0",
+   "prompt": "wide shot inside a dark classroom at night, six tense high school students standing together looking at the classroom door, fluorescent light, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 705,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0
+  },
+  {
+   "id": "a01_1",
+   "prompt": "wide shot inside a dark classroom at night, six tense high school students standing together looking at the classroom door, fluorescent light, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 742,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0
+  },
+  {
+   "id": "a02_0",
+   "prompt": "Turkish teen boy with buzz cut dark hair, small scar through eyebrow, dark denim jacket, standing at the main glass door of a school at night, hand on the handle, determined stubborn face, fog outside, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 710,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/mert_1.png",
+   "ip_scale": 0.5
+  },
+  {
+   "id": "a02_1",
+   "prompt": "Turkish teen boy with buzz cut dark hair, small scar through eyebrow, dark denim jacket, standing at the main glass door of a school at night, hand on the handle, determined stubborn face, fog outside, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 747,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/mert_1.png",
+   "ip_scale": 0.5
+  },
+  {
+   "id": "a03_0",
+   "prompt": "Turkish teen boy with neat short black hair, white shirt, dark red tie, tying a thick gym rope around someone's waist in a school entrance hall at night, serious focused face, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 715,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/kerem_1.png",
+   "ip_scale": 0.5
+  },
+  {
+   "id": "a03_1",
+   "prompt": "Turkish teen boy with neat short black hair, white shirt, dark red tie, tying a thick gym rope around someone's waist in a school entrance hall at night, serious focused face, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 752,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/kerem_1.png",
+   "ip_scale": 0.5
+  },
+  {
+   "id": "a04_0",
+   "prompt": "seen from behind, Turkish teen boy with buzz cut dark hair, small scar through eyebrow, dark denim jacket, walking into thick white fog on a schoolyard at night with a rope tied around his waist trailing back to the door, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 720,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/mert_1.png",
+   "ip_scale": 0.3
+  },
+  {
+   "id": "a04_1",
+   "prompt": "seen from behind, Turkish teen boy with buzz cut dark hair, small scar through eyebrow, dark denim jacket, walking into thick white fog on a schoolyard at night with a rope tied around his waist trailing back to the door, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 757,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/mert_1.png",
+   "ip_scale": 0.3
+  },
+  {
+   "id": "a05_0",
+   "prompt": "close-up of a thick rope lying slack on a wet school entrance floor at night, fog creeping in through an open door, ominous, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 725,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0
+  },
+  {
+   "id": "a05_1",
+   "prompt": "close-up of a thick rope lying slack on a wet school entrance floor at night, fog creeping in through an open door, ominous, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 762,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0
+  },
+  {
+   "id": "a06_0",
+   "prompt": "Turkish teen girl with light brown high ponytail, rectangular black glasses, green cardigan, shouting in panic, pulling a rope with both hands at a school door at night, fog, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 730,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/ece_2.png",
+   "ip_scale": 0.5
+  },
+  {
+   "id": "a06_1",
+   "prompt": "Turkish teen girl with light brown high ponytail, rectangular black glasses, green cardigan, shouting in panic, pulling a rope with both hands at a school door at night, fog, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 767,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/ece_2.png",
+   "ip_scale": 0.5
+  },
+  {
+   "id": "a07_0",
+   "prompt": "dark school corridor at night seen from the inside, the back door at the far end slowly opening, fog pouring in, silhouette of a boy in the fog, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 735,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0
+  },
+  {
+   "id": "a07_1",
+   "prompt": "dark school corridor at night seen from the inside, the back door at the far end slowly opening, fog pouring in, silhouette of a boy in the fog, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 772,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0
+  },
+  {
+   "id": "a08_0",
+   "prompt": "Turkish teen boy with buzz cut dark hair, small scar through eyebrow, dark denim jacket, standing in a school back corridor at night, soaked by fog, shocked and confused face, rope still around his waist, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 740,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/mert_1.png",
+   "ip_scale": 0.5
+  },
+  {
+   "id": "a08_1",
+   "prompt": "Turkish teen boy with buzz cut dark hair, small scar through eyebrow, dark denim jacket, standing in a school back corridor at night, soaked by fog, shocked and confused face, rope still around his waist, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 777,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/mert_1.png",
+   "ip_scale": 0.5
+  },
+  {
+   "id": "a09_0",
+   "prompt": "heavy main glass doors of a school slamming shut by themselves at night, fog swirling behind the glass, dramatic, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 745,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0
+  },
+  {
+   "id": "a09_1",
+   "prompt": "heavy main glass doors of a school slamming shut by themselves at night, fog swirling behind the glass, dramatic, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 782,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0
+  },
+  {
+   "id": "a10_0",
+   "prompt": "Turkish teen girl with long straight black hair, burgundy headband, grey sweater, standing quietly in a dark school hall at night, holding an old rusty key in her hand, mysterious serious face, others' shadows around her, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 750,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/zeynep_1.png",
+   "ip_scale": 0.5
+  },
+  {
+   "id": "a10_1",
+   "prompt": "Turkish teen girl with long straight black hair, burgundy headband, grey sweater, standing quietly in a dark school hall at night, holding an old rusty key in her hand, mysterious serious face, others' shadows around her, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 787,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/zeynep_1.png",
+   "ip_scale": 0.5
+  },
+  {
+   "id": "a11_0",
+   "prompt": "close-up of Turkish teen girl with long straight black hair, burgundy headband, grey sweater looking up with guilty mysterious eyes, an old rusty iron key in her open palm, dramatic light, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 755,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/zeynep_1.png",
+   "ip_scale": 0.5
+  },
+  {
+   "id": "a11_1",
+   "prompt": "close-up of Turkish teen girl with long straight black hair, burgundy headband, grey sweater looking up with guilty mysterious eyes, an old rusty iron key in her open palm, dramatic light, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 792,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/zeynep_1.png",
+   "ip_scale": 0.5
+  },
+  {
+   "id": "b01_0",
+   "prompt": "wide shot inside a dark classroom at night, six tense high school students gathered around a desk looking at a phone, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 1005,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0
+  },
+  {
+   "id": "b01_1",
+   "prompt": "wide shot inside a dark classroom at night, six tense high school students gathered around a desk looking at a phone, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 1042,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0
+  },
+  {
+   "id": "b02_0",
+   "prompt": "Turkish teen boy with neat short black hair, white shirt, dark red tie, thinking hard with his hand on his chin in a dark classroom at night, determined, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 1010,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/kerem_1.png",
+   "ip_scale": 0.5
+  },
+  {
+   "id": "b02_1",
+   "prompt": "Turkish teen boy with neat short black hair, white shirt, dark red tie, thinking hard with his hand on his chin in a dark classroom at night, determined, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 1047,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/kerem_1.png",
+   "ip_scale": 0.5
+  },
+  {
+   "id": "b03_0",
+   "prompt": "Turkish teen girl with light brown high ponytail, rectangular black glasses, green cardigan, explaining something urgently in a dark classroom at night, pointing to a school floor plan on the wall, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 1015,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/ece_2.png",
+   "ip_scale": 0.5
+  },
+  {
+   "id": "b03_1",
+   "prompt": "Turkish teen girl with light brown high ponytail, rectangular black glasses, green cardigan, explaining something urgently in a dark classroom at night, pointing to a school floor plan on the wall, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 1052,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/ece_2.png",
+   "ip_scale": 0.5
+  },
+  {
+   "id": "b04_0",
+   "prompt": "old school corridor at night leading to a heavy wooden door wrapped with rusty chains and a padlock, dust, a faded sign above the door, flashlight beam, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 1020,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0
+  },
+  {
+   "id": "b04_1",
+   "prompt": "old school corridor at night leading to a heavy wooden door wrapped with rusty chains and a padlock, dust, a faded sign above the door, flashlight beam, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 1057,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0
+  },
+  {
+   "id": "b05_0",
+   "prompt": "Turkish teen boy with curly black hair, tan skin, red hoodie, holding a flashlight at a chained old wooden door in a dark corridor, nervous face, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 1025,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/bora_2.png",
+   "ip_scale": 0.5
+  },
+  {
+   "id": "b05_1",
+   "prompt": "Turkish teen boy with curly black hair, tan skin, red hoodie, holding a flashlight at a chained old wooden door in a dark corridor, nervous face, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 1062,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/bora_2.png",
+   "ip_scale": 0.5
+  },
+  {
+   "id": "b06_0",
+   "prompt": "Turkish teen girl with long straight black hair, burgundy headband, grey sweater, stepping forward out of the shadows in a dark corridor at night, quiet determined face, flashlight light on her, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 1030,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/zeynep_1.png",
+   "ip_scale": 0.5
+  },
+  {
+   "id": "b06_1",
+   "prompt": "Turkish teen girl with long straight black hair, burgundy headband, grey sweater, stepping forward out of the shadows in a dark corridor at night, quiet determined face, flashlight light on her, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 1067,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/zeynep_1.png",
+   "ip_scale": 0.5
+  },
+  {
+   "id": "b07_0",
+   "prompt": "close-up of Turkish teen girl with long straight black hair, burgundy headband, grey sweater holding an old rusty iron key up to the light, serious sad eyes, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 1035,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/zeynep_1.png",
+   "ip_scale": 0.5
+  },
+  {
+   "id": "b07_1",
+   "prompt": "close-up of Turkish teen girl with long straight black hair, burgundy headband, grey sweater holding an old rusty iron key up to the light, serious sad eyes, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 1072,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/zeynep_1.png",
+   "ip_scale": 0.5
+  },
+  {
+   "id": "b08_0",
+   "prompt": "Turkish teen boy with buzz cut dark hair, small scar through eyebrow, dark denim jacket, angry and shocked, shouting at someone in a dark corridor at night, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 1040,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/mert_1.png",
+   "ip_scale": 0.5
+  },
+  {
+   "id": "b08_1",
+   "prompt": "Turkish teen boy with buzz cut dark hair, small scar through eyebrow, dark denim jacket, angry and shocked, shouting at someone in a dark corridor at night, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 1077,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0,
+   "ref": "i2v/sonzil-cast/mert_1.png",
+   "ip_scale": 0.5
+  },
+  {
+   "id": "b09_0",
+   "prompt": "close-up of a rusty padlock falling open from chains on an old wooden door, dust exploding into flashlight beam, cold air, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 1045,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0
+  },
+  {
+   "id": "b09_1",
+   "prompt": "close-up of a rusty padlock falling open from chains on an old wooden door, dust exploding into flashlight beam, cold air, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 1082,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0
+  },
+  {
+   "id": "b10_0",
+   "prompt": "dark abandoned 1980s classroom full of dust, an old cassette tape recorder glowing on a desk, its red light on, eerie atmosphere, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 1050,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0
+  },
+  {
+   "id": "b10_1",
+   "prompt": "dark abandoned 1980s classroom full of dust, an old cassette tape recorder glowing on a desk, its red light on, eerie atmosphere, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+   "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+   "seed": 1087,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 32,
+   "cfg": 6.0
+  }
+ ]
+}
