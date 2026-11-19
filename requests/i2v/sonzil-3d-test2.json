@@ -1,0 +1,163 @@
+{
+ "name": "sonzil-3d-test2",
+ "model": "t2i",
+ "t2i_model": "Lykon/dreamshaper-xl-1-0",
+ "items": [
+  {
+   "id": "deniz_korku_0",
+   "prompt": "15 year old high school girl with wavy dark brown shoulder-length hair and freckles, mustard yellow raincoat over grey hoodie, terrified expression, wide eyes, open mouth, in a dark school corridor, close-up portrait, stylized 3D CGI animated movie character, octane render, smooth soft shading, slightly exaggerated proportions, big expressive eyes, detailed 3D hair strands, subsurface scattering skin, cinematic moody lighting, cool blue night light with warm rim light, volumetric fog, depth of field, 3d animation film still, vertical frame",
+   "negative": "2d, flat, illustration, drawing, comic, cel shading, anime, manga, sketch, lineart, photo, photorealistic, real person, text, watermark, logo, deformed face, extra fingers, blurry, lowres, adult, old",
+   "seed": 2001,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 34,
+   "cfg": 6.5
+  },
+  {
+   "id": "deniz_korku_1",
+   "prompt": "15 year old high school girl with wavy dark brown shoulder-length hair and freckles, mustard yellow raincoat over grey hoodie, terrified expression, wide eyes, open mouth, in a dark school corridor, close-up portrait, stylized 3D CGI animated movie character, octane render, smooth soft shading, slightly exaggerated proportions, big expressive eyes, detailed 3D hair strands, subsurface scattering skin, cinematic moody lighting, cool blue night light with warm rim light, volumetric fog, depth of field, 3d animation film still, vertical frame",
+   "negative": "2d, flat, illustration, drawing, comic, cel shading, anime, manga, sketch, lineart, photo, photorealistic, real person, text, watermark, logo, deformed face, extra fingers, blurry, lowres, adult, old",
+   "seed": 2002,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 34,
+   "cfg": 6.5
+  },
+  {
+   "id": "deniz_kararli_0",
+   "prompt": "15 year old high school girl with wavy dark brown shoulder-length hair and freckles, mustard yellow raincoat over grey hoodie, determined serious expression, furrowed brows, in a dark classroom, close-up portrait, stylized 3D CGI animated movie character, octane render, smooth soft shading, slightly exaggerated proportions, big expressive eyes, detailed 3D hair strands, subsurface scattering skin, cinematic moody lighting, cool blue night light with warm rim light, volumetric fog, depth of field, 3d animation film still, vertical frame",
+   "negative": "2d, flat, illustration, drawing, comic, cel shading, anime, manga, sketch, lineart, photo, photorealistic, real person, text, watermark, logo, deformed face, extra fingers, blurry, lowres, adult, old",
+   "seed": 2003,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 34,
+   "cfg": 6.5
+  },
+  {
+   "id": "deniz_kararli_1",
+   "prompt": "15 year old high school girl with wavy dark brown shoulder-length hair and freckles, mustard yellow raincoat over grey hoodie, determined serious expression, furrowed brows, in a dark classroom, close-up portrait, stylized 3D CGI animated movie character, octane render, smooth soft shading, slightly exaggerated proportions, big expressive eyes, detailed 3D hair strands, subsurface scattering skin, cinematic moody lighting, cool blue night light with warm rim light, volumetric fog, depth of field, 3d animation film still, vertical frame",
+   "negative": "2d, flat, illustration, drawing, comic, cel shading, anime, manga, sketch, lineart, photo, photorealistic, real person, text, watermark, logo, deformed face, extra fingers, blurry, lowres, adult, old",
+   "seed": 2004,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 34,
+   "cfg": 6.5
+  },
+  {
+   "id": "kerem_korku_0",
+   "prompt": "15 year old high school boy with neat short black hair, white shirt and burgundy tie, terrified expression, wide eyes, open mouth, in a dark school corridor, close-up portrait, stylized 3D CGI animated movie character, octane render, smooth soft shading, slightly exaggerated proportions, big expressive eyes, detailed 3D hair strands, subsurface scattering skin, cinematic moody lighting, cool blue night light with warm rim light, volumetric fog, depth of field, 3d animation film still, vertical frame",
+   "negative": "2d, flat, illustration, drawing, comic, cel shading, anime, manga, sketch, lineart, photo, photorealistic, real person, text, watermark, logo, deformed face, extra fingers, blurry, lowres, adult, old",
+   "seed": 2005,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 34,
+   "cfg": 6.5
+  },
+  {
+   "id": "kerem_korku_1",
+   "prompt": "15 year old high school boy with neat short black hair, white shirt and burgundy tie, terrified expression, wide eyes, open mouth, in a dark school corridor, close-up portrait, stylized 3D CGI animated movie character, octane render, smooth soft shading, slightly exaggerated proportions, big expressive eyes, detailed 3D hair strands, subsurface scattering skin, cinematic moody lighting, cool blue night light with warm rim light, volumetric fog, depth of field, 3d animation film still, vertical frame",
+   "negative": "2d, flat, illustration, drawing, comic, cel shading, anime, manga, sketch, lineart, photo, photorealistic, real person, text, watermark, logo, deformed face, extra fingers, blurry, lowres, adult, old",
+   "seed": 2006,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 34,
+   "cfg": 6.5
+  },
+  {
+   "id": "kerem_kararli_0",
+   "prompt": "15 year old high school boy with neat short black hair, white shirt and burgundy tie, determined serious expression, furrowed brows, in a dark classroom, close-up portrait, stylized 3D CGI animated movie character, octane render, smooth soft shading, slightly exaggerated proportions, big expressive eyes, detailed 3D hair strands, subsurface scattering skin, cinematic moody lighting, cool blue night light with warm rim light, volumetric fog, depth of field, 3d animation film still, vertical frame",
+   "negative": "2d, flat, illustration, drawing, comic, cel shading, anime, manga, sketch, lineart, photo, photorealistic, real person, text, watermark, logo, deformed face, extra fingers, blurry, lowres, adult, old",
+   "seed": 2007,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 34,
+   "cfg": 6.5
+  },
+  {
+   "id": "kerem_kararli_1",
+   "prompt": "15 year old high school boy with neat short black hair, white shirt and burgundy tie, determined serious expression, furrowed brows, in a dark classroom, close-up portrait, stylized 3D CGI animated movie character, octane render, smooth soft shading, slightly exaggerated proportions, big expressive eyes, detailed 3D hair strands, subsurface scattering skin, cinematic moody lighting, cool blue night light with warm rim light, volumetric fog, depth of field, 3d animation film still, vertical frame",
+   "negative": "2d, flat, illustration, drawing, comic, cel shading, anime, manga, sketch, lineart, photo, photorealistic, real person, text, watermark, logo, deformed face, extra fingers, blurry, lowres, adult, old",
+   "seed": 2008,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 34,
+   "cfg": 6.5
+  },
+  {
+   "id": "ece_korku_0",
+   "prompt": "15 year old high school girl with light brown high ponytail, rectangular black glasses, green cardigan, terrified expression, wide eyes, open mouth, in a dark school corridor, close-up portrait, stylized 3D CGI animated movie character, octane render, smooth soft shading, slightly exaggerated proportions, big expressive eyes, detailed 3D hair strands, subsurface scattering skin, cinematic moody lighting, cool blue night light with warm rim light, volumetric fog, depth of field, 3d animation film still, vertical frame",
+   "negative": "2d, flat, illustration, drawing, comic, cel shading, anime, manga, sketch, lineart, photo, photorealistic, real person, text, watermark, logo, deformed face, extra fingers, blurry, lowres, adult, old",
+   "seed": 2009,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 34,
+   "cfg": 6.5
+  },
+  {
+   "id": "ece_korku_1",
+   "prompt": "15 year old high school girl with light brown high ponytail, rectangular black glasses, green cardigan, terrified expression, wide eyes, open mouth, in a dark school corridor, close-up portrait, stylized 3D CGI animated movie character, octane render, smooth soft shading, slightly exaggerated proportions, big expressive eyes, detailed 3D hair strands, subsurface scattering skin, cinematic moody lighting, cool blue night light with warm rim light, volumetric fog, depth of field, 3d animation film still, vertical frame",
+   "negative": "2d, flat, illustration, drawing, comic, cel shading, anime, manga, sketch, lineart, photo, photorealistic, real person, text, watermark, logo, deformed face, extra fingers, blurry, lowres, adult, old",
+   "seed": 2010,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 34,
+   "cfg": 6.5
+  },
+  {
+   "id": "ece_kararli_0",
+   "prompt": "15 year old high school girl with light brown high ponytail, rectangular black glasses, green cardigan, determined serious expression, furrowed brows, in a dark classroom, close-up portrait, stylized 3D CGI animated movie character, octane render, smooth soft shading, slightly exaggerated proportions, big expressive eyes, detailed 3D hair strands, subsurface scattering skin, cinematic moody lighting, cool blue night light with warm rim light, volumetric fog, depth of field, 3d animation film still, vertical frame",
+   "negative": "2d, flat, illustration, drawing, comic, cel shading, anime, manga, sketch, lineart, photo, photorealistic, real person, text, watermark, logo, deformed face, extra fingers, blurry, lowres, adult, old",
+   "seed": 2011,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 34,
+   "cfg": 6.5
+  },
+  {
+   "id": "ece_kararli_1",
+   "prompt": "15 year old high school girl with light brown high ponytail, rectangular black glasses, green cardigan, determined serious expression, furrowed brows, in a dark classroom, close-up portrait, stylized 3D CGI animated movie character, octane render, smooth soft shading, slightly exaggerated proportions, big expressive eyes, detailed 3D hair strands, subsurface scattering skin, cinematic moody lighting, cool blue night light with warm rim light, volumetric fog, depth of field, 3d animation film still, vertical frame",
+   "negative": "2d, flat, illustration, drawing, comic, cel shading, anime, manga, sketch, lineart, photo, photorealistic, real person, text, watermark, logo, deformed face, extra fingers, blurry, lowres, adult, old",
+   "seed": 2012,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 34,
+   "cfg": 6.5
+  },
+  {
+   "id": "sahne_koridor",
+   "prompt": "15 year old high school girl with wavy dark brown shoulder-length hair and freckles, mustard yellow raincoat over grey hoodie, walking slowly down a long dark school corridor holding a flashlight, lockers, flickering ceiling lights, fog, full body, stylized 3D CGI animated movie character, octane render, smooth soft shading, slightly exaggerated proportions, big expressive eyes, detailed 3D hair strands, subsurface scattering skin, cinematic moody lighting, cool blue night light with warm rim light, volumetric fog, depth of field, 3d animation film still, vertical frame",
+   "negative": "2d, flat, illustration, drawing, comic, cel shading, anime, manga, sketch, lineart, photo, photorealistic, real person, text, watermark, logo, deformed face, extra fingers, blurry, lowres, adult, old",
+   "seed": 2101,
+   "size": [
+    768,
+    1344
+   ],
+   "steps": 34,
+   "cfg": 6.5
+  }
+ ]
+}
