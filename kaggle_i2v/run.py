@@ -52,8 +52,9 @@ def t2i(it):   # GÖRSEL ÜRETİMİ (GPU): RealVisXL V5 (SDXL, CreativeML OpenRA
         torch.cuda.empty_cache()
         from diffusers import StableDiffusionXLPipeline, DPMSolverMultistepScheduler
         mid = J.get("t2i_model", "SG161222/RealVisXL_V5.0")
-        try: p = StableDiffusionXLPipeline.from_pretrained(mid, torch_dtype=torch.float16, variant="fp16").to("cuda")
-        except Exception: p = StableDiffusionXLPipeline.from_pretrained(mid, torch_dtype=torch.float16).to("cuda")
+        sch = DPMSolverMultistepScheduler(num_train_timesteps=1000, beta_start=0.00085, beta_end=0.012, beta_schedule="scaled_linear", algorithm_type="dpmsolver++", solver_order=2, use_karras_sigmas=True, steps_offset=1, timestep_spacing="leading")
+        try: p = StableDiffusionXLPipeline.from_pretrained(mid, torch_dtype=torch.float16, variant="fp16", scheduler=sch).to("cuda")
+        except Exception as e: print("fp16 varyant yok:", repr(e)[:200], flush=True); p = StableDiffusionXLPipeline.from_pretrained(mid, torch_dtype=torch.float16, scheduler=sch).to("cuda")
         p.scheduler = DPMSolverMultistepScheduler(num_train_timesteps=1000, beta_start=0.00085, beta_end=0.012, beta_schedule="scaled_linear", algorithm_type="dpmsolver++", solver_order=2, use_karras_sigmas=True, steps_offset=1, timestep_spacing="leading"); p.vae.enable_tiling(); T2I["p"] = p
     w, h = it.get("size", [832, 1216]); g = torch.Generator("cuda").manual_seed(it.get("seed", 7))
     im = T2I["p"](prompt=it["prompt"], negative_prompt=it.get("negative", "text, letters, logo, watermark, people, hands, blurry, lowres, deformed, cartoon, illustration, cgi look"),
