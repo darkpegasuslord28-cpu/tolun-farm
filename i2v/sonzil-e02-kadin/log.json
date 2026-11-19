@@ -1,0 +1,42 @@
+[
+ {
+  "id": "a06",
+  "ok": true,
+  "cer": -0.074,
+  "asr": " Halatı çekin. Çabuk.",
+  "dur": 1.76,
+  "sec": 39
+ },
+ {
+  "id": "a10",
+  "ok": true,
+  "cer": -0.068,
+  "asr": " Bu okuldan öyle çıkılmıyor.",
+  "dur": 3.52,
+  "sec": 23
+ },
+ {
+  "id": "b03",
+  "ok": true,
+  "cer": -0.053,
+  "asr": " Okulda kimsenin girmediği tek yer var. Eski bina.",
+  "dur": 3.36,
+  "sec": 30
+ },
+ {
+  "id": "b07",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Anahtar bende. Dedem bu okulun hademesiydi.",
+  "dur": 4.16,
+  "sec": 32
+ },
+ {
+  "id": "b10",
+  "ok": true,
+  "cer": -0.059,
+  "asr": " Beni duyuyor musunuz?",
+  "dur": 1.44,
+  "sec": 13
+ }
+]
