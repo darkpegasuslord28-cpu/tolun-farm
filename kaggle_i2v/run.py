@@ -55,9 +55,21 @@ def t2i(it):   # GÖRSEL ÜRETİMİ (GPU): RealVisXL V5 (SDXL, CreativeML OpenRA
         sch = DPMSolverMultistepScheduler(num_train_timesteps=1000, beta_start=0.00085, beta_end=0.012, beta_schedule="scaled_linear", algorithm_type="dpmsolver++", solver_order=2, use_karras_sigmas=True, steps_offset=1, timestep_spacing="leading")
         try: p = StableDiffusionXLPipeline.from_pretrained(mid, torch_dtype=torch.float16, variant="fp16", scheduler=sch).to("cuda")
         except Exception as e: print("fp16 varyant yok:", repr(e)[:200], flush=True); p = StableDiffusionXLPipeline.from_pretrained(mid, torch_dtype=torch.float16, scheduler=sch).to("cuda")
-        p.scheduler = DPMSolverMultistepScheduler(num_train_timesteps=1000, beta_start=0.00085, beta_end=0.012, beta_schedule="scaled_linear", algorithm_type="dpmsolver++", solver_order=2, use_karras_sigmas=True, steps_offset=1, timestep_spacing="leading"); p.vae.enable_tiling(); T2I["p"] = p
+        p.scheduler = DPMSolverMultistepScheduler(num_train_timesteps=1000, beta_start=0.00085, beta_end=0.012, beta_schedule="scaled_linear", algorithm_type="dpmsolver++", solver_order=2, use_karras_sigmas=True, steps_offset=1, timestep_spacing="leading"); p.vae.enable_tiling()
+        if J.get("ip_adapter"):   # karakter tutarlılığı: IP-Adapter Plus Face (h94, Apache-2.0) — referans yüz kartı
+            p.load_ip_adapter("h94/IP-Adapter", subfolder="sdxl_models", weight_name="ip-adapter-plus-face_sdxl_vit-h.safetensors", image_encoder_folder="models/image_encoder")
+        T2I["p"] = p
     w, h = it.get("size", [832, 1216]); g = torch.Generator("cuda").manual_seed(it.get("seed", 7))
-    im = T2I["p"](prompt=it["prompt"], negative_prompt=it.get("negative", "text, letters, logo, watermark, people, hands, blurry, lowres, deformed, cartoon, illustration, cgi look"),
+    kw = {}
+    if J.get("ip_adapter"):
+        from PIL import Image as _I
+        if it.get("ref"):
+            rp = f"/tmp/ref_{os.path.basename(it['ref'])}"
+            if not os.path.exists(rp): urllib.request.urlretrieve("https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/" + it["ref"], rp)
+            kw["ip_adapter_image"] = _I.open(rp).convert("RGB"); T2I["p"].set_ip_adapter_scale(it.get("ip_scale", 0.55))
+        else:
+            kw["ip_adapter_image"] = _I.new("RGB", (224, 224)); T2I["p"].set_ip_adapter_scale(0.0)
+    im = T2I["p"](**kw, prompt=it["prompt"], negative_prompt=it.get("negative", "text, letters, logo, watermark, people, hands, blurry, lowres, deformed, cartoon, illustration, cgi look"),
                   width=w, height=h, num_inference_steps=it.get("steps", 30), guidance_scale=it.get("cfg", 5.0), generator=g).images[0]
     im.save(f"{OUT}/{it['id']}.png")
 def motion(fr):
