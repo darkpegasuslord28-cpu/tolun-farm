@@ -1,0 +1,146 @@
+[
+ {
+  "id": "anlatici_A",
+  "ok": true,
+  "cer": -0.075,
+  "asr": " Kasım. Gece etüdü. Okulda yedi öğrenci kaldı. Ve o gece zil bir kez daha çaldı.",
+  "dur": 5.76,
+  "sec": 68
+ },
+ {
+  "id": "anlatici_B",
+  "ok": true,
+  "cer": -0.071,
+  "asr": " Kasım. Gece etüdü. Okulda yedi öğrenci kaldı. Ve o gece zil bir kez daha çaldı.",
+  "dur": 5.92,
+  "sec": 46
+ },
+ {
+  "id": "deniz_A",
+  "ok": true,
+  "cer": -0.078,
+  "asr": " Orada biri var. Bahçe kapısının yanında bir ışık. İki dakika sadece bakıp geleceğim.",
+  "dur": 5.44,
+  "sec": 47
+ },
+ {
+  "id": "deniz_B",
+  "ok": true,
+  "cer": -0.078,
+  "asr": " Orada biri var. Bahçe kapısının yanında bir ışık. İki dakika. Sadece bakıp geleceğim.",
+  "dur": 5.6,
+  "sec": 46
+ },
+ {
+  "id": "kerem_A",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Herkes sakin olsun, kimse bir yere ayrılmıyor. Deniz dur, kimse çıkmıyor dedim.",
+  "dur": 4.96,
+  "sec": 45
+ },
+ {
+  "id": "kerem_B",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Herkes sakin olsun. Kimse bir yere ayrılmıyor. Deniz dur kimse çıkmıyor dedim.",
+  "dur": 5.28,
+  "sec": 46
+ },
+ {
+  "id": "ece_A",
+  "ok": true,
+  "cer": -0.066,
+  "asr": " Telefonlar, hiçbirinde şebeke yok. Bunun bilimsel bir açıklaması olmalı.",
+  "dur": 4.48,
+  "sec": 37
+ },
+ {
+  "id": "ece_B",
+  "ok": true,
+  "cer": -0.078,
+  "asr": " Telefonlar. Hiçbirinde şebeke yok. Bunun bilimsel bir açıklaması olmalı.",
+  "dur": 4.64,
+  "sec": 38
+ },
+ {
+  "id": "bora_A",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Bu kimin şakası ya? Tamam tamam korkmuyorum. Sadece biraz üşüdüm.",
+  "dur": 5.6,
+  "sec": 42
+ },
+ {
+  "id": "bora_B",
+  "ok": true,
+  "cer": -0.087,
+  "asr": " Bu kimin şakası ya? Tamam tamam korkmuyorum. Sadece biraz üşüdüm.",
+  "dur": 4.64,
+  "sec": 40
+ },
+ {
+  "id": "zeynep_A",
+  "ok": true,
+  "cer": -0.073,
+  "asr": " Bu okuldan öyle çıkılmıyor. Anahtar bende. Dedem bu okulun hademesiydi.",
+  "dur": 5.12,
+  "sec": 41
+ },
+ {
+  "id": "zeynep_B",
+  "ok": true,
+  "cer": -0.077,
+  "asr": " Bu okuldan öyle çıkılmıyor. Anahtar bende. Dedem bu okulun hademesiydi.",
+  "dur": 4.48,
+  "sec": 41
+ },
+ {
+  "id": "mert_A",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Ben giderim. Üç adım atıp dönerim. O kadar. Bunu şimdi mi söylüyorsun?",
+  "dur": 4.32,
+  "sec": 36
+ },
+ {
+  "id": "mert_B",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Ben giderim. Üç adım atıp dönerim. O kadar. Bunu şimdi mi söylüyorsun?",
+  "dur": 4.32,
+  "sec": 36
+ },
+ {
+  "id": "can_A",
+  "ok": true,
+  "cer": -0.082,
+  "asr": " Merhaba, ben yeni öğrenciyim. Bu okulu rüyalarımda görmüştüm.",
+  "dur": 4.48,
+  "sec": 36
+ },
+ {
+  "id": "can_B",
+  "ok": true,
+  "cer": -0.085,
+  "asr": " Merhaba ben yeni öğrenciyim. Bu okulu rüyalarımda görmüştüm.",
+  "dur": 4.0,
+  "sec": 35
+ },
+ {
+  "id": "hoca_A",
+  "ok": true,
+  "cer": -0.069,
+  "asr": " Zil çalarsa koridora sakın tek başınıza çıkmayın.",
+  "dur": 3.2,
+  "sec": 27
+ },
+ {
+  "id": "hoca_B",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Zil çalarsa koridora sakın tek başınıza çıkmayın.",
+  "dur": 3.2,
+  "sec": 28
+ }
+]
