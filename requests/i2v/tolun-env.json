@@ -1,0 +1,5 @@
+{"name": "tolun-env", "mode": "env",
+ "hf": ["openbmb/VoxCPM2", "Trendyol/Trendyol-TTS", "Lykon/dreamshaper-xl-1-0", "h94/IP-Adapter"],
+ "patterns": {"Lykon/dreamshaper-xl-1-0": ["*.json", "*.txt", "*fp16.safetensors"],
+              "h94/IP-Adapter": ["sdxl_models/ip-adapter-plus-face_sdxl_vit-h.safetensors", "models/image_encoder/*"]},
+ "asr": "large-v3-turbo"}

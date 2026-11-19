@@ -28,7 +28,7 @@ jobs:
           mkdir -p k && cp kaggle_i2v/run.py k/ && cp "$REQ" k/job.json
           python3 - <<PY
           import json; json.dump({"id": "$KAGGLE_USERNAME/$SLUG", "title": "$SLUG", "code_file": "run.py", "language": "python", "kernel_type": "script",
-            "is_private": True, "enable_gpu": True, "enable_internet": True, "machine_shape": "NvidiaTeslaT4", "dataset_sources": [], "kernel_sources": [], "competition_sources": []}, open("k/kernel-metadata.json", "w"))
+            "is_private": True, "enable_gpu": True, "enable_internet": True, "machine_shape": "NvidiaTeslaT4", "dataset_sources": [], "kernel_sources": (["$KAGGLE_USERNAME/tolun-i2v-tolun-env"] if json.load(open("$REQ")).get("env") else []), "competition_sources": []}, open("k/kernel-metadata.json", "w"))
           PY
           # job.json'u betiğin içine göm (Kaggle'a yalnız betik gider)
           python3 - <<PY
@@ -41,7 +41,7 @@ jobs:
             U=$(grep -oE 'kaggle.com/code/[^/ ]+' push.log | head -1 | cut -d/ -f3); KREF="${U:-$KAGGLE_USERNAME}/$SLUG"   # gerçek kullanıcı adı push çıktısından
           fi; echo "kernel: $KREF"
           for i in $(seq 1 330); do sleep 60; S=$(kaggle kernels status "$KREF" 2>&1 | tail -1); echo "$i $S"; echo "$S" | grep -qiE 'complete|error|cancel|denied' && break; done
-          mkdir -p o && kaggle kernels output "$KREF" -p o || true
+          if [ "$N" = "tolun-env" ]; then mkdir -p o; echo "hazır ortam: çıktı indirilmez (Kaggle'da kalır)"; else mkdir -p o && kaggle kernels output "$KREF" -p o || true; fi
           ls -la o o/out 2>/dev/null | head -40
           echo "N=$N" >> $GITHUB_ENV
       - if: steps.r.outputs.req != ''
@@ -51,6 +51,6 @@ jobs:
           for i in 1 2 3 4 5 6; do
             rm -rf /tmp/c && mkdir -p /tmp/c && cd /tmp/c && git init -q && git config user.name "tolun-farm-bot" && git config user.email "actions@users.noreply.github.com"
             if git fetch -q --depth 1 "$R" i2v-cache; then git checkout -q -b i2v-cache FETCH_HEAD; else git checkout -q -b i2v-cache; fi
-            mkdir -p "i2v/$N"; for f in $GITHUB_WORKSPACE/$SRC/*.mp4 $GITHUB_WORKSPACE/$SRC/*.png $GITHUB_WORKSPACE/$SRC/*.json $GITHUB_WORKSPACE/$SRC/*.wav; do [ -f "$f" ] && cp "$f" "i2v/$N/"; done; for f in $GITHUB_WORKSPACE/o/*.log; do [ -f "$f" ] && cp "$f" "i2v/$N/kernel.log"; done; git add -A && git commit -qm "i2v: $N" || exit 0
+            mkdir -p "i2v/$N"; for f in $GITHUB_WORKSPACE/$SRC/*.mp4 $GITHUB_WORKSPACE/$SRC/*.png $GITHUB_WORKSPACE/$SRC/*.json $GITHUB_WORKSPACE/$SRC/*.wav; do [ -f "$f" ] && cp "$f" "i2v/$N/"; done; for f in $GITHUB_WORKSPACE/o/*.log; do [ -f "$f" ] && cp "$f" "i2v/$N/kernel.log"; done; for d in $GITHUB_WORKSPACE/$SRC/*/; do [ -d "$d" ] || continue; b=$(basename "$d"); mkdir -p "i2v/$b"; for f in "$d"*.mp4 "$d"*.png "$d"*.json "$d"*.wav; do [ -f "$f" ] && cp "$f" "i2v/$b/"; done; done; git add -A && git commit -qm "i2v: $N" || exit 0
             git push -q "$R" i2v-cache && exit 0; sleep 10
           done; exit 1

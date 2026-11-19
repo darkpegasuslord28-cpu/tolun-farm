@@ -5,8 +5,38 @@ import json, os, sys, time, subprocess, urllib.request, io
 def torch_cuda_n():
     import torch; return torch.cuda.device_count()
 J = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "job.json")))
+# --- HIZLANDIRMA (19 Kas): hazır ortam + tek oturumda çok iş ---------------------------------------------
+if os.environ.get("SUBJOB"): J = json.load(open(os.environ["SUBJOB"]))
+OUT_ROOT = os.environ.get("OUT_ROOT", "/kaggle/working/out")
+ENV = next((d for d in ["/kaggle/input/tolun-i2v-tolun-env", "/kaggle/input/tolun-env"] if os.path.isdir(d)), None)
+if ENV and not os.environ.get("ENV_READY"):   # model önbelleği: salt-okunur girdiden sembolik bağ ağacı (kilit dosyaları yazılabilsin)
+    t0 = time.time()
+    if os.path.isdir(ENV + "/hf"): subprocess.run(f"mkdir -p /tmp/hf && cp -rs {ENV}/hf/. /tmp/hf/ 2>/dev/null", shell=True); os.environ["HF_HOME"] = "/tmp/hf"
+    if os.path.isdir(ENV + "/whisper"): os.environ["WHISPER_ROOT"] = ENV + "/whisper"
+    os.environ["ENV_READY"] = "1"; print("hazır ortam bağlandı", ENV, round(time.time() - t0, 1), "sn", flush=True)
+if J.get("mode") == "env":   # HAZIR ORTAM ÇEKİRDEĞİ: ağırlıkları bir kez indir → çıktısı sonraki işlerde kernel_sources ile girdi olur
+    W = "/kaggle/working"; os.environ["HF_HOME"] = W + "/hf"; t0 = time.time()
+    subprocess.run([sys.executable, "-m", "pip", "install", "-q", "huggingface_hub", "openai-whisper"], check=False)
+    from huggingface_hub import snapshot_download
+    for rid in J.get("hf", []):
+        try: snapshot_download(rid, allow_patterns=J.get("patterns", {}).get(rid)); print("indi", rid, round(time.time() - t0), flush=True)
+        except Exception as e: print("inemedi", rid, repr(e)[:200], flush=True)
+    import whisper; whisper._download(whisper._MODELS[J.get("asr", "large-v3-turbo")], W + "/whisper", False); print("whisper indi", flush=True)
+    subprocess.run("du -sh /kaggle/working/hf /kaggle/working/whisper", shell=True); sys.exit(0)
+if J.get("jobs"):   # TEK OTURUM, ÇOK İŞ: alt işler sırayla (ya da "parallel": GPU başına bir iş, T4×2)
+    import torch; ng = max(1, torch.cuda.device_count()) if J.get("parallel") else 1; subs = J["jobs"]; running = []
+    for k, sub in enumerate(subs):
+        jp = f"/kaggle/working/sub_{k}.json"; json.dump(sub, open(jp, "w"))
+        env = dict(os.environ, SUBJOB=jp, OUT_ROOT=f"/kaggle/working/out/{sub['name']}")
+        if ng > 1: env["CUDA_VISIBLE_DEVICES"] = str(k % ng)
+        while len(running) >= ng: running = [p for p in running if p.poll() is None]; time.sleep(5)
+        print("alt iş", sub["name"], "GPU", env.get("CUDA_VISIBLE_DEVICES", "hepsi"), flush=True)
+        running.append(subprocess.Popen([sys.executable, os.path.abspath(__file__)], env=env))
+        if ng == 1: running[-1].wait()
+    for p in running: p.wait()
+    sys.exit(0)
 if J.get("mode") == "voxcpm":   # TÜRKÇE SESLENDİRME (GPU): VoxCPM2 (OpenBMB, Apache-2.0) ses tasarımı/klon → her replik N deneme → Whisper ile doğruluk → en iyisi
-    OUT = "/kaggle/working/out"; os.makedirs(OUT, exist_ok=True); log = []
+    OUT = OUT_ROOT; os.makedirs(OUT, exist_ok=True); log = []
     subprocess.run([sys.executable, "-m", "pip", "install", "-q", "voxcpm", "openai-whisper", "jiwer"], check=False)
     import soundfile as sf, whisper, jiwer, re, unicodedata, numpy as np
     from voxcpm import VoxCPM
@@ -15,7 +45,7 @@ if J.get("mode") == "voxcpm":   # TÜRKÇE SESLENDİRME (GPU): VoxCPM2 (OpenBMB,
         try: m = VoxCPM.from_pretrained(mid_, load_denoiser=False); print("model:", mid_, flush=True); break
         except Exception as e: print("model yüklenemedi", mid_, repr(e)[:200], flush=True)
     SR = m.tts_model.sample_rate
-    asr = whisper.load_model(J.get("asr", "large-v3-turbo"), device="cuda:1" if torch_cuda_n() > 1 else "cuda")
+    asr = whisper.load_model(J.get("asr", "large-v3-turbo"), download_root=os.environ.get("WHISPER_ROOT"), device="cuda:1" if torch_cuda_n() > 1 else "cuda")
     def norm(t): t = unicodedata.normalize("NFC", t.lower()); return re.sub(r"[^\wçğıöşü ]", " ", t).split()
     REFS = {}
     for v, V in J["voices"].items():
@@ -57,7 +87,7 @@ if J.get("mode") == "voxcpm":   # TÜRKÇE SESLENDİRME (GPU): VoxCPM2 (OpenBMB,
         print(log[-1], flush=True); json.dump(log, open(f"{OUT}/log.json", "w"), ensure_ascii=False, indent=1)
     sys.exit(0)
 if J.get("mode") == "blender":   # 3B ÜRÜN SAHNELERİ (Blender/bpy, Cycles GPU): kaggle_i2v/tolun3d.py — her sahnede aynı ürün
-    OUT = "/kaggle/working/out"; os.makedirs(OUT, exist_ok=True); log = []
+    OUT = OUT_ROOT; os.makedirs(OUT, exist_ok=True); log = []
     subprocess.run("apt-get install -y -qq libxi6 libxxf86vm1 libxfixes3 libxrender1 libgl1 libxkbcommon0 libsm6 > /dev/null 2>&1", shell=True)
     subprocess.run([sys.executable, "-m", "pip", "install", "-q", "bpy", "imageio-ffmpeg"], check=False)
     import imageio_ffmpeg; FF = imageio_ffmpeg.get_ffmpeg_exe()
@@ -78,7 +108,7 @@ subprocess.run([sys.executable, "-m", "pip", "install", "-q", "-U", "diffusers>=
 import torch, numpy as np
 from PIL import Image
 from diffusers.utils import export_to_video
-OUT = "/kaggle/working/out"; os.makedirs(OUT, exist_ok=True); log = []
+OUT = OUT_ROOT; os.makedirs(OUT, exist_ok=True); log = []
 RAW = "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/artgen-cache/artgen/"
 NEG = "static, still image, frozen, no motion, worst quality, blurry, jittery, distorted, text, watermark, people, morphing"
 PIPES = {}
