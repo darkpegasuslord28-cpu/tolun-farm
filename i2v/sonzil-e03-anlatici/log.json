@@ -1,0 +1,34 @@
+[
+ {
+  "id": "c04",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Saat tam on biri gösteriyordu. Ece'nin fikriydi bu. Her saat başı herkes sırayla sayacaktı.",
+  "dur": 6.4,
+  "sec": 97
+ },
+ {
+  "id": "c06",
+  "ok": true,
+  "cer": -0.086,
+  "asr": " Altı fener yandı, altı yüz aydınlandı. Ama sınıfın bir köşesi hiç aydınlanmadı.",
+  "dur": 5.92,
+  "sec": 70
+ },
+ {
+  "id": "c11",
+  "ok": true,
+  "cer": -0.048,
+  "asr": " Tam o sırada tahtada kimsenin yazmadığı bir satır belirdi. Tebeşirin tozu hala havadaydı.",
+  "dur": 5.44,
+  "sec": 69
+ },
+ {
+  "id": "c13",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Ama siz de duydunuz değil mi? O ses kimin sesiydi?",
+  "dur": 3.36,
+  "sec": 41
+ }
+]
