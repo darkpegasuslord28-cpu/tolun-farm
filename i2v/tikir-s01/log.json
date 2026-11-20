@@ -1,0 +1,42 @@
+[
+ {
+  "id": "l1",
+  "ok": true,
+  "cer": -0.018,
+  "asr": " Merhaba ben Tıkır.",
+  "dur": 1.76,
+  "sec": 40
+ },
+ {
+  "id": "l2",
+  "ok": true,
+  "cer": -0.076,
+  "asr": " Şu an bir ekranın içindeyim. Evet biraz sıkışık.",
+  "dur": 3.2,
+  "sec": 23
+ },
+ {
+  "id": "l3",
+  "ok": true,
+  "cer": -0.067,
+  "asr": " Oğulcan beni yapacakmış. Ne zaman o da bilmiyor.",
+  "dur": 3.36,
+  "sec": 28
+ },
+ {
+  "id": "l4",
+  "ok": true,
+  "cer": -0.073,
+  "asr": " Babası usta. Bana metal ayak yapacakmış. Ben tekerlek istiyordum ama neyse.",
+  "dur": 5.12,
+  "sec": 37
+ },
+ {
+  "id": "l5",
+  "ok": true,
+  "cer": -0.075,
+  "asr": " Takipte kal. Buradan çıkınca ilk sana geleceğim.",
+  "dur": 3.52,
+  "sec": 24
+ }
+]
