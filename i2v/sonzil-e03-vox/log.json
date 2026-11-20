@@ -1,0 +1,106 @@
+[
+ {
+  "id": "c01",
+  "ok": true,
+  "cer": -0.02,
+  "asr": " Dört, beş, altı...",
+  "dur": 3.36,
+  "sec": 48
+ },
+ {
+  "id": "c02",
+  "ok": true,
+  "cer": -0.018,
+  "asr": " Yedi.",
+  "dur": 0.8,
+  "sec": 20
+ },
+ {
+  "id": "c03",
+  "ok": true,
+  "cer": 0.133,
+  "asr": " Abi biz 6 kişiydik değil mi?",
+  "dur": 2.4,
+  "sec": 36
+ },
+ {
+  "id": "c04",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Saat tam on bir. Ece'nin fikriydi bu, her saat başı sırayla sayacaklardı.",
+  "dur": 6.56,
+  "sec": 75
+ },
+ {
+  "id": "c05",
+  "ok": true,
+  "cer": -0.075,
+  "asr": " Tamam sakin olun. Bir daha sayıyoruz. Herkes feneri kendi yüzüne tutsun.",
+  "dur": 4.96,
+  "sec": 56
+ },
+ {
+  "id": "c06",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Altı fener yandı. Altı yüz ama sınıfın bir köşesi hiç aydınlanmadı.",
+  "dur": 7.04,
+  "sec": 71
+ },
+ {
+  "id": "c07",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Bu iş o anahtarla başladı. Zeynep o anahtar nereden çıktı?",
+  "dur": 5.12,
+  "sec": 51
+ },
+ {
+  "id": "c08",
+  "ok": true,
+  "cer": -0.043,
+  "asr": " Dedem indi. Bu okulun hademesiydi. Bana bir tek şunu söyledi. Sayı tutmazsa susun.",
+  "dur": 8.0,
+  "sec": 93
+ },
+ {
+  "id": "c09",
+  "ok": true,
+  "cer": -0.033,
+  "asr": " Bakın bunun bir açıklaması var. Yanka olabilir, biri şaka yapıyor olabilir.",
+  "dur": 5.44,
+  "sec": 59
+ },
+ {
+  "id": "c10",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Bu saatte kim şaka yapar ya? Ben bile yapmam.",
+  "dur": 2.88,
+  "sec": 39
+ },
+ {
+  "id": "c11",
+  "ok": true,
+  "cer": -0.065,
+  "asr": " O sırada tahtada kimsenin yazmadığı bir satır belirdi. Tebeşirin tozu hâlâ havadaydı.",
+  "dur": 6.24,
+  "sec": 73
+ },
+ {
+  "id": "c12",
+  "ok": true,
+  "cer": -0.036,
+  "asr": " 3. Sayı tutmuyorsa kimseye söylemeyin.",
+  "dur": 3.2,
+  "sec": 38
+ },
+ {
+  "id": "c13",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Ama siz duydunuz değil mi? O ses kimin sesiydi?",
+  "dur": 3.04,
+  "sec": 38
+ }
+]
