@@ -166,16 +166,29 @@ def t2i(it):   # GÖRSEL ÜRETİMİ (GPU): RealVisXL V5 (SDXL, CreativeML OpenRA
             kw["ip_adapter_image"] = _I.open(rp).convert("RGB"); T2I["p"].set_ip_adapter_scale(it.get("ip_scale", 0.55))
         else:
             kw["ip_adapter_image"] = _I.new("RGB", (224, 224)); T2I["p"].set_ip_adapter_scale(0.0)
-    im = T2I["p"](**kw, prompt=it["prompt"], negative_prompt=it.get("negative", "text, letters, logo, watermark, people, hands, blurry, lowres, deformed, cartoon, illustration, cgi look"),
-                  width=w, height=h, num_inference_steps=it.get("steps", 30), guidance_scale=it.get("cfg", 5.0), generator=g).images[0]
-    im.save(f"{OUT}/{it['id']}.png")
+    ims = []
+    for ci in range(it.get("cands", 1)):   # SAHNE = REPLİK: birkaç aday üret, CLIP ile replikteki eyleme en çok benzeyeni seç
+        g = torch.Generator("cuda").manual_seed(it.get("seed", 7) + ci * 17)
+        ims.append(T2I["p"](**kw, prompt=it["prompt"], negative_prompt=it.get("negative", "text, letters, logo, watermark, people, hands, blurry, lowres, deformed, cartoon, illustration, cgi look"),
+                  width=w, height=h, num_inference_steps=it.get("steps", 30), guidance_scale=it.get("cfg", 5.0), generator=g).images[0])
+    sc = clip_pick(ims, it.get("action") or it["prompt"].split(",")[0]) if len(ims) > 1 else [0.0]
+    best = int(np.argmax(sc)); ims[best].save(f"{OUT}/{it['id']}.png"); it["_clip"] = [round(float(x), 3) for x in sc]
+    for ci, im_ in enumerate(ims):
+        if ci != best: im_.resize((im_.width // 3, im_.height // 3)).save(f"{OUT}/{it['id']}_alt{ci}.jpg")
+CLIP = {}
+def clip_pick(ims, text):   # openai/clip-vit-large-patch14 (MIT): görüntü ↔ eylem cümlesi benzerliği
+    from transformers import CLIPModel, CLIPProcessor
+    if "m" not in CLIP: CLIP["m"] = CLIPModel.from_pretrained(M("openai/clip-vit-large-patch14"), torch_dtype=torch.float16).to("cuda"); CLIP["p"] = CLIPProcessor.from_pretrained(M("openai/clip-vit-large-patch14"))
+    x = CLIP["p"](text=[text], images=ims, return_tensors="pt", padding=True, truncation=True).to("cuda")
+    with torch.no_grad(): o = CLIP["m"](**{k: (v.half() if v.dtype == torch.float32 else v) for k, v in x.items()})
+    return o.logits_per_image[:, 0].float().cpu().numpy()
 def motion(fr):
     a = np.stack([np.asarray(f.convert("L").resize((128, 128)), np.float32) if hasattr(f, "convert") else np.asarray(Image.fromarray((np.asarray(f) * 255).astype(np.uint8)).convert("L").resize((128, 128)), np.float32) for f in fr])
     return round(float(np.abs(np.diff(a, axis=0)).mean()), 3)
 for it in J["items"]:
     t0 = time.time(); kind = it.get("model", J.get("model", "ltx"))
     if kind == "t2i":
-        try: t2i(it); log.append({"id": it["id"], "model": "t2i", "ok": True, "sec": round(time.time() - t0)})
+        try: t2i(it); log.append({"id": it["id"], "model": "t2i", "ok": True, "sec": round(time.time() - t0), "clip": it.get("_clip")})
         except Exception as e: log.append({"id": it["id"], "model": "t2i", "ok": False, "err": repr(e)[:400]})
         json.dump(log, open(f"{OUT}/log.json", "w"), indent=1); print(log[-1], flush=True); continue
     try:
