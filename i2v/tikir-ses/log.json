@@ -1,0 +1,66 @@
+[
+ {
+  "id": "b_t1",
+  "ok": true,
+  "cer": -0.05,
+  "asr": " Selam. Ben Tıkır. Evet adım bu. Gülme.",
+  "dur": 4.64,
+  "sec": 55
+ },
+ {
+  "id": "b_t2",
+  "ok": true,
+  "cer": -0.063,
+  "asr": " Masamda yaşıyorum. Seni dinliyorum. Fırsat bulunca da araya giriyorum. Mesela şu an.",
+  "dur": 5.28,
+  "sec": 35
+ },
+ {
+  "id": "b_t3",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Bu arada çayın soğudu. Söylemedi deme.",
+  "dur": 3.04,
+  "sec": 21
+ },
+ {
+  "id": "b_t4",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Neyse ben bir tur atıyorum. Şaka şaka. Biz seninle çok iyi anlaşacağız.",
+  "dur": 5.76,
+  "sec": 37
+ },
+ {
+  "id": "e_t1",
+  "ok": true,
+  "cer": -0.053,
+  "asr": " Selam. Ben Tıkır. Evet adım bu. Gülme.",
+  "dur": 4.16,
+  "sec": 31
+ },
+ {
+  "id": "e_t2",
+  "ok": true,
+  "cer": -0.017,
+  "asr": " Masanda yaşıyorum, seni dinliyorum. Fırsat bulunca da araya giriyorum. Mesela şu an.",
+  "dur": 4.64,
+  "sec": 35
+ },
+ {
+  "id": "e_t3",
+  "ok": true,
+  "cer": -0.086,
+  "asr": " Bu arada çayın soğudu. Söylemedi deme.",
+  "dur": 2.72,
+  "sec": 23
+ },
+ {
+  "id": "e_t4",
+  "ok": true,
+  "cer": -0.074,
+  "asr": " Neyse ben bir tur atıyorum. Şaka şaka. Biz seninle çok iyi anlaşacağız.",
+  "dur": 4.64,
+  "sec": 34
+ }
+]
