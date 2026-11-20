@@ -1,0 +1,73 @@
+{
+ "name": "worlds-short-2026-11-24-titan",
+ "model": "Lykon/dreamshaper-8",
+ "license": "CreativeML OpenRAIL-M (model); outputs ours",
+ "shots": [
+  {
+   "id": "s1",
+   "prompt": "Saturn's moon Titan seen from space, a hazy orange sphere of thick atmosphere with a giant ringed Saturn glowing behind it, stars, cinematic",
+   "seed": 400,
+   "sec": 222.2
+  },
+  {
+   "id": "s2",
+   "prompt": "first-person view descending through thick orange haze of an alien moon's atmosphere, soft glow, sense of speed, dark lakes appearing below",
+   "seed": 407,
+   "sec": 221.1
+  },
+  {
+   "id": "s3",
+   "prompt": "a shore of a dark liquid lake under a thick orange sky, ripples, dim golden light, no people",
+   "seed": 414,
+   "sec": 221.2
+  },
+  {
+   "id": "s4",
+   "prompt": "close-up of ice pebbles rounded by liquid at the edge of a dark lake, orange haze reflected",
+   "seed": 421,
+   "sec": 221.7
+  },
+  {
+   "id": "s5",
+   "prompt": "slow orange rain falling over a dark methane sea, ripples, misty horizon",
+   "seed": 428,
+   "sec": 220.5
+  },
+  {
+   "id": "s6",
+   "prompt": "dark sand dunes stretching to a hazy orange horizon, a faint glow of a distant sun, wind-sculpted",
+   "seed": 435,
+   "sec": 221.8
+  },
+  {
+   "id": "s7",
+   "prompt": "a lone black grand piano on a misty lake shore under an orange sky, dreamy",
+   "seed": 442,
+   "sec": 221.9
+  },
+  {
+   "id": "s8",
+   "prompt": "a pale ringed Saturn faintly glowing through thick orange clouds, soft mist, calm",
+   "seed": 449,
+   "sec": 220.7
+  },
+  {
+   "id": "s9",
+   "prompt": "icy cliffs rising from a misty orange lake, strange and quiet",
+   "seed": 456,
+   "sec": 222.0
+  },
+  {
+   "id": "s10",
+   "prompt": "deep twilight on an alien lake shore, dark amber sky, faint stars through haze",
+   "seed": 463,
+   "sec": 221.4
+  },
+  {
+   "id": "s11",
+   "prompt": "mist over a glassy dark lake, an orange glow on the horizon, peaceful dawn",
+   "seed": 470,
+   "sec": 222.1
+  }
+ ]
+}
