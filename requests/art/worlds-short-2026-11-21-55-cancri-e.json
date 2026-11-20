@@ -1,0 +1,66 @@
+{
+ "name": "worlds-short-2026-11-21-55-cancri-e",
+ "style": "cinematic matte painting, ultra detailed, atmospheric, volumetric light, painterly, awe, otherworldly, no people, no text",
+ "negative": "people, person, astronaut, hands, text, letters, watermark, logo, signature, frame, border, blurry, lowres, cartoon, earth trees, city, buildings",
+ "width": 576,
+ "height": 1024,
+ "steps": 6,
+ "cfg": 1.5,
+ "shots": [
+  {
+   "id": "s1",
+   "prompt": "the rocky super-Earth 55 Cancri e seen from space, a glowing orange-black world with molten cracks across its surface, a huge bright star behind it, stars, cinematic",
+   "seed": 400
+  },
+  {
+   "id": "s2",
+   "prompt": "first-person view diving down through glowing orange haze toward a glowing lava sea, heat shimmer, sense of speed",
+   "seed": 407
+  },
+  {
+   "id": "s3",
+   "prompt": "a wide ocean of slowly flowing molten lava under a black sky, bright orange waves, awe",
+   "seed": 414
+  },
+  {
+   "id": "s4",
+   "prompt": "close-up of cooling black crust cracking over bright orange lava, glowing seams",
+   "seed": 421
+  },
+  {
+   "id": "s5",
+   "prompt": "a giant white-hot star filling half the sky above a lava plain, blinding glow, silhouetted rocks",
+   "seed": 428
+  },
+  {
+   "id": "s6",
+   "prompt": "towering fountains of lava arching into a dark sky, sparks falling like rain",
+   "seed": 435
+  },
+  {
+   "id": "s7",
+   "prompt": "a lone black grand piano on a floating island of dark rock in a sea of lava, dreamy, glowing",
+   "seed": 442
+  },
+  {
+   "id": "s8",
+   "prompt": "glowing embers drifting upward over a dark volcanic shoreline, night, stars above",
+   "seed": 449
+  },
+  {
+   "id": "s9",
+   "prompt": "a strange glass-smooth black rock plain reflecting an orange sky, endless horizon",
+   "seed": 456
+  },
+  {
+   "id": "s10",
+   "prompt": "a stormy sky of ash and orange lightning above a lava coast",
+   "seed": 463
+  },
+  {
+   "id": "s11",
+   "prompt": "the night side of a hot planet, deep red glow on the horizon, stars overhead, calm",
+   "seed": 470
+  }
+ ]
+}
