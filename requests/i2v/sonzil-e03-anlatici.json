@@ -1,0 +1,38 @@
+{
+ "name": "sonzil-e03-anlatici",
+ "mode": "voxcpm",
+ "tts_model": "openbmb/VoxCPM2",
+ "takes": 5,
+ "steps": 12,
+ "voices": {
+  "anlatici": {
+   "ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/sonzil-e01-vox3/ref_anlatici.wav"
+  }
+ },
+ "lines": [
+  {
+   "id": "c04",
+   "voice": "anlatici",
+   "text": "Saat tam on biri gösteriyordu. Ece'nin fikriydi bu: her saat başı, herkes sırayla sayacaktı.",
+   "style": "warm, wise storyteller, natural flowing speech, clear sentence endings, calm suspense"
+  },
+  {
+   "id": "c06",
+   "voice": "anlatici",
+   "text": "Altı fener yandı, altı yüz aydınlandı. Ama sınıfın bir köşesi, hiç aydınlanmadı.",
+   "style": "warm, wise storyteller, natural flowing speech, clear sentence endings, calm suspense"
+  },
+  {
+   "id": "c11",
+   "voice": "anlatici",
+   "text": "Tam o sırada, tahtada kimsenin yazmadığı bir satır belirdi. Tebeşirin tozu hâlâ havadaydı.",
+   "style": "warm, wise storyteller, natural flowing speech, clear sentence endings, calm suspense"
+  },
+  {
+   "id": "c13",
+   "voice": "anlatici",
+   "text": "Ama siz de duydunuz, değil mi? O ses, kimin sesiydi?",
+   "style": "warm, wise storyteller, natural flowing speech, clear sentence endings, calm suspense"
+  }
+ ]
+}
