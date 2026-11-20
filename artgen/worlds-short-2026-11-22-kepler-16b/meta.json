@@ -1,0 +1,73 @@
+{
+ "name": "worlds-short-2026-11-22-kepler-16b",
+ "model": "Lykon/dreamshaper-8",
+ "license": "CreativeML OpenRAIL-M (model); outputs ours",
+ "shots": [
+  {
+   "id": "s1",
+   "prompt": "the cold Saturn-sized gas giant Kepler-16b seen from space, pale blue-grey banded planet, two stars of different size glowing behind it, one orange one red, stars, cinematic",
+   "seed": 400,
+   "sec": 222.6
+  },
+  {
+   "id": "s2",
+   "prompt": "first-person view descending through pale blue-grey cold clouds of a gas giant, two distant suns glowing through the mist, sense of speed",
+   "seed": 407,
+   "sec": 220.3
+  },
+  {
+   "id": "s3",
+   "prompt": "a sky with two suns of different sizes low over a frozen cloud sea, double shadows, golden and red light",
+   "seed": 414,
+   "sec": 218.8
+  },
+  {
+   "id": "s4",
+   "prompt": "a vast ocean of pale clouds under two setting suns, long double shadows across ice crystals",
+   "seed": 421,
+   "sec": 221.6
+  },
+  {
+   "id": "s5",
+   "prompt": "close-up of drifting ice crystals glowing in two colors of light, orange and red, bokeh",
+   "seed": 428,
+   "sec": 220.3
+  },
+  {
+   "id": "s6",
+   "prompt": "one small orange sun passing in front of a larger red sun, a giant eclipse in a violet sky",
+   "seed": 435,
+   "sec": 222.1
+  },
+  {
+   "id": "s7",
+   "prompt": "a lone black grand piano on a cloud platform between two suns at dusk, dreamy",
+   "seed": 442,
+   "sec": 220.4
+  },
+  {
+   "id": "s8",
+   "prompt": "the night side of a cold giant planet, a thin ring of twin-star glow on the horizon, stars, calm",
+   "seed": 449,
+   "sec": 222.2
+  },
+  {
+   "id": "s9",
+   "prompt": "towering blue-white cloud mountains lit from two sides, orange and pink light",
+   "seed": 456,
+   "sec": 222.3
+  },
+  {
+   "id": "s10",
+   "prompt": "a lightning storm inside cold violet clouds, flashes lighting the mist",
+   "seed": 463,
+   "sec": 221.4
+  },
+  {
+   "id": "s11",
+   "prompt": "dawn with two suns rising together over cloud valleys, peach and rose colors, peaceful",
+   "seed": 470,
+   "sec": 219.9
+  }
+ ]
+}
