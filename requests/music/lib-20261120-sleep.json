@@ -1,0 +1,29 @@
+{
+ "name": "lib-20261120-sleep",
+ "tracks": [
+  {
+   "id": "sleep_20261120_0",
+   "caption": "sleep music, very soft piano and warm pads, slow, peaceful, no drums, instrumental",
+   "duration": 60,
+   "bpm": 50,
+   "keyscale": "C major",
+   "seed": 7399400
+  },
+  {
+   "id": "sleep_20261120_1",
+   "caption": "sleep music, very soft piano and warm pads, slow, peaceful, no drums, instrumental",
+   "duration": 60,
+   "bpm": 50,
+   "keyscale": "C major",
+   "seed": 7399401
+  },
+  {
+   "id": "sleep_20261120_2",
+   "caption": "sleep music, very soft piano and warm pads, slow, peaceful, no drums, instrumental",
+   "duration": 60,
+   "bpm": 50,
+   "keyscale": "C major",
+   "seed": 7399402
+  }
+ ]
+}

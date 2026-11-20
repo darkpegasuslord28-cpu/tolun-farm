@@ -1,0 +1,29 @@
+{
+ "name": "lib-20261120-curious",
+ "tracks": [
+  {
+   "id": "curious_20261120_0",
+   "caption": "curious playful pizzicato and marimba, light, documentary, wonder, instrumental",
+   "duration": 60,
+   "bpm": 100,
+   "keyscale": "C major",
+   "seed": 7399400
+  },
+  {
+   "id": "curious_20261120_1",
+   "caption": "curious playful pizzicato and marimba, light, documentary, wonder, instrumental",
+   "duration": 60,
+   "bpm": 100,
+   "keyscale": "C major",
+   "seed": 7399401
+  },
+  {
+   "id": "curious_20261120_2",
+   "caption": "curious playful pizzicato and marimba, light, documentary, wonder, instrumental",
+   "duration": 60,
+   "bpm": 100,
+   "keyscale": "C major",
+   "seed": 7399402
+  }
+ ]
+}

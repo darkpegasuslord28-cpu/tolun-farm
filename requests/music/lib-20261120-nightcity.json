@@ -1,0 +1,29 @@
+{
+ "name": "lib-20261120-nightcity",
+ "tracks": [
+  {
+   "id": "nightcity_20261120_0",
+   "caption": "night city lofi, mellow electric piano, soft bass, rain, chill, instrumental",
+   "duration": 60,
+   "bpm": 82,
+   "keyscale": "D minor",
+   "seed": 7399400
+  },
+  {
+   "id": "nightcity_20261120_1",
+   "caption": "night city lofi, mellow electric piano, soft bass, rain, chill, instrumental",
+   "duration": 60,
+   "bpm": 82,
+   "keyscale": "D minor",
+   "seed": 7399401
+  },
+  {
+   "id": "nightcity_20261120_2",
+   "caption": "night city lofi, mellow electric piano, soft bass, rain, chill, instrumental",
+   "duration": 60,
+   "bpm": 82,
+   "keyscale": "D minor",
+   "seed": 7399402
+  }
+ ]
+}
