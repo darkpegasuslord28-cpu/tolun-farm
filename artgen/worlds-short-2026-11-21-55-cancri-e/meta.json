@@ -1,0 +1,73 @@
+{
+ "name": "worlds-short-2026-11-21-55-cancri-e",
+ "model": "Lykon/dreamshaper-8",
+ "license": "CreativeML OpenRAIL-M (model); outputs ours",
+ "shots": [
+  {
+   "id": "s1",
+   "prompt": "the rocky super-Earth 55 Cancri e seen from space, a glowing orange-black world with molten cracks across its surface, a huge bright star behind it, stars, cinematic",
+   "seed": 400,
+   "sec": 121.3
+  },
+  {
+   "id": "s2",
+   "prompt": "first-person view diving down through glowing orange haze toward a glowing lava sea, heat shimmer, sense of speed",
+   "seed": 407,
+   "sec": 121.9
+  },
+  {
+   "id": "s3",
+   "prompt": "a wide ocean of slowly flowing molten lava under a black sky, bright orange waves, awe",
+   "seed": 414,
+   "sec": 125.3
+  },
+  {
+   "id": "s4",
+   "prompt": "close-up of cooling black crust cracking over bright orange lava, glowing seams",
+   "seed": 421,
+   "sec": 127.1
+  },
+  {
+   "id": "s5",
+   "prompt": "a giant white-hot star filling half the sky above a lava plain, blinding glow, silhouetted rocks",
+   "seed": 428,
+   "sec": 124.5
+  },
+  {
+   "id": "s6",
+   "prompt": "towering fountains of lava arching into a dark sky, sparks falling like rain",
+   "seed": 435,
+   "sec": 124.3
+  },
+  {
+   "id": "s7",
+   "prompt": "a lone black grand piano on a floating island of dark rock in a sea of lava, dreamy, glowing",
+   "seed": 442,
+   "sec": 126.1
+  },
+  {
+   "id": "s8",
+   "prompt": "glowing embers drifting upward over a dark volcanic shoreline, night, stars above",
+   "seed": 449,
+   "sec": 127.7
+  },
+  {
+   "id": "s9",
+   "prompt": "a strange glass-smooth black rock plain reflecting an orange sky, endless horizon",
+   "seed": 456,
+   "sec": 122.5
+  },
+  {
+   "id": "s10",
+   "prompt": "a stormy sky of ash and orange lightning above a lava coast",
+   "seed": 463,
+   "sec": 122.9
+  },
+  {
+   "id": "s11",
+   "prompt": "the night side of a hot planet, deep red glow on the horizon, stars overhead, calm",
+   "seed": 470,
+   "sec": 123.1
+  }
+ ]
+}
