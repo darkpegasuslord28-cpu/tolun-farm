@@ -1,0 +1,909 @@
+{
+ "name": "sonzil-e04-e08",
+ "parallel": true,
+ "jobs": [
+  {
+   "name": "sonzil-e48-vox",
+   "mode": "voxcpm",
+   "tts_model": "openbmb/VoxCPM2",
+   "takes": 5,
+   "steps": 12,
+   "voices": {
+    "anlatici": {
+     "ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/sonzil-e01-vox3/ref_anlatici.wav"
+    },
+    "kerem": {
+     "ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/sonzil-e01-vox3/ref_kerem.wav"
+    },
+    "bora": {
+     "ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/sonzil-e01-vox3/ref_bora.wav"
+    },
+    "ece": {
+     "ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/sonzil-e01-vox3/ref_ece.wav"
+    },
+    "deniz": {
+     "ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/sonzil-e01-vox3/ref_deniz.wav"
+    },
+    "zeynep": {
+     "ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/sonzil-e02-vox/ref_zeynep.wav"
+    },
+    "mert": {
+     "ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/sonzil-e02-vox/ref_mert.wav"
+    },
+    "can": {
+     "ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/sonzil-e03-vox/ref_can.wav"
+    }
+   },
+   "lines": [
+    {
+     "id": "d01",
+     "voice": "deniz",
+     "text": "Müdür odasına gelin. Hemen. Sizi bekliyorum.",
+     "style": "distorted, echoing over a school loudspeaker, calm but wrong"
+    },
+    {
+     "id": "d02",
+     "voice": "bora",
+     "text": "Bu Deniz! Bu Deniz'in sesi!",
+     "style": "excited and terrified, almost shouting"
+    },
+    {
+     "id": "d03",
+     "voice": "ece",
+     "text": "Dur! Tahtada ikinci kural yazıyor. Anonsa cevap verme.",
+     "style": "urgent whisper, grabbing his arm"
+    },
+    {
+     "id": "d04",
+     "voice": "anlatici",
+     "text": "Dün akşamki sayımı kimse unutmamıştı. Ve kimse, kimseye söylememişti.",
+     "style": "warm, wise storyteller, natural flowing speech, clear sentence endings, calm suspense"
+    },
+    {
+     "id": "d05",
+     "voice": "deniz",
+     "text": "Kerem, neden cevap vermiyorsun? Hani kimseyi bırakmayacaktın?",
+     "style": "hurt, pleading, echoing over a loudspeaker"
+    },
+    {
+     "id": "d06",
+     "voice": "kerem",
+     "text": "Kimse konuşmuyor. Ne olursa olsun, konuşmuyoruz.",
+     "style": "fighting tears, firm, quiet"
+    },
+    {
+     "id": "d07",
+     "voice": "anlatici",
+     "text": "Hoparlör sustu. Sonra Deniz'in teyp kalemi, koridorun ortasında kendi kendine çalışmaya başladı.",
+     "style": "warm, wise storyteller, natural flowing speech, clear sentence endings, calm suspense"
+    },
+    {
+     "id": "d08",
+     "voice": "ece",
+     "text": "Saati bir dakika ileride. Bu kayıt daha yapılmamış bir şeyi kaydetmiş.",
+     "style": "shocked whisper, reading a tiny screen"
+    },
+    {
+     "id": "d09",
+     "voice": "anlatici",
+     "text": "Bir dakika sonra ne olacağını, artık o küçük kaset biliyordu. Peki siz, dinlemek ister miydiniz?",
+     "style": "warm, wise storyteller, natural flowing speech, clear sentence endings, calm suspense"
+    },
+    {
+     "id": "e01",
+     "voice": "mert",
+     "text": "Açlıktan öleceğim. Kantinin kapısı açık, bakın.",
+     "style": "impatient, rough"
+    },
+    {
+     "id": "e02",
+     "voice": "anlatici",
+     "text": "Kantin temizdi. Fazla temiz. Sanki biri, otuz dokuz yıldır her gece burayı siliyordu.",
+     "style": "warm, wise storyteller, natural flowing speech, clear sentence endings, calm suspense"
+    },
+    {
+     "id": "e03",
+     "voice": "bora",
+     "text": "Abi bu gofretlerin yarısını ben hiç görmedim. Bunlar ne ya?",
+     "style": "nervous laugh, curious"
+    },
+    {
+     "id": "e04",
+     "voice": "zeynep",
+     "text": "Dedem bunlardan getirirdi. Ben küçükken. Hepsi eski.",
+     "style": "quiet, shaken memory"
+    },
+    {
+     "id": "e05",
+     "voice": "ece",
+     "text": "Duvardaki saate bakın. Takvim yaprağına da.",
+     "style": "slowly realizing, breath held"
+    },
+    {
+     "id": "e06",
+     "voice": "kerem",
+     "text": "On dokuz Kasım, bin dokuz yüz seksen yedi. Deniz'in mesajındaki tarih.",
+     "style": "stunned, low"
+    },
+    {
+     "id": "e07",
+     "voice": "can",
+     "text": "Bu kantini ben de hatırlıyorum. Rüyalarımda.",
+     "style": "soft, distant, unsettlingly calm"
+    },
+    {
+     "id": "e08",
+     "voice": "anlatici",
+     "text": "Herkes Can'a döndü. Çünkü Can bu okula geleli, daha iki hafta olmuştu.",
+     "style": "warm, wise storyteller, natural flowing speech, clear sentence endings, calm suspense"
+    },
+    {
+     "id": "e09",
+     "voice": "anlatici",
+     "text": "Peki iki haftalık biri, otuz dokuz yıllık bir kantini nasıl hatırlar? Siz söyleyin.",
+     "style": "warm, wise storyteller, natural flowing speech, clear sentence endings, calm suspense"
+    },
+    {
+     "id": "f01",
+     "voice": "mert",
+     "text": "Yangın kapısı! Açık! Hadi, gidiyoruz!",
+     "style": "shouting, desperate, running"
+    },
+    {
+     "id": "f02",
+     "voice": "anlatici",
+     "text": "Kapı açıldı. Ardında gece yoktu. Ardında aynı spor salonu vardı, aynı çizgiler, aynı potalar.",
+     "style": "warm, wise storyteller, natural flowing speech, clear sentence endings, calm suspense"
+    },
+    {
+     "id": "f03",
+     "voice": "bora",
+     "text": "Abi orada biz varız. Karşıda. Bize bakıyoruz!",
+     "style": "panicked, voice cracking"
+    },
+    {
+     "id": "f04",
+     "voice": "mert",
+     "text": "Ben buradan çıkacağım. Siz isterseniz kalın.",
+     "style": "stubborn, angry, stepping forward"
+    },
+    {
+     "id": "f05",
+     "voice": "kerem",
+     "text": "Mert, dur! Kural beş. Hepimiz birlikte olmalıyız!",
+     "style": "shouting, commanding, scared"
+    },
+    {
+     "id": "f06",
+     "voice": "anlatici",
+     "text": "O an kimse oy vermedi. Kimse düşünmedi. Altı el, aynı anda Mert'in ceketine uzandı.",
+     "style": "warm, wise storyteller, natural flowing speech, clear sentence endings, calm suspense"
+    },
+    {
+     "id": "f07",
+     "voice": "mert",
+     "text": "Tamam! Tamam, bıraktım. Ama bu kapı bir daha açılırsa…",
+     "style": "breathing hard, shaken, angry"
+    },
+    {
+     "id": "f08",
+     "voice": "ece",
+     "text": "Açılmayacak. Kapı bize bir şey gösterdi. Burası bir döngü.",
+     "style": "steady, realizing"
+    },
+    {
+     "id": "f09",
+     "voice": "anlatici",
+     "text": "Karşıdaki altı kişi de aynı anda geri çekilmişti. Ama biri, el sallamıştı. Sizin tarafınızdaki kimdi?",
+     "style": "warm, wise storyteller, natural flowing speech, clear sentence endings, calm suspense"
+    },
+    {
+     "id": "g01",
+     "voice": "ece",
+     "text": "Bakın. Elimi çırpıyorum, ses yarım saniye sonra geliyor.",
+     "style": "focused, analytical, tense"
+    },
+    {
+     "id": "g02",
+     "voice": "anlatici",
+     "text": "Ece haklıydı. Okul, her şeyi bir an geç duyuyordu. Sanki başka bir zamandan dinliyordu.",
+     "style": "warm, wise storyteller, natural flowing speech, clear sentence endings, calm suspense"
+    },
+    {
+     "id": "g03",
+     "voice": "bora",
+     "text": "Yani şu an söylediğim her şeyi, biri sonradan mı duyuyor?",
+     "style": "whispering, creeped out"
+    },
+    {
+     "id": "g04",
+     "voice": "ece",
+     "text": "Biri, ya da bir şey. Deniz'in teyp kalemiyle deney yapalım.",
+     "style": "determined"
+    },
+    {
+     "id": "g05",
+     "voice": "anlatici",
+     "text": "Kaydı başlattılar. On saniye sustular. Sonra geri sardılar.",
+     "style": "warm, wise storyteller, natural flowing speech, clear sentence endings, calm suspense"
+    },
+    {
+     "id": "g06",
+     "voice": "deniz",
+     "text": "Beni duyuyor musunuz? Bodrum. Saat sesi. Çok soğuk.",
+     "style": "faint, distant, breaking up through static, cold"
+    },
+    {
+     "id": "g07",
+     "voice": "zeynep",
+     "text": "Eski Bina'nın bodrumu. Dedem oraya hiç girmezdi.",
+     "style": "quiet, afraid, slow"
+    },
+    {
+     "id": "g08",
+     "voice": "kerem",
+     "text": "O zaman biz gireceğiz. Ama önce bu kaseti sonuna kadar dinleyeceğiz.",
+     "style": "firm, decided"
+    },
+    {
+     "id": "g09",
+     "voice": "anlatici",
+     "text": "Kasetin sonunda bir isim vardı. Ve o ismi duyduklarında, içlerinden biri gözlerini kaçırdı.",
+     "style": "warm, wise storyteller, natural flowing speech, clear sentence endings, calm suspense"
+    },
+    {
+     "id": "h01",
+     "voice": "deniz",
+     "text": "Saat odasını bulun. Can'a güvenin. O bu okulu…",
+     "style": "faint, urgent, cut off by static"
+    },
+    {
+     "id": "h02",
+     "voice": "anlatici",
+     "text": "Kaset tam orada kesildi. Ve altı kişi, aynı anda Can'a baktı.",
+     "style": "warm, wise storyteller, natural flowing speech, clear sentence endings, calm suspense"
+    },
+    {
+     "id": "h03",
+     "voice": "mert",
+     "text": "Sen kimsin lan? İki haftadır buradasın ve her şeyi biliyorsun!",
+     "style": "aggressive, shouting, scared underneath"
+    },
+    {
+     "id": "h04",
+     "voice": "can",
+     "text": "Bilmiyorum. Yemin ederim bilmiyorum. Sadece rüyalarımda bu koridorları görüyorum.",
+     "style": "calm but trembling, sincere"
+    },
+    {
+     "id": "h05",
+     "voice": "ece",
+     "text": "Mert, bırak onu. Deniz ona güvenin dedi.",
+     "style": "firm, stepping between them"
+    },
+    {
+     "id": "h06",
+     "voice": "zeynep",
+     "text": "Dedemin defterinde bir fotoğraf vardı. Bin dokuz yüz seksen yedi. Yedi öğrenci.",
+     "style": "quiet, revealing a secret"
+    },
+    {
+     "id": "h07",
+     "voice": "anlatici",
+     "text": "Fotoğraftaki yüzlerden biri, solmuş ama tanıdıktı. Yan ayrık saç. Baklava desenli bir yelek.",
+     "style": "warm, wise storyteller, natural flowing speech, clear sentence endings, calm suspense"
+    },
+    {
+     "id": "h08",
+     "voice": "bora",
+     "text": "Abi… bu sensin.",
+     "style": "barely a whisper, shocked"
+    },
+    {
+     "id": "h09",
+     "voice": "anlatici",
+     "text": "Can fotoğrafa uzun uzun baktı. Sonra çok sakin bir sesle, kendi adını değil, bir saati söyledi.",
+     "style": "warm, wise storyteller, natural flowing speech, clear sentence endings, calm suspense"
+    }
+   ]
+  },
+  {
+   "name": "sonzil-e48-art",
+   "model": "t2i",
+   "t2i_model": "Lykon/dreamshaper-xl-1-0",
+   "ip_adapter": true,
+   "items": [
+    {
+     "id": "d01",
+     "prompt": "an old school loudspeaker on a dark corridor wall, faint glow, dust, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4400,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0
+    },
+    {
+     "id": "d02",
+     "prompt": "teen boy with curly black hair, tan skin, red hoodie, shouting, pointing up at a loudspeaker, flashlight, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4401,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0,
+     "ref": "i2v/sonzil-cast/bora_2.png",
+     "ip_scale": 0.6
+    },
+    {
+     "id": "d03",
+     "prompt": "teen girl with light brown high ponytail, rectangular black glasses, green cardigan, grabbing a boy's arm, urgent face, chalkboard behind, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4402,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0,
+     "ref": "i2v/sonzil-cast/ece_2.png",
+     "ip_scale": 0.6
+    },
+    {
+     "id": "d04",
+     "prompt": "six teens standing silently in a dark corridor, looking at each other suspiciously, flashlights low, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4403,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0
+    },
+    {
+     "id": "d05",
+     "prompt": "close-up of Kerem's face lit by a single flashlight, eyes wet, a loudspeaker glowing above, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4404,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0,
+     "ref": "i2v/sonzil-cast/kerem_1.png",
+     "ip_scale": 0.6
+    },
+    {
+     "id": "d06",
+     "prompt": "teen boy with neat short black hair, white shirt and burgundy tie, jaw clenched, holding back tears, flashlight, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4405,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0,
+     "ref": "i2v/sonzil-cast/kerem_1.png",
+     "ip_scale": 0.6
+    },
+    {
+     "id": "d07",
+     "prompt": "a small pen-shaped voice recorder lying on a dark corridor floor, tiny red recording light on, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4406,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0
+    },
+    {
+     "id": "d08",
+     "prompt": "teen girl with light brown high ponytail, rectangular black glasses, green cardigan, holding a small voice recorder close to her glasses, shocked, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4407,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0,
+     "ref": "i2v/sonzil-cast/ece_2.png",
+     "ip_scale": 0.6
+    },
+    {
+     "id": "d09",
+     "prompt": "the small voice recorder in a trembling hand, red light blinking, darkness around, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4408,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0
+    },
+    {
+     "id": "e01",
+     "prompt": "teen boy with buzzed short hair, scar on eyebrow, denim jacket, pushing open a dark school canteen door, flashlight, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4500,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0,
+     "ref": "i2v/sonzil-cast/mert_1.png",
+     "ip_scale": 0.6
+    },
+    {
+     "id": "e02",
+     "prompt": "an old empty school canteen at night, spotless tables, chairs upside down, a single hanging lamp, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4501,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0
+    },
+    {
+     "id": "e03",
+     "prompt": "teen boy with curly black hair, tan skin, red hoodie, holding an old-fashioned retro snack wrapper, confused grin, canteen shelf, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4502,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0,
+     "ref": "i2v/sonzil-cast/bora_2.png",
+     "ip_scale": 0.6
+    },
+    {
+     "id": "e04",
+     "prompt": "teen girl with long straight black hair, burgundy headband, grey sweater, staring at a shelf of old snacks, eyes wide, quiet, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4503,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0,
+     "ref": "i2v/sonzil-cast/zeynep_1.png",
+     "ip_scale": 0.6
+    },
+    {
+     "id": "e05",
+     "prompt": "an old wall clock and a paper day calendar on a canteen wall, calendar page reading November nineteen, nineteen eighty seven, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4504,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0
+    },
+    {
+     "id": "e06",
+     "prompt": "teen boy with neat short black hair, white shirt and burgundy tie, shining a flashlight on a wall calendar, stunned, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4505,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0,
+     "ref": "i2v/sonzil-cast/kerem_1.png",
+     "ip_scale": 0.6
+    },
+    {
+     "id": "e07",
+     "prompt": "teen boy with side-parted brown hair, 1980s argyle sweater vest over white shirt, standing apart in the shadow of the canteen, calm sad face, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4506,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0,
+     "ref": "i2v/sonzil-cast/can_2.png",
+     "ip_scale": 0.6
+    },
+    {
+     "id": "e08",
+     "prompt": "five teens turning their flashlights toward one boy standing alone in shadow, tense, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4507,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0
+    },
+    {
+     "id": "e09",
+     "prompt": "close-up of an old school yearbook lying on a canteen table, closed, dust, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4508,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0
+    },
+    {
+     "id": "f01",
+     "prompt": "teen boy with buzzed short hair, scar on eyebrow, denim jacket, slamming open a red fire exit door in a dark gym, desperate, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4600,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0,
+     "ref": "i2v/sonzil-cast/mert_1.png",
+     "ip_scale": 0.6
+    },
+    {
+     "id": "f02",
+     "prompt": "a fire exit door opening onto an identical dark school gym, impossible repeating room, eerie, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4601,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0
+    },
+    {
+     "id": "f03",
+     "prompt": "through a doorway, a second group of identical teenagers standing in the gym on the other side, looking back, silhouettes, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4602,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0
+    },
+    {
+     "id": "f04",
+     "prompt": "teen boy with buzzed short hair, scar on eyebrow, denim jacket, stepping toward the open door, stubborn, others reaching for him, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4603,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0,
+     "ref": "i2v/sonzil-cast/mert_1.png",
+     "ip_scale": 0.6
+    },
+    {
+     "id": "f05",
+     "prompt": "teen boy with neat short black hair, white shirt and burgundy tie, shouting with arm stretched out, desperate leader, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4604,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0,
+     "ref": "i2v/sonzil-cast/kerem_1.png",
+     "ip_scale": 0.6
+    },
+    {
+     "id": "f06",
+     "prompt": "six hands grabbing a denim jacket and pulling a boy back from a doorway, dramatic motion, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4605,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0
+    },
+    {
+     "id": "f07",
+     "prompt": "teen boy with buzzed short hair, scar on eyebrow, denim jacket, on the floor breathing hard, sweat, staring at the closed door, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4606,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0,
+     "ref": "i2v/sonzil-cast/mert_1.png",
+     "ip_scale": 0.6
+    },
+    {
+     "id": "f08",
+     "prompt": "teen girl with light brown high ponytail, rectangular black glasses, green cardigan, standing in the dark gym looking at the door, realization, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4607,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0,
+     "ref": "i2v/sonzil-cast/ece_2.png",
+     "ip_scale": 0.6
+    },
+    {
+     "id": "f09",
+     "prompt": "dark gym, the far group of silhouettes, one silhouette waving slowly, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4608,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0
+    },
+    {
+     "id": "g01",
+     "prompt": "teen girl with light brown high ponytail, rectangular black glasses, green cardigan, clapping her hands in a dark corridor, focused expression, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4700,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0,
+     "ref": "i2v/sonzil-cast/ece_2.png",
+     "ip_scale": 0.6
+    },
+    {
+     "id": "g02",
+     "prompt": "a dark school corridor with faint sound ripples drawn in the fog, eerie, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4701,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0
+    },
+    {
+     "id": "g03",
+     "prompt": "teen boy with curly black hair, tan skin, red hoodie, whispering with hand over his mouth, scared eyes, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4702,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0,
+     "ref": "i2v/sonzil-cast/bora_2.png",
+     "ip_scale": 0.6
+    },
+    {
+     "id": "g04",
+     "prompt": "teen girl with light brown high ponytail, rectangular black glasses, green cardigan, holding a small pen recorder up in the air, determined, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4703,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0,
+     "ref": "i2v/sonzil-cast/ece_2.png",
+     "ip_scale": 0.6
+    },
+    {
+     "id": "g05",
+     "prompt": "six teens crouched around a small voice recorder on the floor, holding their breath, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4704,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0
+    },
+    {
+     "id": "g06",
+     "prompt": "close-up of the voice recorder with sound waves, static, dark, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4705,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0
+    },
+    {
+     "id": "g07",
+     "prompt": "teen girl with long straight black hair, burgundy headband, grey sweater, clutching an old key to her chest, afraid, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4706,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0,
+     "ref": "i2v/sonzil-cast/zeynep_1.png",
+     "ip_scale": 0.6
+    },
+    {
+     "id": "g08",
+     "prompt": "teen boy with neat short black hair, white shirt and burgundy tie, taking the recorder, decided face, flashlight, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4707,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0,
+     "ref": "i2v/sonzil-cast/kerem_1.png",
+     "ip_scale": 0.6
+    },
+    {
+     "id": "g09",
+     "prompt": "close-up of several faces in flashlight, one boy in the background looking away into shadow, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4708,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0
+    },
+    {
+     "id": "h01",
+     "prompt": "close-up of the voice recorder, the word static in sound waves, a red light, darkness, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4800,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0
+    },
+    {
+     "id": "h02",
+     "prompt": "five teens with flashlights all turning to look at one boy in an argyle sweater vest, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4801,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0
+    },
+    {
+     "id": "h03",
+     "prompt": "teen boy with buzzed short hair, scar on eyebrow, denim jacket, grabbing another boy's collar, angry, flashlight, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4802,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0,
+     "ref": "i2v/sonzil-cast/mert_1.png",
+     "ip_scale": 0.6
+    },
+    {
+     "id": "h04",
+     "prompt": "teen boy with side-parted brown hair, 1980s argyle sweater vest over white shirt, being held by the collar, calm sad eyes, trembling, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4803,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0,
+     "ref": "i2v/sonzil-cast/can_2.png",
+     "ip_scale": 0.6
+    },
+    {
+     "id": "h05",
+     "prompt": "teen girl with light brown high ponytail, rectangular black glasses, green cardigan, stepping between two boys, hand raised, firm, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4804,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0,
+     "ref": "i2v/sonzil-cast/ece_2.png",
+     "ip_scale": 0.6
+    },
+    {
+     "id": "h06",
+     "prompt": "teen girl with long straight black hair, burgundy headband, grey sweater, holding an old notebook with a faded group photo, quiet reveal, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4805,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0,
+     "ref": "i2v/sonzil-cast/zeynep_1.png",
+     "ip_scale": 0.6
+    },
+    {
+     "id": "h07",
+     "prompt": "an old faded black and white class photo of seven students, one boy with side-parted hair and a sweater vest, slightly glowing, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4806,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0
+    },
+    {
+     "id": "h08",
+     "prompt": "teen boy with curly black hair, tan skin, red hoodie, staring at a photo, mouth open, whispering, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4807,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0,
+     "ref": "i2v/sonzil-cast/bora_2.png",
+     "ip_scale": 0.6
+    },
+    {
+     "id": "h09",
+     "prompt": "teen boy with side-parted brown hair, 1980s argyle sweater vest over white shirt, looking at an old photo in the dark, calm, almost smiling, flat 2D digital illustration, clean vector shapes, soft cel shading, modern animated web series style, cinematic composition, night, moody lighting, cool blue fluorescent light with warm rim light, detailed, high quality, vertical frame",
+     "negative": "photo, photorealistic, 3d render, text, letters, watermark, logo, extra fingers, deformed face, blurry, lowres, anime chibi, duplicate person",
+     "seed": 4808,
+     "size": [
+      768,
+      1344
+     ],
+     "steps": 30,
+     "cfg": 6.0
+    }
+   ]
+  }
+ ]
+}
