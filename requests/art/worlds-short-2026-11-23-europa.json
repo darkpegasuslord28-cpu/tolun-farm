@@ -1,0 +1,66 @@
+{
+ "name": "worlds-short-2026-11-23-europa",
+ "style": "cinematic matte painting, ultra detailed, atmospheric, volumetric light, painterly, awe, otherworldly, no people, no text",
+ "negative": "people, person, astronaut, hands, text, letters, watermark, logo, signature, frame, border, blurry, lowres, cartoon, earth trees, city, buildings",
+ "width": 576,
+ "height": 1024,
+ "steps": 6,
+ "cfg": 1.5,
+ "shots": [
+  {
+   "id": "s1",
+   "prompt": "Jupiter's moon Europa seen from space, a cracked white and brown-streaked ice ball with long red-brown lines, a huge banded Jupiter looming behind it, stars, cinematic",
+   "seed": 400
+  },
+  {
+   "id": "s2",
+   "prompt": "first-person view descending toward a cracked icy moon, long fractures in white ice growing larger, Jupiter glowing behind, sense of speed",
+   "seed": 407
+  },
+  {
+   "id": "s3",
+   "prompt": "vast plain of white ice with deep blue cracks under a black sky, a giant Jupiter filling half the sky, awe",
+   "seed": 414
+  },
+  {
+   "id": "s4",
+   "prompt": "close-up of crystal blue ice ridges and frost flowers, cold light, sparkling",
+   "seed": 421
+  },
+  {
+   "id": "s5",
+   "prompt": "a plume of vapor rising from a crack in the ice into a starry black sky, Jupiter glowing, majestic",
+   "seed": 428
+  },
+  {
+   "id": "s6",
+   "prompt": "a deep blue glowing tunnel inside the ice, light from above fading into darkness, mist",
+   "seed": 435
+  },
+  {
+   "id": "s7",
+   "prompt": "a lone black grand piano on a plain of white ice under a giant Jupiter, dreamy",
+   "seed": 442
+  },
+  {
+   "id": "s8",
+   "prompt": "inside a hidden dark ocean beneath the ice, glowing drifting particles, bioluminescent shimmer, mysterious",
+   "seed": 449
+  },
+  {
+   "id": "s9",
+   "prompt": "jagged ice mountains casting long shadows, Jupiter crescent above, quiet",
+   "seed": 456
+  },
+  {
+   "id": "s10",
+   "prompt": "icy cliffs split by a glowing crack of turquoise light, snow drifting",
+   "seed": 463
+  },
+  {
+   "id": "s11",
+   "prompt": "Jupiter's giant storm spot hanging in a black sky above a frozen horizon, stars, calm",
+   "seed": 470
+  }
+ ]
+}
