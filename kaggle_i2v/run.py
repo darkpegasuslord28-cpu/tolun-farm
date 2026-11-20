@@ -84,8 +84,11 @@ if J.get("mode") == "voxcpm":   # TÜRKÇE SESLENDİRME (GPU): VoxCPM2 (OpenBMB,
                     import librosa; y16 = librosa.resample(np.asarray(w, dtype=np.float32), orig_sr=SR, target_sr=16000)
                     f0, _, _ = librosa.pyin(y16, fmin=60, fmax=500, sr=16000); f0 = f0[~np.isnan(f0)]
                     rms = librosa.feature.rms(y=y16)[0]; ex = (np.std(np.log(f0)) if len(f0) > 10 else 0) * 4 + np.std(rms) / (np.mean(rms) + 1e-6) * 0.5
-                except Exception: ex = 0
-                sc = er + pen - 0.06 * min(1.5, ex) * (1 if er < 0.12 else 0)
+                    # cümle sonu düşüşü: "." ya da "!" ile biten replikte son perde, cümlenin ilk yarısından ≥2 yarım ton aşağıda olmalı (yoksa "devam edecek gibi")
+                    fall = 12 * np.log2(np.median(f0[-12:]) / np.median(f0[:max(1, len(f0) // 2)])) if len(f0) > 24 else -3
+                except Exception: ex, fall = 0, -3
+                endq = L["text"].rstrip().endswith(("?", "...", "…"))
+                sc = er + pen - 0.06 * min(1.5, ex) * (1 if er < 0.12 else 0) + (0 if endq or fall <= -2 else 0.04)
                 if best is None or sc < best[0]: best = (sc, fn, hyp, round(dur, 2))
             except Exception as e: print("hata", L["id"], repr(e)[:200], flush=True)
         if best:
