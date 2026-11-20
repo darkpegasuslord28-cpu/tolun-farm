@@ -1,0 +1,362 @@
+[
+ {
+  "id": "d01",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Müdür odasına gelin. Hemen sizi bekliyorum.",
+  "dur": 3.04,
+  "sec": 52
+ },
+ {
+  "id": "d02",
+  "ok": true,
+  "cer": -0.028,
+  "asr": " Bu Deniz, bu Deniz'in sesi.",
+  "dur": 1.92,
+  "sec": 28
+ },
+ {
+  "id": "d03",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Dur, tahtada ikinci kural yazıyor. Anonsa cevap verme.",
+  "dur": 4.32,
+  "sec": 48
+ },
+ {
+  "id": "d04",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Dün akşamki sayımı kimse unutmamıştı ve kimse kimseye söylememişti.",
+  "dur": 4.96,
+  "sec": 59
+ },
+ {
+  "id": "d05",
+  "ok": true,
+  "cer": -0.063,
+  "asr": " Kerem neden cevap vermiyorsun? Hani kimseyi bırakmayacaktın.",
+  "dur": 3.68,
+  "sec": 45
+ },
+ {
+  "id": "d06",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Kimse konuşmuyor. Ne olursa olsun konuşmuyoruz.",
+  "dur": 3.2,
+  "sec": 38
+ },
+ {
+  "id": "d07",
+  "ok": true,
+  "cer": -0.065,
+  "asr": " Huparlör sustu. Sonra Deniz'in teyp kalemi koridorun ortasında kendi kendine çalışmaya başladı.",
+  "dur": 5.92,
+  "sec": 71
+ },
+ {
+  "id": "d08",
+  "ok": true,
+  "cer": -0.066,
+  "asr": " Saati bir dakika ileride. Bu kayıt daha yapılmamış bir şeyi kaydetmiş.",
+  "dur": 4.8,
+  "sec": 54
+ },
+ {
+  "id": "d09",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Bir dakika sonra ne olacağını. Artık o küçük kaset biliyordu. Peki siz dinlemek ister miydiniz?",
+  "dur": 6.24,
+  "sec": 79
+ },
+ {
+  "id": "e01",
+  "ok": true,
+  "cer": -0.072,
+  "asr": " Açlıktan öleceğim. Kantinin kapısı açık. Bakın.",
+  "dur": 3.04,
+  "sec": 42
+ },
+ {
+  "id": "e02",
+  "ok": true,
+  "cer": 0.123,
+  "asr": " Kantin temizdi. Fazla temiz. Sanki biri 39 yıldır her gece burayı siliyordu.",
+  "dur": 6.88,
+  "sec": 72
+ },
+ {
+  "id": "e03",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Abi bu gofretlerin yarısını ben hiç görmedim. Bunlar ne ya?",
+  "dur": 3.68,
+  "sec": 50
+ },
+ {
+  "id": "e04",
+  "ok": true,
+  "cer": -0.066,
+  "asr": " Dedem bunlardan getirirdi ben küçükken. Hepsi eski.",
+  "dur": 3.84,
+  "sec": 51
+ },
+ {
+  "id": "e05",
+  "ok": true,
+  "cer": -0.087,
+  "asr": " Duvardaki saate bakın. Takvim yaprağına da.",
+  "dur": 4.16,
+  "sec": 44
+ },
+ {
+  "id": "e06",
+  "ok": true,
+  "cer": 0.507,
+  "asr": " 19 Kasım 1987, denizin mesajındaki tarih.",
+  "dur": 4.48,
+  "sec": 51
+ },
+ {
+  "id": "e07",
+  "ok": true,
+  "cer": -0.073,
+  "asr": " Bu kantini ben de hatırlıyorum rüyalarımda.",
+  "dur": 2.72,
+  "sec": 35
+ },
+ {
+  "id": "e08",
+  "ok": true,
+  "cer": -0.054,
+  "asr": " Herkes kana döndü. Çünkü Can bu okula geleli, daha iki hafta olmuştu.",
+  "dur": 4.32,
+  "sec": 55
+ },
+ {
+  "id": "e09",
+  "ok": true,
+  "cer": 0.125,
+  "asr": " Peki iki haftalık biri, 39 yıllık bir kantini nasıl hatırlar? Siz söyleyin.",
+  "dur": 5.28,
+  "sec": 64
+ },
+ {
+  "id": "f01",
+  "ok": true,
+  "cer": -0.061,
+  "asr": " Yangın kapısı açık. Hadi gidiyoruz.",
+  "dur": 3.04,
+  "sec": 42
+ },
+ {
+  "id": "f02",
+  "ok": true,
+  "cer": -0.085,
+  "asr": " Kapı açıldı. Ardında gece yoktu. Ardında aynı spor salonu vardı. Aynı çizgiler, aynı potalar.",
+  "dur": 6.24,
+  "sec": 82
+ },
+ {
+  "id": "f03",
+  "ok": true,
+  "cer": -0.038,
+  "asr": " Abi orada biz varız. Karşıda bize bakıyoruz.",
+  "dur": 3.52,
+  "sec": 44
+ },
+ {
+  "id": "f04",
+  "ok": true,
+  "cer": -0.085,
+  "asr": " Ben buradan çıkacağım. Siz isterseniz kalın.",
+  "dur": 3.04,
+  "sec": 35
+ },
+ {
+  "id": "f05",
+  "ok": true,
+  "cer": -0.044,
+  "asr": " Mört, dur, kural beş. Hepimiz birlikte olmalıyız.",
+  "dur": 3.84,
+  "sec": 47
+ },
+ {
+  "id": "f06",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " O an kimse oy vermedi, kimse düşünmedi. Altı el aynı anda Mert'in ceketine uzandı.",
+  "dur": 5.6,
+  "sec": 70
+ },
+ {
+  "id": "f07",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Tamam, tamam bıraktım. Ama bu kapı bir daha açılırsa...",
+  "dur": 4.8,
+  "sec": 65
+ },
+ {
+  "id": "f08",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Açılmayacak. Kapı bize bir şey gösterdi. Burası bir döngü.",
+  "dur": 5.12,
+  "sec": 54
+ },
+ {
+  "id": "f09",
+  "ok": true,
+  "cer": -0.078,
+  "asr": " Karşıdaki altı kişi de aynı anda geri çekilmişti. Ama biri el sallamıştı. Sizin tarafınızdaki kimdi?",
+  "dur": 6.88,
+  "sec": 87
+ },
+ {
+  "id": "g01",
+  "ok": true,
+  "cer": -0.075,
+  "asr": " Bakın, elimi çırpıyorum. Ses yarım saniye sonra geliyor.",
+  "dur": 4.48,
+  "sec": 46
+ },
+ {
+  "id": "g02",
+  "ok": true,
+  "cer": -0.078,
+  "asr": " Ese haklıydı. Okul, her şeyi bir an geç duyuyordu. Sanki başka bir zamandan dinliyordu.",
+  "dur": 5.76,
+  "sec": 75
+ },
+ {
+  "id": "g03",
+  "ok": true,
+  "cer": -0.053,
+  "asr": " Yani şu an söylediğim her şeyi biri sonradan mı duyuyor?",
+  "dur": 3.36,
+  "sec": 38
+ },
+ {
+  "id": "g04",
+  "ok": true,
+  "cer": -0.07,
+  "asr": " Biri ya da bir şey Deniz'in teyp kalemiyle deney yapalım.",
+  "dur": 3.52,
+  "sec": 52
+ },
+ {
+  "id": "g05",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Kaydı başlattılar. On saniye sustular. Sonra geri sardılar.",
+  "dur": 4.48,
+  "sec": 56
+ },
+ {
+  "id": "g06",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Beni duyuyor musunuz? Bodrum saat sesi çok soğuk.",
+  "dur": 4.32,
+  "sec": 52
+ },
+ {
+  "id": "g07",
+  "ok": true,
+  "cer": -0.034,
+  "asr": " Eski binanın bodrumu dedem oraya hiç girmezdi.",
+  "dur": 3.36,
+  "sec": 48
+ },
+ {
+  "id": "g08",
+  "ok": true,
+  "cer": -0.084,
+  "asr": " O zaman biz gireceğiz. Ama önce bu kaseti sonuna kadar dinleyeceğiz.",
+  "dur": 4.16,
+  "sec": 49
+ },
+ {
+  "id": "g09",
+  "ok": true,
+  "cer": -0.079,
+  "asr": " Kasetin sonunda bir isim vardı ve o ismi duyduklarında içlerinden biri gözlerini kaçırdı.",
+  "dur": 5.92,
+  "sec": 74
+ },
+ {
+  "id": "h01",
+  "ok": true,
+  "cer": -0.057,
+  "asr": " Saat odasını bulun. Cana güvenin. O bu okulu.",
+  "dur": 3.52,
+  "sec": 45
+ },
+ {
+  "id": "h02",
+  "ok": true,
+  "cer": -0.054,
+  "asr": " Kaset tam orada kesildi ve altı kişi aynı anda cana baktı.",
+  "dur": 4.16,
+  "sec": 54
+ },
+ {
+  "id": "h03",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Sen kimsin lan? İki haftadır buradasın ve her şeyi biliyorsun.",
+  "dur": 3.68,
+  "sec": 49
+ },
+ {
+  "id": "h04",
+  "ok": true,
+  "cer": -0.04,
+  "asr": " Bilmiyorum. Yemin ederim bilmiyorum. Sadece rüyalarımda bu koridorları görüyorum.",
+  "dur": 5.12,
+  "sec": 57
+ },
+ {
+  "id": "h05",
+  "ok": true,
+  "cer": -0.067,
+  "asr": " Mert bırak onu. Deniz ona güvenin dedi.",
+  "dur": 2.72,
+  "sec": 40
+ },
+ {
+  "id": "h06",
+  "ok": true,
+  "cer": 0.382,
+  "asr": " Dedemin defterinde bir fotoğraf vardı. 1987 7 öğrenci",
+  "dur": 5.6,
+  "sec": 75
+ },
+ {
+  "id": "h07",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Fotoğraftaki yüzlerden biri solmuş ama tanıdıktı. Yan ayrık saç, baklava desenli bir yelek.",
+  "dur": 7.2,
+  "sec": 84
+ },
+ {
+  "id": "h08",
+  "ok": true,
+  "cer": 0.03,
+  "asr": " Abi bu sensin...",
+  "dur": 2.08,
+  "sec": 29
+ },
+ {
+  "id": "h09",
+  "ok": true,
+  "cer": -0.068,
+  "asr": " Ken fotoğrafa uzun uzun baktı. Sonra çok sakin bir sesle, kendi adını değil, bir saati söyledi.",
+  "dur": 6.56,
+  "sec": 77
+ }
+]
