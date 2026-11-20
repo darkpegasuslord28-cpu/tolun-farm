@@ -1,0 +1,23 @@
+[
+ {
+  "id": "koridor_hareket",
+  "model": "wan",
+  "ok": true,
+  "sec": 2655,
+  "motion": 5.518
+ },
+ {
+  "id": "deniz_mimik",
+  "model": "wan",
+  "ok": true,
+  "sec": 2364,
+  "motion": 1.73
+ },
+ {
+  "id": "ece_mimik",
+  "model": "wan",
+  "ok": true,
+  "sec": 2349,
+  "motion": 15.01
+ }
+]
