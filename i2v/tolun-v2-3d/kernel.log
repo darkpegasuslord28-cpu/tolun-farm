@@ -1,0 +1,21 @@
+[{"stream_name":"stdout","time":1.179233027,"data":"hazır ortam yok; /kaggle/input: []\n"}
+,{"stream_name":"stderr","time":26.588681281,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":26.588721958,"data":"bigframes 2.51.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":26.58872873,"data":"ydata-profiling 4.18.4 requires numpy\u003c2.4,\u003e=1.22, but you have numpy 2.5.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":26.588733919,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":26.588738608,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":26.588743402,"data":"ydf 0.15.0 requires protobuf\u003c7.0.0,\u003e=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":26.588748031,"data":"numba 0.61.2 requires numpy\u003c2.3,\u003e=1.24, but you have numpy 2.5.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":26.588752346,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stdout","time":3118.040812541,"data":"{'id': 'silhouette', 'model': 'blender', 'ok': True, 'sec': 3091, 'err': ''}\n"}
+,{"stream_name":"stdout","time":7734.561940143,"data":"{'id': 'macro', 'model': 'blender', 'ok': True, 'sec': 4617, 'err': ''}\n"}
+,{"stream_name":"stdout","time":10825.696849919,"data":"{'id': 'lightsweep', 'model': 'blender', 'ok': True, 'sec': 3091, 'err': ''}\n"}
+,{"stream_name":"stdout","time":14516.466909302,"data":"{'id': 'turntable', 'model': 'blender', 'ok': True, 'sec': 3691, 'err': ''}\n"}
+,{"stream_name":"stdout","time":18166.407963567,"data":"{'id': 'hero', 'model': 'blender', 'ok': True, 'sec': 3650, 'err': ''}\n"}
+,{"stream_name":"stderr","time":18168.716368565,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":18168.716429058,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":18169.01118498,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":18169.011209885,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":18170.162781792,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":18171.344432173,"data":"[NbConvertApp] Writing 380768 bytes to __results__.html\n"}
+]
