@@ -1,0 +1,29 @@
+{
+ "name": "lib-20261122-space-ambient",
+ "tracks": [
+  {
+   "id": "space-ambient_20261122_0",
+   "caption": "deep space ambient, slow evolving pads, shimmering bells, vast and calm, no drums, instrumental",
+   "duration": 60,
+   "bpm": 55,
+   "keyscale": "E major",
+   "seed": 7399420
+  },
+  {
+   "id": "space-ambient_20261122_1",
+   "caption": "deep space ambient, slow evolving pads, shimmering bells, vast and calm, no drums, instrumental",
+   "duration": 60,
+   "bpm": 55,
+   "keyscale": "E major",
+   "seed": 7399421
+  },
+  {
+   "id": "space-ambient_20261122_2",
+   "caption": "deep space ambient, slow evolving pads, shimmering bells, vast and calm, no drums, instrumental",
+   "duration": 60,
+   "bpm": 55,
+   "keyscale": "E major",
+   "seed": 7399422
+  }
+ ]
+}
