@@ -1,0 +1,11 @@
+{
+ "id": "stadium_20261123_2",
+ "caption": "cinematic sports tension, pulsing strings, building drums, anticipation, instrumental",
+ "duration": 60,
+ "bpm": 110,
+ "keyscale": "B minor",
+ "seed": 7399432,
+ "gen_seconds": 374,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}
