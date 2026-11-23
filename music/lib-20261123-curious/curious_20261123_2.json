@@ -1,0 +1,11 @@
+{
+ "id": "curious_20261123_2",
+ "caption": "curious playful pizzicato and marimba, light, documentary, wonder, instrumental",
+ "duration": 60,
+ "bpm": 100,
+ "keyscale": "C major",
+ "seed": 7399432,
+ "gen_seconds": 373,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}
