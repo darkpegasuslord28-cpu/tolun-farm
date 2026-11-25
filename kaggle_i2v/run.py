@@ -46,6 +46,27 @@ if J.get("jobs"):   # TEK OTURUM, ÇOK İŞ: alt işler sırayla (ya da "paralle
         if ng == 1: running[-1].wait()
     for p in running: p.wait()
     sys.exit(0)
+if J.get("mode") == "chatterbox":   # TÜRKÇE İFADELİ SES (GPU): Chatterbox Multilingual (Resemble AI, MIT) — referans sesten klon + exaggeration/cfg
+    OUT = OUT_ROOT; os.makedirs(OUT, exist_ok=True); log = []
+    subprocess.run([sys.executable, "-m", "pip", "install", "-q", "chatterbox-tts"], check=False)
+    import torch, torchaudio
+    from chatterbox.mtl_tts import ChatterboxMultilingualTTS
+    m = ChatterboxMultilingualTTS.from_pretrained(device="cuda")
+    refs = {}
+    for v, src in J.get("refs", {}).items():
+        url = src if src.startswith("http") else "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/" + src
+        refs[v] = f"/kaggle/working/ref_{v}.wav"; urllib.request.urlretrieve(url, refs[v])
+    for it in J["lines"]:
+        for k in range(J.get("takes", 2)):
+            t0 = time.time(); oid = f"{it['id']}_t{k}"
+            try:
+                torch.manual_seed(J.get("seed", 1) + k)
+                wav = m.generate(it["text"], language_id="tr", audio_prompt_path=refs.get(it.get("ref")), exaggeration=it.get("exaggeration", 0.7), cfg_weight=it.get("cfg", 0.3))
+                torchaudio.save(f"{OUT}/{oid}.wav", wav.cpu(), m.sr); log.append({"id": oid, "ok": True, "sec": round(time.time() - t0)})
+            except Exception as e:
+                log.append({"id": oid, "ok": False, "err": repr(e)[:400]})
+            json.dump(log, open(f"{OUT}/log.json", "w"), indent=1); print(log[-1], flush=True)
+    sys.exit(0)
 if J.get("mode") == "voxcpm":   # TÜRKÇE SESLENDİRME (GPU): VoxCPM2 (OpenBMB, Apache-2.0) ses tasarımı/klon → her replik N deneme → Whisper ile doğruluk → en iyisi
     OUT = OUT_ROOT; os.makedirs(OUT, exist_ok=True); log = []
     subprocess.run([sys.executable, "-m", "pip", "install", "-q", "voxcpm", "openai-whisper", "jiwer"], check=False)
