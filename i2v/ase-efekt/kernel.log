@@ -1,0 +1,88 @@
+[{"stream_name":"stdout","time":1.2102010029999999,"data":"hazır ortam yok; /kaggle/input: []\n"}
+,{"stream_name":"stderr","time":21.209915837,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":21.209954685,"data":"litellm 1.109.1 requires tokenizers\u003c1.0,\u003e=0.21.0, but you have tokenizers 0.20.3 which is incompatible.\n"}
+,{"stream_name":"stderr","time":21.209959874,"data":"gradio-client 2.7.2 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":21.209963831,"data":"gradio 6.30.0 requires huggingface-hub\u003c3.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":21.209968408,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":60.343060255,"data":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\n"}
+,{"stream_name":"stderr","time":60.343110604,"data":"I0000 00:00:1795644145.638172       8 cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.\n"}
+,{"stream_name":"stderr","time":68.455565175,"data":"Flax classes are deprecated and will be removed in Diffusers v0.40.0. We recommend migrating to PyTorch classes or pinning your version of Diffusers.\n"}
+,{"stream_name":"stderr","time":68.456748442,"data":"Flax classes are deprecated and will be removed in Diffusers v0.40.0. We recommend migrating to PyTorch classes or pinning your version of Diffusers.\n"}
+,{"stream_name":"stderr","time":68.552205039,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":68.552924293,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/utils/import_utils.py\", line 1052, in _get_module\n"}
+,{"stream_name":"stderr","time":68.552935923,"data":"    return importlib.import_module(\".\" + module_name, self.__name__)\n"}
+,{"stream_name":"stderr","time":68.552941272,"data":"           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":68.552947869,"data":"  File \"/usr/lib/python3.13/importlib/__init__.py\", line 88, in import_module\n"}
+,{"stream_name":"stderr","time":68.552952698,"data":"    return _bootstrap._gcd_import(name[level:], package, level)\n"}
+,{"stream_name":"stderr","time":68.552968192,"data":"           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":68.552973722,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 1404, in _gcd_import\n"}
+,{"stream_name":"stderr","time":68.552979295,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 1369, in _find_and_load\n"}
+,{"stream_name":"stderr","time":68.552984581,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 1312, in _find_and_load_unlocked\n"}
+,{"stream_name":"stderr","time":68.552989503,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 488, in _call_with_frames_removed\n"}
+,{"stream_name":"stderr","time":68.552994337,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 1404, in _gcd_import\n"}
+,{"stream_name":"stderr","time":68.552998806,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 1369, in _find_and_load\n"}
+,{"stream_name":"stderr","time":68.553003433,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 1340, in _find_and_load_unlocked\n"}
+,{"stream_name":"stderr","time":68.553009878,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 935, in _load_unlocked\n"}
+,{"stream_name":"stderr","time":68.553031995,"data":"  File \"\u003cfrozen importlib._bootstrap_external\u003e\", line 1027, in exec_module\n"}
+,{"stream_name":"stderr","time":68.553034943,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 488, in _call_with_frames_removed\n"}
+,{"stream_name":"stderr","time":68.553037486,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/models/autoencoders/__init__.py\", line 25, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":68.553040184,"data":"    from .autoencoder_rae import AutoencoderRAE\n"}
+,{"stream_name":"stderr","time":68.55304265,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/models/autoencoders/autoencoder_rae.py\", line 31, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":68.553045254,"data":"    from transformers import (\n"}
+,{"stream_name":"stderr","time":68.55304761,"data":"    ...\u003c6 lines\u003e...\n"}
+,{"stream_name":"stderr","time":68.553050041,"data":"    )\n"}
+,{"stream_name":"stderr","time":68.553052501,"data":"ImportError: cannot import name 'Dinov2WithRegistersConfig' from 'transformers' (/usr/local/lib/python3.13/dist-packages/transformers/__init__.py)\n"}
+,{"stream_name":"stderr","time":68.553167975,"data":"\n"}
+,{"stream_name":"stderr","time":68.553189575,"data":"The above exception was the direct cause of the following exception:\n"}
+,{"stream_name":"stderr","time":68.553194119,"data":"\n"}
+,{"stream_name":"stderr","time":68.553197479,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":68.553840522,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/utils/import_utils.py\", line 1052, in _get_module\n"}
+,{"stream_name":"stderr","time":68.553870245,"data":"    return importlib.import_module(\".\" + module_name, self.__name__)\n"}
+,{"stream_name":"stderr","time":68.553875553,"data":"           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":68.553879787,"data":"  File \"/usr/lib/python3.13/importlib/__init__.py\", line 88, in import_module\n"}
+,{"stream_name":"stderr","time":68.553884378,"data":"    return _bootstrap._gcd_import(name[level:], package, level)\n"}
+,{"stream_name":"stderr","time":68.553888939,"data":"           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":68.553893297,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 1404, in _gcd_import\n"}
+,{"stream_name":"stderr","time":68.553901846,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 1369, in _find_and_load\n"}
+,{"stream_name":"stderr","time":68.553905881,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 1340, in _find_and_load_unlocked\n"}
+,{"stream_name":"stderr","time":68.553909872,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 935, in _load_unlocked\n"}
+,{"stream_name":"stderr","time":68.553913815,"data":"  File \"\u003cfrozen importlib._bootstrap_external\u003e\", line 1027, in exec_module\n"}
+,{"stream_name":"stderr","time":68.553917753,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 488, in _call_with_frames_removed\n"}
+,{"stream_name":"stderr","time":68.55392164,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/pipelines/audioldm2/pipeline_audioldm2.py\", line 34, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":68.553927897,"data":"    from ...models import AutoencoderKL\n"}
+,{"stream_name":"stderr","time":68.553940259,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 1429, in _handle_fromlist\n"}
+,{"stream_name":"stderr","time":68.553943106,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/utils/import_utils.py\", line 1042, in __getattr__\n"}
+,{"stream_name":"stderr","time":68.553955403,"data":"    module = self._get_module(self._class_to_module[name])\n"}
+,{"stream_name":"stderr","time":68.553958262,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/utils/import_utils.py\", line 1054, in _get_module\n"}
+,{"stream_name":"stderr","time":68.553960955,"data":"    raise RuntimeError(\n"}
+,{"stream_name":"stderr","time":68.553963429,"data":"    ...\u003c2 lines\u003e...\n"}
+,{"stream_name":"stderr","time":68.55396606,"data":"    ) from e\n"}
+,{"stream_name":"stderr","time":68.553969025,"data":"RuntimeError: Failed to import diffusers.models.autoencoders.autoencoder_kl because of the following error (look up to see its traceback):\n"}
+,{"stream_name":"stderr","time":68.553971889,"data":"cannot import name 'Dinov2WithRegistersConfig' from 'transformers' (/usr/local/lib/python3.13/dist-packages/transformers/__init__.py)\n"}
+,{"stream_name":"stderr","time":68.55397583,"data":"\n"}
+,{"stream_name":"stderr","time":68.553979576,"data":"The above exception was the direct cause of the following exception:\n"}
+,{"stream_name":"stderr","time":68.553982479,"data":"\n"}
+,{"stream_name":"stderr","time":68.553984895,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":68.554463363,"data":"  File \"/kaggle/src/script.py\", line 120, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":68.554485521,"data":"    from diffusers import AudioLDM2Pipeline\n"}
+,{"stream_name":"stderr","time":68.554490119,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 1429, in _handle_fromlist\n"}
+,{"stream_name":"stderr","time":68.554496023,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/utils/import_utils.py\", line 1043, in __getattr__\n"}
+,{"stream_name":"stderr","time":68.554501866,"data":"    value = getattr(module, name)\n"}
+,{"stream_name":"stderr","time":68.554505729,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/utils/import_utils.py\", line 1043, in __getattr__\n"}
+,{"stream_name":"stderr","time":68.554510279,"data":"    value = getattr(module, name)\n"}
+,{"stream_name":"stderr","time":68.554514704,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/utils/import_utils.py\", line 1042, in __getattr__\n"}
+,{"stream_name":"stderr","time":68.554519723,"data":"    module = self._get_module(self._class_to_module[name])\n"}
+,{"stream_name":"stderr","time":68.554524045,"data":"  File \"/usr/local/lib/python3.13/dist-packages/diffusers/utils/import_utils.py\", line 1054, in _get_module\n"}
+,{"stream_name":"stderr","time":68.55452828,"data":"    raise RuntimeError(\n"}
+,{"stream_name":"stderr","time":68.554531816,"data":"    ...\u003c2 lines\u003e...\n"}
+,{"stream_name":"stderr","time":68.554535769,"data":"    ) from e\n"}
+,{"stream_name":"stderr","time":68.554539337,"data":"RuntimeError: Failed to import diffusers.pipelines.audioldm2.pipeline_audioldm2 because of the following error (look up to see its traceback):\n"}
+,{"stream_name":"stderr","time":68.554543371,"data":"Failed to import diffusers.models.autoencoders.autoencoder_kl because of the following error (look up to see its traceback):\n"}
+,{"stream_name":"stderr","time":68.554547374,"data":"cannot import name 'Dinov2WithRegistersConfig' from 'transformers' (/usr/local/lib/python3.13/dist-packages/transformers/__init__.py)\n"}
+,{"stream_name":"stderr","time":75.00145259,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":75.001496918,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":75.223129232,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":75.223193236,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":75.979931707,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":76.610850325,"data":"[NbConvertApp] Writing 429719 bytes to __results__.html\n"}
+]
