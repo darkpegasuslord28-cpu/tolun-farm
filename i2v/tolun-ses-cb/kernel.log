@@ -1,0 +1,76 @@
+[{"stream_name":"stdout","time":0.876409936,"data":"hazır ortam yok; /kaggle/input: []\n"}
+,{"stream_name":"stderr","time":235.183836169,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":235.183871219,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":235.183875382,"data":"torchvision 0.26.0+cu130 requires torch==2.11.0, but you have torch 2.6.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":235.183878694,"data":"python-fasthtml 0.14.14 requires starlette\u003e=1.0.1, but you have starlette 0.52.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":235.183881853,"data":"google-adk 2.7.1 requires starlette\u003c2,\u003e=1.3.1, but you have starlette 0.52.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":238.273952678,"data":"/usr/local/lib/python3.13/dist-packages/perth/perth_net/__init__.py:1: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools\u003c81.\n"}
+,{"stream_name":"stderr","time":238.273991348,"data":"  from pkg_resources import resource_filename\n"}
+,{"stream_name":"stderr","time":254.090867949,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":254.092460374,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/import_utils.py\", line 2044, in __getattr__\n"}
+,{"stream_name":"stderr","time":254.092479324,"data":"    module = self._get_module(self._class_to_module[name])\n"}
+,{"stream_name":"stderr","time":254.092497309,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/import_utils.py\", line 2238, in _get_module\n"}
+,{"stream_name":"stderr","time":254.092502741,"data":"    raise e\n"}
+,{"stream_name":"stderr","time":254.092507044,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/import_utils.py\", line 2236, in _get_module\n"}
+,{"stream_name":"stderr","time":254.092512221,"data":"    return importlib.import_module(\".\" + module_name, self.__name__)\n"}
+,{"stream_name":"stderr","time":254.092517767,"data":"           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":254.092522492,"data":"  File \"/usr/lib/python3.13/importlib/__init__.py\", line 88, in import_module\n"}
+,{"stream_name":"stderr","time":254.092527759,"data":"    return _bootstrap._gcd_import(name[level:], package, level)\n"}
+,{"stream_name":"stderr","time":254.092532537,"data":"           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":254.092536973,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 1404, in _gcd_import\n"}
+,{"stream_name":"stderr","time":254.092541649,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 1369, in _find_and_load\n"}
+,{"stream_name":"stderr","time":254.092546787,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 1340, in _find_and_load_unlocked\n"}
+,{"stream_name":"stderr","time":254.092551711,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 935, in _load_unlocked\n"}
+,{"stream_name":"stderr","time":254.092556965,"data":"  File \"\u003cfrozen importlib._bootstrap_external\u003e\", line 1027, in exec_module\n"}
+,{"stream_name":"stderr","time":254.092561542,"data":"  File \"\u003cfrozen importlib._bootstrap\u003e\", line 488, in _call_with_frames_removed\n"}
+,{"stream_name":"stderr","time":254.092565962,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/models/llama/modeling_llama.py\", line 30, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":254.092586218,"data":"    from ...modeling_layers import (\n"}
+,{"stream_name":"stderr","time":254.092593512,"data":"    ...\u003c4 lines\u003e...\n"}
+,{"stream_name":"stderr","time":254.092595859,"data":"    )\n"}
+,{"stream_name":"stderr","time":254.092597966,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/modeling_layers.py\", line 27, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":254.092600384,"data":"    from .processing_utils import Unpack\n"}
+,{"stream_name":"stderr","time":254.092602621,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/processing_utils.py\", line 38, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":254.092604954,"data":"    from .image_utils import ChannelDimension, ImageInput, is_vision_available\n"}
+,{"stream_name":"stderr","time":254.092608051,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/image_utils.py\", line 53, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":254.092624226,"data":"    from torchvision.transforms import InterpolationMode\n"}
+,{"stream_name":"stderr","time":254.092628019,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torchvision/__init__.py\", line 8, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":254.092631843,"data":"    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip\n"}
+,{"stream_name":"stderr","time":254.092636581,"data":"    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":254.092640489,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torchvision/_meta_registrations.py\", line 163, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":254.092644171,"data":"    @torch.library.register_fake(\"torchvision::nms\")\n"}
+,{"stream_name":"stderr","time":254.092647539,"data":"     ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":254.092651446,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/library.py\", line 828, in register\n"}
+,{"stream_name":"stderr","time":254.092655566,"data":"    use_lib._register_fake(op_name, func, _stacklevel=stacklevel + 1)\n"}
+,{"stream_name":"stderr","time":254.092658966,"data":"    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":254.092662761,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/library.py\", line 198, in _register_fake\n"}
+,{"stream_name":"stderr","time":254.092666877,"data":"    handle = entry.fake_impl.register(func_to_register, source)\n"}
+,{"stream_name":"stderr","time":254.092670749,"data":"  File \"/usr/local/lib/python3.13/dist-packages/torch/_library/fake_impl.py\", line 31, in register\n"}
+,{"stream_name":"stderr","time":254.092674251,"data":"    if torch._C._dispatch_has_kernel_for_dispatch_key(self.qualname, \"Meta\"):\n"}
+,{"stream_name":"stderr","time":254.092677802,"data":"       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":254.092681231,"data":"RuntimeError: operator torchvision::nms does not exist\n"}
+,{"stream_name":"stderr","time":254.092723592,"data":"\n"}
+,{"stream_name":"stderr","time":254.092739519,"data":"The above exception was the direct cause of the following exception:\n"}
+,{"stream_name":"stderr","time":254.092743712,"data":"\n"}
+,{"stream_name":"stderr","time":254.092746892,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":254.093337068,"data":"  File \"/kaggle/src/script.py\", line 148, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":254.093354974,"data":"    from chatterbox.mtl_tts import ChatterboxMultilingualTTS\n"}
+,{"stream_name":"stderr","time":254.093358852,"data":"  File \"/usr/local/lib/python3.13/dist-packages/chatterbox/__init__.py\", line 9, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":254.093362453,"data":"    from .tts import ChatterboxTTS\n"}
+,{"stream_name":"stderr","time":254.093365695,"data":"  File \"/usr/local/lib/python3.13/dist-packages/chatterbox/tts.py\", line 11, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":254.093369298,"data":"    from .models.t3 import T3\n"}
+,{"stream_name":"stderr","time":254.093372504,"data":"  File \"/usr/local/lib/python3.13/dist-packages/chatterbox/models/t3/__init__.py\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":254.09337616,"data":"    from .t3 import T3\n"}
+,{"stream_name":"stderr","time":254.093379208,"data":"  File \"/usr/local/lib/python3.13/dist-packages/chatterbox/models/t3/t3.py\", line 12, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":254.093384029,"data":"    from transformers import LlamaModel, LlamaConfig, GPT2Config, GPT2Model\n"}
+,{"stream_name":"stderr","time":254.093387943,"data":"  File \"/usr/local/lib/python3.13/dist-packages/transformers/utils/import_utils.py\", line 2132, in __getattr__\n"}
+,{"stream_name":"stderr","time":254.093392413,"data":"    raise ModuleNotFoundError(\n"}
+,{"stream_name":"stderr","time":254.093396,"data":"        f\"Could not import module '{name}'. Are this object's requirements defined correctly?\"\n"}
+,{"stream_name":"stderr","time":254.093399877,"data":"    ) from e\n"}
+,{"stream_name":"stderr","time":254.093403,"data":"ModuleNotFoundError: Could not import module 'LlamaModel'. Are this object's requirements defined correctly?\n"}
+,{"stream_name":"stderr","time":257.498344542,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":257.498385115,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":257.908336751,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":257.908368726,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":259.889942547,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":260.834984479,"data":"[NbConvertApp] Writing 421731 bytes to __results__.html\n"}
+]
