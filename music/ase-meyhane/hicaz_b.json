@@ -1,0 +1,11 @@
+{
+ "id": "hicaz_b",
+ "caption": "Istanbul meyhane night, slow intro with lone kanun taksim, then violin and clarinet answer each other, soft frame drum, bittersweet and romantic, original instrumental, no vocals",
+ "duration": 36,
+ "bpm": 76,
+ "keyscale": "A minor",
+ "seed": 9902,
+ "gen_seconds": 235,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}

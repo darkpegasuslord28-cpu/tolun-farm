@@ -1,0 +1,11 @@
+{
+ "id": "hicaz_a",
+ "caption": "slow nostalgic Turkish classical instrumental in hicaz makam, solo clarinet melody over kanun and soft oud, gentle darbuka entering later, melancholic yet warm evening tavern mood, original composition, instrumental, no vocals",
+ "duration": 36,
+ "bpm": 72,
+ "keyscale": "D minor",
+ "seed": 9901,
+ "gen_seconds": 237,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}
