@@ -1,0 +1,11 @@
+{
+ "id": "ocak_c",
+ "caption": "cinematic grill house commercial, slow epic intro with fire crackle feel then driving percussion drop, kanun and strings, warm, mouth-watering, instrumental",
+ "duration": 40,
+ "bpm": 96,
+ "keyscale": "A minor",
+ "seed": 7703,
+ "gen_seconds": 171,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "ocak_b",
+ "caption": "modern Anatolian groove for restaurant ad, deep frame drum, darbuka rolls, oud melody, subtle electronic bass, confident and delicious mood, instrumental",
+ "duration": 40,
+ "bpm": 100,
+ "keyscale": "E minor",
+ "seed": 7702,
+ "gen_seconds": 170,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}
