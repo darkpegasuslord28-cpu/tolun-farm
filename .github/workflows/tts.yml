@@ -23,7 +23,7 @@ jobs:
         with: { path: ~/.cache/huggingface, key: chatterbox-mtl-v1 }
       - if: steps.r.outputs.req != ''
         run: |
-          sudo apt-get -qq install -y ffmpeg rubberband-cli >/dev/null || true
+          sudo apt-get -qq update >/dev/null && sudo apt-get -qq install --fix-missing -y ffmpeg rubberband-cli >/dev/null || true
           pip install -q --index-url https://download.pytorch.org/whl/cpu torch torchaudio
           pip install -q chatterbox-tts piper-tts
       - if: steps.r.outputs.req != ''
