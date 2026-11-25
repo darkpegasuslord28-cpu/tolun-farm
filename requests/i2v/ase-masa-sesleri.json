@@ -1,0 +1,125 @@
+{
+"name": "ase-masa-sesleri",
+"mode": "voxcpm",
+"tts_model": "openbmb/VoxCPM2",
+"takes": 1,
+"steps": 10,
+"voices": {
+"amca": {
+"design": "older Turkish man in his sixties, warm, relaxed, slightly hoarse, chatting at a dinner table"
+},
+"abla": {
+"design": "Turkish woman in her forties, cheerful, warm, chatting with friends at dinner"
+},
+"genc_e": {
+"design": "young Turkish man, casual, laughing, friendly table conversation"
+},
+"genc_k": {
+"design": "young Turkish woman, lively, amused, friendly table conversation"
+},
+"orta": {
+"design": "middle-aged Turkish man, calm baritone, storytelling at dinner"
+},
+"garson": {
+"design": "polite Turkish waiter, friendly, short sentences"
+}
+},
+"lines": [
+{
+"id": "w00_amca",
+"voice": "amca",
+"text": "Eskiden burası böyle değildi be, hatırlıyor musun?",
+"style": "natural casual conversation, relaxed, background chatter at a restaurant"
+},
+{
+"id": "w01_amca",
+"voice": "amca",
+"text": "Şerefe, şerefe. Hep beraber nice akşamlara.",
+"style": "natural casual conversation, relaxed, background chatter at a restaurant"
+},
+{
+"id": "w02_abla",
+"voice": "abla",
+"text": "Şu mezeden de alsana, çok güzel olmuş.",
+"style": "natural casual conversation, relaxed, background chatter at a restaurant"
+},
+{
+"id": "w03_abla",
+"voice": "abla",
+"text": "Kızım sen hiç yemiyorsun, olur mu öyle?",
+"style": "natural casual conversation, relaxed, background chatter at a restaurant"
+},
+{
+"id": "w04_genc_e",
+"voice": "genc_e",
+"text": "Abi bu kebap efsane ya, bir porsiyon daha söyleyelim.",
+"style": "natural casual conversation, relaxed, background chatter at a restaurant"
+},
+{
+"id": "w05_genc_e",
+"voice": "genc_e",
+"text": "Hahaha, yok artık! Gerçekten mi?",
+"style": "natural casual conversation, relaxed, background chatter at a restaurant"
+},
+{
+"id": "w06_genc_k",
+"voice": "genc_k",
+"text": "Ay ben buna bayıldım, tarifini sormak lazım.",
+"style": "natural casual conversation, relaxed, background chatter at a restaurant"
+},
+{
+"id": "w07_genc_k",
+"voice": "genc_k",
+"text": "Hahaha, sen hiç değişmemişsin.",
+"style": "natural casual conversation, relaxed, background chatter at a restaurant"
+},
+{
+"id": "w08_orta",
+"voice": "orta",
+"text": "Neyse, o gece biz sabaha kadar oturduk...",
+"style": "natural casual conversation, relaxed, background chatter at a restaurant"
+},
+{
+"id": "w09_orta",
+"voice": "orta",
+"text": "Muhabbet güzel olunca zaman nasıl geçiyor anlamıyorsun.",
+"style": "natural casual conversation, relaxed, background chatter at a restaurant"
+},
+{
+"id": "w10_garson",
+"voice": "garson",
+"text": "Afiyet olsun, başka bir arzunuz var mı?",
+"style": "natural casual conversation, relaxed, background chatter at a restaurant"
+},
+{
+"id": "w11_garson",
+"voice": "garson",
+"text": "Ezmeniz geliyor, hemen getiriyorum.",
+"style": "natural casual conversation, relaxed, background chatter at a restaurant"
+},
+{
+"id": "w12_amca",
+"voice": "amca",
+"text": "Bir buz daha koy oğlum, bir buz daha.",
+"style": "natural casual conversation, relaxed, background chatter at a restaurant"
+},
+{
+"id": "w13_abla",
+"voice": "abla",
+"text": "Bu akşam erken kalkmak yok, söyleyeyim.",
+"style": "natural casual conversation, relaxed, background chatter at a restaurant"
+},
+{
+"id": "w14_orta",
+"voice": "orta",
+"text": "Bak şimdi sana bir şey anlatacağım, dinle.",
+"style": "natural casual conversation, relaxed, background chatter at a restaurant"
+},
+{
+"id": "w15_genc_e",
+"voice": "genc_e",
+"text": "Beyler bu hafta da buradayız, söz mü?",
+"style": "natural casual conversation, relaxed, background chatter at a restaurant"
+}
+]
+}
