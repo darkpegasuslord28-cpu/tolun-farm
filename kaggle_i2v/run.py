@@ -48,7 +48,7 @@ if J.get("jobs"):   # TEK OTURUM, ÇOK İŞ: alt işler sırayla (ya da "paralle
     sys.exit(0)
 if J.get("mode") == "chatterbox":   # TÜRKÇE İFADELİ SES (GPU): Chatterbox Multilingual (Resemble AI, MIT) — referans sesten klon + exaggeration/cfg
     OUT = OUT_ROOT; os.makedirs(OUT, exist_ok=True); log = []
-    subprocess.run([sys.executable, "-m", "pip", "install", "-q", "chatterbox-tts"], check=False)
+    subprocess.run([sys.executable, "-m", "pip", "install", "-q", "chatterbox-tts", "transformers==4.46.3", "diffusers==0.29.0"], check=False)
     import torch, torchaudio
     from chatterbox.mtl_tts import ChatterboxMultilingualTTS
     m = ChatterboxMultilingualTTS.from_pretrained(device="cuda")
