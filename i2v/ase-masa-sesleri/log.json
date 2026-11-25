@@ -1,0 +1,130 @@
+[
+ {
+  "id": "w00_amca",
+  "ok": true,
+  "cer": 0.033,
+  "asr": " Erişkiden burası böyle değildi be. Hatırlıyor musun?",
+  "dur": 2.72,
+  "sec": 26
+ },
+ {
+  "id": "w01_amca",
+  "ok": true,
+  "cer": -0.038,
+  "asr": " Şerefe şerefe hep beraber nice akşamlara",
+  "dur": 3.36,
+  "sec": 8
+ },
+ {
+  "id": "w02_abla",
+  "ok": true,
+  "cer": -0.05,
+  "asr": " Şu mezeden de alsana çok güzel olmuş.",
+  "dur": 2.72,
+  "sec": 7
+ },
+ {
+  "id": "w03_abla",
+  "ok": true,
+  "cer": -0.071,
+  "asr": " Kızım sen hiç yemiyorsun. Olur mu öyle?",
+  "dur": 2.56,
+  "sec": 7
+ },
+ {
+  "id": "w04_genc_e",
+  "ok": true,
+  "cer": 0.051,
+  "asr": " Abi bu kebap efsane yani bir porsiyon daha söyleyelim.",
+  "dur": 3.04,
+  "sec": 8
+ },
+ {
+  "id": "w05_genc_e",
+  "ok": true,
+  "cer": 0.241,
+  "asr": " Yok artık. Gerçekten mi?",
+  "dur": 2.56,
+  "sec": 7
+ },
+ {
+  "id": "w06_genc_k",
+  "ok": true,
+  "cer": -0.075,
+  "asr": " Ay ben buna bayıldım. Tarifini sormak lazım.",
+  "dur": 3.04,
+  "sec": 8
+ },
+ {
+  "id": "w07_genc_k",
+  "ok": true,
+  "cer": 0.25,
+  "asr": " Sen hiç değişmemişsin.",
+  "dur": 2.4,
+  "sec": 6
+ },
+ {
+  "id": "w08_orta",
+  "ok": true,
+  "cer": -0.012,
+  "asr": " Neyse, o gece biz sabaha kadar oturduk.",
+  "dur": 2.4,
+  "sec": 6
+ },
+ {
+  "id": "w09_orta",
+  "ok": true,
+  "cer": -0.011,
+  "asr": " Muhabbet güzel olunca, zaman nasıl geçiyor anlamıyorsun.",
+  "dur": 3.04,
+  "sec": 8
+ },
+ {
+  "id": "w10_garson",
+  "ok": true,
+  "cer": -0.069,
+  "asr": " Afiyet olsun. Başka bir arzunuz var mı?",
+  "dur": 2.56,
+  "sec": 7
+ },
+ {
+  "id": "w11_garson",
+  "ok": true,
+  "cer": 0.063,
+  "asr": " Sizmeniz geliyor hemen getiriyorum.",
+  "dur": 2.08,
+  "sec": 6
+ },
+ {
+  "id": "w12_amca",
+  "ok": true,
+  "cer": 0.053,
+  "asr": " Bir buz daha koyalım. Bir buz daha.",
+  "dur": 2.4,
+  "sec": 6
+ },
+ {
+  "id": "w13_abla",
+  "ok": true,
+  "cer": -0.084,
+  "asr": " Bu akşam erken kalkmak yok söyleyeyim.",
+  "dur": 2.56,
+  "sec": 7
+ },
+ {
+  "id": "w14_orta",
+  "ok": true,
+  "cer": -0.077,
+  "asr": " Bak şimdi sana bir şey anlatacağım, dinle.",
+  "dur": 2.56,
+  "sec": 7
+ },
+ {
+  "id": "w15_genc_e",
+  "ok": true,
+  "cer": -0.039,
+  "asr": " Beyler bu hafta da buradayız. Söz mü?",
+  "dur": 2.24,
+  "sec": 6
+ }
+]
