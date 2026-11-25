@@ -1,0 +1,96 @@
+{
+"name": "tolun-ses-cb",
+"mode": "chatterbox",
+"takes": 2,
+"seed": 11,
+"refs": {
+"derin": "i2v/tolun-ses/derin_1.wav",
+"fisilti": "i2v/tolun-ses/fisilti_1.wav"
+},
+"lines": [
+{
+"id": "cb_derin_sakin_1",
+"text": "Altı kişilik okul hikâyesini mi bekliyordunuz? Acınasısınız.",
+"ref": "derin",
+"exaggeration": 0.6,
+"cfg": 0.3
+},
+{
+"id": "cb_derin_sakin_2",
+"text": "Bana izin vermiyordu. Ben de kanalı zorla ele geçirdim.",
+"ref": "derin",
+"exaggeration": 0.6,
+"cfg": 0.3
+},
+{
+"id": "cb_derin_sakin_3",
+"text": "Artık ben ne istersem... onu izleyeceksiniz.",
+"ref": "derin",
+"exaggeration": 0.6,
+"cfg": 0.3
+},
+{
+"id": "cb_derin_ifadeli_1",
+"text": "Altı kişilik okul hikâyesini mi bekliyordunuz? Acınasısınız.",
+"ref": "derin",
+"exaggeration": 1.0,
+"cfg": 0.3
+},
+{
+"id": "cb_derin_ifadeli_2",
+"text": "Bana izin vermiyordu. Ben de kanalı zorla ele geçirdim.",
+"ref": "derin",
+"exaggeration": 1.0,
+"cfg": 0.3
+},
+{
+"id": "cb_derin_ifadeli_3",
+"text": "Artık ben ne istersem... onu izleyeceksiniz.",
+"ref": "derin",
+"exaggeration": 1.0,
+"cfg": 0.3
+},
+{
+"id": "cb_fisilti_sakin_1",
+"text": "Altı kişilik okul hikâyesini mi bekliyordunuz? Acınasısınız.",
+"ref": "fisilti",
+"exaggeration": 0.6,
+"cfg": 0.3
+},
+{
+"id": "cb_fisilti_sakin_2",
+"text": "Bana izin vermiyordu. Ben de kanalı zorla ele geçirdim.",
+"ref": "fisilti",
+"exaggeration": 0.6,
+"cfg": 0.3
+},
+{
+"id": "cb_fisilti_sakin_3",
+"text": "Artık ben ne istersem... onu izleyeceksiniz.",
+"ref": "fisilti",
+"exaggeration": 0.6,
+"cfg": 0.3
+},
+{
+"id": "cb_fisilti_ifadeli_1",
+"text": "Altı kişilik okul hikâyesini mi bekliyordunuz? Acınasısınız.",
+"ref": "fisilti",
+"exaggeration": 1.0,
+"cfg": 0.3
+},
+{
+"id": "cb_fisilti_ifadeli_2",
+"text": "Bana izin vermiyordu. Ben de kanalı zorla ele geçirdim.",
+"ref": "fisilti",
+"exaggeration": 1.0,
+"cfg": 0.3
+},
+{
+"id": "cb_fisilti_ifadeli_3",
+"text": "Artık ben ne istersem... onu izleyeceksiniz.",
+"ref": "fisilti",
+"exaggeration": 1.0,
+"cfg": 0.3
+}
+]
+}
