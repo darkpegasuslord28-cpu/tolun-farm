@@ -1,0 +1,98 @@
+[
+ {
+  "id": "derin_1",
+  "ok": true,
+  "cer": -0.064,
+  "asr": " Merhaba. Bu hesap artık benim.",
+  "dur": 2.24,
+  "sec": 36
+ },
+ {
+  "id": "derin_2",
+  "ok": true,
+  "cer": -0.05,
+  "asr": " Oğulcan mı? Bir süre ortalıkta olmayacak. Şifresini ben değiştirdim.",
+  "dur": 5.28,
+  "sec": 34
+ },
+ {
+  "id": "derin_3",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Takip etmeye devam edin. Çünkü ben sizi zaten takip ediyorum.",
+  "dur": 5.6,
+  "sec": 34
+ },
+ {
+  "id": "fisilti_1",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Merhaba, bu hesap artık benim.",
+  "dur": 2.72,
+  "sec": 25
+ },
+ {
+  "id": "fisilti_2",
+  "ok": true,
+  "cer": -0.052,
+  "asr": " Oğulcan mı? Bir süre ortalıkta olmayacak. Şifresini ben değiştirdim.",
+  "dur": 4.8,
+  "sec": 35
+ },
+ {
+  "id": "fisilti_3",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Takip etmeye devam edin. Çünkü ben sizi zaten takip ediyorum.",
+  "dur": 4.32,
+  "sec": 34
+ },
+ {
+  "id": "yapay_1",
+  "ok": true,
+  "cer": -0.076,
+  "asr": " Merhaba. Bu hesap artık benim.",
+  "dur": 3.2,
+  "sec": 26
+ },
+ {
+  "id": "yapay_2",
+  "ok": true,
+  "cer": -0.028,
+  "asr": " Olacak mı? Bir süre ortalıkta olmayacak. Şifresini ben değiştirdim.",
+  "dur": 5.6,
+  "sec": 38
+ },
+ {
+  "id": "yapay_3",
+  "ok": true,
+  "cer": -0.085,
+  "asr": " Takip etmeye devam edin. Çünkü ben sizi zaten takip ediyorum.",
+  "dur": 5.44,
+  "sec": 43
+ },
+ {
+  "id": "anlatici_1",
+  "ok": true,
+  "cer": -0.066,
+  "asr": " Merhaba. Bu hesap artık benim.",
+  "dur": 2.88,
+  "sec": 24
+ },
+ {
+  "id": "anlatici_2",
+  "ok": true,
+  "cer": -0.059,
+  "asr": " Olcan mı? Bir süre ortalıkta olmayacak. Şifresini ben değiştirdim.",
+  "dur": 4.96,
+  "sec": 36
+ },
+ {
+  "id": "anlatici_3",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Takip etmeye devam edin. Çünkü ben sizi zaten takip ediyorum.",
+  "dur": 5.76,
+  "sec": 37
+ }
+]
