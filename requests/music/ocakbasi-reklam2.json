@@ -1,0 +1,8 @@
+{
+ "name": "ocakbasi-reklam2",
+ "tracks": [
+  {"id": "ocak_a", "caption": "energetic Turkish food commercial music, punchy darbuka and davul groove, bağlama riff, handclaps, warm and appetizing, rising build, cinematic, instrumental, no vocals", "duration": 40, "bpm": 104, "keyscale": "D minor", "seed": 7701},
+  {"id": "ocak_b", "caption": "modern Anatolian groove for restaurant ad, deep frame drum, darbuka rolls, oud melody, subtle electronic bass, confident and delicious mood, instrumental", "duration": 40, "bpm": 100, "keyscale": "E minor", "seed": 7702},
+  {"id": "ocak_c", "caption": "cinematic grill house commercial, slow epic intro with fire crackle feel then driving percussion drop, kanun and strings, warm, mouth-watering, instrumental", "duration": 40, "bpm": 96, "keyscale": "A minor", "seed": 7703}
+ ]
+}
