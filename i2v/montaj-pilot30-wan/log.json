@@ -1,0 +1,36 @@
+[
+ {
+  "id": "ai_summit",
+  "model": "wan",
+  "ok": true,
+  "sec": 4212,
+  "motion": 1.046
+ },
+ {
+  "id": "ai_slope",
+  "model": "wan",
+  "ok": true,
+  "sec": 3907,
+  "motion": 3.962
+ },
+ {
+  "id": "ai_vault",
+  "model": "wan",
+  "ok": true,
+  "sec": 3864,
+  "motion": 5.232
+ },
+ {
+  "id": "ai_rome",
+  "model": "wan",
+  "ok": true,
+  "sec": 3872,
+  "motion": 9.214
+ },
+ {
+  "id": "wis_jet2",
+  "model": "t2i",
+  "ok": false,
+  "err": "OutOfMemoryError('CUDA out of memory. Tried to allocate 74.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 8.81 MiB is free. Including non-PyTorch memory, this process has 14.55 GiB memory in use. Of the allocated memory 14.28 GiB is allocated by PyTorch, and 132.54 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF="
+ }
+]
