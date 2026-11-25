@@ -1,0 +1,60 @@
+{
+"name": "tolun-plaka1",
+"mode": "plate",
+"w": 1080,
+"h": 1920,
+"grid": 600,
+"items": [
+{
+"id": "bos0_walk",
+"image": "i2v/tolun-oda2/oda_bos_0.png",
+"move": "walk",
+"sec": 5
+},
+{
+"id": "bos0_lookr",
+"image": "i2v/tolun-oda2/oda_bos_0.png",
+"move": "look_r",
+"sec": 4
+},
+{
+"id": "bos1_push",
+"image": "i2v/tolun-oda2/oda_bos_1.png",
+"move": "push",
+"sec": 5
+},
+{
+"id": "bos1_orbit",
+"image": "i2v/tolun-oda2/oda_bos_1.png",
+"move": "orbit",
+"sec": 5
+},
+{
+"id": "b0_rise",
+"image": "i2v/tolun-oda2/oda_b_0.png",
+"move": "rise",
+"sec": 4
+},
+{
+"id": "b0_push",
+"image": "i2v/tolun-oda2/oda_b_0.png",
+"move": "push",
+"sec": 4
+},
+{
+"id": "sil_walk",
+"image": "i2v/tolun-kimlik/siluet_0.png",
+"move": "walk",
+"sec": 5
+},
+{
+"id": "prof_push",
+"image": "i2v/tolun-kimlik/profil_1.png",
+"move": "push",
+"sec": 5,
+"eyes": "465,300,565,300",
+"blink": "0.3",
+"flare": "0.8"
+}
+]
+}
