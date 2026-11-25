@@ -1,0 +1,91 @@
+{
+"name": "montaj-pilot30",
+"model": "t2i",
+"t2i_model": "SG161222/RealVisXL_V5.0",
+"items": [
+{
+"id": "wis_jet",
+"prompt": "cinematic photo, ultra realistic, 35mm film, dramatic light, a commercial airliner flying at cruising altitude above clouds, beside a colossal volcanic mountain slope rising far above it into the dark blue upper sky, the plane is tiny against the mountain",
+"negative": "text, letters, watermark, logo, cartoon, illustration, lowres, blurry, deformed",
+"seed": 3000,
+"size": [
+768,
+1344
+],
+"steps": 32,
+"cfg": 5.5,
+"cands": 3,
+"action": "airliner dwarfed by giant mountain"
+},
+{
+"id": "wis_city",
+"prompt": "cinematic photo, ultra realistic, 35mm film, dramatic light, a modern city skyline at golden hour with a colossal gently sloping volcano filling the entire horizon behind it, summit above the clouds and fading into space",
+"negative": "text, letters, watermark, logo, cartoon, illustration, lowres, blurry, deformed",
+"seed": 3007,
+"size": [
+768,
+1344
+],
+"steps": 32,
+"cfg": 5.5,
+"cands": 3,
+"action": "giant volcano behind city"
+},
+{
+"id": "wis_summit",
+"prompt": "cinematic photo, ultra realistic, 35mm film, dramatic light, astronaut standing on a rocky volcanic summit far above the clouds, sky almost black, thin blue atmosphere line and curvature of the planet on the horizon",
+"negative": "text, letters, watermark, logo, cartoon, illustration, lowres, blurry, deformed",
+"seed": 3014,
+"size": [
+768,
+1344
+],
+"steps": 32,
+"cfg": 5.5,
+"cands": 3,
+"action": "astronaut on summit above atmosphere"
+},
+{
+"id": "wis_slope",
+"prompt": "cinematic photo, ultra realistic, 35mm film, dramatic light, hiker walking on an endless almost flat rocky plain that slowly rises to the horizon, no peak visible, vast scale, red-brown rock, hazy",
+"negative": "text, letters, watermark, logo, cartoon, illustration, lowres, blurry, deformed",
+"seed": 3021,
+"size": [
+768,
+1344
+],
+"steps": 32,
+"cfg": 5.5,
+"cands": 3,
+"action": "hiker on endless gentle slope"
+},
+{
+"id": "mm_rome",
+"prompt": "cinematic photo, ultra realistic, 35mm film, dramatic light, ancient merchant in a torchlit market counting a pile of coins on a wooden table, iron age, candid",
+"negative": "text, letters, watermark, logo, cartoon, illustration, lowres, blurry, deformed",
+"seed": 3028,
+"size": [
+768,
+1344
+],
+"steps": 32,
+"cfg": 5.5,
+"cands": 3,
+"action": "ancient merchant counting coins"
+},
+{
+"id": "mm_vault",
+"prompt": "cinematic photo, ultra realistic, 35mm film, dramatic light, endless warehouse filled floor to ceiling with stacked bundles of hundred dollar bills, worker with clipboard, fluorescent light",
+"negative": "text, letters, watermark, logo, cartoon, illustration, lowres, blurry, deformed",
+"seed": 3035,
+"size": [
+768,
+1344
+],
+"steps": 32,
+"cfg": 5.5,
+"cands": 3,
+"action": "warehouse full of cash"
+}
+]
+}
