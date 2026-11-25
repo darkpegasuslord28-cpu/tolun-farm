@@ -1,0 +1,91 @@
+{
+"name": "tolun-oda",
+"model": "t2i",
+"t2i_model": "Lykon/dreamshaper-xl-1-0",
+"items": [
+{
+"id": "oda_a_0",
+"prompt": "cinematic photo, mysterious faceless figure in a dark charcoal hoodie, hood up, completely black void inside the hood with two thin glowing cold-blue eyes, sitting at a desk facing the camera in a dark cozy studio at night, big window behind with stormy sea and moonlight, glowing monitor light on the hood, warm desk lamp, bookshelves, vertical composition, 35mm",
+"negative": "text, letters, watermark, logo, visible face, human face, nose, mouth, skin, cat ears, animal ears, mask, deformed hands, extra fingers, cartoon, lowres, blurry",
+"seed": 8100,
+"size": [
+768,
+1344
+],
+"steps": 32,
+"cfg": 5.5,
+"cands": 3,
+"action": "hooded figure with glowing blue eyes at a desk in a dark room"
+},
+{
+"id": "oda_a_1",
+"prompt": "cinematic photo, mysterious faceless figure in a dark charcoal hoodie, hood up, completely black void inside the hood with two thin glowing cold-blue eyes, sitting at a desk facing the camera in a dark cozy studio at night, big window behind with stormy sea and moonlight, glowing monitor light on the hood, warm desk lamp, bookshelves, vertical composition, 35mm",
+"negative": "text, letters, watermark, logo, visible face, human face, nose, mouth, skin, cat ears, animal ears, mask, deformed hands, extra fingers, cartoon, lowres, blurry",
+"seed": 8107,
+"size": [
+768,
+1344
+],
+"steps": 32,
+"cfg": 5.5,
+"cands": 3,
+"action": "hooded figure with glowing blue eyes at a desk in a dark room"
+},
+{
+"id": "oda_b_0",
+"prompt": "cinematic photo, mysterious faceless figure in a dark charcoal hoodie, hood up, completely black void inside the hood with two thin glowing cold-blue eyes, sitting at a desk facing the camera in a dark room at night, rain streaks on the big window behind, city lights blurred outside, two monitors casting blue light on the hood, a sleeping cat on the desk, vertical composition, 35mm",
+"negative": "text, letters, watermark, logo, visible face, human face, nose, mouth, skin, cat ears, animal ears, mask, deformed hands, extra fingers, cartoon, lowres, blurry",
+"seed": 8110,
+"size": [
+768,
+1344
+],
+"steps": 32,
+"cfg": 5.5,
+"cands": 3,
+"action": "hooded figure with glowing blue eyes at a desk in a dark room"
+},
+{
+"id": "oda_b_1",
+"prompt": "cinematic photo, mysterious faceless figure in a dark charcoal hoodie, hood up, completely black void inside the hood with two thin glowing cold-blue eyes, sitting at a desk facing the camera in a dark room at night, rain streaks on the big window behind, city lights blurred outside, two monitors casting blue light on the hood, a sleeping cat on the desk, vertical composition, 35mm",
+"negative": "text, letters, watermark, logo, visible face, human face, nose, mouth, skin, cat ears, animal ears, mask, deformed hands, extra fingers, cartoon, lowres, blurry",
+"seed": 8117,
+"size": [
+768,
+1344
+],
+"steps": 32,
+"cfg": 5.5,
+"cands": 3,
+"action": "hooded figure with glowing blue eyes at a desk in a dark room"
+},
+{
+"id": "oda_bos_0",
+"prompt": "cinematic photo, empty dark cozy studio at night, desk with glowing monitors and a warm lamp, empty chair, big window with stormy sea and moonlight, bookshelves, vertical composition, 35mm, no people",
+"negative": "text, letters, watermark, logo, visible face, human face, nose, mouth, skin, cat ears, animal ears, mask, deformed hands, extra fingers, cartoon, lowres, blurry",
+"seed": 8120,
+"size": [
+768,
+1344
+],
+"steps": 32,
+"cfg": 5.5,
+"cands": 3,
+"action": "empty dark studio with monitors"
+},
+{
+"id": "oda_bos_1",
+"prompt": "cinematic photo, empty dark cozy studio at night, desk with glowing monitors and a warm lamp, empty chair, big window with stormy sea and moonlight, bookshelves, vertical composition, 35mm, no people",
+"negative": "text, letters, watermark, logo, visible face, human face, nose, mouth, skin, cat ears, animal ears, mask, deformed hands, extra fingers, cartoon, lowres, blurry",
+"seed": 8127,
+"size": [
+768,
+1344
+],
+"steps": 32,
+"cfg": 5.5,
+"cands": 3,
+"action": "empty dark studio with monitors"
+}
+]
+}
