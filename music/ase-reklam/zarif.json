@@ -1,0 +1,11 @@
+{
+ "id": "zarif",
+ "caption": "elegant slow Turkish oud and soft strings, gentle piano, refined evening dinner atmosphere, warm and intimate, modern classical with Anatolian makam color, instrumental, no vocals",
+ "duration": 36,
+ "bpm": 72,
+ "keyscale": "E minor",
+ "seed": 8803,
+ "gen_seconds": 238,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}

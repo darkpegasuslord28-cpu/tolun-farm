@@ -1,0 +1,11 @@
+{
+ "id": "ates",
+ "caption": "epic cinematic Anatolian score for a grill restaurant film, deep davul hits, slow powerful build, kanun and ney melody, low strings, fire and smoke mood, warm, dramatic, instrumental, no vocals",
+ "duration": 36,
+ "bpm": 84,
+ "keyscale": "D minor",
+ "seed": 8801,
+ "gen_seconds": 236,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}

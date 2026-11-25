@@ -1,0 +1,11 @@
+{
+ "id": "fasil",
+ "caption": "Turkish meyhane fasıl instrumental, warm clarinet melody, kanun, oud and darbuka in 9/8 karşılama groove, nostalgic and joyful evening with friends, Istanbul tavern atmosphere, instrumental, no vocals",
+ "duration": 36,
+ "bpm": 96,
+ "keyscale": "A minor",
+ "seed": 8802,
+ "gen_seconds": 237,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}
