@@ -1,0 +1,68 @@
+[
+ {
+  "id": "wis_jet",
+  "model": "t2i",
+  "ok": true,
+  "sec": 154,
+  "clip": [
+   26.25,
+   23.234,
+   22.984
+  ]
+ },
+ {
+  "id": "wis_city",
+  "model": "t2i",
+  "ok": true,
+  "sec": 93,
+  "clip": [
+   19.766,
+   23.422,
+   21.859
+  ]
+ },
+ {
+  "id": "wis_summit",
+  "model": "t2i",
+  "ok": true,
+  "sec": 93,
+  "clip": [
+   26.094,
+   24.297,
+   25.969
+  ]
+ },
+ {
+  "id": "wis_slope",
+  "model": "t2i",
+  "ok": true,
+  "sec": 93,
+  "clip": [
+   23.469,
+   22.828,
+   22.484
+  ]
+ },
+ {
+  "id": "mm_rome",
+  "model": "t2i",
+  "ok": true,
+  "sec": 94,
+  "clip": [
+   28.312,
+   24.875,
+   25.656
+  ]
+ },
+ {
+  "id": "mm_vault",
+  "model": "t2i",
+  "ok": true,
+  "sec": 93,
+  "clip": [
+   24.281,
+   25.875,
+   25.609
+  ]
+ }
+]
