@@ -46,6 +46,23 @@ if J.get("jobs"):   # TEK OTURUM, ÇOK İŞ: alt işler sırayla (ya da "paralle
         if ng == 1: running[-1].wait()
     for p in running: p.wait()
     sys.exit(0)
+if J.get("mode") == "sfx":   # GERÇEKÇİ EFEKT/ORTAM SESİ (GPU): AudioLDM2 (cvssp, açık) — metinden ses
+    OUT = OUT_ROOT; os.makedirs(OUT, exist_ok=True); log = []
+    subprocess.run([sys.executable, "-m", "pip", "install", "-q", "diffusers>=0.30", "transformers==4.46.3", "scipy"], check=False)
+    import torch, scipy.io.wavfile as wf
+    from diffusers import AudioLDM2Pipeline
+    pipe = AudioLDM2Pipeline.from_pretrained(J.get("sfx_model", "cvssp/audioldm2-large"), torch_dtype=torch.float16).to("cuda")
+    for it in J["items"]:
+        for k in range(it.get("takes", J.get("takes", 2))):
+            t0 = time.time(); oid = f"{it['id']}_t{k}"
+            try:
+                g = torch.Generator("cuda").manual_seed(it.get("seed", 5) + k)
+                a = pipe(it["prompt"], negative_prompt=J.get("negative", "low quality, music, distorted"), num_inference_steps=J.get("steps", 150), audio_length_in_s=it.get("sec", 8), generator=g).audios[0]
+                wf.write(f"{OUT}/{oid}.wav", 16000, (a * 32767).clip(-32768, 32767).astype("int16")); log.append({"id": oid, "ok": True, "sec": round(time.time() - t0)})
+            except Exception as e:
+                log.append({"id": oid, "ok": False, "err": repr(e)[:400]})
+            json.dump(log, open(f"{OUT}/log.json", "w"), indent=1); print(log[-1], flush=True)
+    sys.exit(0)
 if J.get("mode") == "chatterbox":   # TÜRKÇE İFADELİ SES (GPU): Chatterbox Multilingual (Resemble AI, MIT) — referans sesten klon + exaggeration/cfg
     OUT = OUT_ROOT; os.makedirs(OUT, exist_ok=True); log = []
     subprocess.run([sys.executable, "-m", "pip", "install", "-q", "chatterbox-tts", "transformers==4.46.3", "diffusers==0.29.0"], check=False)
