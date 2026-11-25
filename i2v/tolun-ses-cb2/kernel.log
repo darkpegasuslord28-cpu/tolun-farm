@@ -1,0 +1,20 @@
+[{"stream_name":"stdout","time":0.967221461,"data":"hazır ortam yok; /kaggle/input: []\n"}
+,{"stream_name":"stderr","time":11.430273976,"data":"  error: subprocess-exited-with-error\n"}
+,{"stream_name":"stderr","time":11.430305251,"data":"  \n"}
+,{"stream_name":"stderr","time":11.430308763,"data":"  × Getting requirements to build wheel did not run successfully.\n"}
+,{"stream_name":"stderr","time":11.430311925,"data":"  │ exit code: 1\n"}
+,{"stream_name":"stderr","time":11.430314319,"data":"  ╰─\u003e No available output.\n"}
+,{"stream_name":"stderr","time":11.430316982,"data":"  \n"}
+,{"stream_name":"stderr","time":11.430319189,"data":"  note: This error originates from a subprocess, and is likely not a problem with pip.\n"}
+,{"stream_name":"stderr","time":11.431168291,"data":"ERROR: Failed to build 'numpy' when getting requirements to build wheel\n"}
+,{"stream_name":"stderr","time":16.947143086,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":16.947356804,"data":"  File \"/kaggle/src/script.py\", line 148, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":16.947381717,"data":"    from chatterbox.mtl_tts import ChatterboxMultilingualTTS\n"}
+,{"stream_name":"stderr","time":16.947386901,"data":"ModuleNotFoundError: No module named 'chatterbox'\n"}
+,{"stream_name":"stderr","time":21.147642175,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":21.147666959,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":21.377481284,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":21.377503542,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":22.129147812,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":23.135438429,"data":"[NbConvertApp] Writing 421871 bytes to __results__.html\n"}
+]
