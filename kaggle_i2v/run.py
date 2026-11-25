@@ -100,6 +100,36 @@ if J.get("mode") == "voxcpm":   # TÜRKÇE SESLENDİRME (GPU): VoxCPM2 (OpenBMB,
         log.append({"id": L["id"], "ok": bool(best), "cer": float(round(float(best[0]), 3)) if best else None, "asr": best[2] if best else "", "dur": best[3] if best else 0, "sec": round(time.time() - t0)})
         print(log[-1], flush=True); json.dump(log, open(f"{OUT}/log.json", "w"), ensure_ascii=False, indent=1)
     sys.exit(0)
+if J.get("mode") == "plate":   # FOTOĞRAF PLAKASI → 3B KAMERA (matte painting): görsel + derinlik (Depth Anything V2) → Blender projeksiyon, GPU
+    OUT = OUT_ROOT; os.makedirs(OUT, exist_ok=True); log = []
+    subprocess.run([sys.executable, "-m", "pip", "install", "-q", "bpy", "imageio-ffmpeg", "transformers"], check=False)
+    import imageio_ffmpeg; FF = imageio_ffmpeg.get_ffmpeg_exe()
+    sc = "/kaggle/working/plate3d.py"; urllib.request.urlretrieve("https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/main/kaggle_i2v/plate3d.py", sc)
+    from transformers import pipeline as _pl; from PIL import Image as _I; import numpy as _np
+    dpipe = _pl("depth-estimation", model="depth-anything/Depth-Anything-V2-Large-hf", device=0)
+    def fetch(src, dst):
+        url = src if src.startswith("http") else "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/" + src
+        urllib.request.urlretrieve(url, dst); return dst
+    done = {}
+    for it in J["items"]:
+        t0 = time.time()
+        try:
+            img = done.get(it["image"]) or fetch(it["image"], f"/kaggle/working/p_{len(done)}.png")
+            dep = img[:-4] + ".depth.png"
+            if not os.path.exists(dep):
+                im = _I.open(img).convert("RGB"); d = _np.array(dpipe(im)["predicted_depth"].squeeze().cpu(), dtype=_np.float32)
+                d = (d - d.min()) / (d.max() - d.min() + 1e-6); _I.fromarray((d * 65535).astype(_np.uint16)).resize(im.size, _I.BICUBIC).save(dep)
+                __import__("shutil").copy(dep, f"{OUT}/{it['id']}.depth.png")
+            done[it["image"]] = img
+            cmd = [sys.executable, sc, img, dep, f"{OUT}/{it['id']}.mp4", "--move", it.get("move", "push"), "--sec", str(it.get("sec", 5)), "--w", str(J.get("w", 1080)), "--h", str(J.get("h", 1920)), "--amt", str(it.get("amt", 1.0)), "--grid", str(J.get("grid", 600))]
+            for k in ("eyes", "blink", "flare"):
+                if it.get(k): cmd += ["--" + k, it[k]]
+            r = subprocess.run(cmd, env=dict(os.environ, GPU="1", FFMPEG=FF), capture_output=True, text=True)
+            log.append({"id": it["id"], "model": "plate", "ok": r.returncode == 0, "sec": round(time.time() - t0), "err": "" if r.returncode == 0 else (r.stdout[-500:] + r.stderr[-800:])})
+        except Exception as e:
+            log.append({"id": it["id"], "model": "plate", "ok": False, "err": repr(e)[:400]})
+        json.dump(log, open(f"{OUT}/log.json", "w"), indent=1); print(log[-1], flush=True)
+    sys.exit(0)
 if J.get("mode") == "blender":   # 3B ÜRÜN SAHNELERİ (Blender/bpy, Cycles GPU): kaggle_i2v/tolun3d.py — her sahnede aynı ürün
     OUT = OUT_ROOT; os.makedirs(OUT, exist_ok=True); log = []
     subprocess.run("apt-get install -y -qq libxi6 libxxf86vm1 libxfixes3 libxrender1 libgl1 libxkbcommon0 libsm6 > /dev/null 2>&1", shell=True)
