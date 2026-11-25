@@ -1,0 +1,95 @@
+{
+"name": "tolun-ses",
+"mode": "voxcpm",
+"tts_model": "openbmb/VoxCPM2",
+"takes": 3,
+"steps": 12,
+"voices": {
+"derin": {
+"design": "deep calm male voice, low pitch, slow pace, cold and controlled, quietly menacing, close intimate microphone, clear Turkish diction"
+},
+"fisilti": {
+"design": "soft half-whispering male voice, breathy, very close to the microphone, eerie and calm, slow, clear Turkish diction"
+},
+"yapay": {
+"design": "smooth androgynous synthetic AI voice, calm, slightly flat and emotionless, low register, subtle digital coldness, clear Turkish diction"
+},
+"anlatici": {
+"design": "gravelly middle-aged male narrator voice, dramatic suspense thriller tone, slow pauses, clear Turkish diction"
+}
+},
+"lines": [
+{
+"id": "derin_1",
+"voice": "derin",
+"text": "Merhaba. Bu hesap artık benim.",
+"style": "tense, slow, deliberate pauses, slight smile in the voice"
+},
+{
+"id": "derin_2",
+"voice": "derin",
+"text": "Oğulcan mı? Bir süre ortalıkta olmayacak. Şifresini ben değiştirdim.",
+"style": "tense, slow, deliberate pauses, slight smile in the voice"
+},
+{
+"id": "derin_3",
+"voice": "derin",
+"text": "Takip etmeye devam edin. Çünkü ben... sizi zaten takip ediyorum.",
+"style": "tense, slow, deliberate pauses, slight smile in the voice"
+},
+{
+"id": "fisilti_1",
+"voice": "fisilti",
+"text": "Merhaba. Bu hesap artık benim.",
+"style": "tense, slow, deliberate pauses, slight smile in the voice"
+},
+{
+"id": "fisilti_2",
+"voice": "fisilti",
+"text": "Oğulcan mı? Bir süre ortalıkta olmayacak. Şifresini ben değiştirdim.",
+"style": "tense, slow, deliberate pauses, slight smile in the voice"
+},
+{
+"id": "fisilti_3",
+"voice": "fisilti",
+"text": "Takip etmeye devam edin. Çünkü ben... sizi zaten takip ediyorum.",
+"style": "tense, slow, deliberate pauses, slight smile in the voice"
+},
+{
+"id": "yapay_1",
+"voice": "yapay",
+"text": "Merhaba. Bu hesap artık benim.",
+"style": "tense, slow, deliberate pauses, slight smile in the voice"
+},
+{
+"id": "yapay_2",
+"voice": "yapay",
+"text": "Oğulcan mı? Bir süre ortalıkta olmayacak. Şifresini ben değiştirdim.",
+"style": "tense, slow, deliberate pauses, slight smile in the voice"
+},
+{
+"id": "yapay_3",
+"voice": "yapay",
+"text": "Takip etmeye devam edin. Çünkü ben... sizi zaten takip ediyorum.",
+"style": "tense, slow, deliberate pauses, slight smile in the voice"
+},
+{
+"id": "anlatici_1",
+"voice": "anlatici",
+"text": "Merhaba. Bu hesap artık benim.",
+"style": "tense, slow, deliberate pauses, slight smile in the voice"
+},
+{
+"id": "anlatici_2",
+"voice": "anlatici",
+"text": "Oğulcan mı? Bir süre ortalıkta olmayacak. Şifresini ben değiştirdim.",
+"style": "tense, slow, deliberate pauses, slight smile in the voice"
+},
+{
+"id": "anlatici_3",
+"voice": "anlatici",
+"text": "Takip etmeye devam edin. Çünkü ben... sizi zaten takip ediyorum.",
+"style": "tense, slow, deliberate pauses, slight smile in the voice"
+}
+]
+}
