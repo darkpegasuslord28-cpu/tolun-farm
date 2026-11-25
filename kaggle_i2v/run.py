@@ -48,7 +48,7 @@ if J.get("jobs"):   # TEK OTURUM, ÇOK İŞ: alt işler sırayla (ya da "paralle
     sys.exit(0)
 if J.get("mode") == "sfx":   # GERÇEKÇİ EFEKT/ORTAM SESİ (GPU): AudioLDM2 (cvssp, açık) — metinden ses
     OUT = OUT_ROOT; os.makedirs(OUT, exist_ok=True); log = []
-    subprocess.run([sys.executable, "-m", "pip", "install", "-q", "diffusers>=0.30", "transformers==4.46.3", "scipy"], check=False)
+    subprocess.run([sys.executable, "-m", "pip", "install", "-q", "diffusers==0.31.0", "transformers==4.46.3", "scipy"], check=False)
     import torch, scipy.io.wavfile as wf
     from diffusers import AudioLDM2Pipeline
     pipe = AudioLDM2Pipeline.from_pretrained(J.get("sfx_model", "cvssp/audioldm2-large"), torch_dtype=torch.float16).to("cuda")
