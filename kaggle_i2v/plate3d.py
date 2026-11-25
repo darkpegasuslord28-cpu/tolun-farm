@@ -55,7 +55,7 @@ bg.scale = (tanx * 6.2 * 2.3, tany * 6.2 * 2.3, 1); bg.data.materials.append(M)
 # kamera
 cd = bpy.data.cameras.new("c"); cam = bpy.data.objects.new("cam", cd); S.collection.objects.link(cam); S.camera = cam
 cd.sensor_fit = "HORIZONTAL"; cd.sensor_width = 36; cd.lens = 30 * 1.06   # orijinal açıyla eş (+%6 kenar payı)
-if (A.h / A.w) < aspect * 0.9: cd.lens = 30 * (A.h / A.w) / aspect * 1.06   # görsel yataysa dikey pencere: içinden kırp
+if (A.h / A.w) > aspect * 1.1: cd.lens = 30 * (A.h / A.w) / aspect * 1.06   # görsel yataysa dikey pencere: içinden kırp
 cam.rotation_mode = "XYZ"
 def K(t, loc, rot):   # rot: (pitch, roll, yaw) derece; kamera +y'ye bakar
     cam.location = loc; cam.rotation_euler = (math.radians(90 + rot[0]), math.radians(rot[1]), math.radians(rot[2])); f = 1 + int(round(t * (N - 1)))
