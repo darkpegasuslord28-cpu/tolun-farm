@@ -1,0 +1,98 @@
+[
+ {
+  "id": "golge_1",
+  "ok": true,
+  "cer": -0.038,
+  "asr": " Altı kişilik okul hikayesini mi bekliyordunuz? Acı nasılsınız?",
+  "dur": 4.48,
+  "sec": 53
+ },
+ {
+  "id": "golge_2",
+  "ok": true,
+  "cer": -0.071,
+  "asr": " Bana izin vermiyordu. Ben de kanalı zorla ele geçirdim.",
+  "dur": 3.84,
+  "sec": 35
+ },
+ {
+  "id": "golge_3",
+  "ok": true,
+  "cer": -0.087,
+  "asr": " Artık ben ne istersem onu izleyeceksiniz.",
+  "dur": 4.48,
+  "sec": 31
+ },
+ {
+  "id": "kibar_1",
+  "ok": true,
+  "cer": 0.121,
+  "asr": " 6 kişilik okul hikayesini mi bekliyordunuz? Acı nasılsınız?",
+  "dur": 4.16,
+  "sec": 31
+ },
+ {
+  "id": "kibar_2",
+  "ok": true,
+  "cer": -0.032,
+  "asr": " Bana izin vermiyordu. Ben de kanalı zorla ele geçirdim.",
+  "dur": 2.72,
+  "sec": 21
+ },
+ {
+  "id": "kibar_3",
+  "ok": true,
+  "cer": -0.076,
+  "asr": " Artık ben ne istersem onu izleyeceksiniz.",
+  "dur": 3.36,
+  "sec": 25
+ },
+ {
+  "id": "derinyanki_1",
+  "ok": true,
+  "cer": 0.121,
+  "asr": " 6 kişilik okul hikayesini mi bekliyordunuz? Acı nasılsınız?",
+  "dur": 4.48,
+  "sec": 33
+ },
+ {
+  "id": "derinyanki_2",
+  "ok": true,
+  "cer": -0.068,
+  "asr": " Bana izin vermiyordu. Ben de kanalı zorla ele geçirdim.",
+  "dur": 3.52,
+  "sec": 26
+ },
+ {
+  "id": "derinyanki_3",
+  "ok": true,
+  "cer": -0.049,
+  "asr": " Artık ben ne istersem onu izleyeceksiniz.",
+  "dur": 4.16,
+  "sec": 32
+ },
+ {
+  "id": "genc_1",
+  "ok": true,
+  "cer": 0.121,
+  "asr": " 6 kişilik okul hikayesini mi bekliyordunuz? Acı nasılsınız?",
+  "dur": 4.0,
+  "sec": 29
+ },
+ {
+  "id": "genc_2",
+  "ok": true,
+  "cer": -0.076,
+  "asr": " Bana izin vermiyordu. Ben de kanalı zorla ele geçirdim.",
+  "dur": 3.52,
+  "sec": 26
+ },
+ {
+  "id": "genc_3",
+  "ok": true,
+  "cer": -0.068,
+  "asr": " Artık ben ne istersem onu izleyeceksiniz.",
+  "dur": 3.04,
+  "sec": 26
+ }
+]
