@@ -1,0 +1,8 @@
+{
+ "name": "ase-reklam",
+ "tracks": [
+  {"id": "ates", "caption": "epic cinematic Anatolian score for a grill restaurant film, deep davul hits, slow powerful build, kanun and ney melody, low strings, fire and smoke mood, warm, dramatic, instrumental, no vocals", "duration": 36, "bpm": 84, "keyscale": "D minor", "seed": 8801},
+  {"id": "fasil", "caption": "Turkish meyhane fasıl instrumental, warm clarinet melody, kanun, oud and darbuka in 9/8 karşılama groove, nostalgic and joyful evening with friends, Istanbul tavern atmosphere, instrumental, no vocals", "duration": 36, "bpm": 96, "keyscale": "A minor", "seed": 8802},
+  {"id": "zarif", "caption": "elegant slow Turkish oud and soft strings, gentle piano, refined evening dinner atmosphere, warm and intimate, modern classical with Anatolian makam color, instrumental, no vocals", "duration": 36, "bpm": 72, "keyscale": "E minor", "seed": 8803}
+ ]
+}
