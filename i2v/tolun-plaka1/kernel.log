@@ -1,0 +1,28 @@
+[{"stream_name":"stdout","time":1.3672689980000001,"data":"hazır ortam yok; /kaggle/input: []\n"}
+,{"stream_name":"stderr","time":25.360958309,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":25.360984314,"data":"bigframes 2.51.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":25.360989622,"data":"ydata-profiling 4.18.4 requires numpy\u003c2.4,\u003e=1.22, but you have numpy 2.5.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":25.360993511,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":25.36099733,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":25.361001427,"data":"ydf 0.15.0 requires protobuf\u003c7.0.0,\u003e=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":25.361005624,"data":"numba 0.61.2 requires numpy\u003c2.3,\u003e=1.24, but you have numpy 2.5.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":25.36100984,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":64.787628709,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":76.431365086,"data":"\rLoading weights:   0%|          | 0/503 [00:00\u003c?, ?it/s]\rLoading weights:  51%|█████     | 256/503 [00:00\u003c00:00, 2558.35it/s]\rLoading weights: 100%|██████████| 503/503 [00:00\u003c00:00, 2592.62it/s]\n"}
+,{"stream_name":"stderr","time":84.133510969,"data":"/kaggle/src/script.py:179: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword\n"}
+,{"stream_name":"stderr","time":84.13354589,"data":"  im = _I.open(img).convert(\"RGB\"); d = _np.array(dpipe(im)[\"predicted_depth\"].squeeze().cpu(), dtype=_np.float32)\n"}
+,{"stream_name":"stdout","time":2122.789046607,"data":"{'id': 'bos0_walk', 'model': 'plate', 'ok': True, 'sec': 2045, 'err': ''}\n"}
+,{"stream_name":"stdout","time":3808.866908005,"data":"{'id': 'bos0_lookr', 'model': 'plate', 'ok': True, 'sec': 1686, 'err': ''}\n"}
+,{"stream_name":"stdout","time":6525.207149548,"data":"{'id': 'bos1_push', 'model': 'plate', 'ok': True, 'sec': 2716, 'err': ''}\n"}
+,{"stream_name":"stdout","time":9171.08320398,"data":"{'id': 'bos1_orbit', 'model': 'plate', 'ok': True, 'sec': 2646, 'err': ''}\n"}
+,{"stream_name":"stdout","time":10488.079631814,"data":"{'id': 'b0_rise', 'model': 'plate', 'ok': True, 'sec': 1317, 'err': ''}\n"}
+,{"stream_name":"stdout","time":11796.916502771,"data":"{'id': 'b0_push', 'model': 'plate', 'ok': True, 'sec': 1309, 'err': ''}\n"}
+,{"stream_name":"stdout","time":13119.851439977,"data":"{'id': 'sil_walk', 'model': 'plate', 'ok': True, 'sec': 1323, 'err': ''}\n"}
+,{"stream_name":"stdout","time":14442.797209443,"data":"{'id': 'prof_push', 'model': 'plate', 'ok': True, 'sec': 1323, 'err': ''}\n"}
+,{"stream_name":"stderr","time":14451.919526798,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":14451.919593988,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":14452.202717442,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":14452.202749687,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":14453.035202039,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":14454.268053852,"data":"[NbConvertApp] Writing 410385 bytes to __results__.html\n"}
+]
