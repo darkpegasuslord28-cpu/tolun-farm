@@ -1,0 +1,68 @@
+{
+"name": "ase-efekt2",
+"mode": "sfx",
+"takes": 2,
+"steps": 150,
+"items": [
+{
+"id": "ortam_kalabalik",
+"prompt": "busy Turkish tavern restaurant at night, many people talking and laughing at tables, cutlery and glasses clinking, warm lively ambience",
+"sec": 10,
+"seed": 31
+},
+{
+"id": "ortam_sakin",
+"prompt": "quiet elegant restaurant ambience, soft distant conversations, gentle cutlery sounds, calm evening",
+"sec": 10,
+"seed": 34
+},
+{
+"id": "kadeh",
+"prompt": "two glasses clinking together in a toast, close up, crisp",
+"sec": 4,
+"seed": 37
+},
+{
+"id": "buz",
+"prompt": "ice cubes dropped into a glass and clinking, close up",
+"sec": 4,
+"seed": 40
+},
+{
+"id": "dokme",
+"prompt": "water being poured slowly into a glass with ice, close up",
+"sec": 5,
+"seed": 43
+},
+{
+"id": "cizirti",
+"prompt": "meat sizzling loudly on a hot charcoal grill, fat dripping, close up",
+"sec": 8,
+"seed": 46
+},
+{
+"id": "koz",
+"prompt": "charcoal embers crackling and popping in a grill, close up",
+"sec": 8,
+"seed": 49
+},
+{
+"id": "bicak",
+"prompt": "chef chopping meat with a large knife on a wooden board, rhythmic",
+"sec": 5,
+"seed": 52
+},
+{
+"id": "kahkaha",
+"prompt": "group of friends laughing together at a dinner table",
+"sec": 5,
+"seed": 55
+},
+{
+"id": "tabak",
+"prompt": "plates being placed on a table, ceramic clinks, restaurant",
+"sec": 4,
+"seed": 58
+}
+]
+}
