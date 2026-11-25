@@ -1,0 +1,95 @@
+{
+"name": "tolun-ses2",
+"mode": "voxcpm",
+"tts_model": "openbmb/VoxCPM2",
+"takes": 3,
+"steps": 12,
+"voices": {
+"golge": {
+"design": "very low hushed male voice, slow and deliberate, long dramatic pauses, cold quiet amusement, breathy, as if speaking from the dark right next to your ear, clear Turkish diction"
+},
+"kibar": {
+"design": "eerily calm and polite male voice, soft and smooth, unhurried, smiling but threatening, like telling a dangerous secret, low register, clear Turkish diction"
+},
+"derinyanki": {
+"design": "deep resonant baritone voice, slow, authoritative and mysterious, slight rasp, controlled power, cinematic villain monologue, clear Turkish diction"
+},
+"genc": {
+"design": "young male voice, quiet and sarcastic, detached, slightly bored and arrogant, low energy but sharp, half whisper, clear Turkish diction"
+}
+},
+"lines": [
+{
+"id": "golge_1",
+"voice": "golge",
+"text": "Altı kişilik okul hikâyesini mi bekliyordunuz? Acınasısınız.",
+"style": "mysterious, slow, deliberate pauses, quiet confidence"
+},
+{
+"id": "golge_2",
+"voice": "golge",
+"text": "Bana izin vermiyordu. Ben de kanalı zorla ele geçirdim.",
+"style": "mysterious, slow, deliberate pauses, quiet confidence"
+},
+{
+"id": "golge_3",
+"voice": "golge",
+"text": "Artık ben ne istersem... onu izleyeceksiniz.",
+"style": "mysterious, slow, deliberate pauses, quiet confidence"
+},
+{
+"id": "kibar_1",
+"voice": "kibar",
+"text": "Altı kişilik okul hikâyesini mi bekliyordunuz? Acınasısınız.",
+"style": "mysterious, slow, deliberate pauses, quiet confidence"
+},
+{
+"id": "kibar_2",
+"voice": "kibar",
+"text": "Bana izin vermiyordu. Ben de kanalı zorla ele geçirdim.",
+"style": "mysterious, slow, deliberate pauses, quiet confidence"
+},
+{
+"id": "kibar_3",
+"voice": "kibar",
+"text": "Artık ben ne istersem... onu izleyeceksiniz.",
+"style": "mysterious, slow, deliberate pauses, quiet confidence"
+},
+{
+"id": "derinyanki_1",
+"voice": "derinyanki",
+"text": "Altı kişilik okul hikâyesini mi bekliyordunuz? Acınasısınız.",
+"style": "mysterious, slow, deliberate pauses, quiet confidence"
+},
+{
+"id": "derinyanki_2",
+"voice": "derinyanki",
+"text": "Bana izin vermiyordu. Ben de kanalı zorla ele geçirdim.",
+"style": "mysterious, slow, deliberate pauses, quiet confidence"
+},
+{
+"id": "derinyanki_3",
+"voice": "derinyanki",
+"text": "Artık ben ne istersem... onu izleyeceksiniz.",
+"style": "mysterious, slow, deliberate pauses, quiet confidence"
+},
+{
+"id": "genc_1",
+"voice": "genc",
+"text": "Altı kişilik okul hikâyesini mi bekliyordunuz? Acınasısınız.",
+"style": "mysterious, slow, deliberate pauses, quiet confidence"
+},
+{
+"id": "genc_2",
+"voice": "genc",
+"text": "Bana izin vermiyordu. Ben de kanalı zorla ele geçirdim.",
+"style": "mysterious, slow, deliberate pauses, quiet confidence"
+},
+{
+"id": "genc_3",
+"voice": "genc",
+"text": "Artık ben ne istersem... onu izleyeceksiniz.",
+"style": "mysterious, slow, deliberate pauses, quiet confidence"
+}
+]
+}
