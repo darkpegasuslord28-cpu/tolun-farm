@@ -1,0 +1,77 @@
+{
+"name": "montaj-pilot30-wan",
+"t2i_model": "SG161222/RealVisXL_V5.0",
+"items": [
+{
+"id": "ai_summit",
+"model": "wan",
+"image": "i2v/montaj-pilot30/wis_summit.png",
+"size": [
+480,
+832
+],
+"frames": 81,
+"steps": 30,
+"fps": 16,
+"seed": 3,
+"prompt": "An astronaut stands on a volcanic summit far above the clouds, slowly turning his head toward the horizon, thin wisps of cloud drift below, slow cinematic camera push in, realistic, smooth motion."
+},
+{
+"id": "ai_slope",
+"model": "wan",
+"image": "i2v/montaj-pilot30/wis_slope.png",
+"size": [
+480,
+832
+],
+"frames": 81,
+"steps": 30,
+"fps": 16,
+"seed": 3,
+"prompt": "A lone hiker walks away across an endless rocky plain that gently rises to the horizon, dust blowing, slow tracking camera following behind, realistic, smooth motion."
+},
+{
+"id": "ai_vault",
+"model": "wan",
+"image": "i2v/montaj-pilot30/mm_vault.png",
+"size": [
+480,
+832
+],
+"frames": 81,
+"steps": 30,
+"fps": 16,
+"seed": 3,
+"prompt": "A man stands still in a giant warehouse of stacked cash bundles, slow cinematic camera dolly back revealing the endless stacks, flickering fluorescent light, realistic, smooth motion."
+},
+{
+"id": "ai_rome",
+"model": "wan",
+"image": "i2v/montaj-pilot30/mm_rome.png",
+"size": [
+480,
+832
+],
+"frames": 81,
+"steps": 30,
+"fps": 16,
+"seed": 3,
+"prompt": "An old merchant counts coins on a wooden table by lamplight, coins clink and slide through his fingers, flame flickers, slow camera push in, realistic, smooth motion."
+},
+{
+"id": "wis_jet2",
+"model": "t2i",
+"prompt": "cinematic photo, ultra realistic, a tiny commercial airliner seen from far away flying directly toward a colossal wide gently sloping volcanic mountain wall that rises high above the plane and far above the clouds, the plane is below the summit, vast scale, blue hour",
+"negative": "text, letters, watermark, logo, cartoon, lowres, blurry, plane above mountain, steep cone",
+"seed": 3051,
+"size": [
+768,
+1344
+],
+"steps": 32,
+"cfg": 5.5,
+"cands": 3,
+"action": "tiny airplane flying below a giant mountain summit"
+}
+]
+}
