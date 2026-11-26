@@ -1,0 +1,7 @@
+{"name":"tolun-yer1-sfx","mode":"sfx","takes":2,"steps":150,
+"items":[
+{"id":"vadi_sabah","prompt":"quiet open valley at dawn, gentle wind, distant birds chirping, calm peaceful morning ambience","sec":10,"seed":41},
+{"id":"balon_burner","prompt":"hot air balloon propane burner firing a long whoosh roar from a distance, outdoors","sec":5,"seed":43},
+{"id":"giris_whoosh","prompt":"soft deep cinematic whoosh transition, airy swoosh","sec":3,"seed":45},
+{"id":"sehir_gece","prompt":"Istanbul city night ambience by the sea, distant ferry horn, seagulls, soft traffic, calm","sec":10,"seed":47}
+]}
