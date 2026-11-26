@@ -1,0 +1,6 @@
+{"name":"tolun-yer-hd3","mode":"plate","w":1080,"h":1920,"grid":700,
+"items":[
+{"id":"kap_push","image":"i2v/yer-hd/kapadokya_hd_2k.jpg","depth":"i2v/yer-hd/kapadokya_hd_2k.depth.png","move":"push","sec":6,"amt":0.9},
+{"id":"kap_rise","image":"i2v/yer-hd/kapadokya_hd_2k.jpg","depth":"i2v/yer-hd/kapadokya_hd_2k.depth.png","move":"rise","sec":5,"amt":0.7},
+{"id":"kap_panr","image":"i2v/yer-hd/kapadokya_hd_2k.jpg","depth":"i2v/yer-hd/kapadokya_hd_2k.depth.png","move":"pan_r","sec":5,"amt":0.6}
+]}
