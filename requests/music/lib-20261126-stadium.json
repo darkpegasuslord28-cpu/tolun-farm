@@ -1,0 +1,29 @@
+{
+ "name": "lib-20261126-stadium",
+ "tracks": [
+  {
+   "id": "stadium_20261126_0",
+   "caption": "cinematic sports tension, pulsing strings, building drums, anticipation, instrumental",
+   "duration": 60,
+   "bpm": 110,
+   "keyscale": "B minor",
+   "seed": 7399460
+  },
+  {
+   "id": "stadium_20261126_1",
+   "caption": "cinematic sports tension, pulsing strings, building drums, anticipation, instrumental",
+   "duration": 60,
+   "bpm": 110,
+   "keyscale": "B minor",
+   "seed": 7399461
+  },
+  {
+   "id": "stadium_20261126_2",
+   "caption": "cinematic sports tension, pulsing strings, building drums, anticipation, instrumental",
+   "duration": 60,
+   "bpm": 110,
+   "keyscale": "B minor",
+   "seed": 7399462
+  }
+ ]
+}
