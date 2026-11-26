@@ -1,0 +1,62 @@
+[
+ {
+  "id": "trafik_t0",
+  "ok": true,
+  "sec": 35
+ },
+ {
+  "id": "trafik_t1",
+  "ok": true,
+  "sec": 30
+ },
+ {
+  "id": "adim_t0",
+  "ok": true,
+  "sec": 31
+ },
+ {
+  "id": "adim_t1",
+  "ok": true,
+  "sec": 31
+ },
+ {
+  "id": "kapi_t0",
+  "ok": true,
+  "sec": 31
+ },
+ {
+  "id": "kapi_t1",
+  "ok": true,
+  "sec": 31
+ },
+ {
+  "id": "ic_sakin_t0",
+  "ok": true,
+  "sec": 31
+ },
+ {
+  "id": "ic_sakin_t1",
+  "ok": true,
+  "sec": 31
+ },
+ {
+  "id": "whoosh_t0",
+  "ok": true,
+  "sec": 31
+ },
+ {
+  "id": "whoosh_t1",
+  "ok": true,
+  "sec": 31
+ },
+ {
+  "id": "nefes_t0",
+  "ok": true,
+  "sec": 30
+ },
+ {
+  "id": "nefes_t1",
+  "ok": true,
+  "sec": 30
+ }
+]
