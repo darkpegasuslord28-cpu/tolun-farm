@@ -1,0 +1,35 @@
+{
+"name": "ase-diyalog",
+"mode": "voxcpm",
+"tts_model": "openbmb/VoxCPM2",
+"takes": 3,
+"steps": 12,
+"voices": {
+"ogul": {
+"design": "young Turkish man in his twenties, tired and slightly upset, quiet, low energy"
+},
+"anne": {
+"design": "Turkish mother in her fifties, warm, worried, gentle, speaking from another room"
+}
+},
+"lines": [
+{
+"id": "d1",
+"voice": "ogul",
+"text": "Anne, ben çıkıyorum.",
+"style": "natural, realistic home conversation"
+},
+{
+"id": "d2",
+"voice": "anne",
+"text": "Nereye oğlum, bu saatte?",
+"style": "natural, realistic home conversation"
+},
+{
+"id": "d3",
+"voice": "ogul",
+"text": "Hiç anne... biraz kafa toplayacağım.",
+"style": "natural, realistic home conversation"
+}
+]
+}
