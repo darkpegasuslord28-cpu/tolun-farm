@@ -1,0 +1,34 @@
+[
+ {
+  "id": "y7",
+  "ok": true,
+  "cer": -0.055,
+  "asr": " Ama bu gece başka.",
+  "dur": 1.76,
+  "sec": 34
+ },
+ {
+  "id": "y8",
+  "ok": true,
+  "cer": -0.047,
+  "asr": " Ekranı açmıyor. Sadece tavana bakıyor.",
+  "dur": 2.56,
+  "sec": 20
+ },
+ {
+  "id": "y9",
+  "ok": true,
+  "cer": 0.267,
+  "asr": " 42 kere güçlü ol dediler.",
+  "dur": 1.92,
+  "sec": 15
+ },
+ {
+  "id": "y10",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " kimse sormadı yoruldun mu diye.",
+  "dur": 2.56,
+  "sec": 18
+ }
+]
