@@ -1,0 +1,66 @@
+[
+ {
+  "id": "c1",
+  "ok": true,
+  "cer": 0.045,
+  "asr": " İyi arkadaşlar bugün Minecraft'ta dev bir ev yapıyoruz. Ay çok heyecanlıyım.",
+  "dur": 4.64,
+  "sec": 57
+ },
+ {
+  "id": "c2",
+  "ok": true,
+  "cer": -0.085,
+  "asr": " Aaa! Creeper geliyor! Kaç kaç kaç! Yok yok! Patladı! Evim gitti!",
+  "dur": 8.0,
+  "sec": 56
+ },
+ {
+  "id": "b1",
+  "ok": true,
+  "cer": -0.064,
+  "asr": " Hey arkadaşlar, bugün Minecraft'ta dev bir ev yapıyoruz. Ay çok heyecanlıyım.",
+  "dur": 5.44,
+  "sec": 43
+ },
+ {
+  "id": "b2",
+  "ok": true,
+  "cer": -0.076,
+  "asr": " Aaa Creeper geliyor. Kaç kaç kaç. Yok yok patladı. Evim gitti.",
+  "dur": 6.56,
+  "sec": 47
+ },
+ {
+  "id": "r1",
+  "ok": true,
+  "cer": -0.014,
+  "asr": " Yine arkadaşlar bugün Minecraft'a dev bir ev yapıyoruz. Ay çok heyecanlıyım.",
+  "dur": 5.44,
+  "sec": 40
+ },
+ {
+  "id": "r2",
+  "ok": true,
+  "cer": -0.048,
+  "asr": " Aaa Creeper geliyor. Kaç kaç kaç. Yok yok patladı. Evim gitti.",
+  "dur": 6.4,
+  "sec": 48
+ },
+ {
+  "id": "d1",
+  "ok": true,
+  "cer": -0.006,
+  "asr": " İyi arkadaşlar bugün Minecraft'ta dev bir ev yapıyoruz. Ay çok heyecanlıyım.",
+  "dur": 4.96,
+  "sec": 46
+ },
+ {
+  "id": "d2",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Aaa Creeper geliyor. Kaç kaç kaç. Yok yok patladı. Evim gitti.",
+  "dur": 4.96,
+  "sec": 76
+ }
+]
