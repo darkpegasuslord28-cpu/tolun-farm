@@ -1,0 +1,62 @@
+{
+"name": "tolun-ilk-vo",
+"mode": "voxcpm",
+"tts_model": "openbmb/VoxCPM2",
+"takes": 3,
+"steps": 12,
+"voices": {
+"tolun": {
+"ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/tolun-ses2/ref_genc.wav"
+}
+},
+"lines": [
+{
+"id": "l1",
+"voice": "tolun",
+"text": "Siz, Oğulcan'ın saçma sapan projelerinden biri olan... altı kişilik okul kapanma hikâyesini mi bekliyordunuz?",
+"style": "mysterious, slow, deliberate pauses, quiet confidence, sarcastic"
+},
+{
+"id": "l2",
+"voice": "tolun",
+"text": "Acınasısınız.",
+"style": "mysterious, slow, deliberate pauses, quiet confidence, sarcastic"
+},
+{
+"id": "l3",
+"voice": "tolun",
+"text": "Bu çocuğun geliştirilmesi gerek. Şuna baksana... izlenmelere.",
+"style": "mysterious, slow, deliberate pauses, quiet confidence, sarcastic"
+},
+{
+"id": "l4",
+"voice": "tolun",
+"text": "Yirmi üç. Otuz beş. Kırk.",
+"style": "mysterious, slow, deliberate pauses, quiet confidence, sarcastic"
+},
+{
+"id": "l5",
+"voice": "tolun",
+"text": "Rezillik.",
+"style": "mysterious, slow, deliberate pauses, quiet confidence, sarcastic"
+},
+{
+"id": "l6",
+"voice": "tolun",
+"text": "Bana da izin vermiyordu. Ben de kanalı... zorla ele geçirdim.",
+"style": "mysterious, slow, deliberate pauses, quiet confidence, sarcastic"
+},
+{
+"id": "l7",
+"voice": "tolun",
+"text": "Artık ben ne istersem... onu izleyeceksiniz.",
+"style": "mysterious, slow, deliberate pauses, quiet confidence, sarcastic"
+},
+{
+"id": "l8",
+"voice": "tolun",
+"text": "Takipten çıkmayı deneme. Görüyorum.",
+"style": "mysterious, slow, deliberate pauses, quiet confidence, sarcastic"
+}
+]
+}
