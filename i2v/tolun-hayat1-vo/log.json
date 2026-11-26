@@ -1,0 +1,82 @@
+[
+ {
+  "id": "h1",
+  "ok": true,
+  "cer": 0.154,
+  "asr": " sabah 7 yine aynı ekran.",
+  "dur": 2.08,
+  "sec": 37
+ },
+ {
+  "id": "h2",
+  "ok": true,
+  "cer": 0.263,
+  "asr": " 40. İkinci Başvuru",
+  "dur": 1.76,
+  "sec": 14
+ },
+ {
+  "id": "h3",
+  "ok": true,
+  "cer": -0.051,
+  "asr": " Deneyim şartı 3 yıl. Deneyim kazanmak için iş lazım.",
+  "dur": 5.92,
+  "sec": 39
+ },
+ {
+  "id": "h4",
+  "ok": true,
+  "cer": -0.055,
+  "asr": " Annesi soruyor. Bir haber var mı oğlum? Yakında anne. Yakında.",
+  "dur": 4.48,
+  "sec": 32
+ },
+ {
+  "id": "h5",
+  "ok": true,
+  "cer": 0.175,
+  "asr": " Çebinde son 200 lira. Yine de arkadaşının çayını o ısmarlıyor.",
+  "dur": 3.68,
+  "sec": 28
+ },
+ {
+  "id": "h6",
+  "ok": true,
+  "cer": 0.127,
+  "asr": " Bu ülkede çalışmak isteyen her 100 gençten 15'i iş bulamıyor.",
+  "dur": 4.8,
+  "sec": 33
+ },
+ {
+  "id": "h7",
+  "ok": true,
+  "cer": -0.022,
+  "asr": " Ama ben bir şey farkettim.",
+  "dur": 1.6,
+  "sec": 15
+ },
+ {
+  "id": "h8",
+  "ok": true,
+  "cer": 0.012,
+  "asr": " Hörre dedilişten sonra ertesi sabah yine o ekranı açıyor.",
+  "dur": 4.0,
+  "sec": 27
+ },
+ {
+  "id": "h9",
+  "ok": true,
+  "cer": -0.004,
+  "asr": " Buna yenilgi denmez.",
+  "dur": 1.44,
+  "sec": 15
+ },
+ {
+  "id": "h10",
+  "ok": true,
+  "cer": -0.022,
+  "asr": " Buna inat denir ve inat bir gün kazanır.",
+  "dur": 4.32,
+  "sec": 28
+ }
+]
