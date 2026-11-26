@@ -1,0 +1,26 @@
+[
+ {
+  "id": "d1",
+  "ok": true,
+  "cer": -0.034,
+  "asr": " A ne? Ben çıkıyorum.",
+  "dur": 1.92,
+  "sec": 33
+ },
+ {
+  "id": "d2",
+  "ok": true,
+  "cer": -0.082,
+  "asr": " Nereye oğlum? Bu saatte.",
+  "dur": 1.92,
+  "sec": 15
+ },
+ {
+  "id": "d3",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Hiç anne. Biraz kafa toplayacağım.",
+  "dur": 3.04,
+  "sec": 22
+ }
+]
