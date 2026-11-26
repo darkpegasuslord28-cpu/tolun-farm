@@ -1,0 +1,21 @@
+{
+ "name": "tolun-hayat1-muzik",
+ "tracks": [
+  {
+   "id": "duygu_a",
+   "caption": "emotional cinematic piano with soft strings, melancholic beginning slowly turning hopeful, gentle build to a warm uplifting ending, intimate, instrumental, no vocals",
+   "duration": 50,
+   "bpm": 70,
+   "keyscale": "A minor",
+   "seed": 5501
+  },
+  {
+   "id": "duygu_b",
+   "caption": "sad and hopeful Anatolian-tinged score, solo ney and soft piano, then warm strings rise, bittersweet perseverance, instrumental, no vocals",
+   "duration": 50,
+   "bpm": 66,
+   "keyscale": "D minor",
+   "seed": 5502
+  }
+ ]
+}
