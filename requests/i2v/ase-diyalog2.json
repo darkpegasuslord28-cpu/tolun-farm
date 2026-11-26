@@ -1,0 +1,14 @@
+{
+"name": "ase-diyalog2",
+"mode": "voxcpm",
+"tts_model": "openbmb/VoxCPM2",
+"takes": 4,
+"steps": 14,
+"voices": {
+"ogul": {"design": "Turkish man around thirty, deep low baritone voice, chest voice, calm, tired after a long day, masculine, warm, speaking softly at home"}
+},
+"lines": [
+{"id": "d1", "voice": "ogul", "text": "Anne, ben çıkıyorum.", "style": "natural, calm, low voice, realistic home conversation"},
+{"id": "d3", "voice": "ogul", "text": "Hiç anne... biraz kafa toplayacağım.", "style": "natural, tired sigh, low voice, realistic home conversation"}
+]
+}
