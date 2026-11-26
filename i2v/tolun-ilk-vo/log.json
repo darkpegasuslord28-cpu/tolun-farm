@@ -1,0 +1,66 @@
+[
+ {
+  "id": "l1",
+  "ok": true,
+  "cer": -0.042,
+  "asr": " Siz, Oğulcan'ın saçma sapan projelerinden biri olan 6 kişilik okul kapanma hikayesini mi bekliyordunuz?",
+  "dur": 7.52,
+  "sec": 68
+ },
+ {
+  "id": "l2",
+  "ok": true,
+  "cer": 0.25,
+  "asr": " Acınızsınız.",
+  "dur": 1.12,
+  "sec": 11
+ },
+ {
+  "id": "l3",
+  "ok": true,
+  "cer": -0.072,
+  "asr": " Bu çocuğun geliştirilmesi gerek. Şuna baksana izlenmeleri.",
+  "dur": 4.32,
+  "sec": 33
+ },
+ {
+  "id": "l4",
+  "ok": true,
+  "cer": 0.949,
+  "asr": " 23, 35, 40",
+  "dur": 2.88,
+  "sec": 22
+ },
+ {
+  "id": "l5",
+  "ok": true,
+  "cer": 0.34,
+  "asr": " Resilik",
+  "dur": 1.92,
+  "sec": 14
+ },
+ {
+  "id": "l6",
+  "ok": true,
+  "cer": -0.065,
+  "asr": " Bana da izin vermiyordu. Ben de kanalı zorla ele geçirdim.",
+  "dur": 4.16,
+  "sec": 30
+ },
+ {
+  "id": "l7",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Artık ben ne istersem onu izleyeceksiniz.",
+  "dur": 4.32,
+  "sec": 25
+ },
+ {
+  "id": "l8",
+  "ok": true,
+  "cer": -0.037,
+  "asr": " Takipten çıkmayı deneme. Görüyorum.",
+  "dur": 2.56,
+  "sec": 19
+ }
+]
