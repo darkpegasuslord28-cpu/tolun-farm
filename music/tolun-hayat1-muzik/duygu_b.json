@@ -1,0 +1,11 @@
+{
+ "id": "duygu_b",
+ "caption": "sad and hopeful Anatolian-tinged score, solo ney and soft piano, then warm strings rise, bittersweet perseverance, instrumental, no vocals",
+ "duration": 50,
+ "bpm": 66,
+ "keyscale": "D minor",
+ "seed": 5502,
+ "gen_seconds": 272,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}

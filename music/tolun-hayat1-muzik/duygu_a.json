@@ -1,0 +1,11 @@
+{
+ "id": "duygu_a",
+ "caption": "emotional cinematic piano with soft strings, melancholic beginning slowly turning hopeful, gentle build to a warm uplifting ending, intimate, instrumental, no vocals",
+ "duration": 50,
+ "bpm": 70,
+ "keyscale": "A minor",
+ "seed": 5501,
+ "gen_seconds": 276,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}
