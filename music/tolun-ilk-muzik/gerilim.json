@@ -1,0 +1,11 @@
+{
+ "id": "gerilim",
+ "caption": "dark cinematic tension underscore, deep sub bass drone, slow heartbeat pulse, distant metallic textures, glitchy digital artifacts, ominous and mysterious, builds slowly to a final hit, instrumental, no vocals",
+ "duration": 40,
+ "bpm": 70,
+ "keyscale": "C minor",
+ "seed": 4401,
+ "gen_seconds": 271,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}
