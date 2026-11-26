@@ -154,6 +154,7 @@ if J.get("mode") == "plate":   # FOTOĞRAF PLAKASI → 3B KAMERA (matte painting
         try:
             img = done.get(it["image"]) or fetch(it["image"], f"/kaggle/working/p_{len(done)}.png")
             dep = img[:-4] + ".depth.png"
+            if it.get("depth") and not os.path.exists(dep): fetch(it["depth"], dep)   # hazır/düzeltilmiş derinlik (ör. gökyüzü sabit)
             if not os.path.exists(dep):
                 im = _I.open(img).convert("RGB"); d = _np.array(dpipe(im)["predicted_depth"].squeeze().cpu(), dtype=_np.float32)
                 d = (d - d.min()) / (d.max() - d.min() + 1e-6); _I.fromarray((d * 65535).astype(_np.uint16)).resize(im.size, _I.BICUBIC).save(dep)
