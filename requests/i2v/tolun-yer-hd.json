@@ -1,0 +1,72 @@
+{
+ "name": "tolun-yer-hd",
+ "mode": "plate",
+ "w": 1080,
+ "h": 1920,
+ "grid": 1000,
+ "items": [
+  {
+   "id": "kapadokya_hd_push",
+   "image": "i2v/yer-hd/kapadokya_hd.jpg",
+   "move": "push",
+   "sec": 6,
+   "amt": 0.9
+  },
+  {
+   "id": "kapadokya_hd_rise",
+   "image": "i2v/yer-hd/kapadokya_hd.jpg",
+   "move": "rise",
+   "sec": 5,
+   "amt": 0.9
+  },
+  {
+   "id": "kapadokya_hd_pan_r",
+   "image": "i2v/yer-hd/kapadokya_hd.jpg",
+   "move": "pan_r",
+   "sec": 5,
+   "amt": 0.9
+  },
+  {
+   "id": "kapadokya_hd2_push",
+   "image": "i2v/yer-hd/kapadokya_hd2.jpg",
+   "move": "push",
+   "sec": 6,
+   "amt": 0.9
+  },
+  {
+   "id": "uzungol_hd_push",
+   "image": "i2v/yer-hd/uzungol_hd.jpg",
+   "move": "push",
+   "sec": 6,
+   "amt": 0.9
+  },
+  {
+   "id": "uzungol_hd_dolly_out",
+   "image": "i2v/yer-hd/uzungol_hd.jpg",
+   "move": "dolly_out",
+   "sec": 5,
+   "amt": 0.9
+  },
+  {
+   "id": "safranbolu_hd_walk",
+   "image": "i2v/yer-hd/safranbolu_hd.jpg",
+   "move": "walk",
+   "sec": 6,
+   "amt": 0.9
+  },
+  {
+   "id": "kapalicarsi_hd_walk",
+   "image": "i2v/yer-hd/kapalicarsi_hd.jpg",
+   "move": "walk",
+   "sec": 6,
+   "amt": 0.9
+  },
+  {
+   "id": "kapalicarsi_hd_push",
+   "image": "i2v/yer-hd/kapalicarsi_hd.jpg",
+   "move": "push",
+   "sec": 6,
+   "amt": 0.9
+  }
+ ]
+}
