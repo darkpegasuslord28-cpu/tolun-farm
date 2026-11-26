@@ -1,0 +1,21 @@
+{
+ "name": "tolun-ilk-muzik",
+ "tracks": [
+  {
+   "id": "gerilim",
+   "caption": "dark cinematic tension underscore, deep sub bass drone, slow heartbeat pulse, distant metallic textures, glitchy digital artifacts, ominous and mysterious, builds slowly to a final hit, instrumental, no vocals",
+   "duration": 40,
+   "bpm": 70,
+   "keyscale": "C minor",
+   "seed": 4401
+  },
+  {
+   "id": "gerilim_b",
+   "caption": "minimal dark electronic score for an AI takeover, low synth pad, ticking clock, eerie high piano notes, subtle rising tension, cold and intelligent mood, instrumental, no vocals",
+   "duration": 40,
+   "bpm": 76,
+   "keyscale": "D minor",
+   "seed": 4402
+  }
+ ]
+}
