@@ -1,0 +1,23 @@
+[{"stream_name":"stdout","time":0.959300842,"data":"hazır ortam yok; /kaggle/input: []\n"}
+,{"stream_name":"stderr","time":44.952700996,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":44.952731191,"data":"bigframes 2.51.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":44.952750352,"data":"ydata-profiling 4.18.4 requires numpy\u003c2.4,\u003e=1.22, but you have numpy 2.5.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":44.952756481,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":44.952761766,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":44.952766985,"data":"ydf 0.15.0 requires protobuf\u003c7.0.0,\u003e=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":44.952772113,"data":"numba 0.61.2 requires numpy\u003c2.3,\u003e=1.24, but you have numpy 2.5.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":44.952776624,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":74.55492655,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":86.151728289,"data":"\rLoading weights:   0%|          | 0/503 [00:00\u003c?, ?it/s]\rLoading weights:  53%|█████▎    | 266/503 [00:00\u003c00:00, 2639.97it/s]\rLoading weights: 100%|██████████| 503/503 [00:00\u003c00:00, 2701.44it/s]\n"}
+,{"stream_name":"stderr","time":91.264654329,"data":"/kaggle/src/script.py:164: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword\n"}
+,{"stream_name":"stderr","time":91.264685609,"data":"  im = _I.open(img).convert(\"RGB\"); d = _np.array(dpipe(im)[\"predicted_depth\"].squeeze().cpu(), dtype=_np.float32)\n"}
+,{"stream_name":"stdout","time":1066.382181746,"data":"{'id': 'kap_push', 'model': 'plate', 'ok': True, 'sec': 979, 'err': ''}\n"}
+,{"stream_name":"stdout","time":2090.098576625,"data":"{'id': 'kap2_rise', 'model': 'plate', 'ok': True, 'sec': 1024, 'err': ''}\n"}
+,{"stream_name":"stdout","time":2916.522185406,"data":"{'id': 'kap_panr', 'model': 'plate', 'ok': True, 'sec': 826, 'err': ''}\n"}
+,{"stream_name":"stderr","time":2922.909458988,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":2922.909492123,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":2923.101962712,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":2923.101989254,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":2923.825997905,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":2924.828846307,"data":"[NbConvertApp] Writing 427268 bytes to __results__.html\n"}
+]

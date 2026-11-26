@@ -1,0 +1,23 @@
+[
+ {
+  "id": "kap_push",
+  "model": "plate",
+  "ok": true,
+  "sec": 979,
+  "err": ""
+ },
+ {
+  "id": "kap2_rise",
+  "model": "plate",
+  "ok": true,
+  "sec": 1024,
+  "err": ""
+ },
+ {
+  "id": "kap_panr",
+  "model": "plate",
+  "ok": true,
+  "sec": 826,
+  "err": ""
+ }
+]
