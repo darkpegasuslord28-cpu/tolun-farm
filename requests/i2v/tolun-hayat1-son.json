@@ -1,0 +1,38 @@
+{
+"name": "tolun-hayat1-son",
+"mode": "voxcpm",
+"tts_model": "openbmb/VoxCPM2",
+"takes": 3,
+"steps": 12,
+"voices": {
+"tolun": {
+"ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/tolun-ses2/ref_genc.wav"
+}
+},
+"lines": [
+{
+"id": "y7",
+"voice": "tolun",
+"text": "Ama bu gece başka.",
+"style": "very tired, quiet, slow, heavy pauses, sincere and sad, almost whispering"
+},
+{
+"id": "y8",
+"voice": "tolun",
+"text": "Ekranı açmıyor. Sadece tavana bakıyor.",
+"style": "very tired, quiet, slow, heavy pauses, sincere and sad, almost whispering"
+},
+{
+"id": "y9",
+"voice": "tolun",
+"text": "Kırk iki kere güçlü ol dediler.",
+"style": "very tired, quiet, slow, heavy pauses, sincere and sad, almost whispering"
+},
+{
+"id": "y10",
+"voice": "tolun",
+"text": "Kimse sormadı... yoruldun mu diye.",
+"style": "very tired, quiet, slow, heavy pauses, sincere and sad, almost whispering"
+}
+]
+}
