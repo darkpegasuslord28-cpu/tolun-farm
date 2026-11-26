@@ -1,0 +1,18 @@
+[
+ {
+  "id": "d1",
+  "ok": true,
+  "cer": -0.023,
+  "asr": " Anne, ben çıkıyorum.",
+  "dur": 1.44,
+  "sec": 38
+ },
+ {
+  "id": "d3",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Hiç anne. Biraz kafa toplayacağım.",
+  "dur": 2.56,
+  "sec": 32
+ }
+]
