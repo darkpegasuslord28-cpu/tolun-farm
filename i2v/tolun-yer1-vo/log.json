@@ -1,0 +1,34 @@
+[
+ {
+  "id": "g1",
+  "ok": true,
+  "cer": 0.01,
+  "asr": " Gir içine.",
+  "dur": 1.28,
+  "sec": 38
+ },
+ {
+  "id": "k1",
+  "ok": true,
+  "cer": -0.076,
+  "asr": " Sabahın beşi, yüz balon, tek bir sessizlik.",
+  "dur": 5.12,
+  "sec": 34
+ },
+ {
+  "id": "k2",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Burası Kapadokya. Sen hiç buradan baktın mı?",
+  "dur": 4.0,
+  "sec": 24
+ },
+ {
+  "id": "t1",
+  "ok": true,
+  "cer": -0.008,
+  "asr": " Sıradaki yeri sen seç. Yorumlara yaz.",
+  "dur": 2.88,
+  "sec": 20
+ }
+]
