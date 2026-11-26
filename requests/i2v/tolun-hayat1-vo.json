@@ -1,0 +1,74 @@
+{
+"name": "tolun-hayat1-vo",
+"mode": "voxcpm",
+"tts_model": "openbmb/VoxCPM2",
+"takes": 3,
+"steps": 12,
+"voices": {
+"tolun": {
+"ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/tolun-ses2/ref_genc.wav"
+}
+},
+"lines": [
+{
+"id": "h1",
+"voice": "tolun",
+"text": "Sabah yedi. Yine aynı ekran.",
+"style": "warm, gentle, slow, sincere and emotional, quiet, deliberate pauses"
+},
+{
+"id": "h2",
+"voice": "tolun",
+"text": "Kırk ikinci başvuru.",
+"style": "warm, gentle, slow, sincere and emotional, quiet, deliberate pauses"
+},
+{
+"id": "h3",
+"voice": "tolun",
+"text": "Deneyim şartı: üç yıl. Deneyim kazanmak için... iş lazım.",
+"style": "warm, gentle, slow, sincere and emotional, quiet, deliberate pauses"
+},
+{
+"id": "h4",
+"voice": "tolun",
+"text": "Annesi soruyor: bir haber var mı oğlum? Yakında anne. Yakında.",
+"style": "warm, gentle, slow, sincere and emotional, quiet, deliberate pauses"
+},
+{
+"id": "h5",
+"voice": "tolun",
+"text": "Cebinde son iki yüz lira. Yine de arkadaşının çayını o ısmarlıyor.",
+"style": "warm, gentle, slow, sincere and emotional, quiet, deliberate pauses"
+},
+{
+"id": "h6",
+"voice": "tolun",
+"text": "Bu ülkede çalışmak isteyen her yüz gençten on beşi... iş bulamıyor.",
+"style": "warm, gentle, slow, sincere and emotional, quiet, deliberate pauses"
+},
+{
+"id": "h7",
+"voice": "tolun",
+"text": "Ama ben bir şey fark ettim.",
+"style": "warm, gentle, slow, sincere and emotional, quiet, deliberate pauses"
+},
+{
+"id": "h8",
+"voice": "tolun",
+"text": "Her reddedilişten sonra... ertesi sabah yine o ekranı açıyor.",
+"style": "warm, gentle, slow, sincere and emotional, quiet, deliberate pauses"
+},
+{
+"id": "h9",
+"voice": "tolun",
+"text": "Buna yenilgi denmez.",
+"style": "warm, gentle, slow, sincere and emotional, quiet, deliberate pauses"
+},
+{
+"id": "h10",
+"voice": "tolun",
+"text": "Buna inat denir. Ve inat... bir gün kazanır.",
+"style": "warm, gentle, slow, sincere and emotional, quiet, deliberate pauses"
+}
+]
+}
