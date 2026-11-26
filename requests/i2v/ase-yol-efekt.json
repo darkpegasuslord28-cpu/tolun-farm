@@ -1,0 +1,44 @@
+{
+"name": "ase-yol-efekt",
+"mode": "sfx",
+"takes": 2,
+"steps": 150,
+"items": [
+{
+"id": "trafik",
+"prompt": "busy Istanbul city street traffic, car horns, buses, people, noisy afternoon",
+"sec": 8,
+"seed": 71
+},
+{
+"id": "adim",
+"prompt": "footsteps walking on a city sidewalk, steady pace",
+"sec": 5,
+"seed": 74
+},
+{
+"id": "kapi",
+"prompt": "restaurant glass door opening with a small bell chime, then calm interior",
+"sec": 4,
+"seed": 77
+},
+{
+"id": "ic_sakin",
+"prompt": "calm warm restaurant interior ambience, soft murmur, distant grill sizzle, cutlery",
+"sec": 10,
+"seed": 80
+},
+{
+"id": "whoosh",
+"prompt": "fast cinematic whoosh transition swoosh",
+"sec": 2,
+"seed": 83
+},
+{
+"id": "nefes",
+"prompt": "a person taking a deep relaxed breath and exhaling slowly",
+"sec": 3,
+"seed": 86
+}
+]
+}
