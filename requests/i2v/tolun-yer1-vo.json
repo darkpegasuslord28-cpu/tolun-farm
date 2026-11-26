@@ -1,0 +1,8 @@
+{"name":"tolun-yer1-vo","mode":"voxcpm","tts_model":"openbmb/VoxCPM2","takes":3,"steps":12,
+"voices":{"tolun":{"ref_url":"https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/tolun-ses2/ref_genc.wav"}},
+"lines":[
+{"id":"g1","voice":"tolun","text":"Gir içine.","style":"calm, low, intimate, inviting, slow"},
+{"id":"k1","voice":"tolun","text":"Sabahın beşi. Yüz balon, tek bir sessizlik.","style":"calm, quiet, slow, awe, gentle pauses"},
+{"id":"k2","voice":"tolun","text":"Burası Kapadokya. Sen hiç buradan baktın mı?","style":"calm, quiet, warm, slow, intimate question"},
+{"id":"t1","voice":"tolun","text":"Sıradaki yeri sen seç. Yorumlara yaz.","style":"calm, warm, slightly playful, quiet"}
+]}
