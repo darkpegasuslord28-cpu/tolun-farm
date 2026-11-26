@@ -1,0 +1,23 @@
+{
+"name": "sesli-karakter",
+"mode": "voxcpm",
+"tts_model": "openbmb/VoxCPM2",
+"takes": 3,
+"steps": 14,
+"voices": {
+"cizgi": {"design": "funny cartoon character voice, high-pitched, squeaky, hyperactive, fast talking, silly and playful, like a children's animation sidekick"},
+"bucur": {"design": "silly goofy voice of a clumsy little creature, nasal, wobbly, always excited and a bit dumb, cartoon comedy"},
+"robot": {"design": "funny small robot voice, slightly metallic, overly dramatic and confident, cartoon comedy, energetic"},
+"dede": {"design": "grumpy funny old grandpa cartoon voice, raspy, complaining, comedic timing, exaggerated"}
+},
+"lines": [
+{"id": "c1", "voice": "cizgi", "text": "Heeey arkadaşlar! Bugün Minecraft'ta dev bir ev yapıyoruz! Ay çok heyecanlıyım!", "style": "excited, very energetic, funny"},
+{"id": "c2", "voice": "cizgi", "text": "Aaa! Creeper geliyor! Kaç kaç kaç! Yok yok, patladı... evim gitti...", "style": "panicked then sad, funny"},
+{"id": "b1", "voice": "bucur", "text": "Heeey arkadaşlar! Bugün Minecraft'ta dev bir ev yapıyoruz! Ay çok heyecanlıyım!", "style": "excited, goofy, funny"},
+{"id": "b2", "voice": "bucur", "text": "Aaa! Creeper geliyor! Kaç kaç kaç! Yok yok, patladı... evim gitti...", "style": "panicked then sad, goofy"},
+{"id": "r1", "voice": "robot", "text": "Heeey arkadaşlar! Bugün Minecraft'ta dev bir ev yapıyoruz! Ay çok heyecanlıyım!", "style": "dramatic, confident, funny"},
+{"id": "r2", "voice": "robot", "text": "Aaa! Creeper geliyor! Kaç kaç kaç! Yok yok, patladı... evim gitti...", "style": "panicked then sad, dramatic"},
+{"id": "d1", "voice": "dede", "text": "Heeey arkadaşlar! Bugün Minecraft'ta dev bir ev yapıyoruz! Ay çok heyecanlıyım!", "style": "grumpy but trying to be excited, funny"},
+{"id": "d2", "voice": "dede", "text": "Aaa! Creeper geliyor! Kaç kaç kaç! Yok yok, patladı... evim gitti...", "style": "panicked then grumpy, funny"}
+]
+}
