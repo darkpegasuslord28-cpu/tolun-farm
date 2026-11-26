@@ -1,0 +1,119 @@
+{
+"name": "tolun-25d-arka",
+"model": "t2i",
+"t2i_model": "Lykon/dreamshaper-xl-1-0",
+"items": [
+{
+"id": "oda_gece",
+"prompt": "stylized 2.5D animated film background, soft painterly cel shading, warm cinematic lighting, detailed, cozy, Istanbul, no people, empty scene, vertical composition, small modest bedroom at night, desk with old laptop glowing, unmade bed, rain on window, city lights outside",
+"negative": "people, person, character, face, text, letters, watermark, logo, photo, photorealistic, lowres, blurry, deformed",
+"seed": 6100,
+"size": [
+768,
+1344
+],
+"steps": 32,
+"cfg": 6.0,
+"cands": 3,
+"action": "small modest bedroom at night, desk with old laptop glowing, unmade bed, rain on window, city lights outside"
+},
+{
+"id": "mutfak",
+"prompt": "stylized 2.5D animated film background, soft painterly cel shading, warm cinematic lighting, detailed, cozy, Istanbul, no people, empty scene, vertical composition, modest Turkish family kitchen in the evening, pot steaming on the stove, tea glasses on the counter, warm lamp",
+"negative": "people, person, character, face, text, letters, watermark, logo, photo, photorealistic, lowres, blurry, deformed",
+"seed": 6113,
+"size": [
+768,
+1344
+],
+"steps": 32,
+"cfg": 6.0,
+"cands": 3,
+"action": "modest Turkish family kitchen in the evening, pot steaming on the stove, tea glasses on the counter, warm lamp"
+},
+{
+"id": "sokak",
+"prompt": "stylized 2.5D animated film background, soft painterly cel shading, warm cinematic lighting, detailed, cozy, Istanbul, no people, empty scene, vertical composition, narrow Istanbul neighborhood street at night, wet cobblestones, street lamps, old apartment buildings, cats",
+"negative": "people, person, character, face, text, letters, watermark, logo, photo, photorealistic, lowres, blurry, deformed",
+"seed": 6126,
+"size": [
+768,
+1344
+],
+"steps": 32,
+"cfg": 6.0,
+"cands": 3,
+"action": "narrow Istanbul neighborhood street at night, wet cobblestones, street lamps, old apartment buildings, cats"
+},
+{
+"id": "vapur",
+"prompt": "stylized 2.5D animated film background, soft painterly cel shading, warm cinematic lighting, detailed, cozy, Istanbul, no people, empty scene, vertical composition, inside an Istanbul ferry at dawn, empty rows of seats, Bosphorus and seagulls through the windows",
+"negative": "people, person, character, face, text, letters, watermark, logo, photo, photorealistic, lowres, blurry, deformed",
+"seed": 6139,
+"size": [
+768,
+1344
+],
+"steps": 32,
+"cfg": 6.0,
+"cands": 3,
+"action": "inside an Istanbul ferry at dawn, empty rows of seats, Bosphorus and seagulls through the windows"
+},
+{
+"id": "metro",
+"prompt": "stylized 2.5D animated film background, soft painterly cel shading, warm cinematic lighting, detailed, cozy, Istanbul, no people, empty scene, vertical composition, crowded-looking but empty Istanbul metro carriage at morning, fluorescent light, handles hanging",
+"negative": "people, person, character, face, text, letters, watermark, logo, photo, photorealistic, lowres, blurry, deformed",
+"seed": 6152,
+"size": [
+768,
+1344
+],
+"steps": 32,
+"cfg": 6.0,
+"cands": 3,
+"action": "crowded-looking but empty Istanbul metro carriage at morning, fluorescent light, handles hanging"
+},
+{
+"id": "ofis",
+"prompt": "stylized 2.5D animated film background, soft painterly cel shading, warm cinematic lighting, detailed, cozy, Istanbul, no people, empty scene, vertical composition, grey open-plan call center office, rows of desks with headsets and monitors, fluorescent lights, late evening",
+"negative": "people, person, character, face, text, letters, watermark, logo, photo, photorealistic, lowres, blurry, deformed",
+"seed": 6165,
+"size": [
+768,
+1344
+],
+"steps": 32,
+"cfg": 6.0,
+"cands": 3,
+"action": "grey open-plan call center office, rows of desks with headsets and monitors, fluorescent lights, late evening"
+},
+{
+"id": "cay_ocagi",
+"prompt": "stylized 2.5D animated film background, soft painterly cel shading, warm cinematic lighting, detailed, cozy, Istanbul, no people, empty scene, vertical composition, small tea house corner, tea glasses on a tray, simit, steamy window, afternoon light",
+"negative": "people, person, character, face, text, letters, watermark, logo, photo, photorealistic, lowres, blurry, deformed",
+"seed": 6178,
+"size": [
+768,
+1344
+],
+"steps": 32,
+"cfg": 6.0,
+"cands": 3,
+"action": "small tea house corner, tea glasses on a tray, simit, steamy window, afternoon light"
+},
+{
+"id": "tavan",
+"prompt": "stylized 2.5D animated film background, soft painterly cel shading, warm cinematic lighting, detailed, cozy, Istanbul, no people, empty scene, vertical composition, bedroom ceiling seen from the bed at night, a single crack, faint streetlight shadow of window frame",
+"negative": "people, person, character, face, text, letters, watermark, logo, photo, photorealistic, lowres, blurry, deformed",
+"seed": 6191,
+"size": [
+768,
+1344
+],
+"steps": 32,
+"cfg": 6.0,
+"cands": 3,
+"action": "bedroom ceiling seen from the bed at night, a single crack, faint streetlight shadow of window frame"
+}
+]
+}
