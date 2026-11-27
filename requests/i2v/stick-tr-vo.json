@@ -1,0 +1,5 @@
+{"name":"stick-tr-vo","mode":"voxcpm","tts_model":"openbmb/VoxCPM2","takes":4,"steps":12,
+"voices":{"anlatici":{"design":"Turkish male narrator around thirty, warm, calm, friendly and slightly playful, clear natural Istanbul Turkish, intimate conversational tone like a popular psychology storyteller"}},
+"lines":[
+{"id":"n","voice":"anlatici","text":"Şu an bile elinde telefon var. Az önce de baktın. Hem de hiçbir şey olmadığı hâlde. Çünkü bir şey olmuş olabilir. Beynin belkiye bayılır. Kumar makinesi de aynen böyle çalışır. Çoğu çekişte hiçbir şey çıkmaz. Ama arada gelen tek bir kazanç, seni çekmeye devam ettirir. Her bildirim, o kolu bir kez daha çekmek demek. O yüzden telefona uzandığında kendine tek bir soru sor. Ben mi ona bakıyorum... yoksa o mu bana?","style":"natural, warm, conversational, well paced, small pauses between sentences, gentle playful ending"}
+]}
