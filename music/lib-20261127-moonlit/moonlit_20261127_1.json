@@ -1,0 +1,11 @@
+{
+ "id": "moonlit_20261127_1",
+ "caption": "moonlit elven forest, soft celesta and harp, warm strings, gentle hopeful fantasy, cinematic, instrumental",
+ "duration": 60,
+ "bpm": 72,
+ "keyscale": "E minor",
+ "seed": 7399471,
+ "gen_seconds": 396,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}
