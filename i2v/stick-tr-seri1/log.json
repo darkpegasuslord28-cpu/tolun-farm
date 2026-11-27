@@ -1,0 +1,362 @@
+[
+ {
+  "id": "kumar1",
+  "ok": true,
+  "cer": -0.081,
+  "asr": " Kumardan neden kazanamazsın? Çünkü oyun sen daha oturmadan bitmiştir.",
+  "dur": 4.64,
+  "sec": 44
+ },
+ {
+  "id": "kumar2",
+  "ok": true,
+  "cer": 0.346,
+  "asr": " Ruletin 37 gözü var.",
+  "dur": 1.76,
+  "sec": 11
+ },
+ {
+  "id": "kumar3",
+  "ok": true,
+  "cer": 0.14,
+  "asr": " Tek bir sayıya oynarsan kazanma ihtimalin 37'de bir.",
+  "dur": 3.52,
+  "sec": 20
+ },
+ {
+  "id": "kumar4",
+  "ok": true,
+  "cer": 0.257,
+  "asr": " Ama kazanırsan paranın 37 katını değil 36 katını alırsın.",
+  "dur": 4.48,
+  "sec": 22
+ },
+ {
+  "id": "kumar5",
+  "ok": true,
+  "cer": -0.064,
+  "asr": " Aradaki o küçük fark, kasanın payı.",
+  "dur": 2.88,
+  "sec": 14
+ },
+ {
+  "id": "kumar6",
+  "ok": true,
+  "cer": -0.089,
+  "asr": " Bir kere oynarsan şans. Bin kere oynarsan matematik.",
+  "dur": 3.68,
+  "sec": 19
+ },
+ {
+  "id": "kumar7",
+  "ok": true,
+  "cer": 0.046,
+  "asr": " Uzun vadede her 100 liranın yaklaşık 3 lirası kasaya gider.",
+  "dur": 3.2,
+  "sec": 18
+ },
+ {
+  "id": "kumar8",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Kumarhaneler şansa güvenmez. Matematiğe güvenir.",
+  "dur": 3.52,
+  "sec": 19
+ },
+ {
+  "id": "sigara1",
+  "ok": true,
+  "cer": -0.072,
+  "asr": " Sigarayı bıraktığın an vücudun hemen tamire başlar.",
+  "dur": 3.84,
+  "sec": 19
+ },
+ {
+  "id": "sigara2",
+  "ok": true,
+  "cer": 0.01,
+  "asr": " 20 dakika sonra kalp atışın ve tansiyonun düşer.",
+  "dur": 4.0,
+  "sec": 19
+ },
+ {
+  "id": "sigara3",
+  "ok": true,
+  "cer": 0.029,
+  "asr": " 12 saat sonra kanındaki karbonmonoksit normale döner.",
+  "dur": 3.36,
+  "sec": 18
+ },
+ {
+  "id": "sigara4",
+  "ok": true,
+  "cer": 0.182,
+  "asr": " 2 ila 12 hafta içinde dolaşımın düzelir, akciğerlerin daha iyi çalışır.",
+  "dur": 4.48,
+  "sec": 23
+ },
+ {
+  "id": "sigara5",
+  "ok": true,
+  "cer": 0.145,
+  "asr": " 1 ila 9 ay içinde öksürük ve nefes darlığı azalır.",
+  "dur": 3.84,
+  "sec": 20
+ },
+ {
+  "id": "sigara6",
+  "ok": true,
+  "cer": -0.072,
+  "asr": " Bir yıl sonra kalp hastalığı riskin içen birinin yaklaşık yarısına iner.",
+  "dur": 4.48,
+  "sec": 24
+ },
+ {
+  "id": "sigara7",
+  "ok": true,
+  "cer": -0.029,
+  "asr": " 10 yıl sonra akciğer kanseri riskinde yaklaşık yarıya düşer.",
+  "dur": 4.48,
+  "sec": 21
+ },
+ {
+  "id": "sigara8",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Vücudun seni bekliyor.",
+  "dur": 2.08,
+  "sec": 11
+ },
+ {
+  "id": "hickirik1",
+  "ok": true,
+  "cer": -0.086,
+  "asr": " Hıçkırık neden olur?",
+  "dur": 1.44,
+  "sec": 9
+ },
+ {
+  "id": "hickirik2",
+  "ok": true,
+  "cer": 0.001,
+  "asr": " Göğsünle miden arasında diyafram diye bir kas var.",
+  "dur": 2.88,
+  "sec": 16
+ },
+ {
+  "id": "hickirik3",
+  "ok": true,
+  "cer": -0.064,
+  "asr": " Bu kas aniden kasılınca ses tellerin bir anlığına kapanır.",
+  "dur": 4.48,
+  "sec": 22
+ },
+ {
+  "id": "hickirik4",
+  "ok": true,
+  "cer": -0.088,
+  "asr": " İşte o hık sesi tam buradan gelir.",
+  "dur": 2.72,
+  "sec": 14
+ },
+ {
+  "id": "hickirik5",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " En sık sebepler gazlı içecek, çok yemek ve ani heyecan.",
+  "dur": 4.48,
+  "sec": 22
+ },
+ {
+  "id": "hickirik6",
+  "ok": true,
+  "cer": -0.079,
+  "asr": " ani sıcaklık değişimi ve hava yutmak da tetikleyebilir.",
+  "dur": 3.36,
+  "sec": 18
+ },
+ {
+  "id": "hickirik7",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " çoğu zaman kendiliğinden geçer.",
+  "dur": 1.92,
+  "sec": 13
+ },
+ {
+  "id": "hickirik8",
+  "ok": true,
+  "cer": -0.075,
+  "asr": " Ama iki günden uzun sürerse doktora görün.",
+  "dur": 2.88,
+  "sec": 16
+ },
+ {
+  "id": "para1",
+  "ok": true,
+  "cer": -0.04,
+  "asr": " Paran neden ay sonunu getirmiyor?",
+  "dur": 1.6,
+  "sec": 10
+ },
+ {
+  "id": "para2",
+  "ok": true,
+  "cer": -0.081,
+  "asr": " Çünkü maaş bir kerede gelir. Harcamalar damla damla gider.",
+  "dur": 3.68,
+  "sec": 19
+ },
+ {
+  "id": "para3",
+  "ok": true,
+  "cer": -0.025,
+  "asr": " Büyük harcamaları hatırlarsın, küçükleri unutursun.",
+  "dur": 2.88,
+  "sec": 16
+ },
+ {
+  "id": "para4",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Bir kahve, bir paket, bir abonelik. Tek tek önemsiz görünür.",
+  "dur": 5.44,
+  "sec": 26
+ },
+ {
+  "id": "para5",
+  "ok": true,
+  "cer": -0.038,
+  "asr": " Ama ay sonunda hepsi aynı cüzdandan çıkar.",
+  "dur": 2.88,
+  "sec": 15
+ },
+ {
+  "id": "para6",
+  "ok": true,
+  "cer": -0.072,
+  "asr": " Basit bir deneme yap. Bir hafta boyunca her harcamanı yaz.",
+  "dur": 3.84,
+  "sec": 18
+ },
+ {
+  "id": "para7",
+  "ok": true,
+  "cer": -0.04,
+  "asr": " Paranın nereye gittiğini ilk kez göreceksin.",
+  "dur": 2.4,
+  "sec": 13
+ },
+ {
+  "id": "uyku1",
+  "ok": true,
+  "cer": -0.08,
+  "asr": " Gece neden uyuyamıyorsun?",
+  "dur": 1.6,
+  "sec": 10
+ },
+ {
+  "id": "uyku2",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Hava kararınca beynin melatonin salgılar. Uyku sinyali budur.",
+  "dur": 4.96,
+  "sec": 24
+ },
+ {
+  "id": "uyku3",
+  "ok": true,
+  "cer": 0.026,
+  "asr": " Ama telefonun parlak ışığı beynine hala gündüzler.",
+  "dur": 3.68,
+  "sec": 18
+ },
+ {
+  "id": "uyku4",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Kafein de işi zorlaştırır. Etkisi saatlerce sürer.",
+  "dur": 3.52,
+  "sec": 20
+ },
+ {
+  "id": "uyku5",
+  "ok": true,
+  "cer": -0.039,
+  "asr": " Akşam içtiğin kahve. Gece yarısı hala kanındadır.",
+  "dur": 3.52,
+  "sec": 18
+ },
+ {
+  "id": "uyku6",
+  "ok": true,
+  "cer": -0.039,
+  "asr": " Yatmadan bir saat önce ekranı bırak. Işıkları kız.",
+  "dur": 3.2,
+  "sec": 18
+ },
+ {
+  "id": "uyku7",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Uykusuzluk uzun sürerse bir uzmana danış.",
+  "dur": 3.04,
+  "sec": 18
+ },
+ {
+  "id": "erteleme1",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Neden hep son dakikada iş yapıyoruz?",
+  "dur": 2.24,
+  "sec": 12
+ },
+ {
+  "id": "erteleme2",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Sorun tembellik değil, sorun duygu.",
+  "dur": 2.24,
+  "sec": 14
+ },
+ {
+  "id": "erteleme3",
+  "ok": true,
+  "cer": -0.002,
+  "asr": " Bir iş sıkıcı ya da zor gelince beynin o kötü histen kaçmak ister.",
+  "dur": 3.68,
+  "sec": 20
+ },
+ {
+  "id": "erteleme4",
+  "ok": true,
+  "cer": -0.07,
+  "asr": " Telefonu açarsın, hemen rahatlarsın.",
+  "dur": 2.24,
+  "sec": 14
+ },
+ {
+  "id": "erteleme5",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Ama iş yerinde durur ve stres büyür.",
+  "dur": 2.88,
+  "sec": 16
+ },
+ {
+  "id": "erteleme6",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Son dakika gelince korku, sıkıntıdan büyük olur. Ve sonunda başlarsın.",
+  "dur": 5.44,
+  "sec": 27
+ },
+ {
+  "id": "erteleme7",
+  "ok": true,
+  "cer": -0.027,
+  "asr": " Çözüm basit. İşe sadece 5 dakika başla. En zor kısım başlamaktır.",
+  "dur": 4.8,
+  "sec": 24
+ }
+]
