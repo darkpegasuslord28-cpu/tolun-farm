@@ -1,0 +1,5 @@
+{"name":"stick-pilot-vo","mode":"voxcpm","tts_model":"openbmb/VoxCPM2","takes":3,"steps":12,
+"voices":{"anlatici":{"design":"male narrator in his thirties, warm, calm, slightly playful, clear American English, intimate and conversational, like a popular psychology explainer"}},
+"lines":[
+{"id":"n","voice":"anlatici","text":"You just checked your phone. Again. Not because something happened. Because something might have. Your brain loves a maybe. A slot machine works the same way. Most pulls give you nothing. But one random win keeps you pulling. Every notification is a tiny pull of the lever. So next time you reach for it, ask one question. Am I checking it... or is it checking me?","style":"natural, conversational, well paced, small pauses between sentences, playful at the end"}
+]}
