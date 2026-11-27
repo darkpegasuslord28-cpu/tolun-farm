@@ -1,0 +1,73 @@
+{
+ "name": "worlds-short-2026-11-28-enceladus",
+ "model": "Lykon/dreamshaper-8",
+ "license": "CreativeML OpenRAIL-M (model); outputs ours",
+ "shots": [
+  {
+   "id": "s1",
+   "prompt": "the small icy moon Enceladus seen from space, brilliant white bright surface with blue-tinged cracks near the south pole, Saturn and its rings huge in the background, stars, cinematic",
+   "seed": 400,
+   "sec": 152.8
+  },
+  {
+   "id": "s2",
+   "prompt": "first-person view diving down toward the icy surface of a small moon, blinding white ice plains and long blue cracks rushing closer, sense of speed",
+   "seed": 407,
+   "sec": 155.0
+  },
+  {
+   "id": "s3",
+   "prompt": "tall fountains of glittering ice crystals erupting from long blue cracks in white ice, backlit, sparkling plumes rising into black sky",
+   "seed": 414,
+   "sec": 154.6
+  },
+  {
+   "id": "s4",
+   "prompt": "giant ringed planet Saturn filling the black sky above a white ice plain, rings edge-on, soft golden light, majestic",
+   "seed": 421,
+   "sec": 150.7
+  },
+  {
+   "id": "s5",
+   "prompt": "close-up of delicate frost crystals and snow powder on blue-white ice, tiny sparkles, macro",
+   "seed": 428,
+   "sec": 150.1
+  },
+  {
+   "id": "s6",
+   "prompt": "a deep glowing blue crevasse in the ice, light fading into darkness below, awe",
+   "seed": 435,
+   "sec": 147.8
+  },
+  {
+   "id": "s7",
+   "prompt": "a lone black grand piano on a white snowy ice plain, geyser plume in the distance, Saturn above, dreamy",
+   "seed": 442,
+   "sec": 144.5
+  },
+  {
+   "id": "s8",
+   "prompt": "frozen snow dunes at twilight under the dim glow of Saturn's rings, long shadows, stars",
+   "seed": 449,
+   "sec": 144.8
+  },
+  {
+   "id": "s9",
+   "prompt": "a blue-white ice canyon with sheer walls and drifting snow glitter, tiny sun in the sky",
+   "seed": 456,
+   "sec": 145.8
+  },
+  {
+   "id": "s10",
+   "prompt": "ice particles falling like soft snow in the dark, lit by Saturnshine, calm",
+   "seed": 463,
+   "sec": 146.1
+  },
+  {
+   "id": "s11",
+   "prompt": "far horizon of the tiny icy moon with an immense plume curving into space, sun glinting, Saturn behind",
+   "seed": 470,
+   "sec": 146.4
+  }
+ ]
+}
