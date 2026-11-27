@@ -1,0 +1,66 @@
+{
+ "name": "worlds-short-2026-12-01-kepler-186f",
+ "style": "cinematic matte painting, ultra detailed, atmospheric, volumetric light, painterly, awe, otherworldly, no people, no text",
+ "negative": "people, person, astronaut, hands, text, letters, watermark, logo, signature, frame, border, blurry, lowres, cartoon, earth trees, city, buildings",
+ "width": 576,
+ "height": 1024,
+ "steps": 6,
+ "cfg": 1.5,
+ "shots": [
+  {
+   "id": "s1",
+   "prompt": "the Earth-sized rocky planet Kepler-186f seen from space, rust-brown and deep blue with swirling pale clouds, a small orange dwarf star glowing beside it, stars, cinematic",
+   "seed": 400
+  },
+  {
+   "id": "s2",
+   "prompt": "first-person view diving through soft orange clouds toward a dim alien landscape, glowing amber horizon, sense of speed",
+   "seed": 407
+  },
+  {
+   "id": "s3",
+   "prompt": "wide alien landscape at dusk with an enormous dim orange sun on the horizon, dark teal sea, rust-coloured shore",
+   "seed": 414
+  },
+  {
+   "id": "s4",
+   "prompt": "close-up of dark red-brown moss-like carpet and shiny wet black stones at a shoreline, orange light, macro",
+   "seed": 421
+  },
+  {
+   "id": "s5",
+   "prompt": "a violet-and-copper sky full of stars with a dim orange sun, long clouds, calm",
+   "seed": 428
+  },
+  {
+   "id": "s6",
+   "prompt": "tall strange dark red plants like ferns swaying on a hillside under an orange sky",
+   "seed": 435
+  },
+  {
+   "id": "s7",
+   "prompt": "a lone black grand piano on a rust-coloured beach beside a calm dark sea, orange sunset, dreamy",
+   "seed": 442
+  },
+  {
+   "id": "s8",
+   "prompt": "a gentle rain falling over a dark alien sea under a dim orange sun, soft mist",
+   "seed": 449
+  },
+  {
+   "id": "s9",
+   "prompt": "jagged copper-coloured cliffs above the sea, waves breaking, golden hour",
+   "seed": 456
+  },
+  {
+   "id": "s10",
+   "prompt": "starry night over a quiet alien lake with a faint violet aurora",
+   "seed": 463
+  },
+  {
+   "id": "s11",
+   "prompt": "a slow orange dawn spreading over rolling dark hills and fog, wide landscape",
+   "seed": 470
+  }
+ ]
+}
