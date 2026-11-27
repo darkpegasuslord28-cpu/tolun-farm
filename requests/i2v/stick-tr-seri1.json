@@ -1,0 +1,284 @@
+{
+ "name": "stick-tr-seri1",
+ "mode": "voxcpm",
+ "tts_model": "openbmb/VoxCPM2",
+ "takes": 2,
+ "steps": 12,
+ "voices": {
+  "anlatici": {
+   "ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/stick-tr-vo/n.wav"
+  }
+ },
+ "lines": [
+  {
+   "id": "kumar1",
+   "voice": "anlatici",
+   "text": "Kumardan neden kazanamazsın? Çünkü oyun, sen daha oturmadan bitmiştir.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "kumar2",
+   "voice": "anlatici",
+   "text": "Ruletin otuz yedi gözü var.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "kumar3",
+   "voice": "anlatici",
+   "text": "Tek bir sayıya oynarsan, kazanma ihtimalin otuz yedide bir.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "kumar4",
+   "voice": "anlatici",
+   "text": "Ama kazanırsan, paranın otuz yedi katını değil, otuz altı katını alırsın.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "kumar5",
+   "voice": "anlatici",
+   "text": "Aradaki o küçük fark, kasanın payı.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "kumar6",
+   "voice": "anlatici",
+   "text": "Bir kere oynarsan şans. Bin kere oynarsan matematik.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "kumar7",
+   "voice": "anlatici",
+   "text": "Uzun vadede her yüz liranın yaklaşık üç lirası kasaya gider.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "kumar8",
+   "voice": "anlatici",
+   "text": "Kumarhaneler şansa güvenmez. Matematiğe güvenir.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "sigara1",
+   "voice": "anlatici",
+   "text": "Sigarayı bıraktığın an, vücudun hemen tamire başlar.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "sigara2",
+   "voice": "anlatici",
+   "text": "Yirmi dakika sonra kalp atışın ve tansiyonun düşer.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "sigara3",
+   "voice": "anlatici",
+   "text": "On iki saat sonra kanındaki karbonmonoksit normale döner.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "sigara4",
+   "voice": "anlatici",
+   "text": "İki ila on iki hafta içinde dolaşımın düzelir, akciğerlerin daha iyi çalışır.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "sigara5",
+   "voice": "anlatici",
+   "text": "Bir ila dokuz ay içinde öksürük ve nefes darlığı azalır.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "sigara6",
+   "voice": "anlatici",
+   "text": "Bir yıl sonra kalp hastalığı riskin, içen birinin yaklaşık yarısına iner.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "sigara7",
+   "voice": "anlatici",
+   "text": "On yıl sonra akciğer kanseri riskin de yaklaşık yarıya düşer.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "sigara8",
+   "voice": "anlatici",
+   "text": "Vücudun seni bekliyor.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "hickirik1",
+   "voice": "anlatici",
+   "text": "Hıçkırık neden olur?",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "hickirik2",
+   "voice": "anlatici",
+   "text": "Göğsünle miden arasında diyafram diye bir kas var.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "hickirik3",
+   "voice": "anlatici",
+   "text": "Bu kas aniden kasılınca, ses tellerin bir anlığına kapanır.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "hickirik4",
+   "voice": "anlatici",
+   "text": "İşte o hık sesi tam buradan gelir.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "hickirik5",
+   "voice": "anlatici",
+   "text": "En sık sebepler: gazlı içecek, çok yemek ve ani heyecan.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "hickirik6",
+   "voice": "anlatici",
+   "text": "Ani sıcaklık değişimi ve hava yutmak da tetikleyebilir.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "hickirik7",
+   "voice": "anlatici",
+   "text": "Çoğu zaman kendiliğinden geçer.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "hickirik8",
+   "voice": "anlatici",
+   "text": "Ama iki günden uzun sürerse, doktora görün.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "para1",
+   "voice": "anlatici",
+   "text": "Paran neden ay sonunu getirmiyor?",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "para2",
+   "voice": "anlatici",
+   "text": "Çünkü maaş bir kerede gelir, harcamalar damla damla gider.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "para3",
+   "voice": "anlatici",
+   "text": "Büyük harcamaları hatırlarsın. Küçükleri unutursun.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "para4",
+   "voice": "anlatici",
+   "text": "Bir kahve, bir paket, bir abonelik. Tek tek önemsiz görünür.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "para5",
+   "voice": "anlatici",
+   "text": "Ama ay sonunda hepsi aynı cüzdandan çıkar.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "para6",
+   "voice": "anlatici",
+   "text": "Basit bir deneme yap. Bir hafta boyunca her harcamanı yaz.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "para7",
+   "voice": "anlatici",
+   "text": "Paranın nereye gittiğini ilk kez göreceksin.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "uyku1",
+   "voice": "anlatici",
+   "text": "Gece neden uyuyamıyorsun?",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "uyku2",
+   "voice": "anlatici",
+   "text": "Hava kararınca beynin melatonin salgılar. Uyku sinyali budur.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "uyku3",
+   "voice": "anlatici",
+   "text": "Ama telefonun parlak ışığı beynine hâlâ gündüz der.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "uyku4",
+   "voice": "anlatici",
+   "text": "Kafein de işi zorlaştırır. Etkisi saatlerce sürer.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "uyku5",
+   "voice": "anlatici",
+   "text": "Akşam içtiğin kahve, gece yarısı hâlâ kanındadır.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "uyku6",
+   "voice": "anlatici",
+   "text": "Yatmadan bir saat önce ekranı bırak, ışıkları kıs.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "uyku7",
+   "voice": "anlatici",
+   "text": "Uykusuzluk uzun sürerse, bir uzmana danış.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "erteleme1",
+   "voice": "anlatici",
+   "text": "Neden hep son dakikada iş yapıyoruz?",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "erteleme2",
+   "voice": "anlatici",
+   "text": "Sorun tembellik değil. Sorun duygu.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "erteleme3",
+   "voice": "anlatici",
+   "text": "Bir iş sıkıcı ya da zor gelince, beynin o kötü histen kaçmak ister.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "erteleme4",
+   "voice": "anlatici",
+   "text": "Telefonu açarsın, hemen rahatlarsın.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "erteleme5",
+   "voice": "anlatici",
+   "text": "Ama iş yerinde durur. Ve stres büyür.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "erteleme6",
+   "voice": "anlatici",
+   "text": "Son dakika gelince korku, sıkıntıdan büyük olur. Ve sonunda başlarsın.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "erteleme7",
+   "voice": "anlatici",
+   "text": "Çözüm basit: işe sadece beş dakika başla. En zor kısım başlamaktır.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  }
+ ]
+}
