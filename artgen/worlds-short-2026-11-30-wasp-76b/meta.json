@@ -1,0 +1,73 @@
+{
+ "name": "worlds-short-2026-11-30-wasp-76b",
+ "model": "Lykon/dreamshaper-8",
+ "license": "CreativeML OpenRAIL-M (model); outputs ours",
+ "shots": [
+  {
+   "id": "s1",
+   "prompt": "the ultra-hot gas giant WASP-76b seen from space, one side glowing white-orange molten hot, the other side dark with a fiery terminator line, its star blazing nearby, stars, cinematic",
+   "seed": 400,
+   "sec": 123.8
+  },
+  {
+   "id": "s2",
+   "prompt": "first-person view diving into scorching glowing orange and white clouds of a giant planet, sparks and heat shimmer, sense of speed",
+   "seed": 407,
+   "sec": 123.7
+  },
+  {
+   "id": "s3",
+   "prompt": "glowing streaks of molten metal raining from a dark stormy sky over a black ocean of clouds, orange light, dramatic",
+   "seed": 414,
+   "sec": 118.7
+  },
+  {
+   "id": "s4",
+   "prompt": "a blinding white-hot star looming enormous over a fiery orange cloud sea, heat haze",
+   "seed": 421,
+   "sec": 119.8
+  },
+  {
+   "id": "s5",
+   "prompt": "close-up of glowing orange droplets falling through dark smoke, macro, embers",
+   "seed": 428,
+   "sec": 122.5
+  },
+  {
+   "id": "s6",
+   "prompt": "a dark night-side storm with towering clouds lit from within by orange lightning, awe",
+   "seed": 435,
+   "sec": 124.8
+  },
+  {
+   "id": "s7",
+   "prompt": "a lone black grand piano floating on a calm dark cloud deck beneath a glowing orange sky, dreamy",
+   "seed": 442,
+   "sec": 122.5
+  },
+  {
+   "id": "s8",
+   "prompt": "the terminator line where blazing day meets black night, a ribbon of fire across clouds, vast",
+   "seed": 449,
+   "sec": 123.6
+  },
+  {
+   "id": "s9",
+   "prompt": "vortex of swirling molten-orange and black cloud, hypnotic, seen from above",
+   "seed": 456,
+   "sec": 123.8
+  },
+  {
+   "id": "s10",
+   "prompt": "a ghostly cooling night sky full of falling glittering sparks and stars",
+   "seed": 463,
+   "sec": 123.7
+  },
+  {
+   "id": "s11",
+   "prompt": "a gigantic shimmering wall of cloud lit red-gold at the edge of the planet's day side, wide landscape",
+   "seed": 470,
+   "sec": 125.0
+  }
+ ]
+}
