@@ -1,0 +1,73 @@
+{
+ "name": "worlds-short-2026-12-01-kepler-186f",
+ "model": "Lykon/dreamshaper-8",
+ "license": "CreativeML OpenRAIL-M (model); outputs ours",
+ "shots": [
+  {
+   "id": "s1",
+   "prompt": "the Earth-sized rocky planet Kepler-186f seen from space, rust-brown and deep blue with swirling pale clouds, a small orange dwarf star glowing beside it, stars, cinematic",
+   "seed": 400,
+   "sec": 187.3
+  },
+  {
+   "id": "s2",
+   "prompt": "first-person view diving through soft orange clouds toward a dim alien landscape, glowing amber horizon, sense of speed",
+   "seed": 407,
+   "sec": 185.9
+  },
+  {
+   "id": "s3",
+   "prompt": "wide alien landscape at dusk with an enormous dim orange sun on the horizon, dark teal sea, rust-coloured shore",
+   "seed": 414,
+   "sec": 186.5
+  },
+  {
+   "id": "s4",
+   "prompt": "close-up of dark red-brown moss-like carpet and shiny wet black stones at a shoreline, orange light, macro",
+   "seed": 421,
+   "sec": 182.5
+  },
+  {
+   "id": "s5",
+   "prompt": "a violet-and-copper sky full of stars with a dim orange sun, long clouds, calm",
+   "seed": 428,
+   "sec": 181.8
+  },
+  {
+   "id": "s6",
+   "prompt": "tall strange dark red plants like ferns swaying on a hillside under an orange sky",
+   "seed": 435,
+   "sec": 181.1
+  },
+  {
+   "id": "s7",
+   "prompt": "a lone black grand piano on a rust-coloured beach beside a calm dark sea, orange sunset, dreamy",
+   "seed": 442,
+   "sec": 184.4
+  },
+  {
+   "id": "s8",
+   "prompt": "a gentle rain falling over a dark alien sea under a dim orange sun, soft mist",
+   "seed": 449,
+   "sec": 181.8
+  },
+  {
+   "id": "s9",
+   "prompt": "jagged copper-coloured cliffs above the sea, waves breaking, golden hour",
+   "seed": 456,
+   "sec": 180.5
+  },
+  {
+   "id": "s10",
+   "prompt": "starry night over a quiet alien lake with a faint violet aurora",
+   "seed": 463,
+   "sec": 184.6
+  },
+  {
+   "id": "s11",
+   "prompt": "a slow orange dawn spreading over rolling dark hills and fog, wide landscape",
+   "seed": 470,
+   "sec": 182.1
+  }
+ ]
+}
