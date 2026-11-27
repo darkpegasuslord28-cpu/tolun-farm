@@ -1,0 +1,29 @@
+{
+ "name": "lib-20261127-battle",
+ "tracks": [
+  {
+   "id": "battle_20261127_0",
+   "caption": "epic dark fantasy battle music, war drums, low brass, choir, cinematic, intense, instrumental",
+   "duration": 60,
+   "bpm": 120,
+   "keyscale": "D minor",
+   "seed": 7399470
+  },
+  {
+   "id": "battle_20261127_1",
+   "caption": "epic dark fantasy battle music, war drums, low brass, choir, cinematic, intense, instrumental",
+   "duration": 60,
+   "bpm": 120,
+   "keyscale": "D minor",
+   "seed": 7399471
+  },
+  {
+   "id": "battle_20261127_2",
+   "caption": "epic dark fantasy battle music, war drums, low brass, choir, cinematic, intense, instrumental",
+   "duration": 60,
+   "bpm": 120,
+   "keyscale": "D minor",
+   "seed": 7399472
+  }
+ ]
+}

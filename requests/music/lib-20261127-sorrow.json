@@ -1,0 +1,29 @@
+{
+ "name": "lib-20261127-sorrow",
+ "tracks": [
+  {
+   "id": "sorrow_20261127_0",
+   "caption": "sad cinematic piano and cello, loss and farewell, slow, emotional, instrumental",
+   "duration": 60,
+   "bpm": 64,
+   "keyscale": "A minor",
+   "seed": 7399470
+  },
+  {
+   "id": "sorrow_20261127_1",
+   "caption": "sad cinematic piano and cello, loss and farewell, slow, emotional, instrumental",
+   "duration": 60,
+   "bpm": 64,
+   "keyscale": "A minor",
+   "seed": 7399471
+  },
+  {
+   "id": "sorrow_20261127_2",
+   "caption": "sad cinematic piano and cello, loss and farewell, slow, emotional, instrumental",
+   "duration": 60,
+   "bpm": 64,
+   "keyscale": "A minor",
+   "seed": 7399472
+  }
+ ]
+}

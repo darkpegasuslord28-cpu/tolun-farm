@@ -1,0 +1,29 @@
+{
+ "name": "lib-20261127-eastern",
+ "tracks": [
+  {
+   "id": "eastern_20261127_0",
+   "caption": "eastern fantasy, guzheng and taiko, misty mountains, honor, cinematic, instrumental",
+   "duration": 60,
+   "bpm": 84,
+   "keyscale": "D minor",
+   "seed": 7399470
+  },
+  {
+   "id": "eastern_20261127_1",
+   "caption": "eastern fantasy, guzheng and taiko, misty mountains, honor, cinematic, instrumental",
+   "duration": 60,
+   "bpm": 84,
+   "keyscale": "D minor",
+   "seed": 7399471
+  },
+  {
+   "id": "eastern_20261127_2",
+   "caption": "eastern fantasy, guzheng and taiko, misty mountains, honor, cinematic, instrumental",
+   "duration": 60,
+   "bpm": 84,
+   "keyscale": "D minor",
+   "seed": 7399472
+  }
+ ]
+}
