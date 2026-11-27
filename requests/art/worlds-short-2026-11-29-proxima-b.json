@@ -1,0 +1,66 @@
+{
+ "name": "worlds-short-2026-11-29-proxima-b",
+ "style": "cinematic matte painting, ultra detailed, atmospheric, volumetric light, painterly, awe, otherworldly, no people, no text",
+ "negative": "people, person, astronaut, hands, text, letters, watermark, logo, signature, frame, border, blurry, lowres, cartoon, earth trees, city, buildings",
+ "width": 576,
+ "height": 1024,
+ "steps": 6,
+ "cfg": 1.5,
+ "shots": [
+  {
+   "id": "s1",
+   "prompt": "the rocky planet Proxima b seen from space, a dim reddish-brown world with a faint glow, a small deep-red dwarf star blazing beside it, stars, cinematic",
+   "seed": 400
+  },
+  {
+   "id": "s2",
+   "prompt": "first-person view diving through thin dusky red haze toward a dark rocky planet, glowing orange horizon, sense of speed",
+   "seed": 407
+  },
+  {
+   "id": "s3",
+   "prompt": "dark rust-coloured desert plain under a huge dim red sun hanging low, long shadows, eerie",
+   "seed": 414
+  },
+  {
+   "id": "s4",
+   "prompt": "a sudden red stellar flare bursting across the sky above a barren rocky landscape, glowing sky",
+   "seed": 421
+  },
+  {
+   "id": "s5",
+   "prompt": "close-up of dark volcanic pebbles and red dust lit by deep red light, macro",
+   "seed": 428
+  },
+  {
+   "id": "s6",
+   "prompt": "a still alien lake of dark water reflecting a huge red sun, mist at the shore",
+   "seed": 435
+  },
+  {
+   "id": "s7",
+   "prompt": "a lone black grand piano on a red rocky hill under an enormous red sun, dreamy",
+   "seed": 442
+  },
+  {
+   "id": "s8",
+   "prompt": "a brilliant pair of bright stars, bright Alpha Centauri A and B, glowing in a black alien sky above red cliffs",
+   "seed": 449
+  },
+  {
+   "id": "s9",
+   "prompt": "deep canyon of rust-red rock with blue-black shadows, drifting dust, quiet",
+   "seed": 456
+  },
+  {
+   "id": "s10",
+   "prompt": "twilight band on a tidally locked world: red dawn glow on one horizon and black starry night above",
+   "seed": 463
+  },
+  {
+   "id": "s11",
+   "prompt": "vast plain of dark glassy rock reflecting a red sky and thousands of stars, wide landscape",
+   "seed": 470
+  }
+ ]
+}
