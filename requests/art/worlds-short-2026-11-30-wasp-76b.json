@@ -1,0 +1,66 @@
+{
+ "name": "worlds-short-2026-11-30-wasp-76b",
+ "style": "cinematic matte painting, ultra detailed, atmospheric, volumetric light, painterly, awe, otherworldly, no people, no text",
+ "negative": "people, person, astronaut, hands, text, letters, watermark, logo, signature, frame, border, blurry, lowres, cartoon, earth trees, city, buildings",
+ "width": 576,
+ "height": 1024,
+ "steps": 6,
+ "cfg": 1.5,
+ "shots": [
+  {
+   "id": "s1",
+   "prompt": "the ultra-hot gas giant WASP-76b seen from space, one side glowing white-orange molten hot, the other side dark with a fiery terminator line, its star blazing nearby, stars, cinematic",
+   "seed": 400
+  },
+  {
+   "id": "s2",
+   "prompt": "first-person view diving into scorching glowing orange and white clouds of a giant planet, sparks and heat shimmer, sense of speed",
+   "seed": 407
+  },
+  {
+   "id": "s3",
+   "prompt": "glowing streaks of molten metal raining from a dark stormy sky over a black ocean of clouds, orange light, dramatic",
+   "seed": 414
+  },
+  {
+   "id": "s4",
+   "prompt": "a blinding white-hot star looming enormous over a fiery orange cloud sea, heat haze",
+   "seed": 421
+  },
+  {
+   "id": "s5",
+   "prompt": "close-up of glowing orange droplets falling through dark smoke, macro, embers",
+   "seed": 428
+  },
+  {
+   "id": "s6",
+   "prompt": "a dark night-side storm with towering clouds lit from within by orange lightning, awe",
+   "seed": 435
+  },
+  {
+   "id": "s7",
+   "prompt": "a lone black grand piano floating on a calm dark cloud deck beneath a glowing orange sky, dreamy",
+   "seed": 442
+  },
+  {
+   "id": "s8",
+   "prompt": "the terminator line where blazing day meets black night, a ribbon of fire across clouds, vast",
+   "seed": 449
+  },
+  {
+   "id": "s9",
+   "prompt": "vortex of swirling molten-orange and black cloud, hypnotic, seen from above",
+   "seed": 456
+  },
+  {
+   "id": "s10",
+   "prompt": "a ghostly cooling night sky full of falling glittering sparks and stars",
+   "seed": 463
+  },
+  {
+   "id": "s11",
+   "prompt": "a gigantic shimmering wall of cloud lit red-gold at the edge of the planet's day side, wide landscape",
+   "seed": 470
+  }
+ ]
+}
