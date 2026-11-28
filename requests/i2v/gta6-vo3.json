@@ -1,0 +1,11 @@
+{"name":"gta6-vo3","mode":"voxcpm","tts_model":"openbmb/VoxCPM2","takes":4,"steps":14,
+"voices":{"dedektif":{"design":"American guy in his late twenties, relaxed deep voice, casual and conversational, like a gamer friend telling you a secret on a late night call, natural, not an announcer, slight smile in the voice"}},
+"lines":[
+{"id":"r1","voice":"dedektif","text":"Okay, why did Rockstar show us this motel?","style":"casual, curious, natural"},
+{"id":"r2","voice":"dedektif","text":"It's the Starlet Motel, just east of Port Gellhorn.","style":"casual, conversational"},
+{"id":"r3","voice":"dedektif","text":"And players say something weird happens near it. At night.","style":"lower voice, a bit secretive"},
+{"id":"r4","voice":"dedektif","text":"There's a clearing close by. You go there after dark,","style":"natural, building up"},
+{"id":"r5","voice":"dedektif","text":"and some people say they've seen a UFO.","style":"slightly amazed, natural"},
+{"id":"r6","voice":"dedektif","text":"The catch? It supposedly only shows up from Chapter Two.","style":"casual, knowing"},
+{"id":"r7","voice":"dedektif","text":"Nobody's fully confirmed it yet. So for now, case unverified.","style":"honest, relaxed"},
+{"id":"r8","voice":"dedektif","text":"Have you seen it? Seriously, tell me what happened.","style":"friendly, curious, inviting"}]}
