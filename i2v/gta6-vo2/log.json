@@ -1,0 +1,58 @@
+[
+ {
+  "id": "u1",
+  "ok": true,
+  "cer": -0.064,
+  "asr": " Players say there's a UFO in GTA 6, but only at night",
+  "dur": 4.16,
+  "sec": 58
+ },
+ {
+  "id": "u2",
+  "ok": true,
+  "cer": 0.0,
+  "asr": " Here's where to look.",
+  "dur": 1.12,
+  "sec": 12
+ },
+ {
+  "id": "u3",
+  "ok": true,
+  "cer": -0.069,
+  "asr": " Hed east of Port Gellhorn to the Starlet Motel.",
+  "dur": 3.84,
+  "sec": 28
+ },
+ {
+  "id": "u4",
+  "ok": true,
+  "cer": -0.031,
+  "asr": " FİND THE CLEARING NEARBY AND WAIT UNTIL IT GETS DARK",
+  "dur": 5.6,
+  "sec": 33
+ },
+ {
+  "id": "u5",
+  "ok": true,
+  "cer": 0.938,
+  "asr": " Bir şey vielä明",
+  "dur": 4.16,
+  "sec": 38
+ },
+ {
+  "id": "u6",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Nobody has fully confirmed it yet, so this case stays unverified.",
+  "dur": 4.16,
+  "sec": 36
+ },
+ {
+  "id": "u7",
+  "ok": true,
+  "cer": -0.04,
+  "asr": " If you've seen it, tell us what happened.",
+  "dur": 1.92,
+  "sec": 17
+ }
+]
