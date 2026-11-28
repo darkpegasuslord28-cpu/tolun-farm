@@ -1,0 +1,11 @@
+{
+ "id": "bilimkurgu_gizem",
+ "caption": "mysterious sci-fi synth ambience, night sky, strange radio signals, slow hypnotic arpeggios, cosmic and tense, no vocals, instrumental",
+ "duration": 45,
+ "bpm": 84,
+ "keyscale": "E minor",
+ "seed": 49,
+ "gen_seconds": 287,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}

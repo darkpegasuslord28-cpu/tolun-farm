@@ -1,0 +1,11 @@
+{
+ "id": "komik_retro",
+ "caption": "light playful retro synth-funk groove, sunny Miami beach afternoon, bouncy bass, warm and fun but not silly, 80s, no vocals, instrumental",
+ "duration": 45,
+ "bpm": 108,
+ "keyscale": "G major",
+ "seed": 45,
+ "gen_seconds": 285,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}

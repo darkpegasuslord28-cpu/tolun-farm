@@ -1,0 +1,11 @@
+{
+ "id": "bataklik_gerilim",
+ "caption": "tense night swamp ambience with slow dark synth drones, distant thumping pulse, eerie and cinematic, suspense, no melody hooks, no vocals, instrumental",
+ "duration": 45,
+ "bpm": 80,
+ "keyscale": "C minor",
+ "seed": 41,
+ "gen_seconds": 286,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}
