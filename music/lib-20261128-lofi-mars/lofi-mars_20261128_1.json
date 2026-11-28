@@ -1,0 +1,11 @@
+{
+ "id": "lofi-mars_20261128_1",
+ "caption": "lofi study music, soft piano, warm vinyl, gentle beat, calm focus, dreamy, instrumental",
+ "duration": 60,
+ "bpm": 75,
+ "keyscale": "F major",
+ "seed": 7399481,
+ "gen_seconds": 368,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}
