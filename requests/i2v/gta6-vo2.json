@@ -1,0 +1,10 @@
+{"name":"gta6-vo2","mode":"voxcpm","tts_model":"openbmb/VoxCPM2","takes":3,"steps":12,
+"voices":{"dedektif":{"design":"male American narrator in his thirties, low deep voice, calm and mysterious, like a true crime podcast host telling a secret, intimate, slightly gritty"}},
+"lines":[
+{"id":"u1","voice":"dedektif","text":"Players say there's a UFO in GTA 6. But only at night.","style":"quiet, mysterious"},
+{"id":"u2","voice":"dedektif","text":"Here's where to look.","style":"low, intimate"},
+{"id":"u3","voice":"dedektif","text":"Head east of Port Gellhorn, to the Starlet Motel.","style":"calm, clear"},
+{"id":"u4","voice":"dedektif","text":"Find the clearing nearby. And wait until it gets dark.","style":"slow, tense"},
+{"id":"u5","voice":"dedektif","text":"One more thing. It reportedly only shows up from Chapter Two.","style":"secretive"},
+{"id":"u6","voice":"dedektif","text":"Nobody has fully confirmed it yet. So this case stays unverified.","style":"serious"},
+{"id":"u7","voice":"dedektif","text":"If you've seen it, tell us what happened.","style":"intimate, inviting"}]}
