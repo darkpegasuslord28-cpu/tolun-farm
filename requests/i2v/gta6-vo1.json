@@ -1,0 +1,12 @@
+{"name":"gta6-vo1","mode":"voxcpm","tts_model":"openbmb/VoxCPM2","takes":3,"steps":12,
+"voices":{"dedektif":{"design":"male American narrator in his thirties, low deep voice, calm and mysterious, like a true crime podcast host telling a secret, intimate, slightly gritty"}},
+"lines":[
+{"id":"m1","voice":"dedektif","text":"There's a statue in GTA 6 that nobody can explain.","style":"quiet, mysterious, slow"},
+{"id":"m2","voice":"dedektif","text":"It stands in Manifest Canyon, out in Kelly County.","style":"calm, mysterious"},
+{"id":"m3","voice":"dedektif","text":"Four horses. And strange symbols carved into the stone.","style":"slow, ominous"},
+{"id":"m4","voice":"dedektif","text":"Walk close, and your controller starts to vibrate.","style":"tense, quiet"},
+{"id":"m5","voice":"dedektif","text":"Then it starts beeping.","style":"tense, short pause after"},
+{"id":"m6","voice":"dedektif","text":"Oh, and one of the horses is wearing a traffic cone.","style":"dry humor, slight smile"},
+{"id":"m7","voice":"dedektif","text":"More than a week after launch, as far as anyone knows, it's still unsolved.","style":"serious, mysterious"},
+{"id":"m8","voice":"dedektif","text":"So what do you think the symbols mean?","style":"intimate question to the viewer"}
+]}
