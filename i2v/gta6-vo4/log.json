@@ -1,0 +1,74 @@
+[
+ {
+  "id": "j1",
+  "ok": true,
+  "cer": -0.043,
+  "asr": " Ok, what is Rockstar doing to Jason's head?",
+  "dur": 2.88,
+  "sec": 51
+ },
+ {
+  "id": "j2",
+  "ok": true,
+  "cer": 0.809,
+  "asr": " Bir saniyum, bu saniyum, bu saniyum, bu saniyum, bu saniyum.",
+  "dur": 4.48,
+  "sec": 56
+ },
+ {
+  "id": "j3",
+  "ok": true,
+  "cer": -0.015,
+  "asr": " There is a giant black egg, just floating there.",
+  "dur": 2.4,
+  "sec": 38
+ },
+ {
+  "id": "j4",
+  "ok": true,
+  "cer": 0.831,
+  "asr": " Şimdi, Rune f Jung Quanku love- Wakanlar var mendes.",
+  "dur": 3.52,
+  "sec": 55
+ },
+ {
+  "id": "j5",
+  "ok": true,
+  "cer": 0.025,
+  "asr": " Şimdi he is flying past planets, looking down at Leonida from space.",
+  "dur": 4.32,
+  "sec": 52
+ },
+ {
+  "id": "j6",
+  "ok": true,
+  "cer": -0.035,
+  "asr": " Then a control room. Buttons everywhere. And somebody calls him.",
+  "dur": 3.52,
+  "sec": 55
+ },
+ {
+  "id": "j7",
+  "ok": true,
+  "cer": 0.459,
+  "asr": " And then, ouseağı in the void. Switch musta...",
+  "dur": 3.04,
+  "sec": 43
+ },
+ {
+  "id": "j8",
+  "ok": true,
+  "cer": -0.023,
+  "asr": " He wakes up next to Lucia and she tells him he was talking in his sleep.",
+  "dur": 4.48,
+  "sec": 51
+ },
+ {
+  "id": "j9",
+  "ok": true,
+  "cer": -0.039,
+  "asr": " So, was it just a dream? Or is rockstar trying to tell us something?",
+  "dur": 3.84,
+  "sec": 46
+ }
+]
