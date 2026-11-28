@@ -1,0 +1,634 @@
+[
+ {
+  "id": "kiskanclik1",
+  "ok": true,
+  "cer": -0.034,
+  "asr": " Sevgilini neden kıskanıyorsun?",
+  "dur": 1.76,
+  "sec": 32
+ },
+ {
+  "id": "kiskanclik2",
+  "ok": true,
+  "cer": -0.084,
+  "asr": " Kıskançlık aslında bir korku. Kaybetme korkusu.",
+  "dur": 3.2,
+  "sec": 22
+ },
+ {
+  "id": "kiskanclik3",
+  "ok": true,
+  "cer": -0.03,
+  "asr": " Beynin değer verdiğin şeyde tehdit altında görünce alarm verir.",
+  "dur": 4.32,
+  "sec": 21
+ },
+ {
+  "id": "kiskanclik4",
+  "ok": true,
+  "cer": -0.052,
+  "asr": " Bu alarm çoğu zaman gerçek bir tehlikeden değil kafandaki senaryodan çalar.",
+  "dur": 4.48,
+  "sec": 24
+ },
+ {
+  "id": "kiskanclik5",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Kendine güvenin azaldıkça alarm daha sık çalar.",
+  "dur": 4.0,
+  "sec": 19
+ },
+ {
+  "id": "kiskanclik6",
+  "ok": true,
+  "cer": -0.013,
+  "asr": " Biraz kıskançlık önemsiyorum demek olabilir.",
+  "dur": 2.56,
+  "sec": 15
+ },
+ {
+  "id": "kiskanclik7",
+  "ok": true,
+  "cer": -0.071,
+  "asr": " Ama kontrol dönüşüyorsa mesele sevgi değil, korkudur.",
+  "dur": 3.84,
+  "sec": 22
+ },
+ {
+  "id": "fal1",
+  "ok": true,
+  "cer": 0.143,
+  "asr": " Neden tutuyor gibi gelir.",
+  "dur": 1.76,
+  "sec": 11
+ },
+ {
+  "id": "fal2",
+  "ok": true,
+  "cer": -0.082,
+  "asr": " Çünkü cümleler herkese uyacak şekilde kurulur.",
+  "dur": 2.72,
+  "sec": 15
+ },
+ {
+  "id": "fal3",
+  "ok": true,
+  "cer": -0.07,
+  "asr": " Son zamanlarda kafam biraz karışık. Kimin değil ki?",
+  "dur": 3.36,
+  "sec": 18
+ },
+ {
+  "id": "fal4",
+  "ok": true,
+  "cer": -0.08,
+  "asr": " Psikologlar buna Barnum etkisi der.",
+  "dur": 2.24,
+  "sec": 14
+ },
+ {
+  "id": "fal5",
+  "ok": true,
+  "cer": -0.081,
+  "asr": " Genel bir cümleyi sadece sana söylenmiş gibi hissedersin.",
+  "dur": 3.84,
+  "sec": 20
+ },
+ {
+  "id": "fal6",
+  "ok": true,
+  "cer": -0.056,
+  "asr": " Bir de tutanları hatırlarsın, tutmayanları unutursun.",
+  "dur": 3.36,
+  "sec": 17
+ },
+ {
+  "id": "fal7",
+  "ok": true,
+  "cer": -0.074,
+  "asr": " Yani fal geleceği değil seni okur.",
+  "dur": 2.08,
+  "sec": 13
+ },
+ {
+  "id": "burc1",
+  "ok": true,
+  "cer": 0.051,
+  "asr": " Bölç yorumu neden hep sana uyuyor?",
+  "dur": 1.92,
+  "sec": 12
+ },
+ {
+  "id": "burc2",
+  "ok": true,
+  "cer": 0.303,
+  "asr": " 1949'da bir psikolog öğrencilerine kişilik yorumu dağıttı.",
+  "dur": 5.44,
+  "sec": 26
+ },
+ {
+  "id": "burc3",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Herkese aynı metni verdi. Ama kimse bunu bilmiyordu.",
+  "dur": 3.52,
+  "sec": 18
+ },
+ {
+  "id": "burc4",
+  "ok": true,
+  "cer": -0.088,
+  "asr": " Öğrencilerin çoğu bu tam beni anlatıyor dedi.",
+  "dur": 2.88,
+  "sec": 17
+ },
+ {
+  "id": "burc5",
+  "ok": true,
+  "cer": -0.088,
+  "asr": " Burç yorumları da böyle yazılır. Herkese uyan cümlelerle.",
+  "dur": 4.0,
+  "sec": 20
+ },
+ {
+  "id": "burc6",
+  "ok": true,
+  "cer": -0.029,
+  "asr": " Bazen içine kapanırsın, bazen çok sosyalsın. Kim değil ki?",
+  "dur": 3.84,
+  "sec": 20
+ },
+ {
+  "id": "goruldu1",
+  "ok": true,
+  "cer": -0.075,
+  "asr": " Görüldü neden bu kadar sinir eder?",
+  "dur": 2.08,
+  "sec": 12
+ },
+ {
+  "id": "goruldu2",
+  "ok": true,
+  "cer": -0.07,
+  "asr": " Çünkü mesajın okundu ama cevap yok.",
+  "dur": 2.56,
+  "sec": 15
+ },
+ {
+  "id": "goruldu3",
+  "ok": true,
+  "cer": -0.04,
+  "asr": " Beynin bu boşluğu sevmez, hemen doldurmaya çalışır.",
+  "dur": 2.88,
+  "sec": 16
+ },
+ {
+  "id": "goruldu4",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Ve genelde en kötü ihtimalle doldurur. Bana kızdı. Umursamıyor.",
+  "dur": 5.12,
+  "sec": 25
+ },
+ {
+  "id": "goruldu5",
+  "ok": true,
+  "cer": -0.075,
+  "asr": " Oysa çoğu zaman karşı taraf sadece meşguldür.",
+  "dur": 3.2,
+  "sec": 17
+ },
+ {
+  "id": "goruldu6",
+  "ok": true,
+  "cer": -0.074,
+  "asr": " Araştırmalar, belirsizliğin, bazen kötü haberden bile daha stresli olabildiğini gösteriyor.",
+  "dur": 5.76,
+  "sec": 27
+ },
+ {
+  "id": "goruldu7",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Telefonu bırak. Cevap gelecekse gelir.",
+  "dur": 3.04,
+  "sec": 19
+ },
+ {
+  "id": "pazar1",
+  "ok": true,
+  "cer": -0.083,
+  "asr": " Pazar akşamı neden içimiz sıkılır?",
+  "dur": 2.56,
+  "sec": 13
+ },
+ {
+  "id": "pazar2",
+  "ok": true,
+  "cer": -0.086,
+  "asr": " Hafta sonu bitmeden beynin pazartesiyi yaşamaya başlar.",
+  "dur": 3.68,
+  "sec": 20
+ },
+ {
+  "id": "pazar3",
+  "ok": true,
+  "cer": -0.072,
+  "asr": " Yapılacak işler, mesajlar, alarm sesi.",
+  "dur": 3.52,
+  "sec": 18
+ },
+ {
+  "id": "pazar4",
+  "ok": true,
+  "cer": -0.013,
+  "asr": " Buna pazar akşamı sendromu diyorlar.",
+  "dur": 2.08,
+  "sec": 12
+ },
+ {
+  "id": "pazar5",
+  "ok": true,
+  "cer": -0.04,
+  "asr": " Sorun pazar değil. Önümüzdeki haftanın belirsizliği.",
+  "dur": 3.04,
+  "sec": 17
+ },
+ {
+  "id": "pazar6",
+  "ok": true,
+  "cer": -0.068,
+  "asr": " Pazar akşamına küçük, keyifli bir şey koy. Bir yürüyüş, bir film.",
+  "dur": 4.16,
+  "sec": 24
+ },
+ {
+  "id": "pazar7",
+  "ok": true,
+  "cer": -0.034,
+  "asr": " Beynin pazarı yine pazar gibi hatırlasın.",
+  "dur": 2.4,
+  "sec": 14
+ },
+ {
+  "id": "asik1",
+  "ok": true,
+  "cer": -0.052,
+  "asr": " Neden hep aynı tip insana aşık oluyoruz?",
+  "dur": 2.56,
+  "sec": 14
+ },
+ {
+  "id": "asik2",
+  "ok": true,
+  "cer": 0.006,
+  "asr": " Çünkü beynin tanıdık olanı güvenli sanır.",
+  "dur": 2.24,
+  "sec": 14
+ },
+ {
+  "id": "asik3",
+  "ok": true,
+  "cer": -0.057,
+  "asr": " Psikologlara göre çocuklukta öğrendiğin sevgi biçimi bir şablon gibi kalabilir.",
+  "dur": 4.96,
+  "sec": 24
+ },
+ {
+  "id": "asik4",
+  "ok": true,
+  "cer": -0.064,
+  "asr": " Ve farkında olmadan o şablona uyan insanları ararsın.",
+  "dur": 3.2,
+  "sec": 19
+ },
+ {
+  "id": "asik5",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Ama tanıdık olan her zaman iyi olan değildir.",
+  "dur": 3.36,
+  "sec": 18
+ },
+ {
+  "id": "asik6",
+  "ok": true,
+  "cer": -0.084,
+  "asr": " Şablonu fark ettiğin an gerçekten seçmeye başlarsın.",
+  "dur": 3.68,
+  "sec": 19
+ },
+ {
+  "id": "eski1",
+  "ok": true,
+  "cer": -0.073,
+  "asr": " Eski sevgilin neden hep yanlış zamanda yazar?",
+  "dur": 2.72,
+  "sec": 15
+ },
+ {
+  "id": "eski2",
+  "ok": true,
+  "cer": -0.002,
+  "asr": " Tam unuttuğunu sandığın anda. Ne haber?",
+  "dur": 2.56,
+  "sec": 15
+ },
+ {
+  "id": "eski3",
+  "ok": true,
+  "cer": -0.012,
+  "asr": " Çoğu zaman yalnız hissettiği ya da sıkıldığı bir anda yazar.",
+  "dur": 3.36,
+  "sec": 19
+ },
+ {
+  "id": "eski4",
+  "ok": true,
+  "cer": -0.072,
+  "asr": " Yani o mesaj seninle değil onun o anki haliyle ilgilidir.",
+  "dur": 4.64,
+  "sec": 22
+ },
+ {
+  "id": "eski5",
+  "ok": true,
+  "cer": -0.079,
+  "asr": " Bir de sen gelen mesajı hatırlarsın. Gelmeyen yüzlercesini değil.",
+  "dur": 3.84,
+  "sec": 20
+ },
+ {
+  "id": "eski6",
+  "ok": true,
+  "cer": -0.086,
+  "asr": " Cevap vermeden önce kendine sor. Ben ne istiyorum?",
+  "dur": 3.36,
+  "sec": 19
+ },
+ {
+  "id": "birdakika1",
+  "ok": true,
+  "cer": -0.034,
+  "asr": " Neden bir dakika deyip bir saat telefonda kalıyoruz.",
+  "dur": 2.88,
+  "sec": 16
+ },
+ {
+  "id": "birdakika2",
+  "ok": true,
+  "cer": -0.059,
+  "asr": " Çünkü sonsuz kaydırmanın bir sonu yok.",
+  "dur": 2.56,
+  "sec": 14
+ },
+ {
+  "id": "birdakika3",
+  "ok": true,
+  "cer": -0.085,
+  "asr": " Durmak için doğal bir işaret yok. Sayfa hiç bitmiyor.",
+  "dur": 3.52,
+  "sec": 18
+ },
+ {
+  "id": "birdakika4",
+  "ok": true,
+  "cer": -0.082,
+  "asr": " Her yeni video beynine küçük bir sürpriz vaat eder.",
+  "dur": 3.36,
+  "sec": 18
+ },
+ {
+  "id": "birdakika5",
+  "ok": true,
+  "cer": -0.086,
+  "asr": " Ve sen hep bir sonrakinin daha iyi olacağına inanırsın.",
+  "dur": 5.76,
+  "sec": 24
+ },
+ {
+  "id": "birdakika6",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Çözüm basit. Telefona başlamadan önce bir alarm kur.",
+  "dur": 3.52,
+  "sec": 20
+ },
+ {
+  "id": "birdakika7",
+  "ok": true,
+  "cer": -0.011,
+  "asr": " Bitişi sen belirle, uygulama değil.",
+  "dur": 1.92,
+  "sec": 12
+ },
+ {
+  "id": "usursun1",
+  "ok": true,
+  "cer": -0.018,
+  "asr": " Annen neden hep üşürsün der.",
+  "dur": 1.6,
+  "sec": 11
+ },
+ {
+  "id": "usursun2",
+  "ok": true,
+  "cer": -0.033,
+  "asr": " Çünkü onun için hala küçük bir çocuksun.",
+  "dur": 2.56,
+  "sec": 15
+ },
+ {
+  "id": "usursun3",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Seni koruma isteği sen büyüyünce kaybolmaz. Sadece şekil değiştirir.",
+  "dur": 4.96,
+  "sec": 26
+ },
+ {
+  "id": "usursun4",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Eskiden elini tutuyordu. Şimdi kazak al diyor.",
+  "dur": 2.88,
+  "sec": 18
+ },
+ {
+  "id": "usursun5",
+  "ok": true,
+  "cer": -0.069,
+  "asr": " üşürsün. Aslında seni seviyorumun başka bir hali.",
+  "dur": 3.68,
+  "sec": 17
+ },
+ {
+  "id": "usursun6",
+  "ok": true,
+  "cer": -0.038,
+  "asr": " Bir dahaki sefere sadece. Tamam anne de. Ve kazı al.",
+  "dur": 4.8,
+  "sec": 24
+ },
+ {
+  "id": "fotograf1",
+  "ok": true,
+  "cer": -0.076,
+  "asr": " Eski fotoğraflar neden hüzünlendirir?",
+  "dur": 2.56,
+  "sec": 14
+ },
+ {
+  "id": "fotograf2",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Buna nostalji diyoruz. Tatlı ama biraz acıtan bir özlem.",
+  "dur": 4.0,
+  "sec": 19
+ },
+ {
+  "id": "fotograf3",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Fotoğraf bir anıyı geri getirir. Ama o anı geri veremez.",
+  "dur": 3.36,
+  "sec": 20
+ },
+ {
+  "id": "fotograf4",
+  "ok": true,
+  "cer": -0.017,
+  "asr": " beynin geçmiş olduğundan daha güzel hatırlama eğilimindedir.",
+  "dur": 3.52,
+  "sec": 19
+ },
+ {
+  "id": "fotograf5",
+  "ok": true,
+  "cer": -0.088,
+  "asr": " Kötü kısımlar silikleşir, güzel anlar parlar.",
+  "dur": 3.04,
+  "sec": 16
+ },
+ {
+  "id": "fotograf6",
+  "ok": true,
+  "cer": -0.056,
+  "asr": " Araştırmalara göre nostalji yalnız hissettiğimiz anlarda bize iyi gelebiliyor.",
+  "dur": 4.96,
+  "sec": 25
+ },
+ {
+  "id": "fotograf7",
+  "ok": true,
+  "cer": -0.029,
+  "asr": " Yani o hüzün aslında bir sarılma.",
+  "dur": 3.52,
+  "sec": 17
+ },
+ {
+  "id": "indirim1",
+  "ok": true,
+  "cer": -0.024,
+  "asr": " İndirimde neden ihtiyacın olmayan şeyi alırsın?",
+  "dur": 2.56,
+  "sec": 15
+ },
+ {
+  "id": "indirim2",
+  "ok": true,
+  "cer": 0.159,
+  "asr": " Çünkü %50 indirim gördüğün an beynin kazandığını düşünür.",
+  "dur": 3.84,
+  "sec": 20
+ },
+ {
+  "id": "indirim3",
+  "ok": true,
+  "cer": -0.088,
+  "asr": " Üstü çizili eski fiyat aklında bir çapa olur.",
+  "dur": 3.04,
+  "sec": 19
+ },
+ {
+  "id": "indirim4",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Yeni fiyat ona göre ucuz gelir. Gerçekte ucuz olmasa bile.",
+  "dur": 4.0,
+  "sec": 21
+ },
+ {
+  "id": "indirim5",
+  "ok": true,
+  "cer": -0.074,
+  "asr": " Son iki ürün. Bugün bitiyor yazıları da kaçırma korkusunu tetikler.",
+  "dur": 4.0,
+  "sec": 21
+ },
+ {
+  "id": "indirim6",
+  "ok": true,
+  "cer": -0.087,
+  "asr": " Almadan önce tek bir soru sor. İndirimde olmasa alır mıydım?",
+  "dur": 4.16,
+  "sec": 24
+ },
+ {
+  "id": "esneme1",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Neden esneriz ve neden esneme bulaşıcı?",
+  "dur": 3.2,
+  "sec": 19
+ },
+ {
+  "id": "esneme2",
+  "ok": true,
+  "cer": 0.02,
+  "asr": " Esenlemenin kesin sebebi hala tartışılıyor.",
+  "dur": 3.04,
+  "sec": 18
+ },
+ {
+  "id": "esneme3",
+  "ok": true,
+  "cer": -0.054,
+  "asr": " Bir teoriye göre beyni serinletmeye yardım ediyor.",
+  "dur": 3.04,
+  "sec": 17
+ },
+ {
+  "id": "esneme4",
+  "ok": true,
+  "cer": -0.072,
+  "asr": " Ama asıl ilginç olan, başkası esneyince seni de esnemen.",
+  "dur": 3.68,
+  "sec": 20
+ },
+ {
+  "id": "esneme5",
+  "ok": true,
+  "cer": -0.059,
+  "asr": " Bu yakın olduğumuz insanlarda daha sık görülüyor.",
+  "dur": 3.68,
+  "sec": 18
+ },
+ {
+  "id": "esneme6",
+  "ok": true,
+  "cer": -0.028,
+  "asr": " Bazı bilim insanları bunu empatiyle ilişkilendiriyor.",
+  "dur": 2.72,
+  "sec": 16
+ },
+ {
+  "id": "esneme7",
+  "ok": true,
+  "cer": -0.09,
+  "asr": " Şu an esnedin mi?",
+  "dur": 1.12,
+  "sec": 9
+ }
+]
