@@ -1,0 +1,11 @@
+{
+ "id": "neon_gizem2",
+ "caption": "mysterious synthwave investigation theme, humid tropical night, deep pads, ticking hi-hats, suspense build, retro 80s crime show feeling, no vocals, instrumental",
+ "duration": 45,
+ "bpm": 96,
+ "keyscale": "D minor",
+ "seed": 33,
+ "gen_seconds": 203,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}
