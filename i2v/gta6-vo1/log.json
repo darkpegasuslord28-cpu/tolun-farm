@@ -1,0 +1,66 @@
+[
+ {
+  "id": "m1",
+  "ok": true,
+  "cer": -0.05,
+  "asr": " There's a statue in GTA 6 that nobody can explain.",
+  "dur": 3.36,
+  "sec": 47
+ },
+ {
+  "id": "m2",
+  "ok": true,
+  "cer": 0.75,
+  "asr": " İzlediğiniz için teşekkür ederim.",
+  "dur": 3.2,
+  "sec": 28
+ },
+ {
+  "id": "m3",
+  "ok": true,
+  "cer": 0.229,
+  "asr": " 4 Horses ve strange cymbals karved into the stone.",
+  "dur": 4.32,
+  "sec": 34
+ },
+ {
+  "id": "m4",
+  "ok": true,
+  "cer": 0.014,
+  "asr": " or close and your controller starts to vibrate",
+  "dur": 3.36,
+  "sec": 27
+ },
+ {
+  "id": "m5",
+  "ok": true,
+  "cer": -0.018,
+  "asr": " Then it starts beeping.",
+  "dur": 1.28,
+  "sec": 18
+ },
+ {
+  "id": "m6",
+  "ok": true,
+  "cer": -0.018,
+  "asr": " Oh, and one of the horses is wearing a traffic cone!",
+  "dur": 3.04,
+  "sec": 25
+ },
+ {
+  "id": "m7",
+  "ok": true,
+  "cer": 0.715,
+  "asr": " Oraya sabaha somehow sabe, stillgeíd unsolved.",
+  "dur": 3.68,
+  "sec": 43
+ },
+ {
+  "id": "m8",
+  "ok": true,
+  "cer": -0.04,
+  "asr": " So, what do you think the symbols mean?",
+  "dur": 2.08,
+  "sec": 56
+ }
+]
