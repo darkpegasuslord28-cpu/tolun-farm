@@ -1,0 +1,488 @@
+{
+ "name": "stick-tr-seri2",
+ "mode": "voxcpm",
+ "tts_model": "openbmb/VoxCPM2",
+ "takes": 2,
+ "steps": 12,
+ "voices": {
+  "anlatici": {
+   "ref_url": "https://raw.githubusercontent.com/darkpegasuslord28-cpu/tolun-farm/i2v-cache/i2v/stick-tr-vo/n.wav"
+  }
+ },
+ "lines": [
+  {
+   "id": "kiskanclik1",
+   "voice": "anlatici",
+   "text": "Sevgilini neden kıskanıyorsun?",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "kiskanclik2",
+   "voice": "anlatici",
+   "text": "Kıskançlık aslında bir korku. Kaybetme korkusu.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "kiskanclik3",
+   "voice": "anlatici",
+   "text": "Beynin, değer verdiğin şeyi tehdit altında görünce alarm verir.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "kiskanclik4",
+   "voice": "anlatici",
+   "text": "Bu alarm çoğu zaman gerçek bir tehlikeden değil, kafandaki senaryodan çalar.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "kiskanclik5",
+   "voice": "anlatici",
+   "text": "Kendine güvenin azaldıkça, alarm daha sık çalar.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "kiskanclik6",
+   "voice": "anlatici",
+   "text": "Biraz kıskançlık, önemsiyorum demek olabilir.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "kiskanclik7",
+   "voice": "anlatici",
+   "text": "Ama kontrole dönüşüyorsa, mesele sevgi değil, korkudur.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "fal1",
+   "voice": "anlatici",
+   "text": "Fal neden tutuyor gibi gelir?",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "fal2",
+   "voice": "anlatici",
+   "text": "Çünkü cümleler herkese uyacak şekilde kurulur.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "fal3",
+   "voice": "anlatici",
+   "text": "Son zamanlarda kafan biraz karışık. Kimin değil ki?",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "fal4",
+   "voice": "anlatici",
+   "text": "Psikologlar buna Barnum etkisi der.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "fal5",
+   "voice": "anlatici",
+   "text": "Genel bir cümleyi, sadece sana söylenmiş gibi hissedersin.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "fal6",
+   "voice": "anlatici",
+   "text": "Bir de tutanları hatırlarsın, tutmayanları unutursun.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "fal7",
+   "voice": "anlatici",
+   "text": "Yani fal geleceği değil, seni okur.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "burc1",
+   "voice": "anlatici",
+   "text": "Burç yorumu neden hep sana uyuyor?",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "burc2",
+   "voice": "anlatici",
+   "text": "Bin dokuz yüz kırk dokuzda bir psikolog, öğrencilerine kişilik yorumu dağıttı.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "burc3",
+   "voice": "anlatici",
+   "text": "Herkese aynı metni verdi. Ama kimse bunu bilmiyordu.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "burc4",
+   "voice": "anlatici",
+   "text": "Öğrencilerin çoğu, bu tam beni anlatıyor dedi.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "burc5",
+   "voice": "anlatici",
+   "text": "Burç yorumları da böyle yazılır. Herkese uyan cümlelerle.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "burc6",
+   "voice": "anlatici",
+   "text": "Bazen içine kapanırsın, bazen çok sosyalsin. Kim değil ki?",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "goruldu1",
+   "voice": "anlatici",
+   "text": "Görüldü neden bu kadar sinir eder?",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "goruldu2",
+   "voice": "anlatici",
+   "text": "Çünkü mesajın okundu, ama cevap yok.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "goruldu3",
+   "voice": "anlatici",
+   "text": "Beynin bu boşluğu sevmez, hemen doldurmaya çalışır.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "goruldu4",
+   "voice": "anlatici",
+   "text": "Ve genelde en kötü ihtimalle doldurur. Bana kızdı. Umursamıyor.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "goruldu5",
+   "voice": "anlatici",
+   "text": "Oysa çoğu zaman karşı taraf sadece meşguldür.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "goruldu6",
+   "voice": "anlatici",
+   "text": "Araştırmalar, belirsizliğin bazen kötü haberden bile daha stresli olabildiğini gösteriyor.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "goruldu7",
+   "voice": "anlatici",
+   "text": "Telefonu bırak. Cevap gelecekse, gelir.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "pazar1",
+   "voice": "anlatici",
+   "text": "Pazar akşamı neden içimiz sıkılır?",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "pazar2",
+   "voice": "anlatici",
+   "text": "Hafta sonu bitmeden, beynin pazartesiyi yaşamaya başlar.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "pazar3",
+   "voice": "anlatici",
+   "text": "Yapılacak işler, mesajlar, alarm sesi.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "pazar4",
+   "voice": "anlatici",
+   "text": "Buna pazar akşamı sendromu diyorlar.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "pazar5",
+   "voice": "anlatici",
+   "text": "Sorun pazar değil. Önümüzdeki haftanın belirsizliği.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "pazar6",
+   "voice": "anlatici",
+   "text": "Pazar akşamına küçük, keyifli bir şey koy. Bir yürüyüş, bir film.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "pazar7",
+   "voice": "anlatici",
+   "text": "Beynin pazarı yine pazar gibi hatırlasın.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "asik1",
+   "voice": "anlatici",
+   "text": "Neden hep aynı tip insana âşık oluyoruz?",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "asik2",
+   "voice": "anlatici",
+   "text": "Çünkü beynin tanıdık olanı güvenli sanar.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "asik3",
+   "voice": "anlatici",
+   "text": "Psikologlara göre, çocuklukta öğrendiğin sevgi biçimi bir şablon gibi kalabilir.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "asik4",
+   "voice": "anlatici",
+   "text": "Ve farkında olmadan, o şablona uyan insanları ararsın.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "asik5",
+   "voice": "anlatici",
+   "text": "Ama tanıdık olan, her zaman iyi olan değildir.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "asik6",
+   "voice": "anlatici",
+   "text": "Şablonu fark ettiğin an, gerçekten seçmeye başlarsın.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "eski1",
+   "voice": "anlatici",
+   "text": "Eski sevgilin neden hep yanlış zamanda yazar?",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "eski2",
+   "voice": "anlatici",
+   "text": "Tam unuttuğunu sandığın anda. Naber?",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "eski3",
+   "voice": "anlatici",
+   "text": "Çoğu zaman yalnız hissettiği ya da sıkıldığı bir anda yazar.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "eski4",
+   "voice": "anlatici",
+   "text": "Yani o mesaj, seninle değil, onun o anki hâliyle ilgilidir.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "eski5",
+   "voice": "anlatici",
+   "text": "Bir de sen gelen mesajı hatırlarsın, gelmeyen yüzlercesini değil.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "eski6",
+   "voice": "anlatici",
+   "text": "Cevap vermeden önce kendine sor. Ben ne istiyorum?",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "birdakika1",
+   "voice": "anlatici",
+   "text": "Neden bir dakika deyip, bir saat telefonda kalıyoruz?",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "birdakika2",
+   "voice": "anlatici",
+   "text": "Çünkü sonsuz kaydırmanın bir sonu yok.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "birdakika3",
+   "voice": "anlatici",
+   "text": "Durmak için doğal bir işaret yok. Sayfa hiç bitmiyor.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "birdakika4",
+   "voice": "anlatici",
+   "text": "Her yeni video, beynine küçük bir sürpriz vaat eder.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "birdakika5",
+   "voice": "anlatici",
+   "text": "Ve sen hep, bir sonrakinin daha iyi olacağına inanırsın.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "birdakika6",
+   "voice": "anlatici",
+   "text": "Çözüm basit. Telefona başlamadan önce bir alarm kur.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "birdakika7",
+   "voice": "anlatici",
+   "text": "Bitişi sen belirle, uygulama değil.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "usursun1",
+   "voice": "anlatici",
+   "text": "Annen neden hep üşürsün der?",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "usursun2",
+   "voice": "anlatici",
+   "text": "Çünkü onun için, hâlâ küçük bir çocuksun.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "usursun3",
+   "voice": "anlatici",
+   "text": "Seni koruma isteği, sen büyüyünce kaybolmaz. Sadece şekil değiştirir.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "usursun4",
+   "voice": "anlatici",
+   "text": "Eskiden elini tutuyordu. Şimdi kazak al diyor.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "usursun5",
+   "voice": "anlatici",
+   "text": "Üşürsün, aslında seni seviyorumun başka bir hâli.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "usursun6",
+   "voice": "anlatici",
+   "text": "Bir dahaki sefere sadece, tamam anne de. Ve kazağı al.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "fotograf1",
+   "voice": "anlatici",
+   "text": "Eski fotoğraflar neden hüzünlendirir?",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "fotograf2",
+   "voice": "anlatici",
+   "text": "Buna nostalji diyoruz. Tatlı ama biraz acıtan bir özlem.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "fotograf3",
+   "voice": "anlatici",
+   "text": "Fotoğraf bir anıyı geri getirir, ama o anı geri veremez.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "fotograf4",
+   "voice": "anlatici",
+   "text": "Beynin, geçmişi olduğundan daha güzel hatırlama eğilimindedir.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "fotograf5",
+   "voice": "anlatici",
+   "text": "Kötü kısımlar silikleşir, güzel anlar parlar.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "fotograf6",
+   "voice": "anlatici",
+   "text": "Araştırmalara göre nostalji, yalnız hissettiğimiz anlarda bize iyi gelebiliyor.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "fotograf7",
+   "voice": "anlatici",
+   "text": "Yani o hüzün, aslında bir sarılma.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "indirim1",
+   "voice": "anlatici",
+   "text": "İndirimde neden ihtiyacın olmayan şeyi alırsın?",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "indirim2",
+   "voice": "anlatici",
+   "text": "Çünkü yüzde elli indirim gördüğün an, beynin kazandığını düşünür.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "indirim3",
+   "voice": "anlatici",
+   "text": "Üstü çizili eski fiyat, aklında bir çapa olur.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "indirim4",
+   "voice": "anlatici",
+   "text": "Yeni fiyat ona göre ucuz gelir. Gerçekte ucuz olmasa bile.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "indirim5",
+   "voice": "anlatici",
+   "text": "Son iki ürün, bugün bitiyor yazıları da kaçırma korkusunu tetikler.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "indirim6",
+   "voice": "anlatici",
+   "text": "Almadan önce tek bir soru sor. İndirimde olmasa, alır mıydım?",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "esneme1",
+   "voice": "anlatici",
+   "text": "Neden esneriz? Ve neden esneme bulaşıcı?",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "esneme2",
+   "voice": "anlatici",
+   "text": "Esnemenin kesin sebebi, hâlâ tartışılıyor.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "esneme3",
+   "voice": "anlatici",
+   "text": "Bir teoriye göre, beyni serinletmeye yardım ediyor.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "esneme4",
+   "voice": "anlatici",
+   "text": "Ama asıl ilginç olan, başkası esneyince senin de esnemen.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "esneme5",
+   "voice": "anlatici",
+   "text": "Bu, yakın olduğumuz insanlarda daha sık görülüyor.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "esneme6",
+   "voice": "anlatici",
+   "text": "Bazı bilim insanları bunu empatiyle ilişkilendiriyor.",
+   "style": "natural, warm, conversational, clear, steady pace"
+  },
+  {
+   "id": "esneme7",
+   "voice": "anlatici",
+   "text": "Şu an esnedin mi?",
+   "style": "natural, warm, conversational, clear, steady pace"
+  }
+ ]
+}
