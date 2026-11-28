@@ -1,0 +1,11 @@
+{
+ "id": "space-ambient_20261128_2",
+ "caption": "deep space ambient, slow evolving pads, shimmering bells, vast and calm, no drums, instrumental",
+ "duration": 60,
+ "bpm": 55,
+ "keyscale": "E major",
+ "seed": 7399482,
+ "gen_seconds": 255,
+ "model": "ACE-Step 1.5 turbo (MIT)",
+ "credit": "Music generated with ACE-Step 1.5 (MIT License)"
+}
