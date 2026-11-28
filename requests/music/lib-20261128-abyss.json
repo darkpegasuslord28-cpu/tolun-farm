@@ -1,0 +1,29 @@
+{
+ "name": "lib-20261128-abyss",
+ "tracks": [
+  {
+   "id": "abyss_20261128_0",
+   "caption": "dark ambient abyss, deep drones, distant choir, ominous, slow, instrumental",
+   "duration": 60,
+   "bpm": 50,
+   "keyscale": "C minor",
+   "seed": 7399480
+  },
+  {
+   "id": "abyss_20261128_1",
+   "caption": "dark ambient abyss, deep drones, distant choir, ominous, slow, instrumental",
+   "duration": 60,
+   "bpm": 50,
+   "keyscale": "C minor",
+   "seed": 7399481
+  },
+  {
+   "id": "abyss_20261128_2",
+   "caption": "dark ambient abyss, deep drones, distant choir, ominous, slow, instrumental",
+   "duration": 60,
+   "bpm": 50,
+   "keyscale": "C minor",
+   "seed": 7399482
+  }
+ ]
+}
